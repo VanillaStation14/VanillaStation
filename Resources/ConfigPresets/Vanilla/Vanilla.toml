@@ -1,0 +1,62 @@
+[game]
+desc             = """
+Если ты стесняшка, заходи к нам 
+Новый MRP сервер на классической сборке мейнтейнеров.
+Баланс между "игрой в работку" и абсолютным хаосом. Стань первым в новом комьюнити!.
+
+Загляни на нашу вики*
+
+            (\__/)
+            (•ㅅ•)      Помогаем
+        ＿ノヽ ノ＼＿      новичкам
+    `/　`/ ⌒Ｙ⌒ Ｙ  ヽ     освоиться в игре
+    ( 　(三ヽ人　 /　  |     (\__/)
+    |　ﾉ⌒＼ ￣￣ヽ   ノ     (•ㅅ•)
+    ヽ＿＿＿＞､＿_／\\       /  \\>
+"""
+lobbyenabled     = true
+lobbyduration = 180
+soft_max_players = 35
+map = "Box"
+role_timers = false
+
+[hub]
+tags = "lang:ru,region:eu_e,rp:med"
+advertise = true
+
+[log]
+path = "logs"
+format = "log_%(date)s-%(time)s.txt"
+level = 1
+enabled = true
+
+[net]
+tickrate = 50
+max_connections = 80
+
+[infolinks]
+discord = "https://discord.gg/sRSGDyGPw2"
+wiki = "https://vanilla-station.ru/"
+
+
+[vote]
+restart_required_ratio = 0.7
+
+[netres]
+limit = 10.0
+
+[admin]
+deadmin_on_join = true
+new_player_threshold = 600
+
+[worldgen]
+enabled = true
+
+[console]
+login_host_user = "tfmb"
+
+[auth]
+mode = 1
+
+[viewport]
+maximum_width = 27
