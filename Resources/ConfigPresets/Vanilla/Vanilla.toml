@@ -31,7 +31,7 @@ level = 1
 enabled = true
 
 [net]
-tickrate = 50
+tickrate = 60
 max_connections = 80
 
 [infolinks]
@@ -60,3 +60,6 @@ mode = 1
 
 [viewport]
 maximum_width = 27
+
+[server]
+rules_file = "VanillaRulset"
