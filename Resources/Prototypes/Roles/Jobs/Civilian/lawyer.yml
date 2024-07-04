@@ -4,10 +4,11 @@
   description: job-description-lawyer
   playTimeTracker: JobLawyer
   requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 36000 # 10 hrs
+    - !type:RoleTimeRequirement
+      role: JobWarden
+      time: 18000 #5 hrs # Vanilla-RoleTime
   startingGear: LawyerGear
-  setPreference: false # Corvax-IAA
+  setPreference: true # Corvax-IAA
   icon: "JobIconLawyer"
   supervisors: job-supervisors-hop
   access:
