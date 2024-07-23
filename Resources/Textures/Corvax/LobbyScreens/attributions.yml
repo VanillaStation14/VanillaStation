@@ -3,6 +3,11 @@
   copyright: "Арт#3355 (767380327432847391) on discord"
   source: "https://github.com/space-syndicate/space-station-14"
 
+- files: ["breaking-place.png"]
+  license: "CC-BY-SA-3.0"
+  copyright: "u/MrTomatoBush on reddit"
+  source: "https://www.reddit.com/r/ss14/comments/15uktl3/when_chemist_join_the_round/"
+
 - files: ["into-space.png"]
   license: "CC-BY-SA-3.0"
   copyright: "Мефедрон#1144 (184388744558673920) on discord"
