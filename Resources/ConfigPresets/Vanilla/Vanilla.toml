@@ -16,9 +16,8 @@ desc             = """
 """
 lobbyenabled     = true
 lobbyduration = 180
-soft_max_players = 35
+soft_max_players = 45
 map = "Box"
-role_timers = false
 
 [hub]
 tags = "lang:ru,region:eu_e,rp:med"
@@ -37,7 +36,7 @@ max_connections = 80
 [infolinks]
 discord = "https://discord.gg/sRSGDyGPw2"
 wiki = "https://vanilla-station.ru/"
-
+appeal = "https://discord.gg/NzAwkN9bH6"
 
 [vote]
 restart_required_ratio = 0.7
@@ -52,9 +51,6 @@ new_player_threshold = 600
 [worldgen]
 enabled = true
 
-[console]
-login_host_user = "tfmb"
-
 [auth]
 mode = 1
 
@@ -63,3 +59,6 @@ maximum_width = 27
 
 [server]
 rules_file = "VanillaRulset"
+
+[replay]
+auto_record = true

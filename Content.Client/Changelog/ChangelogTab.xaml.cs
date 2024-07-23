@@ -28,6 +28,12 @@ public sealed partial class ChangelogTab : Control
         IoCManager.InjectDependencies(this);
     }
 
+    // Vanilla-Start
+    public void CleanChangelog()
+    {
+        ChangelogBody.Children.Clear();
+    }
+    // Vanilla-End
     public void PopulateChangelog(ChangelogManager.Changelog changelog)
     {
         var byDay = changelog.Entries
