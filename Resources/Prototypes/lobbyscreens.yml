@@ -1,59 +1,59 @@
 - type: lobbyBackground
   id: BarLife
-  background: /Textures/Corvax/LobbyScreens/bar-life.png
+  background: /Textures/LobbyScreens/bar-life.png
 
 - type: lobbyBackground
   id: DeadInSpace
-  background: /Textures/Corvax/LobbyScreens/dead-in-space.png
+  background: /Textures/LobbyScreens/dead-in-space.png
 
 - type: lobbyBackground
   id: Kosmologistika
-  background: /Textures/Corvax/LobbyScreens/kosmologistika.png
+  background: /Textures/LobbyScreens/kosmologistika.png
 
 - type: lobbyBackground
   id: MaintenanceClown
-  background: /Textures/Corvax/LobbyScreens/maintenance-clown.png
+  background: /Textures/LobbyScreens/maintenance-clown.png
 
 - type: lobbyBackground
   id: Sidor
-  background: /Textures/Corvax/LobbyScreens/sidor.png
+  background: /Textures/LobbyScreens/sidor.png
 
 - type: lobbyBackground
   id: Singulord
-  background: /Textures/Corvax/LobbyScreens/singulord.png
+  background: /Textures/LobbyScreens/singulord.png
 
 - type: lobbyBackground
   id: MenAtWork
-  background: /Textures/Corvax/LobbyScreens/men-at-work.png
+  background: /Textures/LobbyScreens/men-at-work.png
 
 - type: lobbyBackground
   id: Revenant
-  background: /Textures/Corvax/LobbyScreens/revenant.png
+  background: /Textures/LobbyScreens/revenant.png
 
 - type: lobbyBackground
   id: Xeno
-  background: /Textures/Corvax/LobbyScreens/xeno.png
+  background: /Textures/LobbyScreens/xeno.png
 
 - type: lobbyBackground
   id: SingulordCage
-  background: /Textures/Corvax/LobbyScreens/singulord-cage.png
+  background: /Textures/LobbyScreens/singulord-cage.png
 
 - type: lobbyBackground
   id: YouLookLonely
-  background: /Textures/Corvax/LobbyScreens/you-look-lonely.png
+  background: /Textures/LobbyScreens/you-look-lonely.png
 
 - type: lobbyBackground
   id: MimesInTechs
-  background: /Textures/Corvax/LobbyScreens/mimes-in-techs.png
+  background: /Textures/LobbyScreens/mimes-in-techs.png
 
 - type: lobbyBackground
   id: NukieWar
-  background: /Textures/Corvax/LobbyScreens/nukie-war.png
+  background: /Textures/LobbyScreens/nukie-war.png
 
 - type: lobbyBackground
   id: EngineersVsZombies
-  background: /Textures/Corvax/LobbyScreens/engineers-vs-zombies.png
+  background: /Textures/LobbyScreens/engineers-vs-zombies.png
 
 - type: lobbyBackground
   id: BreakingPlace
-  background: /Textures/Corvax/LobbyScreens/breaking-place.png
+  background: /Textures/LobbyScreens/breaking-place.png
