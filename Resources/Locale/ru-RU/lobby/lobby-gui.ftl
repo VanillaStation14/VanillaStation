@@ -1,5 +1,8 @@
 ui-lobby-title = Лобби
 ui-lobby-ahelp-button = AHelp
+ui-lobby-hello-label = Добро пожаловать на Vanilla Station!
+ui-lobby-subhello-label = Ознакомьтесь с правилами и нашей Википедией
+ui-lobby-news-label = Обновления
 ui-lobby-options-button = Настройки
 ui-lobby-leave-button = Выйти
 ui-lobby-observe-button = Наблюдать

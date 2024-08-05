@@ -25,12 +25,12 @@
                                         VerticalAlignment="Top">
 							<BoxContainer Orientation="Vertical" HorizontalAlignment="Center">
 								<Label Name="ServerName" Access="Public" StyleClasses="LabelHeadingBigger" VAlign="Center" HorizontalExpand="True"
-                                    HorizontalAlignment="Center" Text="Добро пожаловать на Vanilla Station!" />
+                                    HorizontalAlignment="Center" Text="{Loc 'ui-lobby-hello-label'}" />
 								<!-- Gold line -->
 								<controls:HLine Color="{x:Static style:StyleNano.NanoGold}" Thickness="2" />
 								<!-- InfoText Link Banner-->
 								<Label Name="InfoText" Access="Public" StyleClasses="LabelSubText" VAlign="Center" HorizontalExpand="True"
-                                    HorizontalAlignment="Center" FontColorOverride="{x:Static maths:Color.DarkGray}" Text="Ознакомьтесь с правилами и нашей Википедией!" />
+                                    HorizontalAlignment="Center" FontColorOverride="{x:Static maths:Color.DarkGray}" Text="{Loc 'ui-lobby-subhello-label'}" />
 								<!-- Link Banner-->
 								<info:LinkBanner Name="LinkBanner" VerticalExpand="false" HorizontalAlignment="Center"
                                                  Margin="3 3 3 3" />
@@ -66,7 +66,7 @@
 								<BoxContainer Orientation="Vertical" VerticalExpand="True" HorizontalAlignment="Stretch" MaxWidth="530" VerticalAlignment="Top">
 									<controls:StripeBack VerticalAlignment="Top">
 										<BoxContainer Orientation="Horizontal" Name="ChangelogHeader" MouseFilter="Pass">
-											<Label HorizontalExpand="True" Text="Обновления Ваниллы"
+											<Label HorizontalExpand="True" Text="{Loc 'ui-lobby-news-label'}"
                                            VAlign="Center" StyleClasses="LabelHeading" Align="Center"/>
 										</BoxContainer>
 									</controls:StripeBack>
