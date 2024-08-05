@@ -158,6 +158,8 @@
   copyright: "/vgstation-coders/vgstation13"
   source: "https://github.com/vgstation-coders/vgstation13/blob/Bleeding-Edge/sound/machines/denied.ogg"
 
+- files: panic.ogg
+
 - files:
   - twobeep.ogg
   - chime.ogg
