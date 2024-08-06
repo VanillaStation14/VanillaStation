@@ -16,8 +16,13 @@ desc             = """
 """
 lobbyenabled     = true
 lobbyduration = 180
-soft_max_players = 45
-map = "Box"
+soft_max_players = 60
+panic_bunker.enabled = true
+panic_bunker.disable_with_admins = true
+panic_bunker.enable_without_admins = true
+panic_bunker.show_reason = true
+panic_bunker.min_overall_minutes = 60
+panic_bunker.custom_reason = "В настоящий момент нет модераторов, а вы не наиграли достаточного количества минут (60) на нашем сервере."
 
 [hub]
 tags = "lang:ru,region:eu_e,rp:med"
@@ -30,8 +35,8 @@ level = 1
 enabled = true
 
 [net]
-tickrate = 60
-max_connections = 80
+tickrate = 40
+max_connections = 100
 
 [infolinks]
 discord = "https://discord.gg/sRSGDyGPw2"
@@ -47,6 +52,7 @@ limit = 10.0
 [admin]
 deadmin_on_join = true
 new_player_threshold = 600
+alert.min_players_sharing_connection = 2
 
 [worldgen]
 enabled = true
@@ -55,7 +61,7 @@ enabled = true
 mode = 1
 
 [viewport]
-maximum_width = 27
+maximum_width = 29
 
 [server]
 rules_file = "VanillaRulset"
