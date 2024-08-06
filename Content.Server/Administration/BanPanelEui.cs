@@ -121,7 +121,7 @@ public sealed class BanPanelEui : BaseEui
 
         if (roles?.Count > 0)
         {
-            var now = DateTimeOffset.UtcNow;
+            var now = DateTimeOffset.Now;
             foreach (var role in roles)
             {
                 _banManager.CreateRoleBan(targetUid, target, Player.UserId, addressRange, targetHWid, role, minutes, severity, reason, now);

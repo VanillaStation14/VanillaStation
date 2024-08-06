@@ -18,6 +18,8 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+using Content.Server.Discord.Webhooks;
+using System.Reflection.PortableExecutable;
 
 namespace Content.Server.Administration.Managers;
 
@@ -32,7 +34,7 @@ public sealed class BanManager : IBanManager, IPostInjectInit
     [Dependency] private readonly IChatManager _chat = default!;
     [Dependency] private readonly INetManager _netManager = default!;
     [Dependency] private readonly ILogManager _logManager = default!;
-
+    [Dependency] private readonly WebhookBans _webhookBans = default!;
     private ISawmill _sawmill = default!;
 
     public const string SawmillId = "admin.bans";
@@ -116,10 +118,11 @@ public sealed class BanManager : IBanManager, IPostInjectInit
     #region Server Bans
     public async void CreateServerBan(NetUserId? target, string? targetUsername, NetUserId? banningAdmin, (IPAddress, int)? addressRange, ImmutableArray<byte>? hwid, uint? minutes, NoteSeverity severity, string reason)
     {
+        DateTimeOffset timeOfBan = DateTimeOffset.Now;
         DateTimeOffset? expires = null;
         if (minutes > 0)
         {
-            expires = DateTimeOffset.Now + TimeSpan.FromMinutes(minutes.Value);
+            expires = timeOfBan + TimeSpan.FromMinutes(minutes.Value);
         }
 
         _systems.TryGetEntitySystem<GameTicker>(out var ticker);
@@ -131,7 +134,7 @@ public sealed class BanManager : IBanManager, IPostInjectInit
             target,
             addressRange,
             hwid,
-            DateTimeOffset.Now,
+            timeOfBan,
             expires,
             roundId,
             playtime,
@@ -151,7 +154,8 @@ public sealed class BanManager : IBanManager, IPostInjectInit
         var hwidString = hwid != null
             ? string.Concat(hwid.Value.Select(x => x.ToString("x2")))
             : "null";
-        var expiresString = expires == null ? Loc.GetString("server-ban-string-never") : $"{expires}";
+        var expiresString = expires == null ? Loc.GetString("server-ban-string-never") : 
+            Loc.GetString("server-ban-string-expires", ("time", expires.Value.DateTime));
 
         var key = _cfg.GetCVar(CCVars.AdminShowPIIOnBan) ? "server-ban-string" : "server-ban-string-no-pii";
 
@@ -178,24 +182,31 @@ public sealed class BanManager : IBanManager, IPostInjectInit
         // If they are, kick them
         var message = banDef.FormatBanMessage(_cfg, _localizationManager);
         targetPlayer.Channel.Disconnect(message);
+
+        var banDefDb = await _db.GetServerBanAsync(addressRange?.Item1, target, hwid);
+
+        var banId = banDefDb?.Id.ToString() ?? "NotFound";
+        // Отравляем сообщение в канал дискорда
+        await _webhookBans.SendBanMessage(adminName, timeOfBan.DateTime.ToString(), expiresString, targetUsername ?? "null", reason, banId);
     }
     #endregion
 
     #region Job Bans
     // If you are trying to remove timeOfBan, please don't. It's there because the note system groups role bans by time, reason and banning admin.
     // Removing it will clutter the note list. Please also make sure that department bans are applied to roles with the same DateTimeOffset.
-    public async void CreateRoleBan(NetUserId? target, string? targetUsername, NetUserId? banningAdmin, (IPAddress, int)? addressRange, ImmutableArray<byte>? hwid, string role, uint? minutes, NoteSeverity severity, string reason, DateTimeOffset timeOfBan)
+    public async void CreateRoleBan(NetUserId? target, string? targetUsername, NetUserId? banningAdmin, (IPAddress, int)? addressRange, ImmutableArray<byte>? hwid, string role, uint? minutes, NoteSeverity severity, string reason, DateTimeOffset timeOfBan, bool skipWebhook = false)
     {
         if (!_prototypeManager.TryIndex(role, out JobPrototype? _))
         {
             throw new ArgumentException($"Invalid role '{role}'", nameof(role));
         }
 
-        role = string.Concat(JobPrefix, role);
+
+        var roleJobPrefix = string.Concat(JobPrefix, role);
         DateTimeOffset? expires = null;
         if (minutes > 0)
         {
-            expires = DateTimeOffset.Now + TimeSpan.FromMinutes(minutes.Value);
+            expires = timeOfBan + TimeSpan.FromMinutes(minutes.Value);
         }
 
         _systems.TryGetEntitySystem(out GameTicker? ticker);
@@ -215,21 +226,64 @@ public sealed class BanManager : IBanManager, IPostInjectInit
             severity,
             banningAdmin,
             null,
-            role);
+            roleJobPrefix);
 
         if (!await AddRoleBan(banDef))
         {
-            _chat.SendAdminAlert(Loc.GetString("cmd-roleban-existing", ("target", targetUsername ?? "null"), ("role", role)));
+            _chat.SendAdminAlert(Loc.GetString("cmd-roleban-existing", ("target", targetUsername ?? "null"), ("role", roleJobPrefix)));
             return;
         }
 
-        var length = expires == null ? Loc.GetString("cmd-roleban-inf") : Loc.GetString("cmd-roleban-until", ("expires", expires));
-        _chat.SendAdminAlert(Loc.GetString("cmd-roleban-success", ("target", targetUsername ?? "null"), ("role", role), ("reason", reason), ("length", length)));
+        var length = expires == null
+            ? Loc.GetString("cmd-roleban-inf")
+            : Loc.GetString("cmd-roleban-until", ("expires", expires.Value.DateTime));
+
+        _chat.SendAdminAlert(Loc.GetString("cmd-roleban-success", ("target", targetUsername ?? "null"), ("role", roleJobPrefix), ("reason", reason), ("length", length)));
 
         if (target != null)
         {
             SendRoleBans(target.Value);
         }
+
+        if (!skipWebhook)
+        {
+            var adminName = banningAdmin == null
+            ? Loc.GetString("system-user")
+            : (await _db.GetPlayerRecordByUserId(banningAdmin.Value))?.LastSeenUserName ?? Loc.GetString("system-user");
+
+            var localizedNameJob = _prototypeManager.Index<JobPrototype>(role).LocalizedName;
+
+            var username = targetUsername ?? "null";
+
+            await _webhookBans.SendBanRoleMessage(adminName, timeOfBan.DateTime.ToString(), length, localizedNameJob, username, reason);
+        }
+    }
+
+    public async void CreateDepartmentBan(NetUserId? target, string? targetUsername, NetUserId? banningAdmin, (IPAddress, int)? addressRange, ImmutableArray<byte>? hwid, DepartmentPrototype departmentProto, uint? minutes, NoteSeverity severity, string reason, DateTimeOffset timeOfBan)
+    {
+
+        foreach (var job in departmentProto.Roles)
+        {
+            CreateRoleBan(target, targetUsername, banningAdmin, addressRange, hwid, job, minutes, severity, reason, timeOfBan, true);
+        }
+
+        var departmentName = Loc.GetString($"department-{departmentProto.ID}");
+
+        var adminName = banningAdmin == null
+        ? Loc.GetString("system-user")
+        : (await _db.GetPlayerRecordByUserId(banningAdmin.Value))?.LastSeenUserName ?? Loc.GetString("system-user");
+
+        DateTimeOffset? expires = null;
+        if (minutes > 0)
+        {
+            expires = timeOfBan + TimeSpan.FromMinutes(minutes.Value);
+        }
+
+        var length = expires == null
+            ? Loc.GetString("cmd-roleban-inf")
+            : Loc.GetString("cmd-roleban-until", ("expires", expires.Value.DateTime));
+
+        await _webhookBans.SendBanRoleMessage(adminName, timeOfBan.DateTime.ToString(), length, departmentName, targetUsername ?? "null", reason);
     }
 
     public async Task<string> PardonRoleBan(int banId, NetUserId? unbanningAdmin, DateTimeOffset unbanTime)
