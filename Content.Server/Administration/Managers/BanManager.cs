@@ -154,7 +154,7 @@ public sealed class BanManager : IBanManager, IPostInjectInit
         var hwidString = hwid != null
             ? string.Concat(hwid.Value.Select(x => x.ToString("x2")))
             : "null";
-        var expiresString = expires == null ? Loc.GetString("server-ban-string-never") : 
+        var expiresString = expires == null ? Loc.GetString("server-ban-string-never") :
             Loc.GetString("server-ban-string-expires", ("time", expires.Value.DateTime));
 
         var key = _cfg.GetCVar(CCVars.AdminShowPIIOnBan) ? "server-ban-string" : "server-ban-string-no-pii";
@@ -176,18 +176,18 @@ public sealed class BanManager : IBanManager, IPostInjectInit
         if (target == null)
             return;
 
+        var banDefDb = await _db.GetServerBanAsync(addressRange?.Item1, target, hwid);
+
+        var banId = banDefDb?.Id.ToString() ?? "NotFound";
+        // Отравляем сообщение в канал дискорда
+        await _webhookBans.SendBanMessage(adminName, timeOfBan.DateTime.ToString(), expiresString, targetUsername ?? "null", reason, banId);
+
         // Is the player connected?
         if (!_playerManager.TryGetSessionById(target.Value, out var targetPlayer))
             return;
         // If they are, kick them
         var message = banDef.FormatBanMessage(_cfg, _localizationManager);
         targetPlayer.Channel.Disconnect(message);
-
-        var banDefDb = await _db.GetServerBanAsync(addressRange?.Item1, target, hwid);
-
-        var banId = banDefDb?.Id.ToString() ?? "NotFound";
-        // Отравляем сообщение в канал дискорда
-        await _webhookBans.SendBanMessage(adminName, timeOfBan.DateTime.ToString(), expiresString, targetUsername ?? "null", reason, banId);
     }
     #endregion
 
