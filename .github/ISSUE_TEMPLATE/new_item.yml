@@ -1,0 +1,11 @@
+name: "Новая фича"
+description: "Вы хотите добавить... что-то"
+labels: ["triage"]
+body:
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: "Описание"
+      description: "Опишите (как можно подробнее) своё что-то"
