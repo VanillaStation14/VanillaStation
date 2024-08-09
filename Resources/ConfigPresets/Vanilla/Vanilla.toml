@@ -39,19 +39,34 @@ tickrate = 40
 max_connections = 100
 
 [infolinks]
-discord = "https://discord.gg/sRSGDyGPw2"
+discord = "https://discord.gg/vanilla-station"
 wiki = "https://vanilla-station.ru/"
-appeal = "https://discord.gg/NzAwkN9bH6"
+appeal = "https://discord.com/channels/1236324156165980311/1236381848909910126"
+github = "https://github.com/VanillaStation14/VanillaStation"
+bug_report = "https://discord.com/channels/1236324156165980311/1271239142944280671"
 
 [vote]
 restart_required_ratio = 0.7
+restart_enabled = false
+map_enabled = true
+timermap = 45
+
+[chat]
+rate_limit_count = 3
+rate_limit_period = 3
+
+[shuttle]
+auto_call_time = 120
+
+[biomass]
+easy_mode = false
 
 [netres]
 limit = 10.0
 
 [admin]
 deadmin_on_join = true
-new_player_threshold = 600
+new_player_threshold = 300
 alert.min_players_sharing_connection = 2
 
 [worldgen]
