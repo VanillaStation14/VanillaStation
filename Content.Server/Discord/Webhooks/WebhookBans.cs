@@ -19,6 +19,7 @@ public sealed class WebhookBans : IPostInjectInit
 
     public async Task SendBanMessage(string admin, string timeOfBan, string expires, string username, string reason, string banId)
     {
+
         try
         {
             if (_webhookIdentifier == null)
@@ -102,6 +103,8 @@ public sealed class WebhookBans : IPostInjectInit
 
     public void PostInject()
     {
+        _cfg.RegisterCVar("discord.server_bans_webhook", string.Empty);
+
         _sawmill = _log.GetSawmill("DISCORD-WEBHOOK-BANS");
 
         string webhookUrl = _cfg.GetCVar(CCVarsVanilla.DiscordServerBansWebhook);
@@ -116,15 +119,9 @@ public sealed class WebhookBans : IPostInjectInit
 
         _cfg.OnValueChanged(CCVarsVanilla.DiscordServerBansWebhook, url =>
         {
-            _discord.GetWebhook(url, data =>
-            {
-                if (!string.IsNullOrWhiteSpace(url))
-                {
-                    _webhookIdentifier = data.ToIdentifier();
-                }
-            });
-        }
-        );
+            if (!string.IsNullOrWhiteSpace(url))
+                _discord.GetWebhook(url, data => _webhookIdentifier = data.ToIdentifier());
+        }, true);
     }
 
 }
