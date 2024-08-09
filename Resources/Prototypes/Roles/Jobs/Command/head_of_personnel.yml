@@ -5,7 +5,9 @@
   playTimeTracker: JobHeadOfPersonnel
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 18000 #5 hrs # Vanilla-RoleTime
+      time: 36000 #10 hrs # Vanilla-RoleTime
+    - !type:AgeRequirement
+      requiredAge: 20
   weight: 20
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"
