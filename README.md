@@ -29,7 +29,7 @@ Space Station 14 — это ремейк SS13, который работает �
 
 ```bash
 # Скопировать репозиторий
-git clone https://github.com/thefuckmybrain/Vanilla.git/
+git clone https://github.com/VanillaStation14/VanillaStation.git
 
 # Перейти в скачанный репозиторий
 cd Vanilla
