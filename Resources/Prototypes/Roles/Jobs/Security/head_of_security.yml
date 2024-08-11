@@ -6,7 +6,11 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 10800 #5 hrs # Vanilla-RoleTime
+      time: 43200 #12 hrs # Vanilla-RoleTime
+#    - !type:OverallPlaytimeRequirement
+#      time: 144000 #40 hrs
+    - !type:AgeRequirement
+      requiredAge: 20
   weight: 10
   startingGear: HoSGear
   icon: "JobIconHeadOfSecurity"
