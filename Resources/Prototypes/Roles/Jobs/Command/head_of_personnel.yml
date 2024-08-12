@@ -7,7 +7,7 @@
     - !type:OverallPlaytimeRequirement
       time: 36000 #10 hrs # Vanilla-RoleTime
     - !type:AgeRequirement
-      requiredAge: 20
+      requiredAge: 21
   weight: 20
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"
