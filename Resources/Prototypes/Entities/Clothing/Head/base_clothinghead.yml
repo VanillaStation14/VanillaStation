@@ -123,6 +123,7 @@
   - type: Item
     size: Normal
   - type: PressureProtection
+  - type: InjectionProtection # Vanilla Station
     highPressureMultiplier: 0.6
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
@@ -158,6 +159,7 @@
     state: icon # default state used by most inheritors
   - type: Clickable
   - type: InteractionOutline
+  - type: InjectionProtection # Vanill Station
   - type: Clothing
     #Apparently the hardsuit helmet equip sound is from a walking mech?
     equipSound: /Audio/Mecha/mechmove03.ogg
