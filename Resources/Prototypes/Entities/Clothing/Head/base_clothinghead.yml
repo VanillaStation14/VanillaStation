@@ -123,6 +123,7 @@
   - type: Item
     size: Normal
   - type: PressureProtection
+  - type: InjectionProtection # Vanilla Station
     highPressureMultiplier: 0.6
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
