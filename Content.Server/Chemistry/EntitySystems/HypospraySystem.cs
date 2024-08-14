@@ -19,12 +19,18 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using Robust.Server.Audio;
 
+using Content.Shared.Clothing.EntitySystems;
+using Content.Shared.Inventory;
+using Content.Shared.Clothing.Components;
+
 namespace Content.Server.Chemistry.EntitySystems;
 
 public sealed class HypospraySystem : SharedHypospraySystem
 {
     [Dependency] private readonly AudioSystem _audio = default!;
     [Dependency] private readonly InteractionSystem _interaction = default!;
+
+    [Dependency] private readonly InventorySystem _invSystem = default!;
 
     public override void Initialize()
     {
@@ -106,6 +112,14 @@ public sealed class HypospraySystem : SharedHypospraySystem
             return false;
         }
 
+        // vanilla-station start
+        if (HasInjectionProtection(target))
+        {
+            _popup.PopupEntity(Loc.GetString("hypospray-component-inject-target-protected"), target, user);
+            return false;
+        }
+        // vanilla-station end
+
         _popup.PopupEntity(Loc.GetString(msgFormat ?? "hypospray-component-inject-other-message", ("other", target)), target, user);
 
         if (target != user)
@@ -181,6 +195,36 @@ public sealed class HypospraySystem : SharedHypospraySystem
             ("target", Identity.Entity(target, EntityManager))), entity.Owner, user);
         return true;
     }
+
+    // vanilla-station start
+    private bool HasInjectionProtection(EntityUid entity)
+    {
+        // ClothingOuterHardsuitBase
+        // ClothingHeadHardsuitBase
+        // ClothingOuterEVASuitBase
+
+        if (!TryComp(entity, out InventoryComponent? inv))
+            return false;
+
+        bool hasProtection = true;
+        foreach (var slotDef in inv.Slots.Where(slot => slot.SlotFlags == SlotFlags.HEAD || slot.SlotFlags == SlotFlags.OUTERCLOTHING))
+        {
+            if (_invSystem.TryGetSlotEntity(entity, slotDef.Name, out var slotEntity, inv))
+            {
+                if (!TryComp(slotEntity, out InjectionProtectionComponent? item))
+                    return false;
+
+                if (!item.HasInjectionProtection)
+                    return false;
+            }
+            else
+                return false;
+        }
+
+
+        return hasProtection;
+    }
+    // vanilla-station end
 
     private bool EligibleEntity(EntityUid entity, IEntityManager entMan, HyposprayComponent component)
     {

@@ -116,6 +116,7 @@
   - type: HeldSpeedModifier
   - type: Item
     size: Ginormous
+  - type: InjectionProtection # Vanill Station
   - type: Armor
     modifiers:
       coefficients:
@@ -157,6 +158,7 @@
     walkModifier: 0.8
     sprintModifier: 0.8
   - type: HeldSpeedModifier
+  - type: InjectionProtection # Vanilla Station
   - type: Item
     size: Huge
   - type: ClothingRequiredStepTriggerImmune
