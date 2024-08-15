@@ -335,6 +335,55 @@
 
 - type: entity
   parent: BasePlushie
+  id: PlushieLizardGrandTanaka #Vanilla-Station
+  name: Grand-Tanaka plushie
+  description: An adorable stuffed toy that resembles a lizardperson. HandMade.
+  components:
+  - type: Sprite
+    state: plushie_lizard_grand_tanaka
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    soundHit:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: JuiceThatMakesYouWeh
+        Quantity: 30
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 10
+        - ReagentId: JuiceThatMakesYouWeh
+          Quantity: 10
+  - type: Clothing
+    quickEquip: false
+    sprite: Objects/Fun/toys.rsi
+    equippedPrefix: lizard_grand_tanaka
+    slots:
+    - HEAD
+
+- type: entity
+  parent: BasePlushie
   id: PlushieSpaceLizard #ᵂᵉʰ!
   name: space lizard plushie
   description: An adorable stuffed toy that resembles a lizardperson in an EVA suit. Made by CentComm as a token initiative to combat speciesism in space environments. "Welcome your new colleges as you do this plush, with open arms!"
