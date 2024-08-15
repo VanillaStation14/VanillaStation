@@ -57609,13 +57609,6 @@ entities:
     - type: Transform
       pos: 7.5,-27.5
       parent: 1
-- proto: LootSpawnerRandomCrateSecurity
-  entities:
-  - uid: 12829
-    components:
-    - type: Transform
-      pos: 5.5,-25.5
-      parent: 1
 - proto: MachineAnomalyGenerator
   entities:
   - uid: 6063
