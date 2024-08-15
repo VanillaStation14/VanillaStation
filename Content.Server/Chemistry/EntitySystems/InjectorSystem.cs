@@ -79,6 +79,13 @@ public sealed class InjectorSystem : SharedInjectorSystem
         if (args.Cancelled || args.Handled || args.Args.Target == null)
             return;
 
+        
+        if (HasInjectionProtection(args.Args.Target.Value))
+        {
+            Popup.PopupEntity(Loc.GetString("injector-component-inject-target-protected"), args.Args.Target.Value, args.Args.User);
+            return;
+        }
+
         args.Handled = TryUseInjector(entity, args.Args.Target.Value, args.Args.User);
     }
 
