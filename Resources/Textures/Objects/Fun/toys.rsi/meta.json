@@ -96,10 +96,17 @@
       "directions": 4
     },
     {
+      "name": "lizard_grand_tanaka-equipped-HELMET",
+      "directions": 4
+    },
+    {
       "name": "plushie_lamp"
     },
     {
       "name": "plushie_nuke"
+    },
+    {
+      "name": "plushie_lizard_grand_tanaka"
     },
     {
       "name": "plushie_atmosian"
