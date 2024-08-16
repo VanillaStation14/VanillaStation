@@ -1,3 +1,14 @@
+# Senior Time
+- type: loadoutEffectGroup
+  id: SuperDetective
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobDetective
+      time: 360000 #100 hrs # Vanilla-RoleTime
+
+
 # Head
 - type: loadout
   id: DetectiveFedora
@@ -8,6 +19,14 @@
   id: DetectiveFedoraGrey
   equipment:
     head: ClothingHeadHatFedoraGrey
+
+- type: loadout
+  id: SuperDetectivePlushie
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SuperDetective
+  equipment:
+    head: PlushieLizardGrandTanaka
 
 # Neck
 - type: loadout

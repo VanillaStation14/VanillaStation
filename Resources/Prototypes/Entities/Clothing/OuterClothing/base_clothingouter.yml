@@ -116,6 +116,7 @@
   - type: HeldSpeedModifier
   - type: Item
     size: Ginormous
+  - type: InjectionProtection # Vanill Station
   - type: Armor
     modifiers:
       coefficients:
@@ -136,6 +137,11 @@
     - WhitelistChameleon
   - type: ClothingRequiredStepTriggerImmune
     slots: WITHOUT_POCKET
+  - type: DamageOnInteractProtection
+    damageProtection:
+      flatReductions:
+        Heat: 10 # the average lightbulb only does around four damage!
+    slots: OUTERCLOTHING
 
 - type: entity
   abstract: true
@@ -152,10 +158,16 @@
     walkModifier: 0.8
     sprintModifier: 0.8
   - type: HeldSpeedModifier
+  - type: InjectionProtection # Vanilla Station
   - type: Item
     size: Huge
   - type: ClothingRequiredStepTriggerImmune
     slots: WITHOUT_POCKET
+  - type: DamageOnInteractProtection
+    damageProtection:
+      flatReductions:
+        Heat: 10 # the average lightbulb only does around four damage!
+    slots: OUTERCLOTHING
 
 - type: entity
   parent: ClothingOuterBase

@@ -27,3 +27,7 @@ injector-component-drawing-user = Вы начинаете набирать шп�
 injector-component-injecting-user = Вы начинаете вводить содержимое шприца.
 injector-component-drawing-target = { CAPITALIZE($user) } начинает набирать шприц из вас!
 injector-component-injecting-target = { CAPITALIZE($user) } начинает вводить содержимое шприца в вас!
+
+## Vanilla Station
+injector-component-inject-target-protected = Нельзя сделать инъекцию, так как он(а) защищен(а) броней!
+
