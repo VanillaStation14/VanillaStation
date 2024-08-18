@@ -203,26 +203,31 @@ public sealed class HypospraySystem : SharedHypospraySystem
         // ClothingHeadHardsuitBase
         // ClothingOuterEVASuitBase
 
-        if (!TryComp(entity, out InventoryComponent? inv))
-            return false;
-
-        bool hasProtection = true;
-        foreach (var slotDef in inv.Slots.Where(slot => slot.SlotFlags == SlotFlags.HEAD || slot.SlotFlags == SlotFlags.OUTERCLOTHING))
+        if (TryComp(entity, out InventoryComponent? inv))
         {
-            if (_invSystem.TryGetSlotEntity(entity, slotDef.Name, out var slotEntity, inv))
-            {
-                if (!TryComp(slotEntity, out InjectionProtectionComponent? item))
-                    return false;
+            // Проверяем слот головы и внешней одежды
+            var requiredSlotFlags = new[] { SlotFlags.HEAD, SlotFlags.OUTERCLOTHING };
 
-                if (!item.HasInjectionProtection)
+            var relevantSlots = inv.Slots.Where(slot => requiredSlotFlags.Contains(slot.SlotFlags)).ToList();
+            if (relevantSlots.Count != requiredSlotFlags.Length)
+                return false;
+
+            foreach (var slotDef in relevantSlots)
+            {
+                if (_invSystem.TryGetSlotEntity(entity, slotDef.Name, out var slotEntity, inv))
+                {
+                    if (!TryComp(slotEntity, out InjectionProtectionComponent? item) || !item.HasInjectionProtection)
+                        return false;
+                }
+                else
                     return false;
             }
-            else
-                return false;
+
+            return true;
         }
 
 
-        return hasProtection;
+        return false;
     }
     // vanilla-station end
 
