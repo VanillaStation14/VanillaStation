@@ -44,9 +44,10 @@ public sealed class WebhookBans : IPostInjectInit
             var webhookPayload = new WebhookPayload()
             {
                 Content = null,
-                Embeds = new List<WebhookEmbed> {
-                    embed
-                    },
+                Embeds = new List<WebhookEmbed>
+                {
+                    embed,
+                },
             };
 
             await _discord.CreateMessage(_webhookIdentifier.Value, webhookPayload);
@@ -104,27 +105,20 @@ public sealed class WebhookBans : IPostInjectInit
     {
         _sawmill = _log.GetSawmill("DISCORD-WEBHOOK-BANS");
 
-        string webhookUrl = _cfg.GetCVar(CCVarsVanilla.DiscordServerBansWebhook);
-        _discord.GetWebhook(webhookUrl, data =>
-            {
-                if (!string.IsNullOrWhiteSpace(webhookUrl))
-                {
-                    _webhookIdentifier = data.ToIdentifier();
-                }
-            }
-        );
-
-        _cfg.OnValueChanged(CCVarsVanilla.DiscordServerBansWebhook, url =>
+        _cfg.OnValueChanged(CCVarsVanilla.DiscordServerBansWebhook,
+            url =>
         {
-            _discord.GetWebhook(url, data =>
+            _discord.GetWebhook(
+                url,
+                data =>
             {
                 if (!string.IsNullOrWhiteSpace(url))
                 {
                     _webhookIdentifier = data.ToIdentifier();
                 }
             });
-        }
+        },
+        true
         );
     }
-
 }
