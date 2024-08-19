@@ -10,6 +10,13 @@ using Content.Shared.Interaction;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
+<<<<<<< HEAD
+=======
+using Robust.Shared.Random;
+using Robust.Shared.Containers;
+using Robust.Shared.Physics.Components;
+using Robust.Shared.Physics.Systems;
+>>>>>>> afe7c6f69f4ebb1d6ace872fe33e3cb00bcc737e
 
 namespace Content.Server.Nutrition.EntitySystems;
 
@@ -19,7 +26,13 @@ public sealed class SliceableFoodSystem : EntitySystem
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly TransformSystem _transform = default!;
     [Dependency] private readonly DoAfterSystem _doAfter = default!;
+<<<<<<< HEAD
 
+=======
+    [Dependency] private readonly IRobustRandom _random = default!;
+    [Dependency] private readonly SharedContainerSystem _container = default!;
+    [Dependency] private readonly SharedPhysicsSystem _physics = default!;
+>>>>>>> afe7c6f69f4ebb1d6ace872fe33e3cb00bcc737e
     public override void Initialize()
     {
         base.Initialize();
@@ -114,6 +127,7 @@ public sealed class SliceableFoodSystem : EntitySystem
         _transform.DropNextTo(sliceUid, (uid, transform));
         _transform.SetLocalRotation(sliceUid, 0);
 
+<<<<<<< HEAD
         return sliceUid;
     }
 
@@ -148,6 +162,49 @@ public sealed class SliceableFoodSystem : EntitySystem
         {
             _solutionContainer.RemoveAllSolution(itsSoln.Value);
 
+=======
+        if (!_container.IsEntityOrParentInContainer(sliceUid))
+        {
+            var randVect = _random.NextVector2(2.0f, 2.5f);
+            if (TryComp<PhysicsComponent>(sliceUid, out var physics))
+                _physics.SetLinearVelocity(sliceUid, randVect, body: physics);
+        }
+
+        return sliceUid;
+    }
+
+    private void DeleteFood(EntityUid uid, EntityUid user, FoodComponent foodComp)
+    {
+        var ev = new BeforeFullySlicedEvent
+        {
+            User = user
+        };
+        RaiseLocalEvent(uid, ev);
+        if (ev.Cancelled)
+            return;
+
+        // Locate the sliced food and spawn its trash
+        foreach (var trash in foodComp.Trash)
+        {
+            var trashUid = Spawn(trash, _transform.GetMapCoordinates(uid));
+
+            // try putting the trash in the food's container too, to be consistent with slice spawning?
+            _transform.DropNextTo(trashUid, uid);
+            _transform.SetLocalRotation(trashUid, 0);
+        }
+
+        QueueDel(uid);
+    }
+
+    private void FillSlice(EntityUid sliceUid, Solution solution)
+    {
+        // Replace all reagents on prototype not just copying poisons (example: slices of eaten pizza should have less nutrition)
+        if (TryComp<FoodComponent>(sliceUid, out var sliceFoodComp) &&
+            _solutionContainer.TryGetSolution(sliceUid, sliceFoodComp.Solution, out var itsSoln, out var itsSolution))
+        {
+            _solutionContainer.RemoveAllSolution(itsSoln.Value);
+
+>>>>>>> afe7c6f69f4ebb1d6ace872fe33e3cb00bcc737e
             var lostSolutionPart = solution.SplitSolution(itsSolution.AvailableVolume);
             _solutionContainer.TryAddSolution(itsSoln.Value, lostSolutionPart);
         }

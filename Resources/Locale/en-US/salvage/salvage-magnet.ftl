@@ -38,6 +38,7 @@ dungeon-config-proto-SpindlyAsteroid = Asteroid spiral
 dungeon-config-proto-SwissCheeseAsteroid = Asteroid fragments
 
 # Wrecks
+<<<<<<< HEAD
 salvage-map-proto-Small1 = Engineering Storage
 salvage-map-proto-Small2 = Gaming Nook
 salvage-map-proto-Small3 = Laundromat
@@ -74,3 +75,10 @@ salvage-map-proto-RuinCargoBase = Ruined Cargo Storage
 salvage-map-proto-SecurityChunk = Security Department Chunk
 salvage-map-proto-EngineeringChunk = Engineering Department Chunk
 salvage-map-proto-OutpostArm = Overrun Outpost Arm
+=======
+salvage-map-wreck = Salvage wreck
+salvage-map-wreck-desc-size = Size:
+salvage-map-wreck-size-small = [color=lime]Small[/color]
+salvage-map-wreck-size-medium = [color=cornflowerblue]Medium[/color]
+salvage-map-wreck-size-large = [color=orchid]Large[/color]
+>>>>>>> afe7c6f69f4ebb1d6ace872fe33e3cb00bcc737e

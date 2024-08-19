@@ -1719,6 +1719,14 @@
 # NOT ACTUAL FOOD
 
 - type: microwaveMealRecipe
+  id: RecipeDriedTeaLeaves
+  name: dried tea leaves recipe
+  result: LeavesTeaDried
+  time: 10
+  solids:
+    LeavesTea: 1
+
+- type: microwaveMealRecipe
   id: RecipeDriedTobacco
   name: dried tobacco leaves recipe
   result: LeavesTobaccoDried
@@ -1829,4 +1837,17 @@
   result: FoodTacoShell
   time: 5
   solids:
+<<<<<<< HEAD
     FoodDoughTortillaFlat: 1 # one third of a standard bread dough recipe
+=======
+    FoodDoughTortillaFlat: 1 # one third of a standard bread dough recipe
+
+- type: microwaveMealRecipe
+  id: RecipeCroissant
+  name: croissant recipe
+  result: FoodBakedCroissant
+  time: 5
+  solids:
+    FoodCroissantRaw: 1
+    FoodButterSlice: 1
+>>>>>>> afe7c6f69f4ebb1d6ace872fe33e3cb00bcc737e

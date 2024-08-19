@@ -388,15 +388,25 @@
   table: !type:GroupSelector
     children:
     - id: MobCarpSalvage
+<<<<<<< HEAD
       weight: 60
+=======
+      weight: 70
+>>>>>>> afe7c6f69f4ebb1d6ace872fe33e3cb00bcc737e
     - id: MobCarpSalvage
       weight: 25
       amount: !type:RangeNumberSelector
         range: 1, 3
     - !type:AllSelector
+<<<<<<< HEAD
       weight: 15
       children:
       - id: MobShark
+=======
+      weight: 5
+      children:
+      - id: MobSharkSalvage
+>>>>>>> afe7c6f69f4ebb1d6ace872fe33e3cb00bcc737e
       - id: MobCarpSalvage
         amount: !type:ConstantNumberSelector
           value: 3
@@ -451,7 +461,11 @@
   - type: EntityTableSpawner
     table: !type:AllSelector
       children:
+<<<<<<< HEAD
       - id: MobShark
+=======
+      - id: MobSharkSalvage
+>>>>>>> afe7c6f69f4ebb1d6ace872fe33e3cb00bcc737e
       - id: MobCarpSalvage
         amount: !type:ConstantNumberSelector
           value: 3

@@ -178,6 +178,10 @@
     - id: Shovel
     - id: FlashlightLantern
     - id: FireExtinguisher
+<<<<<<< HEAD
+=======
+    - id: SurvivalKnife
+>>>>>>> afe7c6f69f4ebb1d6ace872fe33e3cb00bcc737e
 
 - type: entityTable
   id: SalvageEquipmentUncommon
@@ -188,10 +192,17 @@
     - id: PowerCellHighPrinted
     - id: RadioHandheld
     - id: ClothingBeltUtility
+<<<<<<< HEAD
     - id: SurvivalKnife
     - id: WeaponProtoKineticAccelerator
       weight: 0.5
     - id: OxygenTankFilled
+=======
+    - id: WeaponProtoKineticAccelerator
+      weight: 0.5
+    - id: OxygenTankFilled
+    - id: WelderIndustrial
+>>>>>>> afe7c6f69f4ebb1d6ace872fe33e3cb00bcc737e
     - !type:GroupSelector
       children:
       - id: ClothingHeadHatWelding
@@ -215,12 +226,32 @@
     - id: MiningDrill
     - id: ClothingEyesGlassesMeson
     - id: ClothingBeltSalvageWebbing
+<<<<<<< HEAD
     - id: ClothingOuterHardsuitSalvage
+=======
+    - id: SeismicCharge
+    - id: WeaponCrusher
+      weight: 0.5
+    - !type:GroupSelector
+      children:
+      - id: JetpackBlue
+      - id: JetpackBlack
+>>>>>>> afe7c6f69f4ebb1d6ace872fe33e3cb00bcc737e
 
 - type: entityTable
   id: SalvageEquipmentLegendary
   table: !type:GroupSelector
     children:
+<<<<<<< HEAD
     - id: WeaponCrusher
     - id: WeaponCrusherGlaive
     - id: OmnizineChemistryBottle
+=======
+    - id: WeaponCrusherGlaive
+    - id: ClothingOuterHardsuitSalvage
+    - id: OmnizineChemistryBottle
+    - !type:GroupSelector
+      children:
+      - id: JetpackBlueFilled
+      - id: JetpackBlackFilled
+>>>>>>> afe7c6f69f4ebb1d6ace872fe33e3cb00bcc737e

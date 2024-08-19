@@ -126,6 +126,10 @@
   cost: 5000
   recipeUnlocks:
   - ClothingBackpackElectropack
+<<<<<<< HEAD
+=======
+  - ClothingOuterStraightjacket
+>>>>>>> afe7c6f69f4ebb1d6ace872fe33e3cb00bcc737e
 
 # Tier 2
 

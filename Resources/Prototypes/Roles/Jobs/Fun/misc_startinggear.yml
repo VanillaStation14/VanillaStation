@@ -178,6 +178,7 @@
     - GasAnalyzer
     - trayScanner
     - AccessConfiguratorUniversal
+<<<<<<< HEAD
     - Omnitool
     - WelderExperimental
     - GeigerCounter
@@ -196,6 +197,9 @@
     - RubberStampSyndicate
     - RubberStampCentcom
     - RubberStampDenied
+=======
+    - Multitool
+>>>>>>> afe7c6f69f4ebb1d6ace872fe33e3cb00bcc737e
 
 #Gladiator with spear
 - type: startingGear
