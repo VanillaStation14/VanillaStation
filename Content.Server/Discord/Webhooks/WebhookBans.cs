@@ -1,6 +1,5 @@
 using System.Threading.Tasks;
 using Content.Shared.Vanilla.CCVars;
-using Content.Shared.CCVar;
 using Robust.Shared.Configuration;
 namespace Content.Server.Discord.Webhooks;
 
@@ -21,8 +20,10 @@ public sealed class WebhookBans : IPostInjectInit
     {
         try
         {
-            if (_webhookIdentifier == null)
+            if (!await TrySetIdentifier())
+            {
                 return;
+            }
 
             var embed = new WebhookEmbed
             {
@@ -35,13 +36,13 @@ public sealed class WebhookBans : IPostInjectInit
                     ("reason", reason)
                 ),
                 Color = 15079705,
-                Footer = new()
+                Footer = new WebhookEmbedFooter
                 {
                     Text = Loc.GetString("discord-ban-notifications-footer")
                 }
             };
 
-            var webhookPayload = new WebhookPayload()
+            var webhookPayload = new WebhookPayload
             {
                 Content = null,
                 Embeds = new List<WebhookEmbed>
@@ -50,8 +51,7 @@ public sealed class WebhookBans : IPostInjectInit
                 },
             };
 
-            await _discord.CreateMessage(_webhookIdentifier.Value, webhookPayload);
-
+            await _discord.CreateMessage(_webhookIdentifier!.Value, webhookPayload);
         }
         catch (Exception e)
         {
@@ -87,9 +87,10 @@ public sealed class WebhookBans : IPostInjectInit
             var webhookPayload = new WebhookPayload()
             {
                 Content = null,
-                Embeds = new List<WebhookEmbed> {
-                    embed
-                    }
+                Embeds = new List<WebhookEmbed>
+                {
+                    embed,
+                },
             };
 
             await _discord.CreateMessage(_webhookIdentifier.Value, webhookPayload);
@@ -104,21 +105,34 @@ public sealed class WebhookBans : IPostInjectInit
     public void PostInject()
     {
         _sawmill = _log.GetSawmill("DISCORD-WEBHOOK-BANS");
+    }
 
-        _cfg.OnValueChanged(CCVarsVanilla.DiscordServerBansWebhook,
-            url =>
+    /// <summary>
+    /// Tries to set <see cref="_webhookIdentifier"/>.
+    /// If it faults, returns false.
+    /// </summary>
+    /// <returns>True if <see cref="_webhookIdentifier"/> had been set successful.</returns>
+    private async Task<bool> TrySetIdentifier()
+    {
+        if (_webhookIdentifier != null)
+            return true;
+
+        var webhookUrl = _cfg.GetCVar(CCVarsVanilla.DiscordServerBansWebhook);
+
+        if (string.IsNullOrEmpty(webhookUrl))
         {
-            _discord.GetWebhook(
-                url,
-                data =>
-            {
-                if (!string.IsNullOrWhiteSpace(url))
-                {
-                    _webhookIdentifier = data.ToIdentifier();
-                }
-            });
-        },
-        true
-        );
+            return false;
+        }
+
+        var data = await _discord.GetWebhook(webhookUrl);
+
+        if (data == null)
+        {
+            return false;
+        }
+
+        _webhookIdentifier = data.Value.ToIdentifier();
+
+        return true;
     }
 }
