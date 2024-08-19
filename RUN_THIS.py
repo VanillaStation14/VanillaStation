@@ -33,7 +33,7 @@ def init_submodules(exclude_secret=False):
         
         if exclude_secret:
             # Исключаем секретный подмодуль из обновления
-            subprocess.run(["git", "submodule", "update", "--remote", "--", ":!libs/SecretModule"], check=True)
+            subprocess.run(["git", "submodule", "update", "--remote", "--", ":!secrets"], check=True)
         else:
             # Обновляем все подмодули, включая секретный
             subprocess.run(["git", "submodule", "update", "--remote"], check=True)
