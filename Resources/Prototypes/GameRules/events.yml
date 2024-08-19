@@ -147,7 +147,7 @@
   - type: StationEvent
     weight: 5
     duration: 1
-    minimumPlayers: 30
+    minimumPlayers: 10
   - type: RandomEntityStorageSpawnRule
     prototype: MobSkeletonCloset
 
