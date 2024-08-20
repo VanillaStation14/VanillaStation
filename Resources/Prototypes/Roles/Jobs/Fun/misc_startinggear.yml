@@ -196,7 +196,7 @@
     - RubberStampSyndicate
     - RubberStampCentcom
     - RubberStampDenied
-
+    
 #Gladiator with spear
 - type: startingGear
   id: GladiatorGear
