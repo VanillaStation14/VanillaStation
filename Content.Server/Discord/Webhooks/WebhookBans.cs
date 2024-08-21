@@ -4,6 +4,7 @@ using Content.Shared.CCVar;
 using Robust.Shared.Configuration;
 namespace Content.Server.Discord.Webhooks;
 
+
 public sealed class WebhookBans : IPostInjectInit
 {
     [Dependency] private readonly ILogManager _log = default!;
@@ -58,6 +59,10 @@ public sealed class WebhookBans : IPostInjectInit
         }
     }
 
+    public void PostInject()
+    {
+        _sawmill = _log.GetSawmill("DISCORD-WEBHOOK-BANS");
+    }
     public async Task SendBanRoleMessage(string admin, string timeOfBan, string expires, string roleOrDepartment, string username, string reason)
     {
         try
@@ -100,31 +105,10 @@ public sealed class WebhookBans : IPostInjectInit
     }
 
 
-    public void PostInject()
+    public void Initialize()
     {
-        _sawmill = _log.GetSawmill("DISCORD-WEBHOOK-BANS");
-
-        string webhookUrl = _cfg.GetCVar(CCVarsVanilla.DiscordServerBansWebhook);
-        _discord.GetWebhook(webhookUrl, data =>
-            {
-                if (!string.IsNullOrWhiteSpace(webhookUrl))
-                {
-                    _webhookIdentifier = data.ToIdentifier();
-                }
-            }
-        );
-
         _cfg.OnValueChanged(CCVarsVanilla.DiscordServerBansWebhook, url =>
-        {
-            _discord.GetWebhook(url, data =>
-            {
-                if (!string.IsNullOrWhiteSpace(url))
-                {
-                    _webhookIdentifier = data.ToIdentifier();
-                }
-            });
-        }
-        );
+            _discord.GetWebhook(url, data => _webhookIdentifier = data.ToIdentifier()), true);
     }
 
 }

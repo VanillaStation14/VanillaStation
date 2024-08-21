@@ -35,6 +35,8 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 
+using Content.Server.Discord.Webhooks;
+
 namespace Content.Server.Entry
 {
     public sealed class EntryPoint : GameServer
@@ -159,6 +161,7 @@ namespace Content.Server.Entry
                 IoCManager.Resolve<IGameMapManager>().Initialize();
                 IoCManager.Resolve<IEntitySystemManager>().GetEntitySystem<GameTicker>().PostInitialize();
                 IoCManager.Resolve<IBanManager>().Initialize();
+                IoCManager.Resolve<WebhookBans>().Initialize(); // Vanilla Station
             }
         }
 

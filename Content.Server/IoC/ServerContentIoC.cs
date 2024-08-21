@@ -70,7 +70,7 @@ namespace Content.Server.IoC
             IoCManager.Register<ServerApi>();
             IoCManager.Register<JobWhitelistManager>();
             IoCManager.Register<PlayerRateLimitManager>();
-            IoCManager.Register<WebhookBans>();// Vanilla station
+            IoCManager.Register<WebhookBans>(); // Vanilla station
             IoCManager.Register<MappingManager>();
         }
     }
