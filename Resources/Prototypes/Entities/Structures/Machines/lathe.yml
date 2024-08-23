@@ -764,7 +764,6 @@
       - BoxShotgunUranium
       - BoxShellTranquilizer
       - ClothingBackpackElectropack
-      - ClothingOuterStraightjacket
       - ExplosivePayload
       - FlashPayload
       - GrenadeBlast
@@ -810,7 +809,6 @@
       - WeaponLaserCannon
       - WeaponLaserCarbine
       - WeaponXrayCannon
-      - ClothingBackpackElectropack
   - type: MaterialStorage
     whitelist:
       tags:
