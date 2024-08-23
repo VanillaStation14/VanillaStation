@@ -178,24 +178,7 @@
     - GasAnalyzer
     - trayScanner
     - AccessConfiguratorUniversal
-    - Omnitool
-    - WelderExperimental
-    - GeigerCounter
-    - MedicalPDA
     - Multitool
-    - JawsOfLife
-    - PowerDrill
-    - WeaponTetherGunAdmin
-    - NetworkConfigurator
-    - RCDExperimental
-    - NodeScanner
-    - AnomalyScanner
-    - ForensicScanner
-    - PenCentcom
-    - RubberStampApproved
-    - RubberStampSyndicate
-    - RubberStampCentcom
-    - RubberStampDenied
 
 #Gladiator with spear
 - type: startingGear
