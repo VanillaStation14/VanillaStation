@@ -5,9 +5,9 @@
   playTimeTracker: JobCaptain
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 36000 #10 hrs # Vanilla-RoleTime
+      time: 360000 #100 hrs # Vanilla-RoleTime
     - !type:AgeRequirement
-      requiredAge: 21
+      requiredAge: 38
   weight: 20
   startingGear: CaptainGear
   icon: "JobIconCaptain"

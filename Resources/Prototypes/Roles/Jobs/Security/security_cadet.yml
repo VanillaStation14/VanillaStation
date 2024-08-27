@@ -5,11 +5,13 @@
   playTimeTracker: JobSecurityCadet
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 18000 #5 hrs # Vanilla-RoleTime
+      time: 36000 #10 hrs # Vanilla-RoleTime
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 108000 #30 hrs # Vanilla-RoleTime
+      time: 72000 #20 hrs # Vanilla-RoleTime
       inverted: true # stop playing intern if you're good at security!
+    - !type:AgeRequirement
+      requiredAge: 20
   startingGear: SecurityCadetGear
   icon: "JobIconSecurityCadet"
   supervisors: job-supervisors-security

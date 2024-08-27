@@ -6,7 +6,9 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 10800 #5 hrs # Vanilla-RoleTime
+      time: 72000 #20 hrs # Corvax-RoleTime
+    - !type:AgeRequirement
+      requiredAge: 26
   startingGear: WardenGear
   icon: "JobIconWarden"
   requireAdminNotify: true

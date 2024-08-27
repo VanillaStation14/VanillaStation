@@ -4,13 +4,11 @@
   description: job-description-ce
   playTimeTracker: JobChiefEngineer
   requirements:
-    - !type:DepartmentTimeRequirement
-      department: Engineering
-      time: 54000 #15 hrs # Vanilla-RoleTime
-#    - !type:OverallPlaytimeRequirement
-#      time: 144000 #40 hrs
+    - !type:RoleTimeRequirement
+      role: JobAtmosphericTechnician
+      time: 36000 #10 hrs # vanilla-RoleTime
     - !type:AgeRequirement
-      requiredAge: 21
+      requiredAge: 26
   weight: 10
   startingGear: ChiefEngineerGear
   icon: "JobIconChiefEngineer"

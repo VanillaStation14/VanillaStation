@@ -6,7 +6,9 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
-      time: 10800 #3 hrs # Vanilla-RoleTime
+      time: 36000 #10 hrs # Vanilla-RoleTime
+    - !type:AgeRequirement
+      requiredAge: 22
   startingGear: AtmosphericTechnicianGear
   icon: "JobIconAtmosphericTechnician"
   supervisors: job-supervisors-ce
