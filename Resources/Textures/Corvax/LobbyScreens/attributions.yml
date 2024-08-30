@@ -180,11 +180,16 @@
 
 - files: ["engineers-vs-zombies.png"]
   license: "CC-BY-NC-SA-3.0"
+<<<<<<< HEAD
   copyright: "ukrainianlad(852667075059253278) on discord"
+=======
+  copyright: "ukrainianlad on discord"
+>>>>>>> parent of 74d17a0aaf (Изменена карта Cluster и пофикшены LobbyScreens)
   source: "https://github.com/space-syndicate/space-station-14"
 
 - files: ["gray-tide.png"]
   license: "CC-BY-SA-3.0"
+<<<<<<< HEAD
   copyright: "limemint(659313976877776896) on discord"
   source: "https://discord.com/channels/919301044784226385/1073603532898435183/1253009500944859227"
   
@@ -197,3 +202,7 @@
   license: "CC-BY-NC-SA-4.0"
   copyright: "ukrainianlad(852667075059253278) on discord"
   source: "https://discord.com/channels/919301044784226385/1073603532898435183/1261290085287071914" 
+=======
+  copyright: "limemint on discord"
+  source: "https://discord.com/channels/919301044784226385/1073603532898435183/1253009500944859227"
+>>>>>>> parent of 74d17a0aaf (Изменена карта Cluster и пофикшены LobbyScreens)
