@@ -68,6 +68,12 @@ limit = 10.0
 deadmin_on_join = true
 new_player_threshold = 300
 alert.min_players_sharing_connection = 2
+new_player_join_sound = true
+
+[ahelp]
+admin_prefix = 1
+rate_limit_count = 3
+rate_limit_period = 6
 
 [worldgen]
 enabled = true

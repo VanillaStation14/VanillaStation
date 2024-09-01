@@ -77,4 +77,4 @@ cmd-ban_exemption_get-arg-player = <player>
 
 server-ban-string-expires = до {$time}
 # Kick on ban
-ban-kick-reason = You have been banned
+ban-kick-reason = Вы были забанены
