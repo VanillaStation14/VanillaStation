@@ -181,9 +181,11 @@ namespace Content.Server.GameTicking
         }
 
         public bool UserHasJoinedGame(ICommonSession session)
-            => UserHasJoinedGame(session.UserId);
+        => UserHasJoinedGame(session.UserId);
 
         public bool UserHasJoinedGame(NetUserId userId)
-            => PlayerGameStatuses[userId] == PlayerGameStatus.JoinedGame;
+        {
+        return _playerGameStatuses.TryGetValue(userId, out var status) && status == PlayerGameStatus.JoinedGame;
+        }
     }
 }
