@@ -23,6 +23,7 @@ panic_bunker.enabled = false
 #panic_bunker.show_reason = true
 #panic_bunker.min_overall_minutes = 60
 #panic_bunker.custom_reason = "В настоящий момент нет модераторов, а вы не наиграли достаточного количества минут (60) на нашем сервере."
+contraband_examine = false
 
 [hub]
 tags = "lang:ru,region:eu_e,rp:med"
@@ -39,7 +40,7 @@ tickrate = 40
 max_connections = 100
 
 [infolinks]
-discord = "https://discord.gg/vanilla-station"
+discord = "https://discord.gg/sRSGDyGPw2"
 wiki = "https://vanilla-station.ru/"
 appeal = "https://discord.com/channels/1236324156165980311/1236381848909910126"
 github = "https://github.com/VanillaStation14/VanillaStation"
@@ -74,6 +75,9 @@ new_player_join_sound = true
 admin_prefix = 1
 rate_limit_count = 3
 rate_limit_period = 6
+
+[atmos]
+space_wind = true
 
 [worldgen]
 enabled = true
