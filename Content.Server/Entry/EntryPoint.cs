@@ -8,6 +8,7 @@ using Content.Server.Connection;
 using Content.Server.Corvax.GuideGenerator;
 using Content.Server.Corvax.TTS;
 using Content.Server.Database;
+using Content.Server.Discord.Webhooks;
 using Content.Server.EUI;
 using Content.Server.GameTicking;
 using Content.Server.GhostKick;
@@ -160,6 +161,8 @@ namespace Content.Server.Entry
                 IoCManager.Resolve<IEntitySystemManager>().GetEntitySystem<GameTicker>().PostInitialize();
                 IoCManager.Resolve<IBanManager>().Initialize();
                 IoCManager.Resolve<IConnectionManager>().PostInit();
+
+                IoCManager.Resolve<WebhookBans>().Initialize();
             }
         }
 
