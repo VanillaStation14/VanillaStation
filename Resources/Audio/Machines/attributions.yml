@@ -163,7 +163,10 @@
   copyright: "/vgstation-coders/vgstation13"
   source: "https://github.com/vgstation-coders/vgstation13/blob/Bleeding-Edge/sound/machines/denied.ogg"
 
-- files: panic.ogg
+- files: ["panic.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "created by 1196139238098489481 (discord)"
+  source: "https://discord.com/channels/1236324156165980311/1236332585672638504"
 
 - files:
   - twobeep.ogg
