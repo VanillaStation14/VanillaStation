@@ -7,7 +7,6 @@
   background: /Textures/Corvax/LobbyScreens/dead-in-space.png
 
 - type: lobbyBackground
-<<<<<<< HEAD
   id: Deadsquad
   background: /Textures/Corvax/LobbyScreens/deadsquad.png
 
@@ -36,13 +35,10 @@
   background: /Textures/Corvax/LobbyScreens/jailbreak.png
 
 - type: lobbyBackground
-=======
->>>>>>> parent of 74d17a0aaf (Изменена карта Cluster и пофикшены LobbyScreens)
   id: Kosmologistika
   background: /Textures/Corvax/LobbyScreens/kosmologistika.png
 
 - type: lobbyBackground
-<<<<<<< HEAD
   id: LizardBar
   background: /Textures/Corvax/LobbyScreens/lizard-bar.png
 
@@ -51,13 +47,10 @@
   background: /Textures/Corvax/LobbyScreens/lofi.png
 
 - type: lobbyBackground
-=======
->>>>>>> parent of 74d17a0aaf (Изменена карта Cluster и пофикшены LobbyScreens)
   id: MaintenanceClown
   background: /Textures/Corvax/LobbyScreens/maintenance-clown.png
 
 - type: lobbyBackground
-<<<<<<< HEAD
   id: MedDepart
   background: /Textures/Corvax/LobbyScreens/med-depart.png
 
@@ -74,8 +67,6 @@
   background: /Textures/Corvax/LobbyScreens/russellmart.png
 
 - type: lobbyBackground
-=======
->>>>>>> parent of 74d17a0aaf (Изменена карта Cluster и пофикшены LobbyScreens)
   id: Sidor
   background: /Textures/Corvax/LobbyScreens/sidor.png
 
@@ -84,7 +75,6 @@
   background: /Textures/Corvax/LobbyScreens/singulord.png
 
 - type: lobbyBackground
-<<<<<<< HEAD
   id: SpaceMudaki
   background: /Textures/Corvax/LobbyScreens/space-mudaki.png
 
@@ -101,35 +91,26 @@
   background: /Textures/Corvax/LobbyScreens/lost-and-powerless.png
 
 - type: lobbyBackground
-=======
->>>>>>> parent of 74d17a0aaf (Изменена карта Cluster и пофикшены LobbyScreens)
   id: MenAtWork
   background: /Textures/Corvax/LobbyScreens/men-at-work.png
 
 - type: lobbyBackground
-<<<<<<< HEAD
   id: FleshAnom
   background: /Textures/Corvax/LobbyScreens/fleshanom.png
 
 - type: lobbyBackground
-=======
->>>>>>> parent of 74d17a0aaf (Изменена карта Cluster и пофикшены LobbyScreens)
   id: Revenant
   background: /Textures/Corvax/LobbyScreens/revenant.png
 
 - type: lobbyBackground
-<<<<<<< HEAD
   id: DeathNettle
   background: /Textures/Corvax/LobbyScreens/deathnettle.png
 
 - type: lobbyBackground
-=======
->>>>>>> parent of 74d17a0aaf (Изменена карта Cluster и пофикшены LobbyScreens)
   id: Xeno
   background: /Textures/Corvax/LobbyScreens/xeno.png
 
 - type: lobbyBackground
-<<<<<<< HEAD
   id: ClownSpider
   background: /Textures/Corvax/LobbyScreens/clownspider.png
 
@@ -142,8 +123,6 @@
   background: /Textures/Corvax/LobbyScreens/xenosattack.png
 
 - type: lobbyBackground
-=======
->>>>>>> parent of 74d17a0aaf (Изменена карта Cluster и пофикшены LobbyScreens)
   id: SingulordCage
   background: /Textures/Corvax/LobbyScreens/singulord-cage.png
 
@@ -152,7 +131,6 @@
   background: /Textures/Corvax/LobbyScreens/you-look-lonely.png
 
 - type: lobbyBackground
-<<<<<<< HEAD
   id: GrayTide
   background: /Textures/Corvax/LobbyScreens/gray-tide.png
 
@@ -201,8 +179,6 @@
   background: /Textures/Corvax/LobbyScreens/arnold-intelligence.png
 
 - type: lobbyBackground
-=======
->>>>>>> parent of 74d17a0aaf (Изменена карта Cluster и пофикшены LobbyScreens)
   id: MimesInTechs
   background: /Textures/Corvax/LobbyScreens/mimes-in-techs.png
 
@@ -213,18 +189,7 @@
 - type: lobbyBackground
   id: EngineersVsZombies
   background: /Textures/Corvax/LobbyScreens/engineers-vs-zombies.png
-<<<<<<< HEAD
   
 - type: lobbyBackground
   id: SillyIsland
   background: /Textures/Corvax/LobbyScreens/silly-island.png
-
-- type: lobbyBackground
-  id: EchoTeam
-  background: /Textures/Corvax/LobbyScreens/echo-team.png
-=======
-
-- type: lobbyBackground
-  id: BreakingPlace
-  background: /Textures/Corvax/LobbyScreens/breaking-place.png
->>>>>>> parent of 74d17a0aaf (Изменена карта Cluster и пофикшены LobbyScreens)

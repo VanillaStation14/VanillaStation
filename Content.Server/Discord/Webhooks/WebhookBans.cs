@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using Content.Shared.Vanilla.CCVars;
-using Content.Shared.CCVar;
 using Robust.Shared.Configuration;
+
 namespace Content.Server.Discord.Webhooks;
 
 public sealed class WebhookBans : IPostInjectInit
@@ -103,9 +103,13 @@ public sealed class WebhookBans : IPostInjectInit
     {
         _cfg.OnValueChanged(CCVarsVanilla.DiscordServerBansWebhook, url =>
         {
-            _discord.GetWebhook(url, data => _webhookIdentifier = data.ToIdentifier());
+            if (!string.IsNullOrWhiteSpace(url))
+            {
+                _discord.GetWebhook(url, data => _webhookIdentifier = data.ToIdentifier());
+            }
         }, true);
     }
+
 
     public void PostInject()
     {

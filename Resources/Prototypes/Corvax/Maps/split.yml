@@ -41,7 +41,8 @@
             Zookeeper: [ 1, 1 ]
             # command
             Captain: [ 1, 1 ]
-            IAA: [ 1, 1 ]
+            Lawyer: [ 1, 1 ]
+            # IAA: [ 1, 1 ] #corvax-IAA
             # engineering
             AtmosphericTechnician: [ 1, 1 ]
             # medical
@@ -102,7 +103,8 @@
             Musician: [ 1, 1 ]
             # command
             Captain: [ 1, 1 ]
-            IAA: [ 1, 1 ]
+            Lawyer: [ 1, 1 ]
+            # IAA: [ 1, 1 ] #corvax-IAA
             # engineering
             AtmosphericTechnician: [ 1, 1 ]
             StationEngineer: [ 2, 2 ]
@@ -176,7 +178,8 @@
             Musician: [ 1, 1 ]
             # command
             Captain: [ 1, 1 ]
-            IAA: [ 1, 1 ]
+            Lawyer: [ 1, 1 ]
+            # IAA: [ 1, 1 ] #corvax-IAA
             # engineering
             ChiefEngineer: [ 1, 1 ]
             AtmosphericTechnician: [ 2, 3 ]

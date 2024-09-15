@@ -35,9 +35,10 @@
             Reporter: [ 1, 1 ]
             ServiceWorker: [ 2, 2 ]
             Librarian: [ 1, 1 ]
+            Lawyer: [ 1, 1 ]
             # command
             Captain: [ 1, 1 ]
-            IAA: [ 1, 1 ]
+            # IAA: [ 1, 1 ] #corvax-IAA
             # engineering
             ChiefEngineer: [ 1, 1 ]
             StationEngineer: [ 2, 2 ]

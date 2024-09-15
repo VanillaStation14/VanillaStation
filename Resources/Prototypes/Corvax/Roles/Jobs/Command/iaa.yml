@@ -13,6 +13,7 @@
   - !type:AgeRequirement
     requiredAge: 21
   startingGear: IAAGear
+  setPreference: false # Corvax-IAA
   icon: "JobIconIAA"
   supervisors: job-supervisors-centcom
   canBeAntag: false

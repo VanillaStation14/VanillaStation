@@ -1,55 +1,48 @@
 - type: lobbyBackground
-  id: BarLife
-  background: /Textures/Corvax/LobbyScreens/bar-life.png
+  id: Warden
+  background: /Textures/LobbyScreens/warden.webp
 
 - type: lobbyBackground
-  id: DeadInSpace
-  background: /Textures/Corvax/LobbyScreens/dead-in-space.png
+  id: Pharmacy
+  background: /Textures/LobbyScreens/pharmacy.webp
 
 - type: lobbyBackground
-  id: Kosmologistika
-  background: /Textures/Corvax/LobbyScreens/kosmologistika.png
+  id: SSXIV
+  background: /Textures/LobbyScreens/ssxiv.webp
 
 - type: lobbyBackground
-  id: MaintenanceClown
-  background: /Textures/Corvax/LobbyScreens/maintenance-clown.png
+  id: Susstation
+  background: /Textures/LobbyScreens/susstation.webp
 
 - type: lobbyBackground
-  id: Sidor
-  background: /Textures/Corvax/LobbyScreens/sidor.png
+  id: SkellyVsTheRev
+  background: /Textures/LobbyScreens/skellyvstherev.webp
 
 - type: lobbyBackground
-  id: Singulord
-  background: /Textures/Corvax/LobbyScreens/singulord.png
+  id: Doomed
+  background: /Textures/LobbyScreens/doomed.webp
 
 - type: lobbyBackground
-  id: MenAtWork
-  background: /Textures/Corvax/LobbyScreens/men-at-work.png
+  id: Blueprint
+  background: /Textures/LobbyScreens/blueprint.webp
 
 - type: lobbyBackground
-  id: Revenant
-  background: /Textures/Corvax/LobbyScreens/revenant.png
+  id: Behonker
+  background: /Textures/LobbyScreens/behonker.webp
 
 - type: lobbyBackground
-  id: Xeno
-  background: /Textures/Corvax/LobbyScreens/xeno.png
+  id: TerminalStation
+  background: /Textures/LobbyScreens/terminalstation.webp
 
 - type: lobbyBackground
-  id: SingulordCage
-  background: /Textures/Corvax/LobbyScreens/singulord-cage.png
+  id: JustAWeekAway
+  background: /Textures/LobbyScreens/justaweekaway.webp
 
 - type: lobbyBackground
-  id: YouLookLonely
-  background: /Textures/Corvax/LobbyScreens/you-look-lonely.png
+  id: JaniShootout
+  background: /Textures/LobbyScreens/janishootout.webp
 
 - type: lobbyBackground
-  id: MimesInTechs
-  background: /Textures/Corvax/LobbyScreens/mimes-in-techs.png
-
-- type: lobbyBackground
-  id: NukieWar
-  background: /Textures/Corvax/LobbyScreens/nukie-war.png
-
-- type: lobbyBackground
-  id: EngineersVsZombies
-  background: /Textures/Corvax/LobbyScreens/engineers-vs-zombies.png
+  id: ReclaimerNuke
+  background: /Textures/LobbyScreens/reclaimer-nuke.webp
+  
