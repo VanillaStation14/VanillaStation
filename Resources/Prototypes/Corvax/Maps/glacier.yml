@@ -46,9 +46,10 @@
             Musician: [ 1, 1 ]
             Reporter: [ 1, 2 ]
             Zookeeper: [ 1, 1 ]
+            Lawyer: [ 1, 1 ]
             # command
             Captain: [ 1, 1 ]
-            IAA: [ 1, 1 ]
+            #IAA: [ 1, 1 ] # corvax-iaa
             # engineering
             ChiefEngineer: [ 1, 1 ]
             AtmosphericTechnician: [ 3, 3 ]
