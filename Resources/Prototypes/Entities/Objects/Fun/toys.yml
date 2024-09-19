@@ -440,22 +440,22 @@
     delay: 35.0
   - type: EmitSoundOnUse
     sound:
-      path: /Audio/Misc/ninja_greeting.ogg
+      path: /Audio/Vanilla/Items/Toys/yooooo.ogg
       params:
-        volume: -5
-        maxDistance: 10
+        volume: -3
+        maxDistance: 5
   - type: EmitSoundOnActivate
     sound:
-      path: /Audio/Misc/ninja_greeting.ogg
+      path: /Audio/Vanilla/Items/Toys/yooooo.ogg
       params:
-        volume: -5
-        maxDistance: 10
+        volume: -3
+        maxDistance: 5
   - type: EmitSoundOnTrigger
     sound:
-      path: /Audio/Misc/ninja_greeting.ogg
+      path: /Audio/Vanilla/Items/Toys/yooooo.ogg
       params:
-        volume: -5
-        maxDistance: 10
+        volume: -3
+        maxDistance: 5
 
 - type: entity
   parent: BasePlushie
