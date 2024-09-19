@@ -1,0 +1,9 @@
+- type: loadoutGroup
+  id: VanillaInventory
+  name: loadout-group-inventory-vanilla
+  minLimit: 0
+  maxLimit: 5
+  loadouts:
+  - PlushieLizardGrandTanaka
+  - plushieUnaAkvanova
+  - PlushieCentcomAliaZimova
