@@ -8,6 +8,8 @@ using Content.Shared.Database;
 using Content.Shared.Radio;
 using Content.Shared.Radio.Components;
 using Content.Shared.Speech;
+using Content.Shared.Roles.Jobs;
+using Content.Shared.Mind.Components;
 using Robust.Shared.Map;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
@@ -29,6 +31,7 @@ public sealed class RadioSystem : EntitySystem
     [Dependency] private readonly IPrototypeManager _prototype = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly ChatSystem _chat = default!;
+    [Dependency] private readonly SharedJobSystem _jobs = default!;
 
     // set used to prevent radio feedback loops.
     private readonly HashSet<string> _messages = new();
@@ -84,6 +87,9 @@ public sealed class RadioSystem : EntitySystem
 
         name = FormattedMessage.EscapeText(name);
 
+        TryComp<MindContainerComponent>(messageSource, out var mind);
+        var role = _jobs.MindTryGetJobName(mind?.Mind);
+        if (role != null){ name += ", " + role; }
         SpeechVerbPrototype speech;
         if (mask != null
             && mask.Enabled
