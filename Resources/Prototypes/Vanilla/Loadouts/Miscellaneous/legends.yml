@@ -1,0 +1,37 @@
+# vanilla legends
+- type: loadout
+  id: PlushieLizardGrandTanakaLoadout
+  storage:
+    back:
+    - PlushieLizardGrandTanaka
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobDetective
+      time: 72000 #20 hrs # Vanilla-RoleTime
+  
+- type: loadout
+  id: plushieUnaAkvanovaLoadout
+  storage:
+    back:
+    - plushieUnaAkvanova
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobScientist
+      time: 72000 #20 hrs # Vanilla-RoleTime
+
+- type: loadout
+  id: PlushieCentcomAliaZimovaLoadout
+  storage:
+    back:
+    - PlushieCentcomAliaZimova
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobHeadOfPersonnel
+      time: 72000 #20 hrs # Vanilla-RoleTime
+

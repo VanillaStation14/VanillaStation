@@ -426,6 +426,38 @@
           Quantity: 10
 
 - type: entity
+  parent: BaseFigurineCheapo
+  id: plushieUnaAkvanova #vanilla
+  name: Una Akvanova plushe
+  description: Rumor has it that she is a backyard cosplayer...
+  components:
+  - type: Sprite
+    state: plushie_una_Akvanova
+  - type: Tag
+    tags:
+      - Payload
+  - type: UseDelay
+    delay: 35.0
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Vanilla/Items/Toys/yooooo.ogg
+      params:
+        volume: -3
+        maxDistance: 5
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Vanilla/Items/Toys/yooooo.ogg
+      params:
+        volume: -3
+        maxDistance: 5
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Vanilla/Items/Toys/yooooo.ogg
+      params:
+        volume: -3
+        maxDistance: 5
+
+- type: entity
   parent: BasePlushie
   id: PlushieSpaceLizard #ᵂᵉʰ!
   name: space lizard plushie
