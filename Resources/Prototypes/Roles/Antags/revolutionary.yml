@@ -7,7 +7,7 @@
   guides: [ Revolutionaries ]
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 18000 # 5h # Vanilla-RoleTime
+    time: 108000 # 30h # Vanilla-RoleTime
 
 - type: antag
   id: Rev
