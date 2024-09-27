@@ -21,7 +21,7 @@
       params:
         variation: 0.250
     soundDeactivate:
-      path: /Audio/vanilla/Weapons/powersabreoff.ogg
+      path: /Audio/Vanilla/Weapons/powersabreoff.ogg
       params:
         variation: 0.250
     soundFailToActivate:
@@ -30,15 +30,15 @@
         variation: 0.250
   - type: ItemToggleMeleeWeapon
     activatedSoundOnHit:
-      path: /Audio/vanilla/Weapons/powersabrehit.ogg
+      path: /Audio/Vanilla/Weapons/powersabrehit.ogg
       params:
         variation: 0.250
     activatedSoundOnHitNoDamage:
-      path: /Audio/vanilla/Weapons/powersabrehit.ogg
+      path: /Audio/Vanilla/Weapons/powersabrehit.ogg
       params:
         variation: 0.250
     activatedSoundOnSwing:
-      path: /Audio/vanilla/Weapons/powersabrehit.ogg
+      path: /Audio/Vanilla/Weapons/powersabrehit.ogg
       params:
         variation: 0.125
         volume: -3

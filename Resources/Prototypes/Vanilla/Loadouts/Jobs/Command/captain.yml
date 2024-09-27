@@ -1,0 +1,10 @@
+# Belt
+- type: loadout
+  id: PowerSabreLoadout
+  equipment:
+    belt: PowerSabre
+
+- type: loadout
+  id: CaptainSabreLoadout
+  equipment:
+    belt: ClothingBeltSheathFilled
