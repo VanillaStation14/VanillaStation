@@ -1,8 +1,8 @@
-# Belt
+#sabres
 - type: loadout
   id: PowerSabreLoadout
   equipment:
-    belt: PowerSabre
+    pocket2: PowerSabre
 
 - type: loadout
   id: CaptainSabreLoadout
