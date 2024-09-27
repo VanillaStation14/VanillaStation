@@ -1,104 +1,102 @@
 - type: entity
+  name: Power Sabre
   parent: BaseItem
   id: PowerSabre
-  name: Power Sabre
-  description: New Sandy-Cat plastic sword! Comes with realistic sound and full color! Looks almost like the real thing!
+  description: Captain's power sabre based on the principle of a containment field generator. The guard is made of gold, adorned with a platinum engraving that reads "Justice."
   components:
-    - type: EnergySword
-      colorOptions:
-        - DodgerBlue
-    - type: Stunbaton
-      energyPerUse: 50
-    - type: Battery
-      maxCharge: 1000
-      startingCharge: 1000
-    - type: Riggable
-    - type: SolutionContainerManager
-      solutions:
-        battery:
-          maxVol: 5
-    - type: InjectableSolution
-      solution: battery
-    - type: DrawableSolution
-      solution: battery
-    - type: BatterySelfRecharger
-      autoRecharge: true
-      autoRechargeRate: 5
-    - type: Explosive
-      explosionType: Default
-      intensitySlope: 1.5
-      maxIntensity: 200
-    - type: ComponentToggler
-      components:
-      - type: MeleeThrowOnHit
-        speed: 20
-      - type: DisarmMalus
-        malus: 0.7
-      - type: Execution
-        doAfterDuration: 4.0
-    - type: ItemToggle
-      soundActivate:
-        path: /Audio/Weapons/emitter.ogg
-      soundDeactivate:
-        path: /Audio/vanilla/Weapons/powersabreoff.ogg
-    - type: ItemToggleActiveSound
-      activeSound:
-        path: /Audio/Weapons/ebladehum.ogg
-    - type: Sprite
-      sprite: Objects/Weapons/Melee/powersabre.rsi
-      layers:
-        - state: powersabre
-        - state: powersabre_blade
-          color: "#FFFFFF"
-          visible: false
-          shader: unshaded
-          map: [ "blade" ]
-    - type: Item
-      size: Small
-      sprite: Objects/Weapons/Melee/powersabre.rsi
-    - type: UseDelay
-      delay: 10.0
-    - type: PointLight
-      enabled: false
-      radius: 2
-      energy: 2
-      color: white
-      netsync: false
-    - type: Appearance
-    - type: ToggleableLightVisuals
-      spriteLayer: blade
-      inhandVisuals:
-        left:
-          - state: inhand-left-blade
-            shader: unshaded
-        right:
-          - state: inhand-right-blade
-            shader: unshaded
-    - type: ItemTogglePointLight
-    - type: ItemToggleSize
-      activatedSize: Normal
-    - type: MeleeWeapon
-      wideAnimationRotation: -135
-      damage:
-        types:
-          Blunt: 4.5
-    - type: StaminaDamageOnHit
-      damage: 35
-    - type: ItemToggleMeleeWeapon
-      activatedSoundOnHit:
-        path: /Audio/vanilla/Weapons/powersabrehit.ogg
-        params:
-          variation: 0.250
-      activatedSoundOnHitNoDamage:
-        path: /Audio/vanilla/Weapons/powersabrehit.ogg
-        params:
-          variation: 0.250
-      activatedSoundOnSwing:
-        path: /Audio/vanilla/Weapons/powersabrehit.ogg
-        params:
-          variation: 0.125
-          volume: -3
-      activatedDamage:
-        types:
-          Blunt: 20
-          Structural: 20
+  - type: Sprite
+    sprite: Vanilla/Objects/Weapons/Melee/powersabre.rsi
+    layers:
+    - state: powersabre_off
+      map: [ "enum.ToggleVisuals.Layer" ]
+  - type: Stunbaton
+    energyPerUse: 250
+  - type: ItemTogglePointLight
+  - type: ItemToggleSize
+    activatedSize: Ginormous
+  - type: ItemToggle
+    predictable: false
+    soundActivate:
+      path: /Audio/Weapons/emitter.ogg
+      params:
+        variation: 0.250
+    soundDeactivate:
+      path: /Audio/vanilla/Weapons/powersabreoff.ogg
+      params:
+        variation: 0.250
+    soundFailToActivate:
+      path: /Audio/Machines/button.ogg
+      params:
+        variation: 0.250
+  - type: ItemToggleMeleeWeapon
+    activatedSoundOnHit:
+      path: /Audio/vanilla/Weapons/powersabrehit.ogg
+      params:
+        variation: 0.250
+    activatedSoundOnHitNoDamage:
+      path: /Audio/vanilla/Weapons/powersabrehit.ogg
+      params:
+        variation: 0.250
+    activatedSoundOnSwing:
+      path: /Audio/vanilla/Weapons/powersabrehit.ogg
+      params:
+        variation: 0.125
+        volume: -3
+    activatedDamage:
+      types:
+        Blunt: 20
+        Structural: 20
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 4.5
+  - type: ComponentToggler
+    components:
+    - type: MeleeThrowOnHit
+      speed: 20
+    - type: DisarmMalus
+      malus: 0.7
+  - type: StaminaDamageOnHit
+    damage: 25
+  - type: StaminaDamageOnCollide
+    damage: 25
+  - type: LandAtCursor
+  - type: Battery
+    maxCharge: 5000
+    startingCharge: 5000
+  - type: UseDelay
+    delay: 10.0
+  - type: PointLight
+    enabled: false
+    radius: 2
+    energy: 2
+    color: white
+  - type: Item
+    size: Small
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+     enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: powersabre_on}
+          False: {state: powersabre_off}
+  - type: StaticPrice
+    price: 80
+  - type: Riggable
+  - type: SolutionContainerManager
+    solutions:
+      battery:
+        maxVol: 5
+  - type: InjectableSolution
+    solution: battery
+  - type: DrawableSolution
+    solution: battery
+  - type: Explosive
+    explosionType: Default
+    intensitySlope: 1.5
+    maxIntensity: 200
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+      Plastic: 100

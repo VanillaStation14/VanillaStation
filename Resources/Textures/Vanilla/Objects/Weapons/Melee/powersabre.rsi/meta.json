@@ -1,25 +1,20 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Made by brainfood1183 (Github) for ss14",
+  "copyright": "sprited by bamgeglo",
   "size": {
     "x": 32,
     "y": 32
   },
   "states": [
     {
-      "name": "powersabre"
+      "name": "powersabre_off"
     },
     {
-      "name": "inhand-left",
-      "directions": 4
+      "name": "powersabre_nocell"
     },
     {
-      "name": "inhand-right",
-      "directions": 4
-    },
-	{
-      "name": "powersabre_blade",
+      "name": "powersabre_on",
       "delays": [
         [
           0.1,
@@ -28,44 +23,52 @@
       ]
     },
     {
-      "name": "inhand-left-blade",
+      "name": "off-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "off-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "on-inhand-left",
       "directions": 4,
       "delays": [
         [
           0.1,
           0.1
         ],
-		[
+        [
           0.1,
           0.1
         ],
-		[
+        [
           0.1,
           0.1
         ],
-		[
+        [
           0.1,
           0.1
         ]
       ]
     },
     {
-      "name": "inhand-right-blade",
+      "name": "on-inhand-right",
       "directions": 4,
       "delays": [
         [
           0.1,
           0.1
         ],
-		[
+        [
           0.1,
           0.1
         ],
-		[
+        [
           0.1,
           0.1
         ],
-		[
+        [
           0.1,
           0.1
         ]
