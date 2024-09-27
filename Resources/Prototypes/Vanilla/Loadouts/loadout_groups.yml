@@ -7,3 +7,12 @@
   - PlushieLizardGrandTanakaLoadout
   - plushieUnaAkvanovaLoadout
   - PlushieCentcomAliaZimovaLoadout
+
+- type: loadoutGroup
+  id: CaptainsSabers
+  name: loadout-group-Captains-Sabers
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - CaptainSabreLoadout
+  - PowerSabreLoadout
