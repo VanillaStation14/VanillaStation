@@ -55,6 +55,7 @@
     components:
     - type: MeleeThrowOnHit
       speed: 20
+      lifetime: 0.15
     - type: DisarmMalus
       malus: 0.7
   - type: StaminaDamageOnHit
