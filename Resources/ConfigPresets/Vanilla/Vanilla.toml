@@ -57,7 +57,10 @@ rate_limit_count = 3
 rate_limit_period = 3
 
 [shuttle]
-auto_call_time = 120
+auto_call_time = 100
+auto_call_extension_time = 30
+arrivals_map = "/Maps/Misc/corvax_terminal.yml"
+emergency_early_launch_allowed = true
 
 [biomass]
 easy_mode = false
