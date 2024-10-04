@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelSyndicate
+  name: syndicate satchel
+  description: Lightweight bag for professional agents.
+  components:
+  - type: Sprite
+    sprite: Vanilla/Clothing/syndiesatchel.rsi
