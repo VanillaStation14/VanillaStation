@@ -86,10 +86,10 @@ public sealed class RadioSystem : EntitySystem
             : MetaData(messageSource).EntityName;
 
         name = FormattedMessage.EscapeText(name);
-
+        //vanilla-start
         TryComp<MindContainerComponent>(messageSource, out var mind);
         var role = _jobs.MindTryGetJobName(mind?.Mind);
-        if (role != null){ name += ", " + role; }
+        //vanilla-end
         SpeechVerbPrototype speech;
         if (mask != null
             && mask.Enabled
@@ -110,7 +110,7 @@ public sealed class RadioSystem : EntitySystem
             ("fontType", speech.FontId),
             ("fontSize", speech.FontSize),
             ("verb", Loc.GetString(_random.Pick(speech.SpeechVerbStrings))),
-            ("channel", $"\\[{channel.LocalizedName}\\]"),
+            ("channel", $"\\[{role}\\]"), //vanilla-station
             ("name", name),
             ("message", content));
 

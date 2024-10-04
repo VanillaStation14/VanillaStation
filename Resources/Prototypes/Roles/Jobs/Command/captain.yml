@@ -7,7 +7,7 @@
     - !type:OverallPlaytimeRequirement
       time: 360000 #100 hrs # Vanilla-RoleTime
     - !type:AgeRequirement
-      requiredAge: 38
+      requiredAge: 28
   weight: 20
   startingGear: CaptainGear
   icon: "JobIconCaptain"
