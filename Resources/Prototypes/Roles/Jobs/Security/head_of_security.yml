@@ -11,7 +11,7 @@
       role: JobDetective
       time: 18000 #5 hrs # Vanilla-RoleTime
     - !type:AgeRequirement
-      requiredAge: 34
+      requiredAge: 28
   weight: 10
   startingGear: HoSGear
   icon: "JobIconHeadOfSecurity"
