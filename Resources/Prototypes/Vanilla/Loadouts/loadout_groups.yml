@@ -16,3 +16,43 @@
   loadouts:
   - CaptainSabreLoadout
   - PowerSabreLoadout
+
+- type: loadoutGroup
+  id: BrigmedicHead
+  name: loadout-group-brigmedic-head
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - BrigmedicBeret
+  - BrigmedicBeretAlt
+  - BrigmedicBeretHelmet
+
+- type: loadoutGroup
+  id: BrigmedicJumpsuit
+  name: loadout-group-brigmedic-jumpsuit
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - BrigmedicJumpsuit
+  - BrigmedicJumpskirt
+
+- type: loadoutGroup
+  id: BrigmedicBackpack
+  name: loadout-group-brigmedic-backpack
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - BrigmedicBackpack
+  - BrigmedicSatchel
+  - BrigmedicDuffel
+
+- type: loadoutGroup
+  id: BrigmedicOuterClothing
+  name: loadout-group-brigmedic-outer-clothing
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - BrigmedicCoat
+  - BrigmedicLabCoat
+  - BrigmedicAMG
+  - BrigmedicArmorVest

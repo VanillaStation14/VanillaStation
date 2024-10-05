@@ -1,0 +1,14 @@
+- type: roleLoadout
+  id: JobBrigmedic
+  groups:
+  - Inventory # Corvax-Loadouts
+  - BrigmedicHead
+  - BrigmedicJumpsuit
+  - MedicalGloves
+  - BrigmedicBackpack
+  - BrigmedicOuterClothing
+  - SecurityShoes
+  - Survival
+  - VanillaLegends # Vanilla-Loadouts
+  - Trinkets
+  - GroupSpeciesBreathTool
