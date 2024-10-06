@@ -15,13 +15,13 @@
                  Stretch="KeepAspectCovered" />
 	<BoxContainer Name="MainContainer" VerticalExpand="True" HorizontalExpand="True" Orientation="Horizontal"
                   Margin="10 10 10 10" SeparationOverride="2">
-		<SplitContainer State="Auto" HorizontalExpand="True">
-			<!-- LHS Controls -->
-			<BoxContainer Name="LeftSide" Orientation="Vertical" SeparationOverride="4" HorizontalExpand="True">
-				<Control Name="DefaultState" VerticalExpand="True">
-					<BoxContainer Name="TopLeft" Orientation="Vertical">
-						<!-- Left Top Panel -->
-						<PanelContainer StyleClasses="AngleRect" HorizontalAlignment="Left" Name="LeftSideTop"
+        <SplitContainer State="Auto" ResizeMode="NotResizable" HorizontalExpand="True">
+            <!-- LHS Controls -->
+            <BoxContainer Name="LeftSide" Orientation="Vertical" SeparationOverride="4" HorizontalExpand="True">
+                <Control Name="DefaultState" VerticalExpand="True">
+                    <BoxContainer Name="TopLeft" Orientation="Vertical">
+                        <!-- Left Top Panel -->
+                        <PanelContainer StyleClasses="AngleRect" HorizontalAlignment="Left" Name="LeftSideTop"
                                         VerticalAlignment="Top">
 							<BoxContainer Orientation="Vertical" HorizontalAlignment="Center">
 								<Label Name="ServerName" Access="Public" StyleClasses="LabelHeadingBigger" VAlign="Center" HorizontalExpand="True"
