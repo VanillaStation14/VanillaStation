@@ -198,7 +198,6 @@
             CargoTechnician: [ 3, 4 ]
         - type: StationGoal
           goals:
-            - Shuttle
             - Singularity
             - SolarPanels
             - Zoo
