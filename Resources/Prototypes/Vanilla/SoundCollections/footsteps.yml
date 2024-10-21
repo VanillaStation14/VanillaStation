@@ -1,0 +1,17 @@
+- type: soundCollection
+  id: FootstepTactical
+  files:
+  - /Audio/Vanilla/Effects/Footsteps/gear1.ogg
+  - /Audio/Vanilla/Effects/Footsteps/gear2.ogg
+  - /Audio/Vanilla/Effects/Footsteps/gear3.ogg
+  - /Audio/Vanilla/Effects/Footsteps/gear4.ogg
+  - /Audio/Vanilla/Effects/Footsteps/gear5.ogg
+  - /Audio/Vanilla/Effects/Footsteps/gear6.ogg
+
+- type: soundCollection
+  id: SoldierDeath
+  files:
+  - /Audio/Vanilla/Effects/Footsteps/death1.ogg
+  - /Audio/Vanilla/Effects/Footsteps/death2.ogg
+  - /Audio/Vanilla/Effects/Footsteps/death3.ogg
+  - /Audio/Vanilla/Effects/Footsteps/death4.ogg
