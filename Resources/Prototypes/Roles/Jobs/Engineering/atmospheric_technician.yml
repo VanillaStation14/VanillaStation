@@ -17,6 +17,12 @@
   - Engineering
   - External
   - Atmospherics
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: Skill
+        ChemistryLevel: 1
+        PilotingLevel: 1
 
 - type: startingGear
   id: AtmosphericTechnicianGear

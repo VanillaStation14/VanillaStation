@@ -11,6 +11,12 @@
   - Maintenance
   extendedAccess:
   - Salvage
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: Skill
+        ChemistryLevel: 1
+        PilotingLevel: 3
 
 - type: startingGear
   id: CargoTechGear

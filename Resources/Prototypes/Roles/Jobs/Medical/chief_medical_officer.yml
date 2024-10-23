@@ -31,6 +31,9 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+      - type: Skill
+        MedicineLevel: 3
+        ChemistryLevel: 3
 
 - type: startingGear
   id: CMOGear

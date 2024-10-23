@@ -15,3 +15,11 @@
   extendedAccess:
   - Maintenance
 # Corvax-MRP-End
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: Skill
+        MedicineLevel: 1
+        ChemistryLevel: 1
+        RangeWeaponLevel: 0
+        PilotingLevel: 3

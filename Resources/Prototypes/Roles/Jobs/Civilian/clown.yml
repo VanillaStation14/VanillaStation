@@ -15,6 +15,10 @@
   special:
   - !type:AddComponentSpecial
     components:
+      - type: Skill
+        RangeWeaponLevel: 3
+  - !type:AddComponentSpecial
+    components:
     - type: Clumsy
       clumsyDamage:
         types: #literally just picked semi random valus. i tested this once and tweaked it.

@@ -7,3 +7,8 @@
   - type: MovementSpeedModifier
     baseSprintSpeed: 24
     baseWalkSpeed: 16
+  - type: Skill
+    MedicineLevel: 3
+    ChemistryLevel: 3
+    RangeWeaponLevel: 3
+    PilotingLevel: 3

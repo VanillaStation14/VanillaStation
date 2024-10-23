@@ -81,6 +81,14 @@
   description: Used to pilot a shuttle.
   abstract: true
   components:
+  - type: RequiresSkill
+    RequiresPilotingLevel: 1
+    RequiresPilotingLevelForCoord: 2 
+    RequiresPilotingLevelForMap: 3
+  - type: SkillTrainer
+    skillType: Piloting
+    skillIncreaseAmount: 1
+    MaxLevel: 3
   - type: ShuttleConsole
   - type: ActivatableUI
     key: enum.ShuttleConsoleUiKey.Key

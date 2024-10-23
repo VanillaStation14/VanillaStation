@@ -3,6 +3,7 @@
   group: Drinks
   abstract: true
   slippery: true
+  recognizable: true #vanilla-skills-chem
   metabolisms:
     Drink:
       effects:
@@ -24,6 +25,7 @@
   id: BaseSoda
   parent: BaseDrink
   abstract: true
+  recognizable: true #vanilla-skills-chem
   metabolisms:
     Drink:
       effects:
@@ -46,6 +48,7 @@
   id: BaseAlcohol
   group: Drinks
   abstract: true
+  recognizable: true #vanilla-skills-chem
   metabolisms:
     Drink:
       effects:
