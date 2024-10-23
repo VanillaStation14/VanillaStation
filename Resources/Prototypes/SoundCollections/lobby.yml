@@ -1,13 +1,15 @@
 - type: soundCollection
   id: LobbyMusic
   files:
+    - /Audio/Vanilla/Lobby/Unwelcome_School.ogg # Vanilla-LobbyMusic
+    - /Audio/Vanilla/Lobby/peace_in_the_lags.ogg # Vanilla-LobbyMusic
+    - /Audio/Vanilla/Lobby/desire to eat.ogg # Vanilla-LobbyMusic
+    - /Audio/Vanilla/Lobby/DeathSquad.ogg # Vanilla-LobbyMusic
     - /Audio/Lobby/space_asshole.ogg
     - /Audio/Lobby/3D_is_just_a_measurement.ogg
-    - /Audio/Lobby/peace_in_the_lags.ogg # Vanilla-LobbyMusic
     - /Audio/Lobby/Spectral_Synth.ogg
     - /Audio/Lobby/The_first_day_on_orbit.ogg
     - /Audio/Lobby/TO.ogg
-    - /Audio/Lobby/Unwelcome_School.ogg # Vanilla-LobbyMusic
     - /Audio/Lobby/thunderdome.ogg
     - /Audio/Lobby/absconditus.ogg
     - /Audio/Lobby/endless_space.ogg
