@@ -74,6 +74,8 @@
   id: WeaponPistolViper
   description: A small, easily concealable, but somewhat underpowered gun. Retrofitted with a fully automatic receiver. Uses .35 auto ammo.
   components:
+  - type: GunTrainer
+    ExpPerShot: 15
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/viper.rsi
   - type: ItemSlots
@@ -107,6 +109,8 @@
   id: WeaponPistolEchis
   description: A viper for use by cyborgs. Creates .35 ammo on the fly from an internal ammo fabricator, which slowly self-charges.
   components:
+  - type: GunTrainer
+    ExpPerShot: 3
   - type: Gun
     fireRate: 5
     selectedMode: SemiAuto
@@ -142,6 +146,8 @@
   id: WeaponPistolCobra
   description: A rugged, robust operator handgun with inbuilt silencer. Uses .25 caseless ammo.
   components:
+  - type: GunTrainer
+    ExpPerShot: 15
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/cobra.rsi
     layers:
@@ -191,6 +197,8 @@
   id: WeaponPistolMk58
   description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo.
   components:
+  - type: GunTrainer
+    ExpPerShot: 15
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
     layers:
@@ -213,6 +221,8 @@
   id: WeaponPistolN1984 # the spaces in description are for formatting.
   description: The sidearm of any self respecting officer.     Comes in .45 magnum, the lord's caliber.
   components:
+  - type: GunTrainer
+    ExpPerShot: 18
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/N1984.rsi
     layers:

@@ -50,6 +50,8 @@
   id: BowImprovised
   parent: BaseBow
   components:
+  - type: GunTrainer
+    ExpPerShot: 12
   - type: Sprite
     layers:
     - state: unwielded
