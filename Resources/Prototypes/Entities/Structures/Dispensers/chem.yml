@@ -48,6 +48,11 @@
         - MachineMask
         layer:
         - MachineLayer
+  - type: RequiresSkill #vanilla-skill-issue
+    RequiresChemistryLevel: 2
+
+
+        
 
 - type: entity
   id: ChemDispenserEmpty

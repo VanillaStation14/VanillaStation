@@ -37,6 +37,11 @@
   randomizeName: false
   speciesBlacklist: ['Diona'] # Corvax-MRP
   components:
+    - type: Skill
+      MedicineLevel: 3
+      ChemistryLevel: 3
+      RangeWeaponLevel: 3
+      PilotingLevel: 3
     - type: GhostRole
       name: ghost-role-information-Death-Squad-name
       description: ghost-role-information-Death-Squad-description
@@ -74,6 +79,11 @@
   parent: EventHumanoidMindShielded
   randomizeName: false
   components:
+    - type: Skill
+      MedicineLevel: 3
+      ChemistryLevel: 3
+      RangeWeaponLevel: 3
+      PilotingLevel: 3
     - type: GhostRole
       name: ghost-role-information-ert-leader-name
       description: ghost-role-information-ert-leader-description
@@ -161,6 +171,11 @@
   id: ERTChaplain
   parent: ERTLeader
   components:
+    - type: Skill
+      MedicineLevel: 2
+      ChemistryLevel: 1
+      RangeWeaponLevel: 3
+      PilotingLevel: 3
     - type: BibleUser
     - type: GhostRole
       name: ghost-role-information-ert-chaplain-name
@@ -227,6 +242,11 @@
   id: ERTJanitor
   parent: ERTLeader
   components:
+    - type: Skill
+      MedicineLevel: 3
+      ChemistryLevel: 3
+      RangeWeaponLevel: 2
+      PilotingLevel: 3
     - type: GhostRole
       name: ghost-role-information-ert-janitor-name
       description: ghost-role-information-ert-janitor-description
@@ -291,6 +311,11 @@
   id: ERTEngineer
   parent: ERTLeader
   components:
+    - type: Skill
+      MedicineLevel: 2
+      ChemistryLevel: 1
+      RangeWeaponLevel: 2
+      PilotingLevel: 3
     - type: GhostRole
       name: ghost-role-information-ert-engineer-name
       description: ghost-role-information-ert-engineer-description
@@ -357,6 +382,11 @@
     - Diona
   parent: ERTLeader
   components:
+    - type: Skill
+      MedicineLevel: 2
+      ChemistryLevel: 1
+      RangeWeaponLevel: 3
+      PilotingLevel: 3
     - type: GhostRole
       name: ghost-role-information-ert-security-name
       description: ghost-role-information-ert-security-description
@@ -444,6 +474,11 @@
   id: ERTMedical
   parent: ERTLeader
   components:
+    - type: Skill
+      MedicineLevel: 3
+      ChemistryLevel: 3
+      RangeWeaponLevel: 2
+      PilotingLevel: 3
     - type: GhostRole
       name: ghost-role-information-ert-medical-name
       description: ghost-role-information-ert-medical-description
@@ -505,6 +540,11 @@
   id: CBURNAgent
   parent: EventHumanoidMindShielded
   components:
+    - type: Skill
+      MedicineLevel: 3
+      ChemistryLevel: 3
+      RangeWeaponLevel: 3
+      PilotingLevel: 3
     - type: Loadout
       prototypes: [CBURNGear]
       roleLoadout: [ RoleSurvivalEVA ]
@@ -535,6 +575,11 @@
   id: CentcomOfficial
   parent: EventHumanoidMindShielded
   components:
+    - type: Skill
+      MedicineLevel: 1
+      ChemistryLevel: 1
+      RangeWeaponLevel: 1
+      PilotingLevel: 3
     - type: GhostRole
       name: ghost-role-information-centcom-official-name
       description: ghost-role-information-centcom-official-description
@@ -562,6 +607,11 @@
 - type: randomHumanoidSettings
   id: SyndicateAgent
   components:
+    - type: Skill
+      MedicineLevel: 2
+      ChemistryLevel: 2
+      RangeWeaponLevel: 3
+      PilotingLevel: 3
     - type: RandomHumanoidAppearance
       randomizeName: false
     - type: Loadout
@@ -581,6 +631,11 @@
 - type: randomHumanoidSettings
   id: NukeOp
   components:
+    - type: Skill
+      MedicineLevel: 3
+      ChemistryLevel: 3
+      RangeWeaponLevel: 3
+      PilotingLevel: 3
     - type: RandomHumanoidAppearance
       randomizeName: false
     - type: NukeOperative
@@ -605,6 +660,11 @@
   parent: EventHumanoid
   randomizeName: false
   components:
+    - type: Skill
+      MedicineLevel: 0
+      ChemistryLevel: 0
+      RangeWeaponLevel: 0
+      PilotingLevel: 0
     - type: GhostRole
       name: ghost-role-information-cluwne-name
       description: ghost-role-information-cluwne-description

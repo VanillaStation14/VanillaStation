@@ -24,6 +24,12 @@
   - External
   - Cryogenics
   special:
+  - !type:AddComponentSpecial
+    components:
+      - type: Skill
+        MedicineLevel: 1
+        RangeWeaponLevel: 2
+        PilotingLevel: 1
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
 

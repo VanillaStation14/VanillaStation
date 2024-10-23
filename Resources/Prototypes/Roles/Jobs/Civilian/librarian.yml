@@ -9,7 +9,13 @@
   access:
   - Service
   - Maintenance
-
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: Skill
+        MedicineLevel: 1
+        ChemistryLevel: 1
+        
 - type: startingGear
   id: LibrarianGear
   equipment:

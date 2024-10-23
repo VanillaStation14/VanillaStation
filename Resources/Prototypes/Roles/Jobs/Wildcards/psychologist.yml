@@ -11,6 +11,12 @@
   - Maintenance
   extendedAccess:
   - Chemistry
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: Skill
+        MedicineLevel: 2
+        ChemistryLevel: 2
 
 - type: startingGear
   id: PsychologistGear

@@ -93,3 +93,5 @@
     guides:
     - Chemicals
     - Chemist
+  - type: RequiresSkill #vanilla-skill-issue
+    RequiresChemistryLevel: 2

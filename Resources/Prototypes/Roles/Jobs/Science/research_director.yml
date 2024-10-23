@@ -28,6 +28,10 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+      - type: Skill
+        MedicineLevel: 2
+        ChemistryLevel: 2
+
 
 - type: startingGear
   id: ResearchDirectorGear

@@ -218,6 +218,11 @@
         color: Green
         sound: /Audio/Misc/ninja_greeting.ogg
       components:
+      - type: Skill
+        MedicineLevel: 2
+        ChemistryLevel: 2
+        RangeWeaponLevel: 0
+        PilotingLevel: 3
       - type: SpaceNinja
       - type: NpcFactionMember
         factions:
@@ -445,6 +450,11 @@
         color: Plum
         sound: "/Audio/Ambience/Antag/zombie_start.ogg"
       components:
+      - type: Skill
+        MedicineLevel: 3
+        ChemistryLevel: 3
+        RangeWeaponLevel: 3
+        PilotingLevel: 2
       - type: PendingZombie #less time to prepare than normal
         minInitialInfectedGrace: 300
         maxInitialInfectedGrace: 450
@@ -483,6 +493,11 @@
       roleLoadout:
       - RoleSurvivalNukie
       components:
+      - type: Skill
+        MedicineLevel: 3
+        ChemistryLevel: 2
+        RangeWeaponLevel: 3
+        PilotingLevel: 3
       - type: NukeOperative
       - type: RandomMetadata
         nameSegments:
@@ -519,6 +534,12 @@
       blacklist:
         components:
         - AntagImmune
+      components:
+      - type: Skill
+        MedicineLevel: 3
+        ChemistryLevel: 2
+        RangeWeaponLevel: 2
+        PilotingLevel: 2
       mindRoles:
       - MindRoleTraitorSleeper
 
