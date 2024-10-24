@@ -300,6 +300,9 @@
   name: medibot
   description: No substitute for a doctor, but better than nothing.
   components:
+  - type: Skill
+    MedicineLevel: 3
+    ChemistryLevel: 3
   - type: Medibot
     treatments:
       Alive:
