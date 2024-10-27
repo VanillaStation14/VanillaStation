@@ -18,6 +18,11 @@
   - External
   extendedAccess:
   - Atmospherics
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: Skill
+        PilotingLevel: 2
 
 - type: startingGear
   id: StationEngineerGear

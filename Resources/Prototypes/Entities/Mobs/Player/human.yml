@@ -11,6 +11,10 @@
   name: syndicate agent
   suffix: Human, Base
   components:
+  - type: Skill
+    MedicineLevel: 3
+    ChemistryLevel: 3
+    RangeWeaponLevel: 3
   - type: RandomHumanoidAppearance
     randomizeName: false
     hair: HairBald
@@ -66,6 +70,10 @@
   id: MobHumanSyndicateAgentNukeops # Reinforcement exclusive to nukeops uplink
   suffix: Human, NukeOps
   components:
+  - type: Skill
+    MedicineLevel: 3
+    ChemistryLevel: 3
+    RangeWeaponLevel: 3
   - type: NukeOperative
   - type: RandomMetadata
     nameSegments:
@@ -81,6 +89,10 @@
   parent: MobHuman
   id: MobHumanNukeOp
   components:
+  - type: Skill
+    MedicineLevel: 3
+    ChemistryLevel: 3
+    RangeWeaponLevel: 3
   - type: NukeOperative
   - type: RandomHumanoidAppearance
 
@@ -90,6 +102,10 @@
   id: MobHumanLoneNuclearOperative
   name: Lone Operative
   components:
+  - type: Skill
+    MedicineLevel: 3
+    ChemistryLevel: 3
+    RangeWeaponLevel: 3
   - type: RandomHumanoidAppearance
     randomizeName: false
   - type: NukeOperative

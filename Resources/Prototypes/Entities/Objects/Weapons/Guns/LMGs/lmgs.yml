@@ -71,6 +71,8 @@
   parent: [BaseWeaponLightMachineGun, BaseSyndicateContraband]
   description: A rather traditionally made LMG with a pleasantly lacquered wooden pistol grip. Uses .30 rifle ammo.
   components:
+  - type: GunTrainer
+    ExpPerShot: 12
   - type: Sprite
     sprite: Objects/Weapons/Guns/LMGs/l6.rsi
     layers:
@@ -90,6 +92,8 @@
   parent: BaseItem
   description: A L6 SAW for use by cyborgs. Creates .30 rifle ammo on the fly from an internal ammo fabricator, which slowly self-charges.
   components:
+    - type: GunTrainer
+      ExpPerShot: 3
     - type: Gun
       minAngle: 4
       maxAngle: 25

@@ -277,6 +277,11 @@
   parent: [BaseBorgChassis, BaseBorgTransponder]
   abstract: true
   components:
+  - type: Skill
+    MedicineLevel: 3
+    ChemistryLevel: 3
+    RangeWeaponLevel: 3
+    PilotingLevel: 3
   - type: NpcFactionMember
     factions:
     - NanoTrasen
@@ -294,6 +299,11 @@
   parent: BaseBorgChassis
   abstract: true
   components:
+  - type: Skill
+    MedicineLevel: 3
+    ChemistryLevel: 3
+    RangeWeaponLevel: 3
+    PilotingLevel: 3
   - type: NpcFactionMember
     factions:
     - Syndicate

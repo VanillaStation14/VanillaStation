@@ -1,0 +1,10 @@
+Skill-issue-message-hypospray = А.. э... а куда нажимать?
+Skill-issue-message-syringe = А его нужно в вену или в артерию? А это вена или артерия?
+Skill-issue-message-implant = Подобная операция точно не для меня
+shared-solution-container-component-on-examine-main-text-skill-issue = { "" }
+skill-requirement-failed-message = Выглядит как пульт управления самолётом
+solution-container-mixer-skill-too-low = Вы вспоминаете уроки химии в школе. Как жаль, что вспоминается немного...
+Skill-train-overtrain-medicine = Ваш навык медицины больше, чем может дать эта книга.
+Skill-train-overtrain-chemistry = Ваш навык химии больше, чем может дать эта книга.
+Skill-train-overtrain-rangeweapon = Ваш навык стрельбы больше, чем может дать эта книга.
+Skill-train-overtrain-piloting = Ваш навык пилотирования больше, чем может дать эта книга.

@@ -3,6 +3,8 @@
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
   abstract: true
   components:
+  - type: RequiresSkill
+    RequiresChemistryLevel: 3
   - type: Transform
     anchored: true
   - type: SolutionContainerMixer

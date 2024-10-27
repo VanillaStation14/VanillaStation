@@ -5,6 +5,8 @@
   description: A rooty tooty point and shooty.
   abstract: true
   components:
+  - type: GunTrainer
+    ExpPerShot: 15
   - type: Sprite
     layers:
     - state: icon

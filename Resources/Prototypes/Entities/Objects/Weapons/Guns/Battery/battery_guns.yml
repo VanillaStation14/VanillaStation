@@ -108,6 +108,8 @@
   id: WeaponLaserSvalinn
   description: A cheap and widely used laser pistol.
   components:
+  - type: GunTrainer
+    ExpPerShot: 6
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/svalinn.rsi
     layers:
@@ -129,6 +131,8 @@
   id: WeaponLaserGun
   description: A weapon using light amplified by the stimulated emission of radiation.
   components:
+  - type: GunTrainer
+    ExpPerShot: 12
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
     layers:
@@ -152,6 +156,8 @@
   id: WeaponMakeshiftLaser
   description: Better pray it won't burn your hands off.
   components:
+  - type: GunTrainer
+    ExpPerShot: 12
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
     layers:
@@ -175,6 +181,8 @@
   id: WeaponTeslaGun
   description: The power of the primordial element of lightning in your hands.
   components:
+  - type: GunTrainer
+    ExpPerShot: 30
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/tesla_gun.rsi
     layers:
@@ -204,6 +212,8 @@
   id: WeaponLaserCarbinePractice
   description: This modified laser rifle fires nearly harmless beams in the 40-watt range, for target practice.
   components:
+  - type: GunTrainer
+    ExpPerShot: 12
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
     layers:
@@ -230,6 +240,8 @@
   id: WeaponLaserCarbine
   description: Favoured by Nanotrasen Security for being cheap and easy to use.
   components:
+  - type: GunTrainer
+    ExpPerShot: 12
   - type: StaticPrice
     price: 420
   - type: HitscanBatteryAmmoProvider
@@ -242,6 +254,8 @@
   id: WeaponPulsePistol
   description: A state of the art energy pistol favoured as a sidearm by the NT operatives.
   components:
+  - type: GunTrainer
+    ExpPerShot: 12
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi
     layers:
@@ -271,6 +285,8 @@
   id: WeaponPulseCarbine
   description: A high tech energy carbine favoured by the NT-ERT operatives.
   components:
+  - type: GunTrainer
+    ExpPerShot: 12
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
     layers:
@@ -302,6 +318,8 @@
   id: WeaponPulseRifle
   description: A weapon that is almost as infamous as its users.
   components:
+  - type: GunTrainer
+    ExpPerShot: 12
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
     layers:
@@ -329,6 +347,8 @@
   id: WeaponLaserCannon
   description: A heavy duty, high powered laser weapon.
   components:
+  - type: GunTrainer
+    ExpPerShot: 15
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
     layers:
@@ -353,6 +373,8 @@
   id: WeaponParticleDecelerator
   description: A portable particle decelerator capable of decomposing a tesla or singularity.
   components:
+    - type: GunTrainer
+      ExpPerShot: 30
     - type: Item
       size: Ginormous
     - type: MultiHandedItem
@@ -384,6 +406,8 @@
   id: WeaponXrayCannon
   description: An experimental weapon that uses concentrated x-ray energy against its target.
   components:
+  - type: GunTrainer
+    ExpPerShot: 12
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/xray.rsi
     layers:
@@ -412,6 +436,8 @@
   id: WeaponDisablerPractice
   description: A self-defense weapon that exhausts organic targets, weakening them until they collapse. This one has been undertuned for cadets making it mostly harmless.
   components:
+  - type: GunTrainer
+    ExpPerShot: 12
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/practice_disabler.rsi
     layers:
@@ -450,6 +476,8 @@
   id: WeaponDisabler
   description: A self-defense weapon that exhausts organic targets, weakening them until they collapse.
   components:
+  - type: GunTrainer
+    ExpPerShot: 12
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/disabler.rsi
     layers:
@@ -478,6 +506,8 @@
   id: WeaponDisablerSMG
   description: Advanced weapon that exhausts organic targets, weakening them until they collapse.
   components:
+  - type: GunTrainer
+    ExpPerShot: 12
   - type: Item
     size: Large
   - type: Tag
@@ -515,6 +545,8 @@
   id: WeaponTaser
   description: A low-capacity, energy-based stun gun used by security teams to subdue targets at range.
   components:
+  - type: GunTrainer
+    ExpPerShot: 12
   - type: Tag
     tags:
     - Taser
@@ -551,6 +583,8 @@
   id: WeaponAntiqueLaser
   description: This is an antique laser pistol. All craftsmanship is of the highest quality. It is decorated with assistant leather and chrome. The object menaces with spikes of energy.
   components:
+  - type: GunTrainer
+    ExpPerShot: 12
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi
     layers:
@@ -595,6 +629,8 @@
   id: WeaponAdvancedLaser
   description: An experimental high-energy laser pistol with a self-charging nuclear battery.
   components:
+  - type: GunTrainer
+    ExpPerShot: 12
   - type: Item
     size: Normal  # Intentionally larger than other pistols
   - type: Sprite
@@ -630,6 +666,7 @@
   id: WeaponPistolCHIMP
   description: Just because it's a little C.H.I.M.P. doesn't mean it can't punch like an A.P.E.
   components:
+  - type: GunIgnoreSkill
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/chimp.rsi
     layers:
@@ -676,6 +713,7 @@
   id: WeaponPistolCHIMPUpgraded
   description: This C.H.I.M.P. seems to have a greater punch than is usual...
   components:
+  - type: GunIgnoreSkill
   - type: BatteryWeaponFireModes
     fireModes:
     - proto: AnomalousParticleDeltaStrong
@@ -695,6 +733,8 @@
   id: WeaponBehonkerLaser
   description: The eye of a behonker, it fires a laser when squeezed.
   components:
+  - type: GunTrainer
+    ExpPerShot: 12
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/behonker_eye.rsi
     layers:
@@ -724,6 +764,8 @@
   id: WeaponEnergyShotgun
   description: A one-of-a-kind prototype energy weapon that uses various shotgun configurations. It offers the possibility of both lethal and non-lethal shots, making it a versatile weapon.
   components:
+  - type: GunTrainer
+    ExpPerShot: 15
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
     layers:

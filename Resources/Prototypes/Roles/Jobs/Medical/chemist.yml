@@ -14,6 +14,12 @@
   - Medical
   - Chemistry
   - Maintenance
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: Skill
+        MedicineLevel: 2
+        ChemistryLevel: 3
 
 - type: startingGear
   id: ChemistGear
