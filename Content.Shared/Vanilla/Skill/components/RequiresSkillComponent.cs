@@ -9,8 +9,14 @@ namespace Content.Shared.Vanilla.Skill
         [DataField("RequiresChemistryLevel"), AutoNetworkedField]
         public int RequiresChemistryLevel { get; set; } = 0;
 
+        [DataField("RequiresChemistryLevelToRead"), AutoNetworkedField]
+        public int RequiresChemistryLevelToRead { get; set; } = 0;
+
         [DataField("RequiresMedicineLevel"), AutoNetworkedField]
         public int RequiresMedicineLevel { get; set; } = 0;
+    
+        [DataField("RequiresMedicineLevelToRead"), AutoNetworkedField]
+        public int RequiresMedicineLevelToRead { get; set; } = 0;
 
         [DataField("RequiresPilotingLevel"), AutoNetworkedField]
         public int RequiresPilotingLevel { get; set; } = 0;

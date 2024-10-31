@@ -96,6 +96,8 @@
     count: 10
   - type: StackPrice
     price: 20
+  - type: RequiresSkill
+    RequiresMedicineLevel: 1
 
 - type: entity
   id: OintmentAdvanced1
@@ -183,6 +185,8 @@
     count: 10
   - type: StackPrice
     price: 20
+  - type: RequiresSkill
+    RequiresMedicineLevel: 1
 
 - type: entity
   id: BrutepackAdvanced1
