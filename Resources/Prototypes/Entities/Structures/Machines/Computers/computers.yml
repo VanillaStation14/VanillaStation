@@ -935,7 +935,7 @@
     guides:
     - Cloning
   - type: RequiresSkill
-    RequiresMedicineLvel: 3
+    RequiresMedicineLevel: 3
 
 - type: entity
   id: ComputerSalvageExpedition
