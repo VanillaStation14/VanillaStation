@@ -328,3 +328,5 @@
   - type: GuideHelp
     guides:
     - AnomalousResearch
+  - type: RequiresSkill
+    RequiresResearchLevel: 2
