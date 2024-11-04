@@ -26,10 +26,15 @@
       startingGear: ThiefGear
       components:
       - type: Skill
-        MedicineLevel: 2
-        ChemistryLevel: 2
+        PilotingLevel: 3
         RangeWeaponLevel: 0
-        PilotingLevel: 1
+        MeleeWeaponLevel: 0
+        MedicineLevel: 3
+        ChemistryLevel: 3
+        EngineeringLevel: 3
+        BuildigLevel: 3
+        ResearchLevel: 3
+        RoboticsLevel: 3
       mindRoles:
       - MindRoleThief
       briefing:

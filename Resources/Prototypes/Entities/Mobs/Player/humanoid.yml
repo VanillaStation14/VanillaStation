@@ -38,10 +38,15 @@
   speciesBlacklist: ['Diona'] # Corvax-MRP
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 3
+      MeleeWeaponLevel: 3
       MedicineLevel: 3
       ChemistryLevel: 3
-      RangeWeaponLevel: 3
-      PilotingLevel: 3
+      EngineeringLevel: 3
+      BuildigLevel: 3
+      ResearchLevel: 3
+      RoboticsLevel: 3
     - type: GhostRole
       name: ghost-role-information-Death-Squad-name
       description: ghost-role-information-Death-Squad-description
@@ -80,10 +85,15 @@
   randomizeName: false
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 3
+      MeleeWeaponLevel: 3
       MedicineLevel: 3
       ChemistryLevel: 3
-      RangeWeaponLevel: 3
-      PilotingLevel: 3
+      EngineeringLevel: 3
+      BuildigLevel: 3
+      ResearchLevel: 3
+      RoboticsLevel: 3
     - type: GhostRole
       name: ghost-role-information-ert-leader-name
       description: ghost-role-information-ert-leader-description
@@ -172,10 +182,15 @@
   parent: ERTLeader
   components:
     - type: Skill
-      MedicineLevel: 2
-      ChemistryLevel: 1
-      RangeWeaponLevel: 3
       PilotingLevel: 3
+      RangeWeaponLevel: 3
+      MeleeWeaponLevel: 3
+      MedicineLevel: 0
+      ChemistryLevel: 0
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: BibleUser
     - type: GhostRole
       name: ghost-role-information-ert-chaplain-name
@@ -243,10 +258,15 @@
   parent: ERTLeader
   components:
     - type: Skill
-      MedicineLevel: 3
-      ChemistryLevel: 3
-      RangeWeaponLevel: 2
       PilotingLevel: 3
+      RangeWeaponLevel: 3
+      MeleeWeaponLevel: 3
+      MedicineLevel: 0
+      ChemistryLevel: 0
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: ghost-role-information-ert-janitor-name
       description: ghost-role-information-ert-janitor-description
@@ -312,10 +332,15 @@
   parent: ERTLeader
   components:
     - type: Skill
-      MedicineLevel: 2
-      ChemistryLevel: 1
-      RangeWeaponLevel: 2
       PilotingLevel: 3
+      RangeWeaponLevel: 3
+      MeleeWeaponLevel: 3
+      MedicineLevel: 0
+      ChemistryLevel: 0
+      EngineeringLevel: 3
+      BuildigLevel: 3
+      ResearchLevel: 0
+      RoboticsLevel: 2
     - type: GhostRole
       name: ghost-role-information-ert-engineer-name
       description: ghost-role-information-ert-engineer-description
@@ -383,10 +408,15 @@
   parent: ERTLeader
   components:
     - type: Skill
-      MedicineLevel: 2
-      ChemistryLevel: 1
-      RangeWeaponLevel: 3
       PilotingLevel: 3
+      RangeWeaponLevel: 3
+      MeleeWeaponLevel: 3
+      MedicineLevel: 3
+      ChemistryLevel: 0
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: ghost-role-information-ert-security-name
       description: ghost-role-information-ert-security-description
@@ -475,10 +505,15 @@
   parent: ERTLeader
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 2
+      MeleeWeaponLevel: 2
       MedicineLevel: 3
       ChemistryLevel: 3
-      RangeWeaponLevel: 2
-      PilotingLevel: 3
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: ghost-role-information-ert-medical-name
       description: ghost-role-information-ert-medical-description
@@ -541,10 +576,15 @@
   parent: EventHumanoidMindShielded
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 3
+      MeleeWeaponLevel: 3
       MedicineLevel: 3
       ChemistryLevel: 3
-      RangeWeaponLevel: 3
-      PilotingLevel: 3
+      EngineeringLevel: 2
+      BuildigLevel: 2
+      ResearchLevel: 3
+      RoboticsLevel: 1
     - type: Loadout
       prototypes: [CBURNGear]
       roleLoadout: [ RoleSurvivalEVA ]
@@ -576,10 +616,15 @@
   parent: EventHumanoidMindShielded
   components:
     - type: Skill
-      MedicineLevel: 1
-      ChemistryLevel: 1
-      RangeWeaponLevel: 1
       PilotingLevel: 3
+      RangeWeaponLevel: 1
+      MeleeWeaponLevel: 1
+      MedicineLevel: 1
+      ChemistryLevel: 0
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: ghost-role-information-centcom-official-name
       description: ghost-role-information-centcom-official-description
@@ -608,10 +653,15 @@
   id: SyndicateAgent
   components:
     - type: Skill
-      MedicineLevel: 2
-      ChemistryLevel: 2
-      RangeWeaponLevel: 3
       PilotingLevel: 3
+      RangeWeaponLevel: 3
+      MeleeWeaponLevel: 3
+      MedicineLevel: 3
+      ChemistryLevel: 3
+      EngineeringLevel: 3
+      BuildigLevel: 3
+      ResearchLevel: 3
+      RoboticsLevel: 3
     - type: RandomHumanoidAppearance
       randomizeName: false
     - type: Loadout
@@ -632,10 +682,15 @@
   id: NukeOp
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 3
+      MeleeWeaponLevel: 3
       MedicineLevel: 3
       ChemistryLevel: 3
-      RangeWeaponLevel: 3
-      PilotingLevel: 3
+      EngineeringLevel: 3
+      BuildigLevel: 3
+      ResearchLevel: 3
+      RoboticsLevel: 3
     - type: RandomHumanoidAppearance
       randomizeName: false
     - type: NukeOperative
@@ -661,10 +716,15 @@
   randomizeName: false
   components:
     - type: Skill
+      PilotingLevel: 0
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 0
       MedicineLevel: 0
       ChemistryLevel: 0
-      RangeWeaponLevel: 0
-      PilotingLevel: 0
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: ghost-role-information-cluwne-name
       description: ghost-role-information-cluwne-description

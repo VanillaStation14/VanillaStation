@@ -12,9 +12,15 @@
   suffix: Human, Base
   components:
   - type: Skill
+    PilotingLevel: 3
+    RangeWeaponLevel: 3
+    MeleeWeaponLevel: 3
     MedicineLevel: 3
     ChemistryLevel: 3
-    RangeWeaponLevel: 3
+    EngineeringLevel: 3
+    BuildigLevel: 3
+    ResearchLevel: 3
+    RoboticsLevel: 3
   - type: RandomHumanoidAppearance
     randomizeName: false
     hair: HairBald
@@ -70,9 +76,15 @@
   suffix: Human, NukeOps
   components:
   - type: Skill
+    PilotingLevel: 3
+    RangeWeaponLevel: 3
+    MeleeWeaponLevel: 3
     MedicineLevel: 3
     ChemistryLevel: 3
-    RangeWeaponLevel: 3
+    EngineeringLevel: 3
+    BuildigLevel: 3
+    ResearchLevel: 3
+    RoboticsLevel: 3
   - type: NukeOperative
   - type: RandomMetadata
     nameSegments:
@@ -89,9 +101,15 @@
   id: MobHumanNukeOp
   components:
   - type: Skill
+    PilotingLevel: 3
+    RangeWeaponLevel: 3
+    MeleeWeaponLevel: 3
     MedicineLevel: 3
     ChemistryLevel: 3
-    RangeWeaponLevel: 3
+    EngineeringLevel: 3
+    BuildigLevel: 3
+    ResearchLevel: 3
+    RoboticsLevel: 3
   - type: NukeOperative
   - type: RandomHumanoidAppearance
 
@@ -102,9 +120,15 @@
   name: Lone Operative
   components:
   - type: Skill
+    PilotingLevel: 3
+    RangeWeaponLevel: 3
+    MeleeWeaponLevel: 3
     MedicineLevel: 3
     ChemistryLevel: 3
-    RangeWeaponLevel: 3
+    EngineeringLevel: 3
+    BuildigLevel: 3
+    ResearchLevel: 3
+    RoboticsLevel: 3
   - type: RandomHumanoidAppearance
     randomizeName: false
   - type: NukeOperative
