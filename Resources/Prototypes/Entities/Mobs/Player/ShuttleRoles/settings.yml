@@ -30,8 +30,6 @@
       BuildigLevel: 0
       ResearchLevel: 1
       RoboticsLevel: 0
-
-
     - type: GhostRole
       name: job-name-captain
       description: ghost-role-information-command-description
@@ -88,7 +86,7 @@
     - type: Skill
       PilotingLevel: 3
       RangeWeaponLevel: 0
-      MeleeWeaponLevel: 2
+      MeleeWeaponLevel: 0
       MedicineLevel: 0
       ChemistryLevel: 0
       EngineeringLevel: 0

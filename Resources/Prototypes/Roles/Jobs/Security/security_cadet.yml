@@ -27,9 +27,15 @@
   - !type:AddComponentSpecial
     components:
       - type: Skill
-        MedicineLevel: 1
-        RangeWeaponLevel: 2
         PilotingLevel: 1
+        RangeWeaponLevel: 2
+        MeleeWeaponLevel: 2
+        MedicineLevel: 1
+        ChemistryLevel: 0
+        EngineeringLevel: 0
+        BuildigLevel: 0
+        ResearchLevel: 0
+        RoboticsLevel: 0
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
 

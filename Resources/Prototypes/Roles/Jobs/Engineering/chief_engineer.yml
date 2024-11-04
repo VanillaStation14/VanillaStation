@@ -31,8 +31,15 @@
     components:
       - type: CommandStaff
       - type: Skill
-        ChemistryLevel: 1
         PilotingLevel: 2
+        RangeWeaponLevel: 0
+        MeleeWeaponLevel: 2
+        MedicineLevel: 0
+        ChemistryLevel: 2
+        EngineeringLevel: 3
+        BuildigLevel: 3
+        ResearchLevel: 0
+        RoboticsLevel: 2
 
 - type: startingGear
   id: ChiefEngineerGear

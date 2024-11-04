@@ -20,6 +20,19 @@
   - Maintenance
   - Engineering
   - External
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: Skill
+        PilotingLevel: 1
+        RangeWeaponLevel: 0
+        MeleeWeaponLevel: 1
+        MedicineLevel: 0
+        ChemistryLevel: 0
+        EngineeringLevel: 2
+        BuildigLevel: 2
+        ResearchLevel: 0
+        RoboticsLevel: 0
 
 - type: startingGear
   id: TechnicalAssistantGear

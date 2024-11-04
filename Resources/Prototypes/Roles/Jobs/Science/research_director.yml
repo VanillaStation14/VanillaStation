@@ -29,8 +29,15 @@
     components:
       - type: CommandStaff
       - type: Skill
-        MedicineLevel: 2
-        ChemistryLevel: 2
+        PilotingLevel: 0
+        RangeWeaponLevel: 0
+        MeleeWeaponLevel: 0
+        MedicineLevel: 0
+        ChemistryLevel: 1
+        EngineeringLevel: 1
+        BuildigLevel: 0
+        ResearchLevel: 3
+        RoboticsLevel: 3
 
 
 - type: startingGear
