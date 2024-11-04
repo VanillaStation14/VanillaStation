@@ -23,10 +23,15 @@
   - !type:AddComponentSpecial
     components:
       - type: Skill
-        MedicineLevel: 1
-        ChemistryLevel: 1
-        RangeWeaponLevel: 2
         PilotingLevel: 3
+        RangeWeaponLevel: 2
+        MeleeWeaponLevel: 3
+        MedicineLevel: 1
+        ChemistryLevel: 0
+        EngineeringLevel: 1
+        BuildigLevel: 0
+        ResearchLevel: 1
+        RoboticsLevel: 0
       - type: CommandStaff
 
 - type: startingGear

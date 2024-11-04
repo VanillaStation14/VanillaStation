@@ -21,10 +21,15 @@
   parent: VisitorHead
   components:
     - type: Skill
-      MedicineLevel: 1
-      ChemistryLevel: 1
-      RangeWeaponLevel: 2
       PilotingLevel: 3
+      RangeWeaponLevel: 2
+      MeleeWeaponLevel: 3
+      MedicineLevel: 1
+      ChemistryLevel: 0
+      EngineeringLevel: 1
+      BuildigLevel: 0
+      ResearchLevel: 1
+      RoboticsLevel: 0
     - type: GhostRole
       name: job-name-captain
       description: ghost-role-information-command-description
@@ -37,10 +42,15 @@
   parent: VisitorHead
   components:
     - type: Skill
-      MedicineLevel: 0
-      ChemistryLevel: 1
-      RangeWeaponLevel: 0
       PilotingLevel: 3
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 2
+      MedicineLevel: 0
+      ChemistryLevel: 0
+      EngineeringLevel: 3
+      BuildigLevel: 3
+      ResearchLevel: 0
+      RoboticsLevel: 2
     - type: GhostRole
       name: job-name-ce
       description: ghost-role-information-command-description
@@ -53,10 +63,15 @@
   parent: VisitorHead
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 0
       MedicineLevel: 3
       ChemistryLevel: 3
-      RangeWeaponLevel: 0
-      PilotingLevel: 3
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: job-name-cmo
       description: ghost-role-information-command-description
@@ -69,10 +84,15 @@
   parent: VisitorHead
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 0
       MedicineLevel: 0
       ChemistryLevel: 0
-      RangeWeaponLevel: 0
-      PilotingLevel: 3
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: job-name-hop
       description: ghost-role-information-command-description
@@ -85,10 +105,15 @@
   parent: VisitorHead
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 3
+      MeleeWeaponLevel: 3
       MedicineLevel: 1
       ChemistryLevel: 0
-      RangeWeaponLevel: 3
-      PilotingLevel: 3
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: job-name-hos
       description: ghost-role-information-command-description
@@ -101,10 +126,15 @@
   parent: VisitorHead
   components:
     - type: Skill
-      MedicineLevel: 2
-      ChemistryLevel: 2
-      RangeWeaponLevel: 0
       PilotingLevel: 3
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 0
+      MedicineLevel: 0
+      ChemistryLevel: 1
+      EngineeringLevel: 1
+      BuildigLevel: 0
+      ResearchLevel: 3
+      RoboticsLevel: 3
     - type: GhostRole
       name: job-name-rd
       description: ghost-role-information-command-description
@@ -117,10 +147,15 @@
   parent: VisitorHead
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 1
+      MeleeWeaponLevel: 2
       MedicineLevel: 0
       ChemistryLevel: 1
-      RangeWeaponLevel: 1
-      PilotingLevel: 3
+      EngineeringLevel: 1
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 1
     - type: GhostRole
       name: job-name-qm
       description: ghost-role-information-command-description
@@ -147,9 +182,15 @@
   parent: VisitorSecurity
   components:
     - type: Skill
-      MedicineLevel: 1
-      RangeWeaponLevel: 2
       PilotingLevel: 3
+      RangeWeaponLevel: 2
+      MeleeWeaponLevel: 3
+      MedicineLevel: 1
+      ChemistryLevel: 0
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: job-name-cadet
     - type: Loadout
@@ -161,9 +202,15 @@
   parent: VisitorSecurity
   components:
     - type: Skill
-      MedicineLevel: 1
-      RangeWeaponLevel: 3
       PilotingLevel: 3
+      RangeWeaponLevel: 3
+      MeleeWeaponLevel: 3
+      MedicineLevel: 1
+      ChemistryLevel: 0
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: job-name-security
     - type: Loadout
@@ -175,10 +222,15 @@
   parent: VisitorSecurity
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 2
+      MeleeWeaponLevel: 1
       MedicineLevel: 1
       ChemistryLevel: 2
-      RangeWeaponLevel: 2
-      PilotingLevel: 3
+      EngineeringLevel: 1
+      BuildigLevel: 0
+      ResearchLevel: 1
+      RoboticsLevel: 0
     - type: GhostRole
       name: job-name-detective
     - type: Loadout
@@ -190,10 +242,15 @@
   parent: VisitorSecurity
   components:
     - type: Skill
-      MedicineLevel: 1
-      ChemistryLevel: 1
-      RangeWeaponLevel: 3
       PilotingLevel: 3
+      RangeWeaponLevel: 3
+      MeleeWeaponLevel: 3
+      MedicineLevel: 1
+      ChemistryLevel: 0
+      EngineeringLevel: 1
+      BuildigLevel: 1
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: job-name-warden
     - type: Loadout
@@ -218,10 +275,15 @@
   parent: VisitorCargonian
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 3
       MedicineLevel: 0
       ChemistryLevel: 1
-      RangeWeaponLevel: 0
-      PilotingLevel: 3
+      EngineeringLevel: 1
+      BuildigLevel: 1
+      ResearchLevel: 1
+      RoboticsLevel: 1
     - type: GhostRole
       name: job-name-cargotech
     - type: Loadout
@@ -233,10 +295,15 @@
   parent: VisitorCargonian
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 2
+      MeleeWeaponLevel: 3
       MedicineLevel: 1
       ChemistryLevel: 0
-      RangeWeaponLevel: 2
-      PilotingLevel: 3
+      EngineeringLevel: 1
+      BuildigLevel: 1
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: job-name-salvagespec
     - type: Loadout
@@ -261,10 +328,15 @@
   parent: VisitorEngineering
   components:
     - type: Skill
-      MedicineLevel: 0
-      ChemistryLevel: 1
-      RangeWeaponLevel: 0
       PilotingLevel: 3
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 2
+      MedicineLevel: 0
+      ChemistryLevel: 2
+      EngineeringLevel: 3
+      BuildigLevel: 3
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: job-name-atmostech
     - type: Loadout
@@ -276,10 +348,15 @@
   parent: VisitorEngineering
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 1
       MedicineLevel: 0
       ChemistryLevel: 0
-      RangeWeaponLevel: 0
-      PilotingLevel: 3
+      EngineeringLevel: 2
+      BuildigLevel: 2
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: job-name-technical-assistant
     - type: Loadout
@@ -291,10 +368,15 @@
   parent: VisitorEngineering
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 2
       MedicineLevel: 0
       ChemistryLevel: 0
-      RangeWeaponLevel: 0
-      PilotingLevel: 3
+      EngineeringLevel: 3
+      BuildigLevel: 3
+      ResearchLevel: 0
+      RoboticsLevel: 2
     - type: GhostRole
       name: job-name-engineer
     - type: Loadout
@@ -319,10 +401,15 @@
   parent: VisitorMedical
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 0
       MedicineLevel: 2
       ChemistryLevel: 2
-      RangeWeaponLevel: 0
-      PilotingLevel: 3
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: job-name-intern
     - type: Loadout
@@ -334,10 +421,15 @@
   parent: VisitorMedical
   components:
     - type: Skill
-      MedicineLevel: 3
-      ChemistryLevel: 3
-      RangeWeaponLevel: 0
       PilotingLevel: 3
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 0
+      MedicineLevel: 3
+      ChemistryLevel: 2
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: job-name-doctor
     - type: Loadout
@@ -349,10 +441,15 @@
   parent: VisitorMedical
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 0
       MedicineLevel: 2
       ChemistryLevel: 2
-      RangeWeaponLevel: 0
-      PilotingLevel: 3
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: job-name-paramedic
     - type: Loadout
@@ -364,10 +461,15 @@
   parent: VisitorMedical
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 0
       MedicineLevel: 3
       ChemistryLevel: 3
-      RangeWeaponLevel: 0
-      PilotingLevel: 3
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: ghost-role-information-medical-virologist-name
     - type: Loadout
@@ -379,10 +481,15 @@
   parent: VisitorMedical
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 0
       MedicineLevel: 3
       ChemistryLevel: 3
-      RangeWeaponLevel: 0
-      PilotingLevel: 3
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: ghost-role-information-medical-geneticist-name
     - type: Loadout
@@ -394,10 +501,15 @@
   parent: VisitorMedical
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 0
       MedicineLevel: 2
       ChemistryLevel: 1
-      RangeWeaponLevel: 0
-      PilotingLevel: 3
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: job-name-psychologist
     - type: Loadout
@@ -409,10 +521,15 @@
   parent: VisitorMedical
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 0
       MedicineLevel: 2
       ChemistryLevel: 3
-      RangeWeaponLevel: 0
-      PilotingLevel: 3
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: job-name-chemist
     - type: Loadout
@@ -424,10 +541,15 @@
   parent: VisitorMedical
   components:
     - type: Skill
-      MedicineLevel: 2
-      ChemistryLevel: 1
-      RangeWeaponLevel: 0
       PilotingLevel: 3
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 0
+      MedicineLevel: 2
+      ChemistryLevel: 0
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: ghost-role-information-medical-dentist-name
     - type: Loadout
@@ -452,10 +574,15 @@
   parent: VisitorScience
   components:
     - type: Skill
-      MedicineLevel: 1
-      ChemistryLevel: 1
-      RangeWeaponLevel: 0
       PilotingLevel: 3
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 0
+      MedicineLevel: 0
+      ChemistryLevel: 1
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 2
+      RoboticsLevel: 2
     - type: GhostRole
       name: job-name-research-assistant
     - type: Loadout
@@ -467,10 +594,15 @@
   parent: VisitorScience
   components:
     - type: Skill
-      MedicineLevel: 1
-      ChemistryLevel: 2
-      RangeWeaponLevel: 0
       PilotingLevel: 3
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 0
+      MedicineLevel: 0
+      ChemistryLevel: 1
+      EngineeringLevel: 1
+      BuildigLevel: 0
+      ResearchLevel: 3
+      RoboticsLevel: 3
     - type: GhostRole
       name: job-name-scientist
     - type: Loadout
@@ -722,10 +854,15 @@
   randomizeName: false
   components:
     - type: Skill
-      MedicineLevel: 1
-      ChemistryLevel: 1
-      RangeWeaponLevel: 2
       PilotingLevel: 3
+      RangeWeaponLevel: 2
+      MeleeWeaponLevel: 3
+      MedicineLevel: 1
+      ChemistryLevel: 0
+      EngineeringLevel: 1
+      BuildigLevel: 0
+      ResearchLevel: 1
+      RoboticsLevel: 0
     - type: GhostRole
       name: ghost-role-information-lost-challenge-commander-name
       description: ghost-role-information-lost-challenge-commander-description
@@ -746,11 +883,16 @@
   randomizeName: false
   components:
     - type: Skill
-      MedicineLevel: 0
-      ChemistryLevel: 1
-      RangeWeaponLevel: 0
       PilotingLevel: 2
       PilotingExp: 600
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 2
+      MedicineLevel: 0
+      ChemistryLevel: 0
+      EngineeringLevel: 3
+      BuildigLevel: 3
+      ResearchLevel: 0
+      RoboticsLevel: 2
     - type: GhostRole
       name: ghost-role-information-lost-challenge-commander-name
       description: ghost-role-information-lost-challenge-commander-description
@@ -771,11 +913,16 @@
   randomizeName: false
   components:
     - type: Skill
-      MedicineLevel: 3
-      ChemistryLevel: 3
-      RangeWeaponLevel: 0
       PilotingLevel: 2
       PilotingExp: 600
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 0
+      MedicineLevel: 3
+      ChemistryLevel: 3
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: ghost-role-information-lost-challenge-commander-name
       description: ghost-role-information-lost-challenge-commander-description
@@ -796,11 +943,16 @@
   randomizeName: false
   components:
     - type: Skill
-      MedicineLevel: 0
-      ChemistryLevel: 0
-      RangeWeaponLevel: 0
       PilotingLevel: 2
       PilotingExp: 600
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 0
+      MedicineLevel: 0
+      ChemistryLevel: 0
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: ghost-role-information-lost-challenge-commander-name
       description: ghost-role-information-lost-challenge-commander-description
@@ -821,10 +973,15 @@
   randomizeName: false
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 3
+      MeleeWeaponLevel: 3
       MedicineLevel: 1
       ChemistryLevel: 0
-      RangeWeaponLevel: 3
-      PilotingLevel: 3
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: GhostRole
       name: ghost-role-information-lost-challenge-commander-name
       description: ghost-role-information-lost-challenge-commander-description
@@ -845,11 +1002,15 @@
   randomizeName: false
   components:
     - type: Skill
-      MedicineLevel: 2
-      ChemistryLevel: 2
+      PilotingLevel: 3
       RangeWeaponLevel: 0
-      PilotingLevel: 2
-      PilotingExp: 600
+      MeleeWeaponLevel: 0
+      MedicineLevel: 0
+      ChemistryLevel: 1
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 3
+      RoboticsLevel: 3
     - type: GhostRole
       name: ghost-role-information-lost-challenge-commander-name
       description: ghost-role-information-lost-challenge-commander-description
@@ -935,10 +1096,15 @@
   parent: EventHumanoid
   components:
     - type: Skill
-      MedicineLevel: 3
-      ChemistryLevel: 3
-      RangeWeaponLevel: 3
       PilotingLevel: 3
+      RangeWeaponLevel: 3
+      MeleeWeaponLevel: 3
+      MedicineLevel: 3
+      ChemistryLevel: 2
+      EngineeringLevel: 2
+      BuildigLevel: 2
+      ResearchLevel: 2
+      RoboticsLevel: 2
     - type: NpcFactionMember
       factions:
       - Syndicate
@@ -958,10 +1124,15 @@
   parent: EventHumanoid
   components:
     - type: Skill
-      MedicineLevel: 2
-      ChemistryLevel: 2
-      RangeWeaponLevel: 3
       PilotingLevel: 3
+      RangeWeaponLevel: 3
+      MeleeWeaponLevel: 3
+      MedicineLevel: 3
+      ChemistryLevel: 2
+      EngineeringLevel: 2
+      BuildigLevel: 2
+      ResearchLevel: 2
+      RoboticsLevel: 2
     - type: NpcFactionMember
       factions:
       - Syndicate
@@ -981,11 +1152,15 @@
   parent: EventHumanoid
   components:
     - type: Skill
-      MedicineLevel: 1
-      ChemistryLevel: 1
-      RangeWeaponLevel: 1
-      PilotingLevel: 2
-      PilotingExp: 600
+      PilotingLevel: 3
+      RangeWeaponLevel: 3
+      MeleeWeaponLevel: 3
+      MedicineLevel: 3
+      ChemistryLevel: 2
+      EngineeringLevel: 2
+      BuildigLevel: 2
+      ResearchLevel: 2
+      RoboticsLevel: 2
     - type: NpcFactionMember
       factions:
       - Syndicate
@@ -1004,10 +1179,15 @@
   parent: EventHumanoid
   components:
     - type: Skill
+      PilotingLevel: 3
+      RangeWeaponLevel: 3
+      MeleeWeaponLevel: 3
       MedicineLevel: 0
       ChemistryLevel: 0
-      RangeWeaponLevel: 3
-      PilotingLevel: 3
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: NpcFactionMember
       factions:
       - Syndicate
@@ -1026,10 +1206,15 @@
   parent: EventHumanoid
   components:
     - type: Skill
-      MedicineLevel: 2
-      ChemistryLevel: 3
-      RangeWeaponLevel: 3
       PilotingLevel: 3
+      RangeWeaponLevel: 3
+      MeleeWeaponLevel: 3
+      MedicineLevel: 0
+      ChemistryLevel: 0
+      EngineeringLevel: 0
+      BuildigLevel: 0
+      ResearchLevel: 0
+      RoboticsLevel: 0
     - type: NpcFactionMember
       factions:
       - Syndicate
@@ -1050,10 +1235,15 @@
   parent: EventHumanoid
   components:
     - type: Skill
-      MedicineLevel: 2
-      ChemistryLevel: 2
-      RangeWeaponLevel: 3
       PilotingLevel: 3
+      RangeWeaponLevel: 2
+      MeleeWeaponLevel: 3
+      MedicineLevel: 1
+      ChemistryLevel: 1
+      EngineeringLevel: 1
+      BuildigLevel: 1
+      ResearchLevel: 1
+      RoboticsLevel: 1
     - type: GhostRole
       name: ghost-role-information-blackmarketeer-name
       description: ghost-role-information-blackmarketeer-description
@@ -1069,10 +1259,15 @@
   parent: EventHumanoid
   components:
     - type: Skill
-      MedicineLevel: 1
-      ChemistryLevel: 1
-      RangeWeaponLevel: 3
       PilotingLevel: 3
+      RangeWeaponLevel: 3
+      MeleeWeaponLevel: 3
+      MedicineLevel: 3
+      ChemistryLevel: 3
+      EngineeringLevel: 3
+      BuildigLevel: 3
+      ResearchLevel: 3
+      RoboticsLevel: 3
     - type: RussianAccent
     - type: ScrambledAccent
     - type: SlurredAccent

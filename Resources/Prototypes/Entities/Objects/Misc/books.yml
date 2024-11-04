@@ -207,8 +207,12 @@
       color: "#be69f0"
     - state: icon_dna
   - type: GuideHelp
+    openOnActivation: false
     guides:
     - Science
+  - type: SkillTrainer
+    skillType: Research
+    MaxLevel: 2
 
 - type: entity
   id: BookSecurity

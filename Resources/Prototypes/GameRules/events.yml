@@ -220,10 +220,15 @@
         sound: /Audio/Misc/ninja_greeting.ogg
       components:
       - type: Skill
-        MedicineLevel: 2
-        ChemistryLevel: 2
-        RangeWeaponLevel: 0
         PilotingLevel: 3
+        RangeWeaponLevel: 0
+        MeleeWeaponLevel: 3
+        MedicineLevel: 3
+        ChemistryLevel: 0
+        EngineeringLevel: 3
+        BuildigLevel: 0
+        ResearchLevel: 3
+        RoboticsLevel: 3
       - type: SpaceNinja
       - type: NpcFactionMember
         factions:
@@ -452,10 +457,15 @@
         sound: "/Audio/Ambience/Antag/zombie_start.ogg"
       components:
       - type: Skill
+        PilotingLevel: 3
+        RangeWeaponLevel: 3
+        MeleeWeaponLevel: 3
         MedicineLevel: 3
         ChemistryLevel: 3
-        RangeWeaponLevel: 3
-        PilotingLevel: 2
+        EngineeringLevel: 3
+        BuildigLevel: 3
+        ResearchLevel: 3
+        RoboticsLevel: 3
       - type: PendingZombie #less time to prepare than normal
         minInitialInfectedGrace: 300
         maxInitialInfectedGrace: 450
@@ -495,10 +505,15 @@
       - RoleSurvivalNukie
       components:
       - type: Skill
-        MedicineLevel: 3
-        ChemistryLevel: 2
-        RangeWeaponLevel: 3
         PilotingLevel: 3
+        RangeWeaponLevel: 3
+        MeleeWeaponLevel: 3
+        MedicineLevel: 3
+        ChemistryLevel: 3
+        EngineeringLevel: 3
+        BuildigLevel: 3
+        ResearchLevel: 3
+        RoboticsLevel: 3
       - type: NukeOperative
       - type: RandomMetadata
         nameSegments:
@@ -537,10 +552,15 @@
         - AntagImmune
       components:
       - type: Skill
+        PilotingLevel: 3
+        RangeWeaponLevel: 3
+        MeleeWeaponLevel: 3
         MedicineLevel: 3
-        ChemistryLevel: 2
-        RangeWeaponLevel: 2
-        PilotingLevel: 2
+        ChemistryLevel: 3
+        EngineeringLevel: 3
+        BuildigLevel: 3
+        ResearchLevel: 3
+        RoboticsLevel: 3
       mindRoles:
       - MindRoleTraitorSleeper
 

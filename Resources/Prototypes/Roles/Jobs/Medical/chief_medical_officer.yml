@@ -32,8 +32,15 @@
     components:
       - type: CommandStaff
       - type: Skill
+        PilotingLevel: 0
+        RangeWeaponLevel: 0
+        MeleeWeaponLevel: 0
         MedicineLevel: 3
         ChemistryLevel: 3
+        EngineeringLevel: 0
+        BuildigLevel: 0
+        ResearchLevel: 0
+        RoboticsLevel: 0
 
 - type: startingGear
   id: CMOGear
