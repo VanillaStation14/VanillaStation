@@ -42,10 +42,10 @@ namespace Content.Shared.Vanilla.Skill
         public int EngineeringExp { get; set; } = 0;
 
         //Строительство
-        [DataField("BuildigLevel"), AutoNetworkedField]
-        public int BuildigLevel { get; set; } = 0;
-        [DataField("BuildigExp"), AutoNetworkedField]
-        public int BuildigExp { get; set; } = 0;
+        [DataField("BuildingLevel"), AutoNetworkedField]
+        public int BuildingLevel { get; set; } = 0;
+        [DataField("BuildingExp"), AutoNetworkedField]
+        public int BuildingExp { get; set; } = 0;
 
         //Исследования
         [DataField("ResearchLevel"), AutoNetworkedField]
@@ -53,10 +53,10 @@ namespace Content.Shared.Vanilla.Skill
         [DataField("ResearchExp"), AutoNetworkedField]
         public int ResearchExp { get; set; } = 0;
 
-        //Робототехника
-        [DataField("RoboticsLevel"), AutoNetworkedField]
-        public int RoboticsLevel { get; set; } = 0;
-        [DataField("RoboticsExp"), AutoNetworkedField]
-        public int RoboticsExp { get; set; } = 0;
+        //Приборостроение
+        [DataField("InstrumentationLevel"), AutoNetworkedField]
+        public int InstrumentationLevel { get; set; } = 0;
+        [DataField("InstrumentationExp"), AutoNetworkedField]
+        public int InstrumentationExp { get; set; } = 0;
     }
 }

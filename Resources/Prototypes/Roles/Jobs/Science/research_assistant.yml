@@ -27,7 +27,7 @@
         EngineeringLevel: 0
         BuildigLevel: 0
         ResearchLevel: 2
-        RoboticsLevel: 2
+        InstrumentationLevel: 2
 
 - type: startingGear
   id: ResearchAssistantGear

@@ -32,7 +32,7 @@
         EngineeringLevel: 2
         BuildigLevel: 2
         ResearchLevel: 0
-        RoboticsLevel: 0
+        InstrumentationLevel: 0
 
 - type: startingGear
   id: TechnicalAssistantGear

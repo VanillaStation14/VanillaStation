@@ -39,7 +39,7 @@
         EngineeringLevel: 1
         BuildigLevel: 0
         ResearchLevel: 0
-        RoboticsLevel: 1
+        InstrumentationLevel: 1
         
 - type: startingGear
   id: QuartermasterGear

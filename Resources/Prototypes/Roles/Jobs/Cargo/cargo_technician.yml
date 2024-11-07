@@ -23,7 +23,7 @@
         EngineeringLevel: 1
         BuildigLevel: 1
         ResearchLevel: 1
-        RoboticsLevel: 1
+        InstrumentationLevel: 1
 
 - type: startingGear
   id: CargoTechGear

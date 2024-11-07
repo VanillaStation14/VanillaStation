@@ -7,6 +7,8 @@
     snap:
     - Wallmount
   components:
+  - type: RequiresSkill
+    RequiresInstrumentationLevel: 2
   - type: StationAiWhitelist
   - type: WallMount
   - type: ApcPowerReceiver

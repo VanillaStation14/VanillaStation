@@ -94,6 +94,8 @@
   name: station map assembly
   description: A station map assembly.
   components:
+  - type: RequiresSkill
+    RequiresInstrumentationLevel: 2
   - type: WallMount
   - type: Clickable
   - type: InteractionOutline

@@ -29,7 +29,7 @@
       EngineeringLevel: 1
       BuildigLevel: 0
       ResearchLevel: 1
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: job-name-captain
       description: ghost-role-information-command-description
@@ -50,7 +50,7 @@
       EngineeringLevel: 3
       BuildigLevel: 3
       ResearchLevel: 0
-      RoboticsLevel: 2
+      InstrumentationLevel: 2
     - type: GhostRole
       name: job-name-ce
       description: ghost-role-information-command-description
@@ -71,7 +71,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: job-name-cmo
       description: ghost-role-information-command-description
@@ -92,7 +92,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: job-name-hop
       description: ghost-role-information-command-description
@@ -113,7 +113,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: job-name-hos
       description: ghost-role-information-command-description
@@ -134,7 +134,7 @@
       EngineeringLevel: 1
       BuildigLevel: 0
       ResearchLevel: 3
-      RoboticsLevel: 3
+      InstrumentationLevel: 3
     - type: GhostRole
       name: job-name-rd
       description: ghost-role-information-command-description
@@ -155,7 +155,7 @@
       EngineeringLevel: 1
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 1
+      InstrumentationLevel: 1
     - type: GhostRole
       name: job-name-qm
       description: ghost-role-information-command-description
@@ -190,7 +190,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: job-name-cadet
     - type: Loadout
@@ -210,7 +210,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: job-name-security
     - type: Loadout
@@ -230,7 +230,7 @@
       EngineeringLevel: 1
       BuildigLevel: 0
       ResearchLevel: 1
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: job-name-detective
     - type: Loadout
@@ -250,7 +250,7 @@
       EngineeringLevel: 1
       BuildigLevel: 1
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: job-name-warden
     - type: Loadout
@@ -283,7 +283,7 @@
       EngineeringLevel: 1
       BuildigLevel: 1
       ResearchLevel: 1
-      RoboticsLevel: 1
+      InstrumentationLevel: 1
     - type: GhostRole
       name: job-name-cargotech
     - type: Loadout
@@ -303,7 +303,7 @@
       EngineeringLevel: 1
       BuildigLevel: 1
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: job-name-salvagespec
     - type: Loadout
@@ -336,7 +336,7 @@
       EngineeringLevel: 3
       BuildigLevel: 3
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: job-name-atmostech
     - type: Loadout
@@ -356,7 +356,7 @@
       EngineeringLevel: 2
       BuildigLevel: 2
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: job-name-technical-assistant
     - type: Loadout
@@ -376,7 +376,7 @@
       EngineeringLevel: 3
       BuildigLevel: 3
       ResearchLevel: 0
-      RoboticsLevel: 2
+      InstrumentationLevel: 2
     - type: GhostRole
       name: job-name-engineer
     - type: Loadout
@@ -409,7 +409,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: job-name-intern
     - type: Loadout
@@ -429,7 +429,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: job-name-doctor
     - type: Loadout
@@ -449,7 +449,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: job-name-paramedic
     - type: Loadout
@@ -469,7 +469,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: ghost-role-information-medical-virologist-name
     - type: Loadout
@@ -489,7 +489,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: ghost-role-information-medical-geneticist-name
     - type: Loadout
@@ -509,7 +509,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: job-name-psychologist
     - type: Loadout
@@ -529,7 +529,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: job-name-chemist
     - type: Loadout
@@ -549,7 +549,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: ghost-role-information-medical-dentist-name
     - type: Loadout
@@ -582,7 +582,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 2
-      RoboticsLevel: 2
+      InstrumentationLevel: 2
     - type: GhostRole
       name: job-name-research-assistant
     - type: Loadout
@@ -602,7 +602,7 @@
       EngineeringLevel: 1
       BuildigLevel: 0
       ResearchLevel: 3
-      RoboticsLevel: 3
+      InstrumentationLevel: 3
     - type: GhostRole
       name: job-name-scientist
     - type: Loadout
@@ -862,7 +862,7 @@
       EngineeringLevel: 1
       BuildigLevel: 0
       ResearchLevel: 1
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: ghost-role-information-lost-challenge-commander-name
       description: ghost-role-information-lost-challenge-commander-description
@@ -892,7 +892,7 @@
       EngineeringLevel: 3
       BuildigLevel: 3
       ResearchLevel: 0
-      RoboticsLevel: 2
+      InstrumentationLevel: 2
     - type: GhostRole
       name: ghost-role-information-lost-challenge-commander-name
       description: ghost-role-information-lost-challenge-commander-description
@@ -922,7 +922,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: ghost-role-information-lost-challenge-commander-name
       description: ghost-role-information-lost-challenge-commander-description
@@ -952,7 +952,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: ghost-role-information-lost-challenge-commander-name
       description: ghost-role-information-lost-challenge-commander-description
@@ -981,7 +981,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: ghost-role-information-lost-challenge-commander-name
       description: ghost-role-information-lost-challenge-commander-description
@@ -1010,7 +1010,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 3
-      RoboticsLevel: 3
+      InstrumentationLevel: 3
     - type: GhostRole
       name: ghost-role-information-lost-challenge-commander-name
       description: ghost-role-information-lost-challenge-commander-description
@@ -1104,7 +1104,7 @@
       EngineeringLevel: 2
       BuildigLevel: 2
       ResearchLevel: 2
-      RoboticsLevel: 2
+      InstrumentationLevel: 2
     - type: NpcFactionMember
       factions:
       - Syndicate
@@ -1132,7 +1132,7 @@
       EngineeringLevel: 2
       BuildigLevel: 2
       ResearchLevel: 2
-      RoboticsLevel: 2
+      InstrumentationLevel: 2
     - type: NpcFactionMember
       factions:
       - Syndicate
@@ -1160,7 +1160,7 @@
       EngineeringLevel: 2
       BuildigLevel: 2
       ResearchLevel: 2
-      RoboticsLevel: 2
+      InstrumentationLevel: 2
     - type: NpcFactionMember
       factions:
       - Syndicate
@@ -1187,7 +1187,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: NpcFactionMember
       factions:
       - Syndicate
@@ -1214,7 +1214,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: NpcFactionMember
       factions:
       - Syndicate
@@ -1243,7 +1243,7 @@
       EngineeringLevel: 1
       BuildigLevel: 1
       ResearchLevel: 1
-      RoboticsLevel: 1
+      InstrumentationLevel: 1
     - type: GhostRole
       name: ghost-role-information-blackmarketeer-name
       description: ghost-role-information-blackmarketeer-description
@@ -1267,7 +1267,7 @@
       EngineeringLevel: 3
       BuildigLevel: 3
       ResearchLevel: 3
-      RoboticsLevel: 3
+      InstrumentationLevel: 3
     - type: RussianAccent
     - type: ScrambledAccent
     - type: SlurredAccent

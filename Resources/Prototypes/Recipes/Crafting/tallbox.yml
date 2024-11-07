@@ -26,6 +26,7 @@
   graph: ClosetFreezer
   startNode: start
   targetNode: done
+  RequiresInstrumentationLevel: 1
   category: construction-category-storage
   description: A tall steel box with freezing abilities.
   icon: { sprite: Structures/Storage/closet.rsi, state: freezer_icon }

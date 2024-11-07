@@ -3,6 +3,7 @@
   id: ModularGrenadeRecipe
   graph: ModularGrenadeGraph
   startNode: start
+  RequiresInstrumentationLevel: 2
   targetNode: grenade
   category: construction-category-weapons
   description: Construct a grenade using a trigger and a payload.
@@ -15,6 +16,7 @@
   name: modular mine
   id: ModularMineRecipe
   graph: ModularMineGraph
+  RequiresInstrumentationLevel: 2
   startNode: start
   targetNode: mine
   category: construction-category-weapons

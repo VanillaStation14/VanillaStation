@@ -101,6 +101,7 @@
   name: security glasses
   id: ClothingEyesGlassesSecurity
   graph: GlassesSecHUD
+  RequiresInstrumentationLevel: 1
   startNode: start
   targetNode: glassesSec
   category: construction-category-clothing
@@ -122,6 +123,7 @@
 - type: construction
   name: justice helm
   id: ClothingHeadHelmetJustice
+  RequiresInstrumentationLevel: 1
   graph: HelmetJustice
   startNode: start
   targetNode: helmet

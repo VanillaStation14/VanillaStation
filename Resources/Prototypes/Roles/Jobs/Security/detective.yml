@@ -33,7 +33,7 @@
         EngineeringLevel: 1
         BuildigLevel: 0
         ResearchLevel: 1
-        RoboticsLevel: 0
+        InstrumentationLevel: 0
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
 

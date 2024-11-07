@@ -29,7 +29,7 @@
         EngineeringLevel: 1
         BuildigLevel: 1
         ResearchLevel: 0
-        RoboticsLevel: 0
+        InstrumentationLevel: 0
 
 - type: startingGear
   id: SalvageSpecialistGear

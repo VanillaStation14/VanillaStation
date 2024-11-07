@@ -1,5 +1,6 @@
 ﻿- type: constructionGraph
   id: Machine
+  RequiresInstrumentationLevel: 2
   start: start
   graph:
     - node: start

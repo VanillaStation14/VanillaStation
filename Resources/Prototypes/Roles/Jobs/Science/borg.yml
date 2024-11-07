@@ -24,7 +24,7 @@
         EngineeringLevel: 3
         BuildigLevel: 3
         ResearchLevel: 3
-        RoboticsLevel: 3
+        InstrumentationLevel: 3
 
 - type: job
   id: Borg

@@ -13,6 +13,7 @@
   name: logic gate
   id: LogicGate
   graph: LogicGate
+  RequiresInstrumentationLevel: 1
   startNode: start
   targetNode: logic_gate
   category: construction-category-tools
@@ -24,6 +25,7 @@
   name: edge detector
   id: EdgeDetector
   graph: LogicGate
+  RequiresInstrumentationLevel: 1
   startNode: start
   targetNode: edge_detector
   category: construction-category-tools
@@ -35,6 +37,7 @@
   name: power sensor
   id: PowerSensor
   graph: LogicGate
+  RequiresInstrumentationLevel: 1
   startNode: start
   targetNode: power_sensor
   category: construction-category-tools
@@ -46,6 +49,7 @@
   name: memory cell
   id: MemoryCell
   graph: LogicGate
+  RequiresInstrumentationLevel: 1
   startNode: start
   targetNode: memory_cell
   category: construction-category-tools

@@ -6,6 +6,8 @@
   placement:
     mode: SnapgridCenter
   components:
+    - type: RequiresSkill
+      RequiresInstrumentationLevel: 2
     - type: Transform
       anchored: true
     - type: Physics
@@ -27,6 +29,7 @@
     - type: Rotatable
     - type: Pullable
     - type: Construction
+      RequiresInstrumentationLevel: 2
       containers:
         - machine_board
         - machine_parts
@@ -64,6 +67,8 @@
   placement:
     mode: SnapgridCenter
   components:
+    - type: RequiresSkill
+      RequiresInstrumentationLevel: 2
     - type: Transform
       anchored: true
     - type: Physics
@@ -132,6 +137,8 @@
   placement:
     mode: SnapgridCenter
   components:
+    - type: RequiresSkill
+      RequiresInstrumentationLevel: 2
     - type: Transform
       anchored: true
       noRot: true

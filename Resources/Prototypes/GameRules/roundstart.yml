@@ -115,7 +115,7 @@
         EngineeringLevel: 3
         BuildigLevel: 3
         ResearchLevel: 3
-        RoboticsLevel: 3
+        InstrumentationLevel: 3
       - type: NukeOperative
       - type: RandomMetadata
         nameSegments:
@@ -142,7 +142,7 @@
         EngineeringLevel: 3
         BuildigLevel: 3
         ResearchLevel: 3
-        RoboticsLevel: 3
+        InstrumentationLevel: 3
       - type: NukeOperative
       - type: RandomMetadata
         nameSegments:
@@ -171,7 +171,7 @@
         EngineeringLevel: 3
         BuildigLevel: 3
         ResearchLevel: 3
-        RoboticsLevel: 3
+        InstrumentationLevel: 3
       - type: NukeOperative
       - type: RandomMetadata
         nameSegments:
@@ -226,7 +226,7 @@
         EngineeringLevel: 3
         BuildigLevel: 3
         ResearchLevel: 3
-        RoboticsLevel: 3
+        InstrumentationLevel: 3
       mindRoles:
       - MindRoleTraitor
 
@@ -266,7 +266,7 @@
         EngineeringLevel: 3
         BuildigLevel: 3
         ResearchLevel: 3
-        RoboticsLevel: 3
+        InstrumentationLevel: 3
       - type: Revolutionary
       - type: HeadRevolutionary
       mindRoles:
@@ -317,7 +317,7 @@
         EngineeringLevel: 3
         BuildigLevel: 3
         ResearchLevel: 3
-        RoboticsLevel: 3
+        InstrumentationLevel: 3
       - type: PendingZombie
       - type: ZombifyOnDeath
       - type: IncurableZombie
