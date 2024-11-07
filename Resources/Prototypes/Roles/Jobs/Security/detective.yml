@@ -31,7 +31,7 @@
         MedicineLevel: 1
         ChemistryLevel: 2
         EngineeringLevel: 1
-        BuildigLevel: 0
+        BuildingLevel: 0
         ResearchLevel: 1
         InstrumentationLevel: 0
   - !type:AddImplantSpecial

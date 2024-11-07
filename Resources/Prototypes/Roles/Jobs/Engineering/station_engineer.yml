@@ -24,11 +24,11 @@
       - type: Skill
         PilotingLevel: 2
         RangeWeaponLevel: 0
-        MeleeWeaponLevel: 2
+        MeleeWeaponLevel: 0
         MedicineLevel: 0
         ChemistryLevel: 0
         EngineeringLevel: 3
-        BuildigLevel: 3
+        BuildingLevel: 3
         ResearchLevel: 0
         InstrumentationLevel: 2
 

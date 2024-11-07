@@ -18,7 +18,7 @@
     MedicineLevel: 3
     ChemistryLevel: 3
     EngineeringLevel: 3
-    BuildigLevel: 3
+    BuildingLevel: 3
     ResearchLevel: 3
     InstrumentationLevel: 3
   - type: RandomHumanoidAppearance
@@ -82,7 +82,7 @@
     MedicineLevel: 3
     ChemistryLevel: 3
     EngineeringLevel: 3
-    BuildigLevel: 3
+    BuildingLevel: 3
     ResearchLevel: 3
     InstrumentationLevel: 3
   - type: NukeOperative
@@ -107,7 +107,7 @@
     MedicineLevel: 3
     ChemistryLevel: 3
     EngineeringLevel: 3
-    BuildigLevel: 3
+    BuildingLevel: 3
     ResearchLevel: 3
     InstrumentationLevel: 3
   - type: NukeOperative
@@ -126,7 +126,7 @@
     MedicineLevel: 3
     ChemistryLevel: 3
     EngineeringLevel: 3
-    BuildigLevel: 3
+    BuildingLevel: 3
     ResearchLevel: 3
     InstrumentationLevel: 3
   - type: RandomHumanoidAppearance

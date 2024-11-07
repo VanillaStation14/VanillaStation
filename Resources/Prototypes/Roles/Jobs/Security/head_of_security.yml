@@ -41,7 +41,7 @@
         MedicineLevel: 1
         ChemistryLevel: 0
         EngineeringLevel: 0
-        BuildigLevel: 0
+        BuildingLevel: 0
         ResearchLevel: 0
         InstrumentationLevel: 0
       - type: CommandStaff

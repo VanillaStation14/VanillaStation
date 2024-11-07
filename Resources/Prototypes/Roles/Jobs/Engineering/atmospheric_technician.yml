@@ -23,13 +23,13 @@
     - type: Skill
       PilotingLevel: 1
       RangeWeaponLevel: 0
-      MeleeWeaponLevel: 2
+      MeleeWeaponLevel: 0
       MedicineLevel: 0
-      ChemistryLevel: 2
+      ChemistryLevel: 1
       EngineeringLevel: 3
-      BuildigLevel: 3
+      BuildingLevel: 3
       ResearchLevel: 0
-      InstrumentationLevel: 0
+      InstrumentationLevel: 2
 
 - type: startingGear
   id: AtmosphericTechnicianGear

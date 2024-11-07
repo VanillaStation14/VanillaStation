@@ -30,9 +30,9 @@
         MedicineLevel: 0
         ChemistryLevel: 0
         EngineeringLevel: 2
-        BuildigLevel: 2
+        BuildingLevel: 2
         ResearchLevel: 0
-        InstrumentationLevel: 0
+        InstrumentationLevel: 1
 
 - type: startingGear
   id: TechnicalAssistantGear
