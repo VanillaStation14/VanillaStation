@@ -316,8 +316,10 @@
     - state: icon_wrench
     - state: overlay_blood
   - type: GuideHelp
-    guides:
-    - Survival
+    openOnActivation: false
+  - type: SkillTrainer
+    skillType: Instrumentation
+    MaxLevel: 2
 
 - type: entity
   id: BookChemicalCompendium

@@ -20,7 +20,7 @@
     EngineeringLevel: 3
     BuildigLevel: 3
     ResearchLevel: 3
-    RoboticsLevel: 3
+    InstrumentationLevel: 3
   - type: RandomHumanoidAppearance
     randomizeName: false
     hair: HairBald
@@ -84,7 +84,7 @@
     EngineeringLevel: 3
     BuildigLevel: 3
     ResearchLevel: 3
-    RoboticsLevel: 3
+    InstrumentationLevel: 3
   - type: NukeOperative
   - type: RandomMetadata
     nameSegments:
@@ -109,7 +109,7 @@
     EngineeringLevel: 3
     BuildigLevel: 3
     ResearchLevel: 3
-    RoboticsLevel: 3
+    InstrumentationLevel: 3
   - type: NukeOperative
   - type: RandomHumanoidAppearance
 
@@ -128,7 +128,7 @@
     EngineeringLevel: 3
     BuildigLevel: 3
     ResearchLevel: 3
-    RoboticsLevel: 3
+    InstrumentationLevel: 3
   - type: RandomHumanoidAppearance
     randomizeName: false
   - type: NukeOperative

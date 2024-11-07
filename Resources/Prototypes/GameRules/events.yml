@@ -228,7 +228,7 @@
         EngineeringLevel: 3
         BuildigLevel: 0
         ResearchLevel: 3
-        RoboticsLevel: 3
+        InstrumentationLevel: 3
       - type: SpaceNinja
       - type: NpcFactionMember
         factions:
@@ -465,7 +465,7 @@
         EngineeringLevel: 3
         BuildigLevel: 3
         ResearchLevel: 3
-        RoboticsLevel: 3
+        InstrumentationLevel: 3
       - type: PendingZombie #less time to prepare than normal
         minInitialInfectedGrace: 300
         maxInitialInfectedGrace: 450
@@ -513,7 +513,7 @@
         EngineeringLevel: 3
         BuildigLevel: 3
         ResearchLevel: 3
-        RoboticsLevel: 3
+        InstrumentationLevel: 3
       - type: NukeOperative
       - type: RandomMetadata
         nameSegments:
@@ -560,7 +560,7 @@
         EngineeringLevel: 3
         BuildigLevel: 3
         ResearchLevel: 3
-        RoboticsLevel: 3
+        InstrumentationLevel: 3
       mindRoles:
       - MindRoleTraitorSleeper
 

@@ -39,7 +39,7 @@
         EngineeringLevel: 3
         BuildigLevel: 3
         ResearchLevel: 0
-        RoboticsLevel: 2
+        InstrumentationLevel: 2
 
 - type: startingGear
   id: ChiefEngineerGear

@@ -25,7 +25,7 @@
         EngineeringLevel: 1
         BuildigLevel: 0
         ResearchLevel: 3
-        RoboticsLevel: 3
+        InstrumentationLevel: 3
 
 - type: startingGear
   id: ScientistGear

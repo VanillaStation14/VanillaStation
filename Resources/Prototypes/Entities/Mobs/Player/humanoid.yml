@@ -46,7 +46,7 @@
       EngineeringLevel: 3
       BuildigLevel: 3
       ResearchLevel: 3
-      RoboticsLevel: 3
+      InstrumentationLevel: 3
     - type: GhostRole
       name: ghost-role-information-Death-Squad-name
       description: ghost-role-information-Death-Squad-description
@@ -93,7 +93,7 @@
       EngineeringLevel: 3
       BuildigLevel: 3
       ResearchLevel: 3
-      RoboticsLevel: 3
+      InstrumentationLevel: 3
     - type: GhostRole
       name: ghost-role-information-ert-leader-name
       description: ghost-role-information-ert-leader-description
@@ -190,7 +190,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: BibleUser
     - type: GhostRole
       name: ghost-role-information-ert-chaplain-name
@@ -266,7 +266,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: ghost-role-information-ert-janitor-name
       description: ghost-role-information-ert-janitor-description
@@ -340,7 +340,7 @@
       EngineeringLevel: 3
       BuildigLevel: 3
       ResearchLevel: 0
-      RoboticsLevel: 2
+      InstrumentationLevel: 2
     - type: GhostRole
       name: ghost-role-information-ert-engineer-name
       description: ghost-role-information-ert-engineer-description
@@ -416,7 +416,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: ghost-role-information-ert-security-name
       description: ghost-role-information-ert-security-description
@@ -513,7 +513,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: ghost-role-information-ert-medical-name
       description: ghost-role-information-ert-medical-description
@@ -584,7 +584,7 @@
       EngineeringLevel: 2
       BuildigLevel: 2
       ResearchLevel: 3
-      RoboticsLevel: 1
+      InstrumentationLevel: 1
     - type: Loadout
       prototypes: [CBURNGear]
       roleLoadout: [ RoleSurvivalEVA ]
@@ -624,7 +624,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: ghost-role-information-centcom-official-name
       description: ghost-role-information-centcom-official-description
@@ -661,7 +661,7 @@
       EngineeringLevel: 3
       BuildigLevel: 3
       ResearchLevel: 3
-      RoboticsLevel: 3
+      InstrumentationLevel: 3
     - type: RandomHumanoidAppearance
       randomizeName: false
     - type: Loadout
@@ -690,7 +690,7 @@
       EngineeringLevel: 3
       BuildigLevel: 3
       ResearchLevel: 3
-      RoboticsLevel: 3
+      InstrumentationLevel: 3
     - type: RandomHumanoidAppearance
       randomizeName: false
     - type: NukeOperative
@@ -724,7 +724,7 @@
       EngineeringLevel: 0
       BuildigLevel: 0
       ResearchLevel: 0
-      RoboticsLevel: 0
+      InstrumentationLevel: 0
     - type: GhostRole
       name: ghost-role-information-cluwne-name
       description: ghost-role-information-cluwne-description

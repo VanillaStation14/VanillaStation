@@ -43,7 +43,7 @@
         EngineeringLevel: 0
         BuildigLevel: 0
         ResearchLevel: 0
-        RoboticsLevel: 0
+        InstrumentationLevel: 0
       - type: CommandStaff
 
 - type: startingGear

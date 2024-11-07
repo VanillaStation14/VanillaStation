@@ -53,6 +53,7 @@
     tags:
       - PotatoBattery
   - type: Construction
+    RequiresInstrumentationLevel: 1
     graph: PowerCellPotato
     node: potatobattery
 
