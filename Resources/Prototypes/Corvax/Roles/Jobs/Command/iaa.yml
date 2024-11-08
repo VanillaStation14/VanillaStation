@@ -34,7 +34,6 @@
     shoes: ClothingShoesColorBlack
     id: IAAPDA
     eyes: ClothingEyesGlassesSunglasses
-    ears: ClothingHeadsetIAA
     pocket2: BookSpaceLaw
   inhand:
     - BriefcaseIAAFilled
