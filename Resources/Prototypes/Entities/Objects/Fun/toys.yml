@@ -498,8 +498,9 @@
 - type: entity
   parent: BasePlushie
   id: PlushieJoseph
-  name: плюшевый капитан
-  description: Плюшевая игрушка ввиде человека в парадной форме офицера НТ, пахнет плазмой и маковым чаем. На бирке у головы написано "Произведено в Нью-Сайберии".
+  id: plushiejoseph
+  name: plushie captain
+  description: A plush toy in the shape of a man in the dress uniform of an NT officer, it smells of plasma and poppy tea. The tag near the head reads "Made in New-Siberia."
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
