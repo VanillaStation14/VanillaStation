@@ -29,6 +29,11 @@ public sealed partial class ConstructionPrototype : IPrototype
     [DataField("description")]
     public string Description = string.Empty;
 
+    [DataField("RequiresInstrumentationLevel")]
+    public int RequiresInstrumentationLevel = 0;
+
+    [DataField("RequiresBuildingLevel")]
+    public int RequiresBuildingLevel = 0;
     /// <summary>
     ///     The <see cref="ConstructionGraphPrototype"/> this construction will be using.
     /// </summary>

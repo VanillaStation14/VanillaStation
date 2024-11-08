@@ -1,6 +1,5 @@
 ﻿- type: constructionGraph
   id: Computer
-  RequiresInstrumentationLevel: 2
   start: start
   graph:
     - node: start
