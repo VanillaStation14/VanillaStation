@@ -39,6 +39,7 @@
     - id: CigarGoldCase
       prob: 0.25
     # - id: ClothingBeltSheathFilled #Vanilla-loadouts
+    - id: plushiejoseph #Vanilla-plushie
     - id: ClothingHeadsetAltCommand
     - id: ClothingOuterArmorCaptainCarapace
     - id: CommsComputerCircuitboard
