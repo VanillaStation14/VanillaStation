@@ -4,6 +4,8 @@
   description: Don't smudge up the brass down there.
   parent: Window
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 2
   - type: Sprite
     drawdepth: WallTops
     sprite: Structures/Windows/clockwork_window.rsi
@@ -63,6 +65,8 @@
     snap:
     - Window
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 2
   - type: Sprite
     sprite: Structures/Windows/directional.rsi
     state: clock_window
@@ -118,6 +122,8 @@
     snap:
     - Window
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 2
   - type: Sprite
     drawdepth: WallTops
     sprite: Structures/Windows/clockwork_diagonal.rsi

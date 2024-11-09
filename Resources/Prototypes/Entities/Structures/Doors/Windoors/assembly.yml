@@ -4,6 +4,8 @@
   description: It opens, it closes, and you can see through it!
   parent: BaseStructure
   components:
+  - type: RequiresSkill
+    RequiresInstrumentationLevel: 2
   - type: InteractionOutline
   - type: Sprite
     sprite: Structures/Doors/Windoors/windoor.rsi

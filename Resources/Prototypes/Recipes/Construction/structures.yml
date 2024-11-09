@@ -4,6 +4,7 @@
   graph: Girder
   startNode: start
   targetNode: girder
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: A large structural assembly made out of metal.
   icon:
@@ -22,6 +23,7 @@
   graph: Girder
   startNode: start
   targetNode: reinforcedGirder
+  RequiresBuildingLevel: 2
   category: construction-category-structures
   description: A large structural assembly made out of metal and plasteel.
   icon:
@@ -40,6 +42,7 @@
   graph: ClockworkGirder
   startNode: start
   targetNode: clockGirder
+  RequiresBuildingLevel: 2
   category: construction-category-structures
   description: A large gear with mounting brackets for additional plating.
   icon:
@@ -58,6 +61,7 @@
   graph: Girder
   startNode: start
   targetNode: wall
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Keeps the air in and the greytide out.
   icon:
@@ -76,6 +80,7 @@
   graph: Girder
   startNode: start
   targetNode: reinforcedWall
+  RequiresBuildingLevel: 2
   category: construction-category-structures
   description: Keeps the air in and the greytide out.
   icon:
@@ -94,6 +99,7 @@
   graph: ClockworkGirder
   startNode: start
   targetNode: clockworkWall
+  RequiresBuildingLevel: 2
   category: construction-category-structures
   description: Keeps the air in and the greytide out.
   icon:
@@ -112,6 +118,7 @@
   graph: Girder
   startNode: start
   targetNode: woodWall
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Keeps the air in and the greytide out.
   icon:
@@ -130,6 +137,7 @@
   graph: Girder
   startNode: start
   targetNode: uraniumWall
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Keeps the air in and the greytide out.
   icon:
@@ -148,6 +156,7 @@
   graph: Girder
   startNode: start
   targetNode: silverWall
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Keeps the air in and the greytide out.
   icon:
@@ -166,6 +175,7 @@
   graph: Girder
   startNode: start
   targetNode: plasticWall
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Keeps the air in and the greytide out.
   icon:
@@ -184,6 +194,7 @@
   graph: Girder
   startNode: start
   targetNode: plasmaWall
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Keeps the air in and the greytide out.
   icon:
@@ -202,6 +213,7 @@
   graph: Girder
   startNode: start
   targetNode: goldWall
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Keeps the air in and the greytide out.
   icon:
@@ -220,6 +232,7 @@
   graph: Girder
   startNode: start
   targetNode: shuttleWall
+  RequiresBuildingLevel: 3
   category: construction-category-structures
   description: Keeps the air in and the greytide out.
   icon:
@@ -238,6 +251,7 @@
   graph: Girder
   startNode: start
   targetNode: shuttleInteriorWall
+  RequiresBuildingLevel: 3
   category: construction-category-structures
   description: Keeps the air in and the greytide out.
   icon:
@@ -256,6 +270,7 @@
   graph: Girder
   startNode: start
   targetNode: diagonalshuttleWall
+  RequiresBuildingLevel: 3
   category: construction-category-structures
   description: Keeps the air in and the greytide out.
   icon:
@@ -274,6 +289,7 @@
   graph: Girder
   startNode: start
   targetNode: bananiumWall
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Keeps the air in and the greytide out.
   icon:
@@ -292,6 +308,7 @@
   graph: Girder
   startNode: start
   targetNode: meatWall
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Sticky.
   icon:
@@ -380,6 +397,7 @@
   graph: Window
   startNode: start
   targetNode: window
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Clear.
   canBuildInImpassable: true
@@ -399,6 +417,7 @@
   graph: WindowDiagonal
   startNode: start
   targetNode: windowDiagonal
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Clear.
   canBuildInImpassable: true
@@ -417,6 +436,7 @@
   graph: Window
   startNode: start
   targetNode: reinforcedWindow
+  RequiresBuildingLevel: 2
   category: construction-category-structures
   description: Clear but tough.
   canBuildInImpassable: true
@@ -436,6 +456,7 @@
   graph: WindowDiagonal
   startNode: start
   targetNode: reinforcedWindowDiagonal
+  RequiresBuildingLevel: 2
   category: construction-category-structures
   description: Clear but tough.
   canBuildInImpassable: true
@@ -454,6 +475,7 @@
   graph: Window
   startNode: start
   targetNode: tintedWindow
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Not clear, but lasers still pass through.
   canBuildInImpassable: true
@@ -473,6 +495,7 @@
   graph: Window
   startNode: start
   targetNode: clockworkWindow
+  RequiresBuildingLevel: 2
   category: construction-category-structures
   description: Clear and tough, with a golden tint.
   canBuildInImpassable: true
@@ -492,6 +515,7 @@
   graph: WindowDiagonal
   startNode: start
   targetNode: clockworkWindowDiagonal
+  RequiresBuildingLevel: 2
   category: construction-category-structures
   description: Clear and tough, with a golden tint.
   canBuildInImpassable: true
@@ -510,6 +534,7 @@
   graph: Window
   startNode: start
   targetNode: plasmaWindow
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   canBuildInImpassable: true
   description: Clear, with a purple tint.
@@ -529,6 +554,7 @@
   graph: Window
   startNode: start
   targetNode: reinforcedPlasmaWindow
+  RequiresBuildingLevel: 2
   category: construction-category-structures
   canBuildInImpassable: true
   description: Clear and even tougher, with a purple tint.
@@ -548,6 +574,7 @@
   graph: Window
   startNode: start
   targetNode: shuttleWindow
+  RequiresBuildingLevel: 3
   category: construction-category-structures
   canBuildInImpassable: true
   description: Extra sturdy to resist the pressure of FTL or sustain damage from munitions.
@@ -567,6 +594,7 @@
   graph: WindowDiagonal
   startNode: start
   targetNode: plasmaWindowDiagonal
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   canBuildInImpassable: true
   description: Clear, with a purple tint.
@@ -584,6 +612,7 @@
   id: ReinforcedPlasmaWindowDiagonal
   graph: WindowDiagonal
   startNode: start
+  RequiresBuildingLevel: 2
   targetNode: reinforcedPlasmaWindowDiagonal
   category: construction-category-structures
   canBuildInImpassable: true
@@ -603,6 +632,7 @@
   graph: WindowDirectional
   startNode: start
   targetNode: windowDirectional
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Clear.
   canBuildInImpassable: true
@@ -620,6 +650,7 @@
   id: WindowReinforcedDirectional
   graph: WindowDirectional
   startNode: start
+  RequiresBuildingLevel: 2
   targetNode: windowReinforcedDirectional
   category: construction-category-structures
   description: Clear but tough.
@@ -638,6 +669,7 @@
   id: WindowClockworkDirectional
   graph: WindowDirectional
   startNode: start
+  RequiresBuildingLevel: 2
   targetNode: windowClockworkDirectional
   category: construction-category-structures
   description: Clear and tough, with a golden tint.
@@ -656,6 +688,7 @@
   id: PlasmaWindowDirectional
   graph: WindowDirectional
   startNode: start
+  RequiresBuildingLevel: 1
   targetNode: plasmaWindowDirectional
   category: construction-category-structures
   canBuildInImpassable: true
@@ -674,6 +707,7 @@
   id: PlasmaReinforcedWindowDirectional
   graph: WindowDirectional
   startNode: start
+  RequiresBuildingLevel: 2
   targetNode: plasmaReinforcedWindowDirectional
   category: construction-category-structures
   canBuildInImpassable: true
@@ -693,6 +727,7 @@
   graph: Window
   startNode: start
   targetNode: uraniumWindow
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   canBuildInImpassable: true
   description: Clear, with added RadAbsorb to protect you from deadly radiation.
@@ -711,6 +746,7 @@
   id: ReinforcedUraniumWindow
   graph: Window
   startNode: start
+  RequiresBuildingLevel: 2
   targetNode: reinforcedUraniumWindow
   category: construction-category-structures
   canBuildInImpassable: true
@@ -731,6 +767,7 @@
   graph: WindowDiagonal
   startNode: start
   targetNode: uraniumWindowDiagonal
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   canBuildInImpassable: true
   description: Clear, with added RadAbsorb to protect you from deadly radiation.
@@ -748,6 +785,7 @@
   id: ReinforcedUraniumWindowDiagonal
   graph: WindowDiagonal
   startNode: start
+  RequiresBuildingLevel: 2
   targetNode: reinforcedUraniumWindowDiagonal
   category: construction-category-structures
   canBuildInImpassable: true
@@ -767,6 +805,7 @@
   graph: Firelock
   startNode: start
   targetNode: Firelock
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: This is a firelock - it locks an area when a fire alarm in the area is triggered. Don't get squished!
   icon:
@@ -785,6 +824,7 @@
   graph: Firelock
   startNode: start
   targetNode: FirelockGlass
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: This is a firelock - it locks an area when a fire alarm in the area is triggered. Don't get squished!
   icon:
@@ -803,6 +843,7 @@
   graph: Firelock
   startNode: start
   targetNode: FirelockEdge
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: This is a firelock - it locks an area when a fire alarm in the area is triggered. Don't get squished!
   icon:
@@ -820,6 +861,7 @@
   graph: Shutters
   startNode: start
   targetNode: Shutters
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: This is a shutter - connect it to a button to open and close it.
   icon:
@@ -835,6 +877,7 @@
   graph: Shutters
   startNode: start
   targetNode: ShuttersWindow
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: This is a shutter - connect it to a button to open and close it.
   icon:
@@ -850,6 +893,7 @@
   graph: Shutters
   startNode: start
   targetNode: ShuttersRadiation
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: This is a shutter - connect it to a button to open and close it.
   icon:
@@ -865,6 +909,7 @@
   graph: BlastDoor
   startNode: start
   targetNode: blastdoor
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: This one says 'BLAST DONGER'.
   icon:
@@ -1026,6 +1071,7 @@
   graph: FenceMetal
   startNode: start
   targetNode: straight
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Part of a chain link fence meant to cordon off areas.
   icon:
@@ -1043,6 +1089,7 @@
   graph: FenceMetal
   startNode: start
   targetNode: corner
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Part of a chain link fence meant to cordon off areas.
   icon:
@@ -1060,6 +1107,7 @@
   graph: FenceMetal
   startNode: start
   targetNode: end
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Part of a chain link fence meant to cordon off areas.
   icon:
@@ -1077,6 +1125,7 @@
   graph: FenceMetal
   startNode: start
   targetNode: gate
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: An easy way to get through a chain link fence.
   icon:
@@ -1095,6 +1144,7 @@
   graph: FenceWood
   startNode: start
   targetNode: straight
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Part of a wooden fence meant to cordon off areas.
   icon:
@@ -1112,6 +1162,7 @@
   graph: FenceWood
   startNode: start
   targetNode: end
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Part of a wooden fence meant to cordon off areas.
   icon:
@@ -1129,6 +1180,7 @@
   graph: FenceWood
   startNode: start
   targetNode: corner
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Part of a wooden fence meant to cordon off areas.
   icon:
@@ -1146,6 +1198,7 @@
   graph: FenceWood
   startNode: start
   targetNode: tjunction
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Part of a wooden fence meant to cordon off areas.
   icon:
@@ -1163,6 +1216,7 @@
   graph: FenceWood
   startNode: start
   targetNode: gate
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Part of a wooden fence meant to cordon off areas.
   icon:
@@ -1181,6 +1235,7 @@
   graph: FenceWood
   startNode: start
   targetNode: straight_small
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Part of a wooden fence meant to cordon off areas.
   icon:
@@ -1198,6 +1253,7 @@
   graph: FenceWood
   startNode: start
   targetNode: end_small
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Part of a wooden fence meant to cordon off areas.
   icon:
@@ -1215,6 +1271,7 @@
   graph: FenceWood
   startNode: start
   targetNode: corner_small
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Part of a wooden fence meant to cordon off areas.
   icon:
@@ -1232,6 +1289,7 @@
   graph: FenceWood
   startNode: start
   targetNode: tjunction_small
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Part of a wooden fence meant to cordon off areas.
   icon:
@@ -1249,6 +1307,7 @@
   graph: FenceWood
   startNode: start
   targetNode: gate_small
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: Part of a wooden fence meant to cordon off areas.
   icon:
@@ -1525,6 +1584,7 @@
   graph: DoorGraph
   startNode: start
   targetNode: metalDoor
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: A primitive door with manual operation like the cavemen used.
   objectType: Structure
@@ -1542,6 +1602,7 @@
   graph: DoorGraph
   startNode: start
   targetNode: woodDoor
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: A primitive door with manual operation like the cavemen used.
   objectType: Structure
@@ -1559,6 +1620,7 @@
   graph: DoorGraph
   startNode: start
   targetNode: plasmaDoor
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: A primitive door with manual operation like the cavemen used.
   objectType: Structure
@@ -1576,6 +1638,7 @@
   graph: DoorGraph
   startNode: start
   targetNode: goldDoor
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: A primitive door with manual operation like the cavemen used.
   objectType: Structure
@@ -1593,6 +1656,7 @@
   graph: DoorGraph
   startNode: start
   targetNode: silverDoor
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: A primitive door with manual operation like the cavemen used.
   objectType: Structure
@@ -1610,6 +1674,7 @@
   graph: DoorGraph
   startNode: start
   targetNode: paperDoor
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: A primitive door with manual operation like the cavemen used.
   objectType: Structure
@@ -1625,6 +1690,7 @@
   graph: PlasticFlapsGraph
   startNode: start
   targetNode: plasticFlaps
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   placementMode: SnapgridCenter
   description: A plastic flap to let items through and keep people out.
@@ -1642,6 +1708,7 @@
   graph: PlasticFlapsGraph
   startNode: start
   targetNode: opaqueFlaps
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   placementMode: SnapgridCenter
   description: An opaque plastic flap to let items through and keep people out.
@@ -1659,6 +1726,7 @@
   graph: CarpStatue
   startNode: start
   targetNode: statue
+  RequiresBuildingLevel: 3
   category: construction-category-structures
   placementMode: SnapgridCenter
   description: A statue of one of the brave carp that got us where we are today. Made with real teeth!
@@ -1676,6 +1744,7 @@
   graph: BananiumStatueClown
   startNode: start
   targetNode: bananiumStatue
+  RequiresBuildingLevel: 3
   category: construction-category-structures
   placementMode: SnapgridCenter
   description: A clown statue made from bananium.
@@ -1693,6 +1762,7 @@
   graph: DoorGraph
   startNode: start
   targetNode: bananiumDoor
+  RequiresBuildingLevel: 1
   category: construction-category-structures
   description: A primitive door made from bananium, it honks.
   objectType: Structure
@@ -1710,6 +1780,7 @@
   graph: BananiumAltarGraph
   startNode: start
   targetNode: bananiumAltar
+  RequiresBuildingLevel: 3
   category: construction-category-structures
   description: An altar to worship the honkmother with.
   icon:
@@ -1728,6 +1799,7 @@
   graph: SecretDoor
   startNode: start
   targetNode: solidSecretDoor
+  RequiresInstrumentationLevel: 3
   category: construction-category-structures
   description: A secret door for the wall.
   objectType: Structure

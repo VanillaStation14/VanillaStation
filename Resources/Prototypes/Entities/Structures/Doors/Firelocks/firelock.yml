@@ -5,6 +5,8 @@
   name: firelock
   description: Apply crowbar.
   components:
+    - type: RequiresSkill
+      RequiresInstrumentationLevel: 2
     - type: AtmosAlarmable
       syncWith:
         - FireAlarm

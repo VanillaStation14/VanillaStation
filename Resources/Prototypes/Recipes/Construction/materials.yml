@@ -16,6 +16,7 @@
   graph: Glass
   startNode: start
   targetNode: SheetRGlass
+  RequiresBuildingLevel: 2
   category: construction-category-materials
   icon: { sprite: Objects/Materials/Sheets/glass.rsi, state: rglass }
   objectType: Item
@@ -26,6 +27,7 @@
   id: SheetClockworkGlass
   graph: Glass
   startNode: start
+  RequiresBuildingLevel: 2
   targetNode: SheetClockworkGlass
   category: construction-category-materials
   icon: { sprite: Objects/Materials/Sheets/glass.rsi, state: cglass }
@@ -38,6 +40,7 @@
   graph: Glass
   startNode: start
   targetNode: SheetPGlass
+  RequiresBuildingLevel: 1
   category: construction-category-materials
   icon: { sprite: Objects/Materials/Sheets/glass.rsi, state: pglass }
   objectType: Item
@@ -49,6 +52,7 @@
   graph: Glass
   startNode: start
   targetNode: SheetRPGlass
+  RequiresBuildingLevel: 2
   category: construction-category-materials
   icon: { sprite: Objects/Materials/Sheets/glass.rsi, state: rpglass }
   objectType: Item
@@ -60,6 +64,7 @@
   graph: Glass
   startNode: start
   targetNode: SheetRPGlass0
+  RequiresBuildingLevel: 2
   category: construction-category-materials
   icon: { sprite: Objects/Materials/Sheets/glass.rsi, state: rpglass }
   objectType: Item
@@ -71,6 +76,7 @@
   graph: Glass
   startNode: start
   targetNode: SheetRPGlass1
+  RequiresBuildingLevel: 2
   category: construction-category-materials
   icon: { sprite: Objects/Materials/Sheets/glass.rsi, state: rpglass }
   objectType: Item
@@ -93,6 +99,7 @@
   graph: Glass
   startNode: start
   targetNode: SheetUGlass
+  RequiresBuildingLevel: 1
   category: construction-category-materials
   icon: { sprite: Objects/Materials/Sheets/glass.rsi, state: uglass }
   objectType: Item
@@ -104,6 +111,7 @@
   graph: Glass
   startNode: start
   targetNode: SheetRUGlass
+  RequiresBuildingLevel: 2
   category: construction-category-materials
   icon: { sprite: Objects/Materials/Sheets/glass.rsi, state: ruglass }
   objectType: Item
@@ -115,6 +123,7 @@
   graph: Glass
   startNode: start
   targetNode: SheetRUGlass0
+  RequiresBuildingLevel: 2
   category: construction-category-materials
   icon: { sprite: Objects/Materials/Sheets/glass.rsi, state: ruglass }
   objectType: Item
@@ -126,6 +135,7 @@
   graph: Glass
   startNode: start
   targetNode: SheetRUGlass1
+  RequiresBuildingLevel: 2
   category: construction-category-materials
   icon: { sprite: Objects/Materials/Sheets/glass.rsi, state: ruglass }
   objectType: Item
