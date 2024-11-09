@@ -1,6 +1,6 @@
 - type: entity
   name: Power Sabre
-  parent: BaseItem
+  parent: [BaseItem, BaseCommandContraband]
   id: PowerSabre
   description: Captain's power sabre based on the principle of a containment field generator. The guard is made of gold, adorned with a platinum engraving that reads "Justice."
   components:
@@ -20,10 +20,12 @@
       path: /Audio/Weapons/emitter.ogg
       params:
         variation: 0.250
+        volume: -4
     soundDeactivate:
       path: /Audio/Vanilla/Weapons/powersabreoff.ogg
       params:
         variation: 0.250
+        volume: -5
     soundFailToActivate:
       path: /Audio/Machines/button.ogg
       params:
@@ -33,15 +35,17 @@
       path: /Audio/Vanilla/Weapons/powersabrehit.ogg
       params:
         variation: 0.250
+        volume: 6
     activatedSoundOnHitNoDamage:
       path: /Audio/Vanilla/Weapons/powersabrehit.ogg
       params:
         variation: 0.250
+        volume: 6
     activatedSoundOnSwing:
       path: /Audio/Vanilla/Weapons/powersabrehit.ogg
       params:
         variation: 0.125
-        volume: -3
+        volume: 6
     activatedDamage:
       types:
         Blunt: 20
@@ -51,23 +55,31 @@
     damage:
       types:
         Blunt: 4.5
+  - type: ItemToggleActiveSound
+    activeSound:
+      path: /Audio/Ambience/Objects/gravity_gen_hum.ogg
+      params:
+        volume: -10
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 4.5
   - type: ComponentToggler
     components:
     - type: MeleeThrowOnHit
-      speed: 20
-      lifetime: 0.15
+      speed: 10
+      lifetime: 0.2
+      minlifetime: 0.01
     - type: DisarmMalus
       malus: 0.7
   - type: StaminaDamageOnHit
-    damage: 25
-  - type: StaminaDamageOnCollide
     damage: 25
   - type: LandAtCursor
   - type: Battery
     maxCharge: 5000
     startingCharge: 5000
   - type: UseDelay
-    delay: 10.0
+    delay: 5.0
   - type: PointLight
     enabled: false
     radius: 2
