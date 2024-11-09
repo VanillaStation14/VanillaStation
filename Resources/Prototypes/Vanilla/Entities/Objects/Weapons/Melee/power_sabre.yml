@@ -60,16 +60,12 @@
       path: /Audio/Ambience/Objects/gravity_gen_hum.ogg
       params:
         volume: -10
-    wideAnimationRotation: -135
-    damage:
-      types:
-        Blunt: 4.5
   - type: ComponentToggler
     components:
     - type: MeleeThrowOnHit
       speed: 10
       lifetime: 0.2
-      minlifetime: 0.01
+      MinLifetime: 0.01
     - type: DisarmMalus
       malus: 0.7
   - type: StaminaDamageOnHit
