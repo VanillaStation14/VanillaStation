@@ -20,9 +20,16 @@
   special:
   - !type:AddComponentSpecial
     components:
-      - type: Skill
-        ChemistryLevel: 1
-        PilotingLevel: 1
+    - type: Skill
+      PilotingLevel: 1
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 0
+      MedicineLevel: 0
+      ChemistryLevel: 1
+      EngineeringLevel: 3
+      BuildingLevel: 3
+      ResearchLevel: 0
+      InstrumentationLevel: 2
 
 - type: startingGear
   id: AtmosphericTechnicianGear

@@ -21,6 +21,8 @@
     - ScannersAndVessels
   - type: Item
     storedRotation: -90
+  - type: RequiresSkill
+    RequiresResearchLevel: 1
 
 - type: entity
   id: AnomalyLocatorUnpowered

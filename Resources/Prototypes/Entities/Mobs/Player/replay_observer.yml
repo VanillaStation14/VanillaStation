@@ -1,5 +1,5 @@
 ﻿- type: entity
-  parent: MobObserver
+  parent: MobObserverBase
   id: ReplayObserver
   categories: [ HideSpawnMenu ]
   save: false
@@ -8,7 +8,12 @@
     baseSprintSpeed: 24
     baseWalkSpeed: 16
   - type: Skill
+    PilotingLevel: 3
+    RangeWeaponLevel: 3
+    MeleeWeaponLevel: 3
     MedicineLevel: 3
     ChemistryLevel: 3
-    RangeWeaponLevel: 3
-    PilotingLevel: 3
+    EngineeringLevel: 3
+    BuildingLevel: 3
+    ResearchLevel: 3
+    InstrumentationLevel: 3

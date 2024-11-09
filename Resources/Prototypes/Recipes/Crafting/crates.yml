@@ -36,6 +36,7 @@
   id: CrateFreezer
   graph: CrateFreezer
   startNode: start
+  RequiresInstrumentationLevel: 1
   targetNode: done
   category: construction-category-storage
   description: A metal freezing crate for storing things.

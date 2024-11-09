@@ -107,10 +107,15 @@
       - RoleSurvivalNukie
       components:
       - type: Skill
+        PilotingLevel: 3
+        RangeWeaponLevel: 3
+        MeleeWeaponLevel: 3
         MedicineLevel: 3
         ChemistryLevel: 3
-        RangeWeaponLevel: 3
-        PilotingLevel: 3
+        EngineeringLevel: 3
+        BuildingLevel: 3
+        ResearchLevel: 3
+        InstrumentationLevel: 3
       - type: NukeOperative
       - type: RandomMetadata
         nameSegments:
@@ -129,10 +134,15 @@
       - RoleSurvivalNukie
       components:
       - type: Skill
+        PilotingLevel: 3
+        RangeWeaponLevel: 3
+        MeleeWeaponLevel: 3
         MedicineLevel: 3
         ChemistryLevel: 3
-        RangeWeaponLevel: 3
-        PilotingLevel: 3
+        EngineeringLevel: 3
+        BuildingLevel: 3
+        ResearchLevel: 3
+        InstrumentationLevel: 3
       - type: NukeOperative
       - type: RandomMetadata
         nameSegments:
@@ -153,10 +163,15 @@
       - RoleSurvivalNukie
       components:
       - type: Skill
+        PilotingLevel: 3
+        RangeWeaponLevel: 3
+        MeleeWeaponLevel: 3
         MedicineLevel: 3
         ChemistryLevel: 3
-        RangeWeaponLevel: 3
-        PilotingLevel: 3
+        EngineeringLevel: 3
+        BuildingLevel: 3
+        ResearchLevel: 3
+        InstrumentationLevel: 3
       - type: NukeOperative
       - type: RandomMetadata
         nameSegments:
@@ -203,12 +218,26 @@
       lateJoinAdditional: true
       components:
       - type: Skill
-        MedicineLevel: 3
-        ChemistryLevel: 2
-        RangeWeaponLevel: 2
         PilotingLevel: 3
+        RangeWeaponLevel: 3
+        MeleeWeaponLevel: 3
+        MedicineLevel: 3
+        ChemistryLevel: 3
+        EngineeringLevel: 3
+        BuildingLevel: 3
+        ResearchLevel: 3
+        InstrumentationLevel: 3
       mindRoles:
       - MindRoleTraitor
+
+- type: entity
+  id: TraitorReinforcement
+  parent: Traitor
+  components:
+  - type: TraitorRule
+    giveUplink: false
+    giveCodewords: false # It would actually give them a different set of codewords than the regular traitors, anyway
+    giveBriefing: false
 
 - type: entity
   id: Revolutionary
@@ -229,10 +258,15 @@
       startingGear: HeadRevGear
       components:
       - type: Skill
-        MedicineLevel: 2
-        ChemistryLevel: 2
-        RangeWeaponLevel: 3
         PilotingLevel: 3
+        RangeWeaponLevel: 3
+        MeleeWeaponLevel: 3
+        MedicineLevel: 3
+        ChemistryLevel: 3
+        EngineeringLevel: 3
+        BuildingLevel: 3
+        ResearchLevel: 3
+        InstrumentationLevel: 3
       - type: Revolutionary
       - type: HeadRevolutionary
       mindRoles:
@@ -275,10 +309,15 @@
         sound: "/Audio/Ambience/Antag/zombie_start.ogg"
       components:
       - type: Skill
+        PilotingLevel: 3
+        RangeWeaponLevel: 3
+        MeleeWeaponLevel: 3
         MedicineLevel: 3
         ChemistryLevel: 3
-        RangeWeaponLevel: 3
-        PilotingLevel: 2
+        EngineeringLevel: 3
+        BuildingLevel: 3
+        ResearchLevel: 3
+        InstrumentationLevel: 3
       - type: PendingZombie
       - type: ZombifyOnDeath
       - type: IncurableZombie

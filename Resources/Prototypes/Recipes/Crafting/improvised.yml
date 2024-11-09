@@ -39,6 +39,7 @@
   name: makeshift stunprod
   id: makeshiftstunprod
   graph: makeshiftstunprod
+  RequiresInstrumentationLevel: 2
   startNode: start
   targetNode: msstunprod
   category: construction-category-weapons
@@ -169,6 +170,7 @@
   graph: FireBomb
   startNode: start
   targetNode: firebomb
+  RequiresInstrumentationLevel: 1
   category: construction-category-weapons
   objectType: Item
   description: A weak, improvised incendiary device.
@@ -208,6 +210,7 @@
   graph: PipeBomb
   startNode: start
   targetNode: pipebomb
+  RequiresInstrumentationLevel: 2
   category: construction-category-weapons
   objectType: Item
   description: An improvised explosive made from pipes and wire.

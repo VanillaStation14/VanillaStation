@@ -78,7 +78,7 @@
   - type: EmagSiliconLaw
     stunTime: 5
   - type: SiliconLawProvider
-    laws: Crewsimov
+    laws: NTDefault # Corvax-NTDefault
   - type: IonStormTarget
   - type: Inventory
     templateId: borg
@@ -278,10 +278,15 @@
   abstract: true
   components:
   - type: Skill
+    PilotingLevel: 3
+    RangeWeaponLevel: 0
+    MeleeWeaponLevel: 0
     MedicineLevel: 3
     ChemistryLevel: 3
-    RangeWeaponLevel: 3
-    PilotingLevel: 3
+    EngineeringLevel: 3
+    BuildingLevel: 3
+    ResearchLevel: 3
+    InstrumentationLevel: 3
   - type: NpcFactionMember
     factions:
     - NanoTrasen
@@ -300,10 +305,15 @@
   abstract: true
   components:
   - type: Skill
+    PilotingLevel: 3
+    RangeWeaponLevel: 3
+    MeleeWeaponLevel: 3
     MedicineLevel: 3
     ChemistryLevel: 3
-    RangeWeaponLevel: 3
-    PilotingLevel: 3
+    EngineeringLevel: 3
+    BuildingLevel: 3
+    ResearchLevel: 3
+    InstrumentationLevel: 3
   - type: NpcFactionMember
     factions:
     - Syndicate

@@ -16,12 +16,18 @@
   - Research
   - Maintenance
   special:
-  - !type:AddComponentSpecial
+  - !type:AddComponentSpecial 
     components:
-      - type: CommandStaff
       - type: Skill
-        MedicineLevel: 1
+        PilotingLevel: 0
+        RangeWeaponLevel: 0
+        MeleeWeaponLevel: 0
+        MedicineLevel: 0
         ChemistryLevel: 1
+        EngineeringLevel: 0
+        BuildingLevel: 0
+        ResearchLevel: 2
+        InstrumentationLevel: 2
 
 - type: startingGear
   id: ResearchAssistantGear
@@ -29,7 +35,7 @@
     shoes: ClothingShoesColorWhite
     id: ResearchAssistantPDA
     ears: ClothingHeadsetScience
-    pocket2: BookScientistsGuidebook
+  #  pocket2: BookScientistsGuidebook
   #storage:
     #back:
     #- Stuff

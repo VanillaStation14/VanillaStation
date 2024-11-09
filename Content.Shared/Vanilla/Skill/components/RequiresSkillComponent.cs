@@ -6,19 +6,34 @@ namespace Content.Shared.Vanilla.Skill
     [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
     public sealed partial class RequiresSkillComponent : Component
     {
+        //Химия
         [DataField("RequiresChemistryLevel"), AutoNetworkedField]
         public int RequiresChemistryLevel { get; set; } = 0;
+        [DataField("SkillDiffChemistryLevel"), AutoNetworkedField]
+        public int SkillDiffChemistryLevel { get; set; } = 0;
 
+        //Медицина
         [DataField("RequiresMedicineLevel"), AutoNetworkedField]
         public int RequiresMedicineLevel { get; set; } = 0;
+        [DataField("SkillDiffMedicineLevel"), AutoNetworkedField]
+        public int SkillDiffMedicineLevel { get; set; } = 0;
 
+        //Пилотирование
         [DataField("RequiresPilotingLevel"), AutoNetworkedField]
         public int RequiresPilotingLevel { get; set; } = 0;
-
         [DataField("RequiresPilotingLevelForMap"), AutoNetworkedField]
         public int RequiresPilotingLevelForMap { get; set; } = 0;
-
         [DataField("RequiresPilotingLevelForCoord"), AutoNetworkedField]
         public int RequiresPilotingLevelForCoord { get; set; } = 0;
+
+        //Исследования
+        [DataField("RequiresResearchLevel"), AutoNetworkedField]
+        public int RequiresResearchLevel { get; set; } = 0;
+        [DataField("SkillDiffResearchLevel"), AutoNetworkedField]
+        public int SkillDiffResearchLevel { get; set; } = 0;
+        
+        //Приборостроение
+        [DataField("RequiresInstrumentationLevel"), AutoNetworkedField]
+        public int RequiresInstrumentationLevel { get; set; } = 0;
     }
 }

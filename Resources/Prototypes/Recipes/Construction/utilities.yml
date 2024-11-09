@@ -5,6 +5,7 @@
   graph: SurveillanceCamera
   startNode: start
   targetNode: camera
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   description: "Surveillance camera. It's watching. Soon."
   icon:
@@ -19,6 +20,7 @@
   graph: WallmountTelescreen
   startNode: start
   targetNode: Telescreen
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   description: "A surveillance camera monitor for the wall."
   icon:
@@ -34,6 +36,7 @@
   graph: StationMap
   startNode: start
   targetNode: station_map
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: A station map.
   icon:
@@ -53,6 +56,7 @@
   graph: APC
   startNode: start
   targetNode: apc
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   description: "Area Power Controller (APC). Controls power. In an area."
   icon:
@@ -68,6 +72,7 @@
   graph: CableTerminal
   startNode: start
   targetNode: cable_terminal
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   description: "Input of devices such as the SMES. The red cables needs to face the device."
   icon:
@@ -83,6 +88,7 @@
   graph: WallmountSubstation
   startNode: start
   targetNode: substation
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   description: "A wallmount substation for compact spaces. Make sure to place cable underneath before building the wall."
   icon:
@@ -98,6 +104,7 @@
   graph: WallmountGenerator
   startNode: start
   targetNode: generator
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   description: "A wallmount generator for compact spaces. Make sure to place cable underneath before building the wall."
   icon:
@@ -113,6 +120,7 @@
   graph: WallmountGenerator
   startNode: start
   targetNode: APU
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   description: "A wallmount APU for compact shuttles. Make sure to place cable underneath before building the wall."
   icon:
@@ -130,6 +138,7 @@
   graph: DisposalMachine
   startNode: start
   targetNode: disposal_unit
+  RequiresInstrumentationLevel: 1
   category: construction-category-utilities
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -144,6 +153,7 @@
   graph: DisposalMachine
   startNode: start
   targetNode: mailing_unit
+  RequiresInstrumentationLevel: 1
   category: construction-category-utilities
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -321,6 +331,7 @@
   graph: AirAlarm
   startNode: start
   targetNode: air_alarm
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: An air alarm. Alarms... air?
   icon:
@@ -339,6 +350,7 @@
   graph: FireAlarm
   startNode: start
   targetNode: fire_alarm
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: A fire alarm. Spicy!
   icon:
@@ -357,6 +369,7 @@
   graph: AirSensor
   startNode: start
   targetNode: sensor
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: An air sensor. Senses air.
   icon:
@@ -530,6 +543,7 @@
   graph: GasBinary
   startNode: start
   targetNode: pressurepump
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -551,6 +565,7 @@
   graph: GasBinary
   startNode: start
   targetNode: volumepump
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -572,6 +587,7 @@
   graph: GasBinary
   startNode: start
   targetNode: passivegate
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -593,6 +609,7 @@
   graph: GasBinary
   startNode: start
   targetNode: valve
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -614,6 +631,7 @@
   graph: GasBinary
   startNode: start
   targetNode: signalvalve
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -635,6 +653,7 @@
   graph: GasBinary
   startNode: start
   targetNode: port
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -656,6 +675,7 @@
   graph: GasBinary
   startNode: start
   targetNode: dualportventpump
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -675,6 +695,7 @@
   graph: GasBinary
   startNode: start
   targetNode: radiator
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -690,6 +711,7 @@
   graph: GasTrinary
   startNode: start
   targetNode: filter
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -708,6 +730,7 @@
   graph: GasTrinary
   startNode: start
   targetNode: filterflipped
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -725,6 +748,7 @@
   graph: GasTrinary
   startNode: start
   targetNode: mixer
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -743,6 +767,7 @@
   graph: GasTrinary
   startNode: start
   targetNode: mixerflipped
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -760,6 +785,7 @@
   graph: GasTrinary
   startNode: start
   targetNode: pneumaticvalve
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -776,6 +802,7 @@
   graph: Intercom
   startNode: start
   targetNode: intercom
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: An intercom. For when the station just needs to know something.
   icon:
@@ -796,6 +823,7 @@
   startNode: start
   targetNode: signal
   category: construction-category-utilities
+  RequiresInstrumentationLevel: 2
   description: "A wallmounted timer for sending timed signals to things."
   icon:
     sprite: Structures/Wallmounts/switch.rsi
@@ -813,6 +841,7 @@
   startNode: start
   targetNode: screen
   category: construction-category-utilities
+  RequiresInstrumentationLevel: 2
   description: "A wallmounted timer for sending timed signals to things. This one has a screen for displaying text."
   icon:
     sprite: Structures/Wallmounts/signalscreen.rsi
@@ -830,6 +859,7 @@
   graph: Timer
   startNode: start
   targetNode: brig
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   description: "A wallmounted timer for sending timed signals to things. This one has a screen for displaying text and requires security access to use."
   icon:

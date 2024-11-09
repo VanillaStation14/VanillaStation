@@ -15,8 +15,15 @@
   - !type:AddComponentSpecial
     components:
       - type: Skill
+        PilotingLevel: 2
+        RangeWeaponLevel: 0
+        MeleeWeaponLevel: 3
+        MedicineLevel: 0
         ChemistryLevel: 1
-        PilotingLevel: 3
+        EngineeringLevel: 1
+        BuildingLevel: 1
+        ResearchLevel: 1
+        InstrumentationLevel: 1
 
 - type: startingGear
   id: CargoTechGear

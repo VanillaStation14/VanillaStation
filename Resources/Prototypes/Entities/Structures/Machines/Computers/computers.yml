@@ -81,14 +81,6 @@
   description: Used to pilot a shuttle.
   abstract: true
   components:
-  - type: RequiresSkill
-    RequiresPilotingLevel: 1
-    RequiresPilotingLevelForCoord: 2 
-    RequiresPilotingLevelForMap: 3
-  - type: SkillTrainer
-    skillType: Piloting
-    skillIncreaseAmount: 1
-    MaxLevel: 3
   - type: ShuttleConsole
   - type: ActivatableUI
     key: enum.ShuttleConsoleUiKey.Key
@@ -123,6 +115,14 @@
       board: !type:Container
         ents: []
       disk_slot: !type:ContainerSlot {}
+  - type: RequiresSkill
+    RequiresPilotingLevel: 1
+    RequiresPilotingLevelForCoord: 2 
+    RequiresPilotingLevelForMap: 3
+  - type: SkillTrainer
+    skillType: Piloting
+    skillIncreaseAmount: 1
+    MaxLevel: 3
 
 - type: entity
   parent: BaseComputerShuttle
@@ -479,6 +479,8 @@
   - type: GuideHelp
     guides:
     - Science
+  - type: RequiresSkill
+    RequiresResearchLevel: 2
 
 - type: entity
   parent: BaseComputerAiAccess
@@ -529,6 +531,8 @@
   - type: GuideHelp
     guides:
     - Xenoarchaeology
+  - type: RequiresSkill
+    RequiresResearchLevel: 2
 
 - type: entity
   parent: BaseComputerAiAccess
@@ -934,6 +938,8 @@
   - type: GuideHelp
     guides:
     - Cloning
+  - type: RequiresSkill
+    RequiresMedicineLevel: 3
 
 - type: entity
   id: ComputerSalvageExpedition

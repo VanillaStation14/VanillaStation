@@ -1267,6 +1267,7 @@
   graph: Airlock
   startNode: start
   targetNode: airlock
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: It opens, it closes, and maybe crushes you.
   icon:
@@ -1284,6 +1285,7 @@
   graph: Airlock
   startNode: start
   targetNode: glassAirlock
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: It opens, it closes, and maybe crushes you.
   icon:
@@ -1301,6 +1303,7 @@
   graph: PinionAirlock
   startNode: start
   targetNode: airlock
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: It opens, it closes, and maybe crushes you.
   icon:
@@ -1318,6 +1321,7 @@
   graph: PinionAirlock
   startNode: start
   targetNode: glassAirlock
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: It opens, it closes, and maybe crushes you.
   icon:
@@ -1335,6 +1339,7 @@
   graph: AirlockShuttle
   startNode: start
   targetNode: airlock
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: It opens, it closes, and maybe crushes you. Necessary for connecting two space craft together.
   icon:
@@ -1353,6 +1358,7 @@
   graph: AirlockShuttle
   startNode: start
   targetNode: airlockGlass
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: It opens, it closes, and maybe crushes you. Necessary for connecting two space craft together. This one has a window.
   icon:
@@ -1371,6 +1377,7 @@
   graph: Windoor
   startNode: start
   targetNode: windoor
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: It opens, it closes, and you can see through it! And it can be made of Plasma, Uranium, or normal Glass!
   icon:
@@ -1388,6 +1395,7 @@
   graph: Windoor
   startNode: start
   targetNode: windoorSecure
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: It's tough, it's a door, and you can see through it! And it can be made of Plasma, Uranium, or normal Glass!
   icon:
@@ -1405,6 +1413,7 @@
   graph: Windoor
   startNode: start
   targetNode: windoorClockwork
+  RequiresInstrumentationLevel: 2
   category: construction-category-structures
   description: It opens, it closes, and you can see through it! This one looks tough.
   icon:
