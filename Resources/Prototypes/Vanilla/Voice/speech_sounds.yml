@@ -1,4 +1,4 @@
-type: speechSounds
+- type: speechSounds
   id: Soldier
   saySound:
     path: /Audio/Vanilla/Effects/Footsteps/soldier_voice2.ogg
