@@ -47,6 +47,20 @@
       BuildingLevel: 3
       ResearchLevel: 3
       InstrumentationLevel: 3
+    - type: AutoImplant
+      implants:
+      - TrackingImplant
+    - type: Speech
+      speechSounds: Soldier
+      soundCooldownTime: 0.1
+    - type: TriggerOnMobstateChange
+      mobState:
+      - Critical
+    - type: EmitSoundOnTrigger
+      sound:
+        collection: SoldierDeath
+        params:
+          volume: 3
     - type: GhostRole
       name: ghost-role-information-Death-Squad-name
       description: ghost-role-information-Death-Squad-description
@@ -80,6 +94,13 @@
       settings: ERTLeader
 
 - type: randomHumanoidSettings
+  speciesBlacklist:
+    - Diona
+    - Moth
+    - Arachnid
+    - Dwarf
+    - Vox
+    - Reptilian
   id: ERTLeader
   parent: EventHumanoidMindShielded
   randomizeName: false
@@ -94,6 +115,20 @@
       BuildingLevel: 3
       ResearchLevel: 3
       InstrumentationLevel: 3
+    - type: AutoImplant
+      implants:
+      - TrackingImplant
+    - type: Speech
+      speechSounds: Soldier
+      soundCooldownTime: 0.1
+    - type: TriggerOnMobstateChange
+      mobState:
+      - Critical
+    - type: EmitSoundOnTrigger
+      sound:
+        collection: SoldierDeath
+        params:
+          volume: 3
     - type: GhostRole
       name: ghost-role-information-ert-leader-name
       description: ghost-role-information-ert-leader-description
@@ -134,29 +169,6 @@
       job: ERTLeader
     - type: Loadout
       prototypes: [ ERTLeaderGearEVA ]
-      roleLoadout: [ RoleSurvivalEVA ]
-
-- type: entity
-  id: RandomHumanoidSpawnerERTLeaderEVALecter
-  parent: RandomHumanoidSpawnerERTLeaderEVA
-  suffix: ERTRole, Lecter, EVA
-  components:
-    - type: RandomHumanoidSpawner
-      settings: ERTLeaderEVALecter
-
-- type: randomHumanoidSettings
-  id: ERTLeaderEVALecter
-  parent: ERTLeaderEVA
-  components:
-    - type: GhostRole
-      name: ghost-role-information-ert-leader-name
-      description: ghost-role-information-ert-leader-description
-      rules: ghost-role-information-nonantagonist-rules
-      raffle:
-        settings: short
-      job: ERTLeader
-    - type: Loadout
-      prototypes: [ ERTLeaderGearEVALecter ]
       roleLoadout: [ RoleSurvivalEVA ]
 
 ## ERT Chaplain
@@ -254,6 +266,13 @@
       settings: ERTJanitor
 
 - type: randomHumanoidSettings
+  speciesBlacklist:
+    - Diona
+    - Moth
+    - Arachnid
+    - Dwarf
+    - Vox
+    - Reptilian
   id: ERTJanitor
   parent: ERTLeader
   components:
@@ -267,6 +286,20 @@
       BuildingLevel: 0
       ResearchLevel: 0
       InstrumentationLevel: 0
+    - type: AutoImplant
+      implants:
+      - TrackingImplant
+    - type: Speech
+      speechSounds: Soldier
+      soundCooldownTime: 0.1
+    - type: TriggerOnMobstateChange
+      mobState:
+      - Critical
+    - type: EmitSoundOnTrigger
+      sound:
+        collection: SoldierDeath
+        params:
+          volume: 3
     - type: GhostRole
       name: ghost-role-information-ert-janitor-name
       description: ghost-role-information-ert-janitor-description
@@ -328,6 +361,13 @@
       settings: ERTEngineer
 
 - type: randomHumanoidSettings
+  speciesBlacklist:
+    - Diona
+    - Moth
+    - Arachnid
+    - Dwarf
+    - Vox
+    - Reptilian
   id: ERTEngineer
   parent: ERTLeader
   components:
@@ -341,6 +381,20 @@
       BuildingLevel: 3
       ResearchLevel: 0
       InstrumentationLevel: 2
+    - type: AutoImplant
+      implants:
+      - TrackingImplant
+    - type: Speech
+      speechSounds: Soldier
+      soundCooldownTime: 0.1
+    - type: TriggerOnMobstateChange
+      mobState:
+      - Critical
+    - type: EmitSoundOnTrigger
+      sound:
+        collection: SoldierDeath
+        params:
+          volume: 3
     - type: GhostRole
       name: ghost-role-information-ert-engineer-name
       description: ghost-role-information-ert-engineer-description
@@ -402,6 +456,13 @@
       settings: ERTSecurity
 
 - type: randomHumanoidSettings
+  speciesBlacklist:
+    - Diona
+    - Moth
+    - Arachnid
+    - Dwarf
+    - Vox
+    - Reptilian
   id: ERTSecurity
   speciesBlacklist: # Corvax-MRP
     - Diona
@@ -417,6 +478,20 @@
       BuildingLevel: 0
       ResearchLevel: 0
       InstrumentationLevel: 0
+    - type: AutoImplant
+      implants:
+      - TrackingImplant
+    - type: Speech
+      speechSounds: Soldier
+      soundCooldownTime: 0.1
+    - type: TriggerOnMobstateChange
+      mobState:
+      - Critical
+    - type: EmitSoundOnTrigger
+      sound:
+        collection: SoldierDeath
+        params:
+          volume: 3
     - type: GhostRole
       name: ghost-role-information-ert-security-name
       description: ghost-role-information-ert-security-description
@@ -459,29 +534,6 @@
       prototypes: [ ERTSecurityGearEVA ]
       roleLoadout: [ RoleSurvivalEVA ]
 
-- type: entity
-  id: RandomHumanoidSpawnerERTSecurityEVALecter
-  parent: RandomHumanoidSpawnerERTSecurityEVA
-  suffix: ERTRole, Lecter, EVA
-  components:
-    - type: RandomHumanoidSpawner
-      settings: ERTSecurityEVALecter
-
-- type: randomHumanoidSettings
-  id: ERTSecurityEVALecter
-  parent: ERTSecurityEVA
-  components:
-    - type: GhostRole
-      name: ghost-role-information-ert-security-name
-      description: ghost-role-information-ert-security-description
-      rules: ghost-role-information-nonantagonist-rules
-      raffle:
-        settings: short
-      job: ERTSecurity
-    - type: Loadout
-      prototypes: [ ERTSecurityGearEVALecter ]
-      roleLoadout: [ RoleSurvivalEVA ]
-
 ## ERT Medic
 
 - type: entity
@@ -501,6 +553,13 @@
       settings: ERTMedical
 
 - type: randomHumanoidSettings
+  speciesBlacklist:
+    - Diona
+    - Moth
+    - Arachnid
+    - Dwarf
+    - Vox
+    - Reptilian
   id: ERTMedical
   parent: ERTLeader
   components:
@@ -514,6 +573,20 @@
       BuildingLevel: 0
       ResearchLevel: 0
       InstrumentationLevel: 0
+    - type: AutoImplant
+      implants:
+      - TrackingImplant
+    - type: Speech
+      speechSounds: Soldier
+      soundCooldownTime: 0.1
+    - type: TriggerOnMobstateChange
+      mobState:
+      - Critical
+    - type: EmitSoundOnTrigger
+      sound:
+        collection: SoldierDeath
+        params:
+          volume: 3
     - type: GhostRole
       name: ghost-role-information-ert-medical-name
       description: ghost-role-information-ert-medical-description
@@ -570,8 +643,13 @@
       settings: CBURNAgent
 
 - type: randomHumanoidSettings
-  speciesBlacklist: # Corvax-MRP
+  speciesBlacklist:
     - Diona
+    - Moth
+    - Arachnid
+    - Dwarf
+    - Vox
+    - Reptilian
   id: CBURNAgent
   parent: EventHumanoidMindShielded
   components:
@@ -585,6 +663,20 @@
       BuildingLevel: 2
       ResearchLevel: 3
       InstrumentationLevel: 1
+    - type: AutoImplant
+      implants:
+      - TrackingImplant
+    - type: Speech
+      speechSounds: Soldier
+      soundCooldownTime: 0.1
+    - type: TriggerOnMobstateChange
+      mobState:
+      - Critical
+    - type: EmitSoundOnTrigger
+      sound:
+        collection: SoldierDeath
+        params:
+          volume: 3
     - type: Loadout
       prototypes: [CBURNGear]
       roleLoadout: [ RoleSurvivalEVA ]
@@ -625,6 +717,9 @@
       BuildingLevel: 0
       ResearchLevel: 0
       InstrumentationLevel: 0
+    - type: AutoImplant
+      implants:
+      - TrackingImplant
     - type: GhostRole
       name: ghost-role-information-centcom-official-name
       description: ghost-role-information-centcom-official-description

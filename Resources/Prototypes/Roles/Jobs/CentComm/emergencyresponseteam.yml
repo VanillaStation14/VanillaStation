@@ -52,7 +52,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTLeader
     back: ClothingBackpackERTLeader
-    shoes: ClothingShoesBootsMagAdv
+    shoes: ClothingShoesTacticalBoots
     mask: ClothingMaskGasERT
     eyes: ClothingEyesGlassesSecurity
     neck: ClothingNeckMantleERTLeader # Corvax-Clothing
@@ -62,7 +62,7 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolN1984
-    pocket2: FlashlightSeclite
+    pocket2: DoorRemoteCommand
   storage:
     back:
     - WeaponDisabler
@@ -71,6 +71,9 @@
     - BoxZiptie
     - CrowbarRed
     - MagazineMagnum
+    - CombatMedipen
+    - PhoneInstrument
+  inhand: WeaponPulseCarbine
 
 - type: startingGear
   id: ERTLeaderGearEVALecter
@@ -243,7 +246,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTEngineer
     back: ClothingBackpackERTEngineer
-    shoes: ClothingShoesBootsMagAdv
+    shoes: ClothingShoesTacticalBoots
     mask: ClothingMaskGasERT
     eyes: ClothingEyesGlassesMeson
     gloves: ClothingHandsGlovesCombat
@@ -251,20 +254,23 @@
     id: ERTEngineerPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltChiefEngineerFilled
-    pocket1: Flare
-    pocket2: GasAnalyzer
+    pocket1: WeaponPulsePistol
+    pocket2: GlowstickPurple
   storage:
     back:
-    - trayScanner
-    - RCD
-    - RCDAmmo
-    - RCDAmmo
+    - RCDRecharging
     - CableMVStack
     - CableHVStack
     - CableApcStack
     - SheetPlasteel
-    - SheetSteel
-    - SheetGlass
+    - SheetPlasteel
+    - AmeJar
+    - AmeJar
+    - SeismicCharge
+    - SeismicCharge
+    - ExGrenade
+    - ExGrenade
+  inhand: WeaponPulseCarbine
 
 # Security
 - type: job
@@ -295,7 +301,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTSecurity
     back: ClothingBackpackERTSecurity
-    shoes: ClothingShoesBootsCombatFilled
+    shoes: ClothingShoesTacticalBoots
     head: ClothingHeadHelmetERTSecurity
     eyes: ClothingEyesGlassesSecurity
     gloves: ClothingHandsGlovesCombat
@@ -319,7 +325,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTSecurity
     back: ClothingBackpackERTSecurity
-    shoes: ClothingShoesBootsMag
+    shoes: ClothingShoesTacticalBoots
     mask: ClothingMaskGasERT
     eyes: ClothingEyesGlassesSecurity
     gloves: ClothingHandsGlovesCombat
@@ -327,23 +333,24 @@
     id: ERTSecurityPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
-    pocket1: WeaponPistolMk58
-    pocket2: FlashlightSeclite
+    pocket1: WeaponPulsePistol
+    pocket2: GlowstickPurple
   storage:
     back:
     - WeaponDisabler
     - MedicatedSuture
     - RegenerativeMesh
-    - BoxZiptie
     - CrowbarRed
-    - MagazinePistol
+    - SmokeGrenade
+    - PortableRecharger
+  inhand: WeaponPulseCarbine
 
 - type: startingGear
   id: ERTSecurityGearEVALecter
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTSecurity
     back: ClothingBackpackERTSecurity
-    shoes: ClothingShoesBootsMag
+    shoes: ClothingShoesTacticalBoots
     mask: ClothingMaskGasERT
     eyes: ClothingEyesGlassesSecurity
     gloves: ClothingHandsGlovesCombat
@@ -416,7 +423,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTMedic
     back: ClothingBackpackERTMedical
-    shoes: ClothingShoesBootsMag
+    shoes: ClothingShoesTacticalBoots
     mask: ClothingMaskGasERT
     eyes: ClothingEyesHudMedical
     gloves: ClothingHandsGlovesNitrile
@@ -424,7 +431,8 @@
     id: ERTMedicPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltMedicalFilled
-    pocket1: Flare
+    pocket1: WeaponPulsePistol
+    pocket2: GlowstickPurple
   storage:
     back:
     - Hypospray
@@ -433,7 +441,14 @@
     - OmnizineChemistryBottle
     - EpinephrineChemistryBottle
     - EpinephrineChemistryBottle
-
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - AntiPoisonMedipen
+    - AntiPoisonMedipen
+    - RadAutoInjector
+    - RadAutoInjector
+  inhand: WeaponPulseCarbine
+  
 # Janitor
 - type: job
   id: ERTJanitor
@@ -485,7 +500,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTJanitor
     back: ClothingBackpackERTJanitor
-    shoes: ClothingShoesBootsMag
+    shoes: ClothingShoesTacticalBoots
     mask: ClothingMaskGasERT
     gloves: ClothingHandsGlovesColorPurple
     outerClothing: ClothingOuterHardsuitERTJanitor
