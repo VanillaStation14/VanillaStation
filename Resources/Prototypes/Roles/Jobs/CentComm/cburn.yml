@@ -30,15 +30,18 @@
     ears: ClothingHeadsetAltCentCom
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitCBURN
-    shoes: ClothingShoesBootsCombatFilled
+    shoes: ClothingShoesTacticalBoots
     id: CBURNPDA
-    pocket1: RadioHandheld
-    pocket2: WeaponLaserGun
-    belt: ClothingBeltBandolier
+    pocket1: RadioHandheldSecurity
+    pocket2: GlowstickYellow
+    belt: WeaponAdvancedLaser
   storage:
     back:
-    - WeaponShotgunDoubleBarreled
-    - BoxShotgunIncendiary
-    - GrenadeFlashBang
+    - BoxMagazineShotgunIncendiary
+    - GrenadeIncendiary
     - PillAmbuzolPlus
     - PillAmbuzol
+    - PillAmbuzol
+    - PillAmbuzol
+  inhand:
+  - WeaponShotgunBulldog
