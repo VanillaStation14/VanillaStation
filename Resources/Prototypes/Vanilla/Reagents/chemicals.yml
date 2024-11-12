@@ -1,8 +1,7 @@
 - type: reagent
   id: redphosphorus
-  name: red phosphorus
-  group: Elements
-  desc: It's for matches, right? Right?..
+  name: reagent-name-red-phosphorus
+  desc: reagent-desc-red-phosphorus
   physicalDesc: reagent-physical-desc-red-powdered
   flavor: metallic
   color: "#e6454a"
