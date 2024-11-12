@@ -41,6 +41,18 @@
     unlitIcon: match_unlit
     litIcon: match_lit
     burntIcon: match_burnt
+  - type: Extractable
+    grindableSolutionName: mathstick
+  - type: SolutionContainerManager
+    solutions:
+      mathstick:
+        maxVol: 3
+        reagents:
+        - ReagentId: redphosphorus
+          Quantity: 2
+        - ReagentId: Cellulose
+          Quantity: 1
+
 
 - type: entity
   parent: Matchstick
