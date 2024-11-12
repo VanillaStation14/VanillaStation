@@ -30,6 +30,10 @@
         refresh: false
       - !type:Jitter
       - !type:GenericStatusEffect
+        key: Adrenaline
+        component: IgnoreSlowOnDamage
+        time: 5
+      - !type:GenericStatusEffect
         conditions:
         - !type:ReagentThreshold
           reagent: Haloperidol
