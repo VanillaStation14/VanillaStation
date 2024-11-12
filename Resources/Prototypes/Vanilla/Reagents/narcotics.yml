@@ -1,8 +1,8 @@
 - type: reagent
   id: Methamphetamine
-  name: methamphetamine
+  name: reagent-name-methamphetamine
   group: Narcotics
-  desc: Go breaking bad with this 99.1% pure stuff.
+  desc: reagent-desc-methamphetamine
   physicalDesc: reagent-physical-desc-blue-crystal
   flavor: bitter
   color: "#2baaff"
