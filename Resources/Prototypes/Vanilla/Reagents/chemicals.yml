@@ -3,7 +3,7 @@
   name: red phosphorus
   group: Elements
   desc: It's for matches, right? Right?..
-  physicalDesc: red powdered
+  physicalDesc: reagent-physical-desc-red-powdered
   flavor: metallic
   color: "#e6454a"
   meltingPoint: 44.2
