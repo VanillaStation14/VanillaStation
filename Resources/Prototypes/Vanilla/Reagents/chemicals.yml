@@ -1,0 +1,17 @@
+- type: reagent
+  id: redphosphorus
+  name: red phosphorus
+  group: Elements
+  desc: It's for matches, right? Right?..
+  physicalDesc: red powdered
+  flavor: metallic
+  color: "#e6454a"
+  meltingPoint: 44.2
+  boilingPoint: 280.5
+  metabolisms:
+    Poison:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Caustic: 0.5
