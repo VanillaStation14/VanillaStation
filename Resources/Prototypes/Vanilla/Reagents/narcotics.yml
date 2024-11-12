@@ -3,7 +3,7 @@
   name: methamphetamine
   group: Narcotics
   desc: Go breaking bad with this 99.1% pure stuff.
-  physicalDesc: blue crystal
+  physicalDesc: reagent-physical-desc-blue-crystal
   flavor: bitter
   color: "#2baaff"
   boilingPoint: 170.0 
