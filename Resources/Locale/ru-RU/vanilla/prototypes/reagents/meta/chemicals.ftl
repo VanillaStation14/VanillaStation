@@ -1,2 +1,2 @@
-ent-redphosphorus = красный фосфор
-    .desc = Это же для спичек, да? Да?..
+reagent-name-red-phosphorus = красный фосфор
+reagent-desc-red-phosphorus = Это ведь для спичек, да? Да?..
