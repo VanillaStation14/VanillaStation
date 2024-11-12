@@ -1,0 +1,24 @@
+- type: reaction
+  id: RedPhosphorusReaction
+  reactants:
+    Phosphorus:
+      amount: 3
+    Carbon:
+      amount: 1
+    Oxygen:
+      amount: 2
+  products:
+    redphosphorus: 8
+
+- type: reaction
+  id: MethReaction
+  minTemp: 280.5
+  reactants:
+    redphosphorus:
+      amount: 2
+    Ephedrine:
+      amount: 3
+    Lithium:
+      amount: 2
+  products:
+    Methamphetamine: 6
