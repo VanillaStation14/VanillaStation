@@ -4,6 +4,8 @@
   name: blast door
   description: This one says 'BLAST DONGER'.
   components:
+  - type: RequiresSkill
+    RequiresInstrumentationLevel: 2
   - type: AccessReader
   - type: Sprite
     sprite: Structures/Doors/Shutters/blastdoor.rsi
