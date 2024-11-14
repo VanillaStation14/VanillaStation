@@ -474,8 +474,8 @@
   name: plastitanium wall
   suffix: indestructible
   components:
-  - type: RequiresSkill
-    RequiresBuildingLevel: 3
+    - type: RequiresSkill
+      RequiresBuildingLevel: 3
     - type: Tag
       tags:
         - Wall
