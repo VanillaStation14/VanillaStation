@@ -18,7 +18,6 @@
     components:
       - type: Skill
         RangeWeaponLevel: 1
-        ChemistryLevel: 1
 
 - type: startingGear
   id: BartenderGear

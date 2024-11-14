@@ -28,9 +28,9 @@
         PilotingLevel: 0
         RangeWeaponLevel: 2
         MeleeWeaponLevel: 1
-        MedicineLevel: 1
+        MedicineLevel: 2
         ChemistryLevel: 2
-        EngineeringLevel: 1
+        EngineeringLevel: 0
         BuildingLevel: 0
         ResearchLevel: 1
         InstrumentationLevel: 0
