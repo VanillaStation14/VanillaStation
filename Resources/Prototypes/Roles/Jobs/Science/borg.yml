@@ -17,8 +17,8 @@
     components:
       - type: Skill
         PilotingLevel: 3
-        RangeWeaponLevel: 0
-        MeleeWeaponLevel: 0
+        RangeWeaponLevel: 3
+        MeleeWeaponLevel: 3
         MedicineLevel: 3
         ChemistryLevel: 3
         EngineeringLevel: 3
@@ -43,5 +43,12 @@
   - !type:AddComponentSpecial
     components:
       - type: Skill
+        PilotingLevel: 3
+        RangeWeaponLevel: 3
+        MeleeWeaponLevel: 3
         MedicineLevel: 3
         ChemistryLevel: 3
+        EngineeringLevel: 3
+        BuildingLevel: 3
+        ResearchLevel: 3
+        InstrumentationLevel: 3

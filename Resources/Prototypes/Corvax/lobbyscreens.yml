@@ -193,3 +193,7 @@
 - type: lobbyBackground
   id: SillyIsland
   background: /Textures/Corvax/LobbyScreens/silly-island.png
+  
+- type: lobbyBackground
+  id: YouAreNotFunny
+  background: /Textures/Corvax/LobbyScreens/you-are-not-funny.png

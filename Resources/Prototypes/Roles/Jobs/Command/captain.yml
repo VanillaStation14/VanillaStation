@@ -30,7 +30,7 @@
         ChemistryLevel: 0
         EngineeringLevel: 1
         BuildingLevel: 0
-        ResearchLevel: 1
+        ResearchLevel: 0
         InstrumentationLevel: 0
       - type: CommandStaff
 
