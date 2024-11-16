@@ -56,6 +56,8 @@
   id: WallBrick
   name: brick wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Tag
     tags:
       - Wall
@@ -90,6 +92,8 @@
   id: WallClock
   name: clock wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 2
   - type: Tag
     tags:
       - Wall
@@ -122,6 +126,8 @@
   id: WallClown
   name: bananium wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Tag
     tags:
       - Wall
@@ -159,6 +165,8 @@
   name: meat wall
   description: Sticky.
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Tag
     tags:
       - Wall
@@ -192,6 +200,8 @@
   id: WallCult
   name: cult wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Tag
     tags:
       - Wall
@@ -222,6 +232,8 @@
   name: debug wall
   suffix: DEBUG
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Tag
     tags:
       - Wall
@@ -252,6 +264,8 @@
   id: WallDiamond
   name: diamond wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Tag
     tags:
       - Wall
@@ -285,6 +299,8 @@
   id: WallGold
   name: gold wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Tag
     tags:
       - Wall
@@ -330,6 +346,8 @@
   id: WallIce
   name: ice wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Tag
     tags:
       - Wall
@@ -359,6 +377,8 @@
   id: WallPlasma
   name: plasma wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Tag
     tags:
       - Wall
@@ -406,6 +426,8 @@
   id: WallPlastic
   name: plastic wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Tag
     tags:
       - Wall
@@ -452,6 +474,8 @@
   name: plastitanium wall
   suffix: indestructible
   components:
+    - type: RequiresSkill
+      RequiresBuildingLevel: 3
     - type: Tag
       tags:
         - Wall
@@ -469,6 +493,8 @@
   name: plastitanium wall
   suffix: ""
   components:
+    - type: RequiresSkill
+      RequiresBuildingLevel: 3
     - type: Tag
       tags:
         - Wall
@@ -496,6 +522,8 @@
     snap:
     - Wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 3
   - type: Sprite
     drawdepth: Walls
     sprite: Structures/Walls/plastitanium_diagonal.rsi
@@ -540,6 +568,8 @@
     snap:
     - Wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 3
   - type: Transform
     anchored: true
   - type: Clickable
@@ -583,6 +613,8 @@
   id: WallReinforced
   name: reinforced wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 2
   - type: Sprite
     sprite: Structures/Walls/solid.rsi
   - type: Icon
@@ -665,6 +697,8 @@
     snap:
     - Wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 2
   - type: Sprite
     drawdepth: Walls
     sprite: Structures/Walls/reinforced_diagonal.rsi
@@ -683,6 +717,8 @@
   id: WallRiveted
   name: riveted wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 3
   - type: Tag
     tags:
       - Wall
@@ -717,6 +753,8 @@
   id: WallSandstone
   name: sandstone wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Tag
     tags:
       - Wall
@@ -750,6 +788,8 @@
   id: WallSilver
   name: silver wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Tag
     tags:
       - Wall
@@ -801,6 +841,8 @@
     snap:
     - Wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 3
   - type: Transform
     anchored: true
   - type: Clickable
@@ -876,6 +918,8 @@
   name: shuttle wall
   suffix: Reinforced, Exterior
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 3
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallicStrong
@@ -937,6 +981,8 @@
   name: shuttle wall
   suffix: Interior
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 3
   - type: RCDDeconstructable
     cost: 6
     delay: 8
@@ -981,6 +1027,8 @@
   id: WallSolid
   name: solid wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Tag
     tags:
       - Wall
@@ -1032,6 +1080,8 @@
     snap:
     - Wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Sprite
     drawdepth: Walls
     sprite: Structures/Walls/solid_diagonal.rsi
@@ -1050,6 +1100,8 @@
   name: solid wall
   suffix: rusted
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Sprite
     sprite: Structures/Walls/solid_rust.rsi
   - type: Icon
@@ -1067,6 +1119,8 @@
   id: WallUranium
   name: uranium wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Sprite
     sprite: Structures/Walls/uranium.rsi
   - type: Icon
@@ -1107,6 +1161,8 @@
   id: WallWood
   name: wood wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Sprite
     sprite: Structures/Walls/wood.rsi
   - type: Icon
@@ -1146,6 +1202,8 @@
   name: web wall
   description: Keeps the spiders in and the greytide out.
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Clickable
   - type: MeleeSound
     soundGroups:
@@ -1192,6 +1250,8 @@
   id: WallNecropolis
   name: stone wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Tag
     tags:
       - Wall
@@ -1216,6 +1276,8 @@
   id: WallMining
   name: mining wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 3
   - type: Tag
     tags:
       - Wall
@@ -1250,6 +1312,8 @@
     snap:
     - Wall
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 3
   - type: Sprite
     drawdepth: Walls
     sprite: Structures/Walls/mining_diagonal.rsi

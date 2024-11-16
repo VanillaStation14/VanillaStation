@@ -32,10 +32,10 @@
         MeleeWeaponLevel: 3
         MedicineLevel: 1
         ChemistryLevel: 0
-        EngineeringLevel: 1
+        EngineeringLevel: 0
         BuildingLevel: 1
         ResearchLevel: 0
-        InstrumentationLevel: 0
+        InstrumentationLevel: 1
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
 

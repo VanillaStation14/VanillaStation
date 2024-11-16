@@ -9,6 +9,8 @@
     snap:
     - Window
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 3
   - type: RCDDeconstructable
     deconstructable: false
   - type: MeleeSound

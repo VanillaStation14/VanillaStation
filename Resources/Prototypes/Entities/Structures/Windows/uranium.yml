@@ -3,6 +3,8 @@
   name: uranium window
   parent: WindowRCDResistant
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Sprite
     drawdepth: WallTops
     sprite: Structures/Windows/uranium_window.rsi
@@ -61,6 +63,8 @@
     snap:
     - Window
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Sprite
     sprite: Structures/Windows/directional.rsi
     state: uranium_window
@@ -113,6 +117,8 @@
     snap:
     - Window
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: Sprite
     drawdepth: WallTops
     sprite: Structures/Windows/uranium_window_diagonal.rsi

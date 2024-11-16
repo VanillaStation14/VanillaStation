@@ -8,6 +8,8 @@
     snap:
     - Window
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 1
   - type: MeleeSound
     soundGroups:
       Brute:

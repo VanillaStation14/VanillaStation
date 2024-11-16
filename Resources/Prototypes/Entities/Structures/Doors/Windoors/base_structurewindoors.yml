@@ -6,6 +6,8 @@
   placement:
     mode: SnapgridCenter
   components:
+  - type: RequiresSkill
+    RequiresInstrumentationLevel: 2
   - type: MeleeSound
     soundGroups:
       Brute:

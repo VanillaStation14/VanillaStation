@@ -3,6 +3,8 @@
   name: shuttle window
   parent: WindowRCDResistant
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 3
   - type: Sprite
     drawdepth: WallTops
     sprite: Structures/Windows/shuttle_window.rsi
@@ -63,6 +65,8 @@
     snap:
     - Window
   components:
+  - type: RequiresSkill
+    RequiresBuildingLevel: 3
   - type: Sprite
     drawdepth: WallTops
     sprite: Structures/Windows/shuttle_window_diagonal.rsi

@@ -4,6 +4,8 @@
   name: firelock frame
   description: That is a firelock frame.
   components:
+  - type: RequiresSkill
+    RequiresInstrumentationLevel: 2
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/firelock.rsi
     layers:
