@@ -1,2 +1,2 @@
-reagent-name-methamphetamine = methamphetamine
-reagent-desc-methamphetamine = Go breaking bad with this 99.1% pure stuff.
+reagent-name-blue-sky = blue sky
+reagent-desc-blue-sky = Blue Sky, aka ephedronex. A potent drug and stimulant derived from methamphetamine. Due to the impurities involved in it, it has a blue color, but it is just as pure.

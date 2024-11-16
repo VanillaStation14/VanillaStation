@@ -1,0 +1,25 @@
+- type: entity
+  id: RandomHumanoidVisitorSeniorCooker
+  name: visiting senior Cooker ghost role
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: chemist
+    - type: RandomHumanoidSpawner
+      settings: VisitorSeniorCooker
+    - type: AutoImplant
+      implants:
+      - FreedomImplant
+
+- type: entity
+  id: RandomHumanoidVisitorJuniorCooker
+  name: visiting junior Cooker ghost role
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: chemist
+    - type: RandomHumanoidSpawner
+      settings: VisitorJuniorCooker
+    - type: AutoImplant
+      implants:
+      - StorageImplant

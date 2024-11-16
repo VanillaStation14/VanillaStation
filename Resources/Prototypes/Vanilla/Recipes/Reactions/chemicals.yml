@@ -1,5 +1,6 @@
 - type: reaction
   id: RedPhosphorusReaction
+  minTemp: 380
   reactants:
     Phosphorus:
       amount: 3
@@ -8,17 +9,58 @@
     Oxygen:
       amount: 2
   products:
-    redphosphorus: 8
+    redphosphorus: 6
 
 - type: reaction
-  id: MethReaction
-  minTemp: 280.5
+  id: BlueSkyReaction
+  minTemp: 380.5
   reactants:
     redphosphorus:
       amount: 2
     Ephedrine:
       amount: 3
-    Lithium:
+    PotassiumChlorate:
       amount: 2
   products:
-    Methamphetamine: 6
+    BlueSky: 6
+
+- type: reaction
+  id: HCIOReaction
+  reactants:
+    Hydrogen:
+      amount: 1
+    Chlorine:
+      amount: 1
+    Oxygen:
+      amount: 3
+  products:
+    AcidChloricum: 5
+
+- type: reaction
+  id: PochReaction
+  reactants:
+    Potassium:
+      amount: 1
+    AcidChloricum:
+      amount: 1
+  products:
+    PotassiumChlorate: 2
+
+- type: reaction
+  id: PhosphorusExplosion
+  impact: High
+  priority: 20
+  reactants:
+    AcidChloricum:
+      amount: 1
+    redphosphorus:
+      amount: 1
+  effects:
+    - !type:ExplosionReactionEffect
+      explosionType: Default # как у калия+вода
+      maxIntensity: 100
+      intensityPerUnit: 0.5 
+      intensitySlope: 4
+      maxTotalIntensity: 100
+    - !type:CreateGas
+      gas: CarbonDioxide

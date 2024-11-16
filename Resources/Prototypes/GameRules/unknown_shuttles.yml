@@ -20,6 +20,7 @@
     - id: UnknownShuttleMeatZone
     - id: UnknownShuttleMicroshuttle
     - id: UnknownShuttleSpacebus
+    - id: UnknownShuttleCookers
 
 - type: entityTable
   id: UnknownShuttlesFreelanceTable
@@ -230,3 +231,14 @@
   - type: LoadMapRule
     preloadedGrid: Spacebus
 
+- type: entity
+  id: UnknownShuttleCookers
+  parent: BaseUnknownShuttleRule
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-unknown-shuttle-incoming #!!
+    weight: 8 # Это мелкие антаги
+    earliestStart: 35
+    minimumPlayers: 10
+  - type: LoadMapRule
+    preloadedGrid: Cookers_Shuttle

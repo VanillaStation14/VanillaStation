@@ -1,8 +1,8 @@
 - type: reagent
-  id: Methamphetamine
-  name: reagent-name-methamphetamine
+  id: BlueSky
+  name: reagent-name-blue-sky
   group: Narcotics
-  desc: reagent-desc-methamphetamine
+  desc: reagent-desc-blue-sky
   physicalDesc: reagent-physical-desc-blue-crystal
   flavor: bitter
   color: "#2baaff"
@@ -13,7 +13,7 @@
       effects:
       - !type:MovespeedModifier
         walkSpeedModifier: 1.15
-        sprintSpeedModifier: 1.15
+        sprintSpeedModifier: 1.4
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold

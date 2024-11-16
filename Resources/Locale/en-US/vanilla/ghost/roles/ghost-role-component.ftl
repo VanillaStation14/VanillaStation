@@ -1,0 +1,3 @@
+ghost-role-information-cooker-name = illegal meth cooker
+ghost-role-information-cooker-description = You are a criminal who synthesizes methamphetamine and sells it to the station crew in order to build a business, no, an empire!
+ghost-role-information-cookerantagonist-rules = You are a small antagonist, your only task is to sell and cook as much goods as possible, you can commit other crimes only to achieve a goal or in extreme cases. Kill only in self-defense, and do not attempt to hide or destroy the corpse. Do not arrange RDM, even for self-defense, if the entire station is against you, run away or surrender.

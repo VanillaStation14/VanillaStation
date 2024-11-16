@@ -1,0 +1,29 @@
+- type: randomHumanoidSettings
+  id: VisitorSeniorCooker
+  parent: EventHumanoid
+  components:
+    - type: GhostRole
+      name: ghost-role-information-cooker-name
+      description: ghost-role-information-cooker-description
+      rules: ghost-role-information-cookerantagonist-rules
+      raffle:
+        settings: short
+    - type: Loadout
+      prototypes:
+        - VisitorWalter
+      roleLoadout: [ RoleSurvivalExtended ]
+
+- type: randomHumanoidSettings
+  id: VisitorJuniorCooker
+  parent: EventHumanoid
+  components:
+    - type: GhostRole
+      name: ghost-role-information-cooker-name
+      description: ghost-role-information-cooker-description
+      rules: ghost-role-information-cookerantagonist-rules
+      raffle:
+        settings: short
+    - type: Loadout
+      prototypes:
+        - VisitorJessy
+      roleLoadout: [ RoleSurvivalExtended ]

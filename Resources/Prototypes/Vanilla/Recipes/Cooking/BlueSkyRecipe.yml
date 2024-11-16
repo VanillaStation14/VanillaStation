@@ -1,0 +1,7 @@
+- type: microwaveMealRecipe
+  id: RecipeBlueSkyPlate
+  name: blue sky plate recipe
+  result: BlueSkyPlate
+  time: 15
+  reagents:
+    BlueSky: 60

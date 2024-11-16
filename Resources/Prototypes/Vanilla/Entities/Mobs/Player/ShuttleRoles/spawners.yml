@@ -1,0 +1,27 @@
+- type: entity
+  name: visiting senior cooker spawner
+  id: VisitorSeniorCookerSpawner
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: red
+      - sprite: Structures/Decoration/banner.rsi
+        state: banner-yellow
+  - type: RandomSpawner
+    prototypes:
+    - RandomHumanoidVisitorSeniorCooker
+
+- type: entity
+  name: visiting junior cooker spawner
+  id: VisitorJuniorCookerSpawner
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: red
+      - sprite: Structures/Decoration/banner.rsi
+        state: banner-yellow
+  - type: RandomSpawner
+    prototypes:
+    - RandomHumanoidVisitorJuniorCooker
