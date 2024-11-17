@@ -6,13 +6,13 @@
   physicalDesc: reagent-physical-desc-blue-crystal
   flavor: bitter
   color: "#2baaff"
-  boilingPoint: 170.0 
+  boilingPoint: 170.0
   meltingPoint: 156.0
   metabolisms:
     Narcotic:
       effects:
       - !type:MovespeedModifier
-        walkSpeedModifier: 1.15
+        walkSpeedModifier: 1.2
         sprintSpeedModifier: 1.4
       - !type:HealthChange
         conditions:
