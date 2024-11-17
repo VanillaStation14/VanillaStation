@@ -1,4 +1,3 @@
-
 - type: reaction
   id: RedPhosphorusReaction
   minTemp: 380
@@ -36,7 +35,7 @@
       amount: 3
   products:
     AcidChloricum: 5
-
+    
 - type: reaction
   id: PochReaction
   reactants:
