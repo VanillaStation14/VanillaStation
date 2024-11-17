@@ -15,7 +15,6 @@
           types:
             Caustic: 0.5
 
-
 - type: reagent
   id: AcidChloricum
   name: reagent-name-acid-chloricum
