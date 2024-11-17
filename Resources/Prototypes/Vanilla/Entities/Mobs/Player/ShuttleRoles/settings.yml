@@ -5,7 +5,7 @@
     - type: GhostRole
       name: ghost-role-information-cooker-name
       description: ghost-role-information-cooker-description
-      rules: ghost-role-information-cookerantagonist-rules
+      rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
     - type: Loadout
@@ -20,7 +20,7 @@
     - type: GhostRole
       name: ghost-role-information-cooker-name
       description: ghost-role-information-cooker-description
-      rules: ghost-role-information-cookerantagonist-rules
+      rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
     - type: Loadout
