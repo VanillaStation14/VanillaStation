@@ -60,8 +60,6 @@
       - FreedomImplant
     - type: Speech
       speechSounds: Soldier
-      params:
-        volume: -13
       soundCooldownTime: 0.1
     - type: TriggerOnMobstateChange
       mobState:
