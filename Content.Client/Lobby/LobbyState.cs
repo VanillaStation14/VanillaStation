@@ -1,10 +1,8 @@
 using Content.Client.Audio;
-using Content.Client.Changelog; // Vanilla-edit
 using Content.Client.GameTicking.Managers;
 using Content.Client.LateJoin;
 using Content.Client.Lobby.UI;
 using Content.Client.Message;
-using Content.Client.Parallax.Managers; // Vanilla-edit
 using Content.Client.UserInterface.Systems.Chat;
 using Content.Client.Voting;
 using Robust.Client;
@@ -12,12 +10,6 @@ using Robust.Client.Console;
 using Robust.Client.ResourceManagement;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
-using Robust.Shared.Configuration; // Vanilla-edit
-using Robust.Shared.ContentPack; // Vanilla-edit
-using Robust.Shared.Serialization.Manager; // Vanilla-edit
-using Robust.Shared.Serialization.Markdown; // Vanilla-edit
-using Robust.Shared.Serialization.Markdown.Mapping; // Vanilla-edit
-using Robust.Shared.Utility; // Vanilla-edit    
 using Robust.Shared.Timing;
 
 
@@ -27,14 +19,9 @@ namespace Content.Client.Lobby
     public sealed class LobbyState : Robust.Client.State.State
     {
         [Dependency] private readonly IBaseClient _baseClient = default!;
-        [Dependency] private readonly ChangelogManager _changelogManager = default!; // Vanilla-edit
-        [Dependency] private readonly IConfigurationManager _cfg = default!; // Vanilla-edit
         [Dependency] private readonly IClientConsoleHost _consoleHost = default!;
         [Dependency] private readonly IEntityManager _entityManager = default!;
-        [Dependency] private readonly IParallaxManager _parallaxManager = default!; // Vanilla-edit
         [Dependency] private readonly IResourceCache _resourceCache = default!;
-        [Dependency] private readonly IResourceManager _resource = default!; // Vanilla-edit
-        [Dependency] private readonly ISerializationManager _serialization = default!; // Vanilla-edit
         [Dependency] private readonly IUserInterfaceManager _userInterfaceManager = default!;
         [Dependency] private readonly IGameTiming _gameTiming = default!;
         [Dependency] private readonly IVoteManager _voteManager = default!;
@@ -66,26 +53,6 @@ namespace Content.Client.Lobby
             LayoutContainer.SetAnchorPreset(Lobby, LayoutContainer.LayoutPreset.Wide);
             Lobby.ServerName.Text = "Добро пожаловать на Vanilla Station!"; // Vanilla-edit
             UpdateLobbyUi();
-
-            // Vanilla-start
-            Lobby!.LocalChangelogBody.CleanChangelog(); // Проверка на null
-
-            var lobbyChangelogs = new List<string> { "ChangelogVanilla.yml", "Changelog.yml" };
-
-
-            var changelogs = new List<ChangelogManager.Changelog>();
-            foreach (var lobbyChangelog in lobbyChangelogs)
-            {
-                var yamlData = _resource.ContentFileReadYaml(new ResPath($"/Changelog/{lobbyChangelog}"));
-
-                var node = yamlData.Documents[0].RootNode.ToDataNodeCast<MappingDataNode>();
-                var changelog = _serialization.Read<ChangelogManager.Changelog>(node, notNullableOverride: true);
-                changelogs.Add(changelog);
-            }
-            var combinedChangelog = _changelogManager.MergeChangelogs(changelogs);
-
-            Lobby!.LocalChangelogBody.PopulateChangelog(combinedChangelog);// Проверка на null
-            // Vanilla-end
 
             Lobby.CharacterPreview.CharacterSetupButton.OnPressed += OnSetupPressed;
             Lobby.ReadyButton.OnPressed += OnReadyPressed;
