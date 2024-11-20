@@ -1,6 +1,14 @@
 - type: randomHumanoidSettings
   id: VisitorSeniorCooker
   parent: EventHumanoid
+  speciesBlacklist:
+    - Diona
+    - Moth
+    - Arachnid
+    - Dwarf
+    - Vox
+    - Reptilian
+    - Vulpkanin
   components:
     - type: GhostRole
       name: ghost-role-information-cooker-name
@@ -16,6 +24,14 @@
 - type: randomHumanoidSettings
   id: VisitorJuniorCooker
   parent: EventHumanoid
+  speciesBlacklist:
+    - Diona
+    - Moth
+    - Arachnid
+    - Dwarf
+    - Vox
+    - Reptilian
+    - Vulpkanin
   components:
     - type: GhostRole
       name: ghost-role-information-cooker-name

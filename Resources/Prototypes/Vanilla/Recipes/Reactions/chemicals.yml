@@ -35,7 +35,7 @@
       amount: 3
   products:
     AcidChloricum: 5
-    
+
 - type: reaction
   id: PochReaction
   reactants:
