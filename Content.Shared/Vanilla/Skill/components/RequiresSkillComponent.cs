@@ -35,5 +35,9 @@ namespace Content.Shared.Vanilla.Skill
         //Приборостроение
         [DataField("RequiresInstrumentationLevel"), AutoNetworkedField]
         public int RequiresInstrumentationLevel { get; set; } = 0;
+        
+        //Строительство
+        [DataField("RequiresBuildingLevel"), AutoNetworkedField]
+        public int RequiresBuildingLevel { get; set; } = 0;
     }
 }
