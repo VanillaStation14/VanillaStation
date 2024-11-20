@@ -130,8 +130,6 @@
       - FreedomImplant
     - type: Speech
       speechSounds: Soldier
-      params:
-        volume: -13
       soundCooldownTime: 0.1
     - type: TriggerOnMobstateChange
       mobState:
@@ -257,8 +255,6 @@
       - TrackingImplant
     - type: Speech
       speechSounds: Soldier
-      params:
-        volume: -13
       soundCooldownTime: 0.1
     - type: TriggerOnMobstateChange
       mobState:
@@ -328,8 +324,6 @@
       - TrackingImplant
     - type: Speech
       speechSounds: Soldier
-      params:
-        volume: -13
       soundCooldownTime: 0.1
     - type: TriggerOnMobstateChange
       mobState:
@@ -400,8 +394,6 @@
       - FreedomImplant
     - type: Speech
       speechSounds: Soldier
-      params:
-        volume: -13
       soundCooldownTime: 0.1
     - type: TriggerOnMobstateChange
       mobState:
@@ -471,8 +463,6 @@
       - TrackingImplant
     - type: Speech
       speechSounds: Soldier
-      params:
-        volume: -13
       soundCooldownTime: 0.1
     - type: TriggerOnMobstateChange
       mobState:
@@ -537,8 +527,6 @@
       - TrackingImplant
     - type: Speech
       speechSounds: Soldier
-      params:
-        volume: -13
       soundCooldownTime: 0.1
     - type: TriggerOnMobstateChange
       mobState:
