@@ -1,0 +1,8 @@
+- type: speechSounds
+  id: Soldier
+  saySound:
+    path: /Audio/Vanilla/Effects/Footsteps/soldier_voice2.ogg
+  askSound:
+    path: /Audio/Vanilla/Effects/Footsteps/soldier_voice3.ogg
+  exclaimSound:
+    path: /Audio/Vanilla/Effects/Footsteps/soldier_voice1.ogg

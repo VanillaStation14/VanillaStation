@@ -65,7 +65,7 @@
     - type: MeleeThrowOnHit
       speed: 10
       lifetime: 0.2
-      MinLifetime: 0.01
+      minLifetime: 0.01
     - type: DisarmMalus
       malus: 0.7
   - type: StaminaDamageOnHit
