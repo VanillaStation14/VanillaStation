@@ -2610,9 +2610,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 5.5,-4.5
       parent: 2
-    - type: Strap
-      buckledEntities:
-      - invalid
 - proto: ComputerPalletConsole
   entities:
   - uid: 165
