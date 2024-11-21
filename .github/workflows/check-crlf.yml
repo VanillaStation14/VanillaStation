@@ -9,7 +9,11 @@ jobs:
     name: CRLF Check
     if: github.event.pull_request.draft == false
     runs-on: ubuntu-latest
+    env:
+      LANG: en_US.UTF-8
+      LC_ALL: en_US.UTF-8
     steps:
     - uses: actions/checkout@v3.6.0
     - name: Check for CRLF
       run: Tools/check_crlf.py
+
