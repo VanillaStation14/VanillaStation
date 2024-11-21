@@ -1,2 +1,2 @@
-ghost-role-information-cooker-name = нелегальный варщик метамфетамина
-ghost-role-information-cooker-description = Вы преступник, который синтезирует метамфетамин и продаёт его экипажу станции, для того чтобы построить бизнес, нет, империю!
+ghost-role-information-cooker-name = нелегальный химик
+ghost-role-information-cooker-description = Вы нелегальный химик, которому надо построить бизнес, нет, империю!

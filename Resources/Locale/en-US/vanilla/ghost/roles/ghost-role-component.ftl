@@ -1,2 +1,2 @@
-ghost-role-information-cooker-name = illegal meth cooker
-ghost-role-information-cooker-description = You are a criminal who synthesizes methamphetamine and sells it to the station crew in order to build a business, no, an empire!
+ghost-role-information-cooker-name = illegal chemist
+ghost-role-information-cooker-description = You are an illegal chemist who must build a business, no, an empire!
