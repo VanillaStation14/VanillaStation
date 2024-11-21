@@ -14,23 +14,25 @@ def main() -> int:
 
 
 def get_text_files() -> Iterable[str]:
-    # https://stackoverflow.com/a/24350112/4678631
+    subprocess.run(["git", "config", "core.quotepath", "false"], check=True)
+    
     process = subprocess.run(
         ["git", "grep", "--cached", "-Il", ""],
         check=True,
         encoding="utf-8",
-        stdout=subprocess.PIPE)
+        stdout=subprocess.PIPE
+    )
 
     for x in process.stdout.splitlines():
         yield x.strip()
 
+
 def is_file_crlf(path: str) -> bool:
-    # https://stackoverflow.com/a/29697732/4678631
     with open(path, "rb") as f:
         for line in f:
             if line.endswith(b"\r\n"):
                 return True
-
     return False
+
 
 exit(main())
