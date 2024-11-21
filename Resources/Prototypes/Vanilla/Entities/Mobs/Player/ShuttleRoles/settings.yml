@@ -13,7 +13,7 @@
     - type: GhostRole
       name: ghost-role-information-cooker-name
       description: ghost-role-information-cooker-description
-      rules: ghost-role-information-nonantagonist-rules
+      rules: ghost-role-information-freeagent-rules
       raffle:
         settings: short
     - type: Loadout
