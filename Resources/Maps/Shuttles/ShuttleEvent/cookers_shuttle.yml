@@ -20,7 +20,6 @@ entities:
       name: BB-3556 "El Camino"
     - type: Transform
       pos: -0.40694672,-0.5
-      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
