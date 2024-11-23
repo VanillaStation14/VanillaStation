@@ -1,0 +1,2 @@
+reagent-name-blue-sky = Ephedronex 
+reagent-desc-blue-sky = Ephedronex , aka Blue Sky. A potent drug and stimulant derived from methamphetamine. Due to the impurities involved in it, it has a blue color, but it is just as pure.

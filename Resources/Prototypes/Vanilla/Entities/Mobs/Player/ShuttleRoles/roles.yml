@@ -1,0 +1,35 @@
+- type: entity
+  id: RandomHumanoidVisitorSeniorCooker
+  name: visiting senior Cooker ghost role
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: chemist
+    - type: AutoImplant
+      implants:
+      - FreedomImplant
+    - type: Skill
+      PilotingLevel: 3
+      ChemistryLevel: 3
+      RangeWeaponLevel: 1
+      MeleeWeaponLevel: 1
+    - type: RandomHumanoidSpawner
+      settings: VisitorSeniorCooker
+
+- type: entity
+  id: RandomHumanoidVisitorJuniorCooker
+  name: visiting junior Cooker ghost role
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: chemist
+    - type: AutoImplant
+      implants:
+      - StorageImplant
+    - type: Skill
+      PilotingLevel: 2
+      ChemistryLevel: 2
+      RangeWeaponLevel: 2
+      MeleeWeaponLevel: 2
+    - type: RandomHumanoidSpawner
+      settings: VisitorJuniorCooker

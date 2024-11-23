@@ -1,0 +1,60 @@
+- type: entity
+  parent: FoodInjectableBase
+  name: blue sky plate
+  id: BlueSkyPlate
+  description: A plate of pure ephedronex. Clean glass 5-7 centimeters in length.
+  abstract: false
+  components:
+  - type: Sprite
+    sprite: Vanilla/Objects/Consumable/Food/BlueSky.rsi
+    state: BlueSkyPlate
+  - type: SliceableFood
+    count: 4
+    slice: BlueSkyPiece
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 64
+        reagents:
+        - ReagentId: BlueSky
+          Quantity: 60
+  - type: Food
+  - type: FlavorProfile
+    flavors:
+      - bitter
+      - tingly
+      - fizzy
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,1,1
+  - type: Extractable
+    grindableSolutionName: food
+  - type: Physics
+    bodyType: Dynamic
+    fixedRotation: false
+  - type: Tag
+    tags:
+    - ReptilianFood
+
+
+- type: entity
+  parent: BlueSkyPlate
+  name: blue sky piece
+  id: BlueSkyPiece
+  description: Ephedronex crystals that exude 99.1% purity. Real art.
+  abstract: false
+  components:
+  - type: Sprite
+    state: BlueSkyPiece
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 16
+        reagents:
+        - ReagentId: BlueSky
+          Quantity: 15
+  - type: Item
+    size: Tiny
+    shape:
+    - 0,0,0,0

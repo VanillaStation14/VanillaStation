@@ -1,0 +1,23 @@
+- type: startingGear
+  id: VisitorWalter
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitScientistFormal
+    shoes: ClothingShoesBootsLaceup
+    eyes: ClothingEyesGlasses
+    head: ClothingHeadHatBowlerHat
+    id: VisitorPDA
+    belt: ClothingBeltStorageWaistbag
+    back: ClothingBackpackSatchelLeather
+    ears: ClothingHeadsetFreelance
+    outerClothing: ClothingOuterCoatDetective
+
+- type: startingGear
+  id: VisitorJessy
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCasualRed
+    shoes: ClothingShoesColorBlack
+    id: VisitorPDA
+    belt: WeaponPistolMk58
+    back: ClothingBackpackSatchelLeather
+    ears: ClothingHeadsetFreelance
+    outerClothing: ClothingOuterFlannelGreen
