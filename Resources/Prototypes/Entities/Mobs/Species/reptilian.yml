@@ -70,16 +70,7 @@
   - type: Wagging
   - type: Inventory
     speciesId: reptilian
-    femaleDisplacements:
-      jumpsuit:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Human/displacement.rsi
-            state: jumpsuit-female
-  - type: FootprintVisualizer # Corvax-Next-Footprints
-    leftBarePrint: "footprint-left-bare-lizard"
-    rightBarePrint: "footprint-right-bare-lizard"
-    # Corvax-Digitigrade-Start
+      # Corvax-Digitigrade-Start
     displacements:
       jumpsuit:
         sizeMaps:
@@ -91,8 +82,16 @@
           32:
             sprite: Corvax/Mobs/Species/displacement.rsi
             state: shoes
-
     # Corvax-Digitigrade-End
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
+  - type: FootprintVisualizer # Corvax-Next-Footprints
+    leftBarePrint: "footprint-left-bare-lizard"
+    rightBarePrint: "footprint-right-bare-lizard"
 
 - type: entity
   parent: BaseSpeciesDummy
