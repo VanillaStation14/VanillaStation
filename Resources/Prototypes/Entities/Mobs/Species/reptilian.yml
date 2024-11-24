@@ -70,6 +70,19 @@
   - type: Wagging
   - type: Inventory
     speciesId: reptilian
+      # Corvax-Digitigrade-Start
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      shoes: # DM only for colored shoes!
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+    # Corvax-Digitigrade-End
     femaleDisplacements:
       jumpsuit:
         sizeMaps:
@@ -100,5 +113,18 @@
           32:
             sprite: Mobs/Species/Human/displacement.rsi
             state: jumpsuit-female
+    # Corvax-Digitigrade-Start
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      shoes: # DM only for colored shoes!
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+    # Corvax-Digitigrade-End
 
 #Weh
