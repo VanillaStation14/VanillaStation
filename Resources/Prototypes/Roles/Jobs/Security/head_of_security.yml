@@ -33,6 +33,17 @@
     implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
     components:
+      - type: Speech
+        speechSounds: Soldier
+        soundCooldownTime: 0.1
+      - type: TriggerOnMobstateChange
+        mobState:
+        - Critical
+      - type: EmitSoundOnTrigger
+        sound:
+          collection: SoldierDeath
+          params:
+            volume: -4
       - type: Skill
         PilotingLevel: 3
         RangeWeaponLevel: 3
