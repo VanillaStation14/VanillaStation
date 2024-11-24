@@ -100,7 +100,6 @@
         component: IgnoreSlowOnDamage
         time: 5
       - !type:GenericStatusEffect
-        conditions:
         - !type:ReagentThreshold
           reagent: Haloperidol
           max: 0.01
