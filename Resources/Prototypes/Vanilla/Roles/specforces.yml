@@ -10,7 +10,7 @@
 # Учитывайте это при построении новых прототипов или изменении старых.
 
 # ERT
-- type: specForceTeam
+- type: SpecForceTeam
   id: ERT
   specForceName: spec-forces-system-ert-security
   shuttlePath: Maps/Shuttles/dart.yml

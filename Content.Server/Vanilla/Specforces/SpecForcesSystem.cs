@@ -51,9 +51,6 @@ public sealed class SpecForcesSystem : EntitySystem
         SubscribeLocalEvent<RoundRestartCleanupEvent>(OnCleanup);
     }
 
-    [ValidatePrototypeId<SpecForceTeamPrototype>]
-    private const string Rxbzz = "RXBZZBlobDefault";
-
     private void OnMapInit(EntityUid uid, SpecForceComponent component, MapInitEvent args)
     {
         foreach (var entry in component.Components.Values)
