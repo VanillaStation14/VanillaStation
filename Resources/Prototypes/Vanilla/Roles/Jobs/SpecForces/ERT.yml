@@ -1,0 +1,290 @@
+# ERT Leader
+- type: startingGear
+  id: ERTLeaderGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTLeader
+    back: ClothingBackpackERTLeader
+    shoes: ClothingShoesTacticalBoots
+    mask: ClothingMaskGasERT
+    eyes: ClothingEyesGlassesSecurity
+    neck: ClothingNeckMantleERTLeader # Corvax-Clothing
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitERTLeader
+    id: ERTLeaderPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltSecurityWebbingFilled
+    pocket1: WeaponPistolN1984
+    pocket2: DoorRemoteCommand
+  storage:
+    back:
+    - WeaponDisabler
+    - MedicatedSuture
+    - RegenerativeMesh
+    - BoxZiptie
+    - CrowbarRed
+    - MagazineMagnum
+    - CombatMedipen
+    - CombatMedipen
+    - SmokeGrenade
+    - SmokeGrenade
+    - LogProbeCartridge
+    - PhoneInstrument
+  inhand:
+  - WeaponPulseCarbine
+
+
+# ERT Engineer
+- type: startingGear
+  id: ERTEngineerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTEngineer
+    back: ClothingBackpackERTEngineer
+    shoes: ClothingShoesTacticalBoots
+    mask: ClothingMaskGasERT
+    eyes: ClothingEyesGlassesMeson
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitERTEngineer
+    id: ERTEngineerPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltChiefEngineerFilled
+    pocket1: WeaponPulsePistol
+    pocket2: GlowstickPurple
+  storage:
+    back:
+    - RCDRecharging
+    - CableMVStack
+    - CableHVStack
+    - CableApcStack
+    - SheetPlasteel
+    - SheetPlasteel
+    - AmeJar
+    - AmeJar
+    - SeismicCharge
+    - SeismicCharge
+    - ExGrenade
+    - ExGrenade
+  inhand:
+  - WeaponPulseCarbine
+
+
+# ERT Security
+- type: startingGear
+  id: ERTSecurityGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTSecurity
+    back: ClothingBackpackERTSecurity
+    shoes: ClothingShoesTacticalBoots
+    mask: ClothingMaskGasERT
+    eyes: ClothingEyesGlassesSecurity
+    neck: SecurityWhistle
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitERTSecurity
+    id: ERTSecurityPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltSecurityWebbingFilled
+    pocket1: WeaponPulsePistol
+    pocket2: GlowstickPurple
+  storage:
+    back:
+    - WeaponDisabler
+    - MedicatedSuture
+    - RegenerativeMesh
+    - CrowbarRed
+    - SmokeGrenade
+    - PortableRecharger
+    - CombatMedipen
+  inhand:
+  - WeaponPulseCarbine
+
+# ERT Medical
+- type: startingGear
+  id: ERTMedicalGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTMedic
+    back: ClothingBackpackERTMedical
+    shoes: ClothingShoesTacticalBoots
+    mask: ClothingMaskGasERT
+    eyes: ClothingEyesHudMedical
+    gloves: ClothingHandsGlovesNitrile
+    outerClothing: ClothingOuterHardsuitERTMedical
+    id: ERTMedicPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltMedicalFilled
+    pocket1: WeaponPulsePistol
+    pocket2: GlowstickPurple
+  storage:
+    back:
+    - Hypospray
+    - MedkitAdvancedFilled
+    - CrowbarRed
+    - OmnizineChemistryBottle
+    - EpinephrineChemistryBottle
+    - EpinephrineChemistryBottle
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - AntiPoisonMedipen
+    - AntiPoisonMedipen
+    - RadAutoInjector
+    - RadAutoInjector
+    - PyraAutoInjector
+    - PyraAutoInjector
+    - PunctAutoInjector
+    - PunctAutoInjector
+  inhand:
+  - WeaponPulseCarbine
+
+# ERT Janitor
+- type: startingGear
+  id: ERTJanitorGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTJanitor
+    back: ClothingBackpackERTJanitor
+    shoes: ClothingShoesTacticalBoots
+    mask: ClothingMaskGasERT
+    gloves: ClothingHandsGlovesColorPurple
+    outerClothing: ClothingOuterHardsuitERTJanitor
+    id: ERTJanitorPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltJanitorFilled
+    pocket1: Flare
+    pocket2: WeaponPulsePistol
+  storage:
+    back:
+    - LightReplacer
+    - BoxLightMixed
+    - BoxLightMixed
+    - CrowbarRed
+    - AdvMopItem
+
+#------------------------------------
+
+# ERT Leader
+- type: entity
+  name: Командир отряда ОБР
+  parent: MobHuman
+  id: MobHumanERTLeader
+  components:
+  - type: Skill
+    PilotingLevel: 3
+    RangeWeaponLevel: 3
+    MeleeWeaponLevel: 3
+    MedicineLevel: 3
+    ChemistryLevel: 3
+    EngineeringLevel: 3
+    BuildingLevel: 3
+    ResearchLevel: 3
+    InstrumentationLevel: 3
+  - type: Icon
+    sprite: Markers/jobs.rsi
+    state: ertleader
+  - type: Speech
+    speechSounds: Soldier
+    soundCooldownTime: 0.1
+  - type: TriggerOnMobstateChange
+    mobState:
+    - Critical
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: SoldierDeath
+      params:
+        volume: -4
+  - type: GhostTakeoverAvailable
+  - type: AutoImplant
+    implants:
+    - MindShieldImplant
+    - TrackingImplant
+    - FreedomImplant
+  - type: GhostRole
+    allowMovement: true
+    allowSpeech: true
+    makeSentient: true
+    name: Командир отряда ОБР
+    description: Командир отряда ОБР, великий воин, герой НТ, знаменитый полководец.
+    raffle:
+      settings: default
+    requirements:
+      - !type:DepartmentTimeRequirement
+        department: Security
+        time: 18000
+      - !type:OverallPlaytimeRequirement
+        time: 36000
+      - !type:DepartmentTimeRequirement
+        department: Command
+        time: 18000
+  - type: SpecForce
+  - type: NpcFactionMember
+    factions:
+      - CentralCommand
+  - type: Loadout
+    prototypes: [ERTLeaderGear]
+  - type: RandomMetadata
+    nameSegments:
+      - NamesFirstMilitaryLeader
+      - NamesLastMilitary
+  - type: RandomHumanoidAppearance
+    randomizeName: false
+  - type: AntagImmune
+
+# ERT security
+- type: entity
+  name: Оперативник ОБР СБ
+  parent: MobHuman
+  id: MobHumanERTSecurity
+  components:
+  - type: Skill
+    PilotingLevel: 3
+    RangeWeaponLevel: 3
+    MeleeWeaponLevel: 3
+    MedicineLevel: 3
+    ChemistryLevel: 3
+    EngineeringLevel: 3
+    BuildingLevel: 3
+    ResearchLevel: 3
+    InstrumentationLevel: 3
+  - type: Icon
+    sprite: Markers/jobs.rsi
+    state: ertsecurityeva
+  - type: Speech
+    speechSounds: Soldier
+    soundCooldownTime: 0.1
+  - type: TriggerOnMobstateChange
+    mobState:
+    - Critical
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: SoldierDeath
+      params:
+        volume: -4
+  - type: GhostTakeoverAvailable
+  - type: AutoImplant
+    implants:
+    - MindShieldImplant
+    - TrackingImplant
+    - FreedomImplant
+  - type: GhostRole
+    allowMovement: true
+    allowSpeech: true
+    makeSentient: true
+    name: Оперативник ОБР СБ
+    description: Опертивник отряда ОБР, посланный разгребать проблемы станции
+    raffle:
+      settings: default
+    requirements:
+      - !type:DepartmentTimeRequirement
+        department: Security
+        time: 9000
+      - !type:OverallPlaytimeRequirement
+        time: 36000
+  - type: SpecForce
+  - type: NpcFactionMember
+    factions:
+      - CentralCommand
+  - type: Loadout
+    prototypes: [ERTSecurityGear]
+  - type: RandomMetadata
+    nameSegments:
+      - NamesFirstMilitaryLeader
+      - NamesLastMilitary
+  - type: RandomHumanoidAppearance
+    randomizeName: false
+  - type: AntagImmune
