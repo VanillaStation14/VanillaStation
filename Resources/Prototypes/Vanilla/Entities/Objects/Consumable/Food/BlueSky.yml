@@ -16,7 +16,7 @@
       food:
         maxVol: 64
         reagents:
-        - ReagentId: BlueSky
+        - ReagentId: Ephedronex
           Quantity: 60
   - type: Food
   - type: FlavorProfile
@@ -52,7 +52,7 @@
       food:
         maxVol: 16
         reagents:
-        - ReagentId: BlueSky
+        - ReagentId: Ephedronex
           Quantity: 15
   - type: Item
     size: Tiny
