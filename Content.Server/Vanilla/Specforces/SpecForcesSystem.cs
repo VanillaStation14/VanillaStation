@@ -19,6 +19,7 @@ using Content.Server.RandomMetadata;
 using Content.Shared.Ghost.Roles.Components;
 using Robust.Shared.Configuration;
 using Robust.Shared.Serialization.Manager;
+using Content.Shared.Vanilla.CCVars;
 
 namespace Content.Server.vanilla.SpecForces;
 
@@ -40,7 +41,7 @@ public sealed class SpecForcesSystem : EntitySystem
     [ViewVariables] public List<SpecForcesHistory> CalledEvents { get; } = new();
     [ViewVariables] public TimeSpan LastUsedTime { get; private set; } = TimeSpan.Zero;
     private readonly ReaderWriterLockSlim _callLock = new();
-    private TimeSpan DelayUsage => TimeSpan.FromMinutes(2/*_configurationManager.GetCVar(CCVars.SpecForceDelay)*/);
+    private TimeSpan DelayUsage => TimeSpan.FromMinutes(_configurationManager.GetCVar(CCVarsVanilla.SpecForceDelay));
 
     public override void Initialize()
     {
