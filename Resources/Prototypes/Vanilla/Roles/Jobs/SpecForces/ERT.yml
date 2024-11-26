@@ -156,6 +156,29 @@
     - CrowbarRed
     - AdvMopItem
 
+# ERT Chaplain
+- type: startingGear
+  id: ERTChaplainGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTJanitor
+    back: ClothingBackpackERTJanitor
+    shoes: ClothingShoesTacticalBoots
+    mask: ClothingMaskGasERT
+    gloves: ClothingHandsGlovesColorPurple
+    outerClothing: ClothingOuterHardsuitERTJanitor
+    id: ERTJanitorPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltJanitorFilled
+    pocket1: Flare
+    pocket2: WeaponPulsePistol
+  storage:
+    back:
+    - LightReplacer
+    - BoxLightMixed
+    - BoxLightMixed
+    - CrowbarRed
+    - AdvMopItem
+
 #------------------------------------
 
 # ERT Leader
@@ -214,7 +237,7 @@
   - type: SpecForce
   - type: NpcFactionMember
     factions:
-      - CentralCommand
+      - NanoTrasen
   - type: Loadout
     prototypes: [ERTLeaderGear]
   - type: RandomMetadata
@@ -278,7 +301,7 @@
   - type: SpecForce
   - type: NpcFactionMember
     factions:
-      - CentralCommand
+      - NanoTrasen
   - type: Loadout
     prototypes: [ERTSecurityGear]
   - type: RandomMetadata
