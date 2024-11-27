@@ -4,10 +4,12 @@
     - /Audio/Vanilla/Lobby/Unwelcome_School.ogg # Vanilla-LobbyMusic
     - /Audio/Vanilla/Lobby/peace_in_the_lags.ogg # Vanilla-LobbyMusic
     - /Audio/Vanilla/Lobby/desire to eat.ogg # Vanilla-LobbyMusic
-    - /Audio/Vanilla/Lobby/DeathSquad.ogg # Vanilla-LobbyMusic
+    - /Audio/Vanilla/Lobby/Corporate-Rats.ogg # Vanilla-LobbyMusic
+    - /Audio/Vanilla/Lobby/Future-Club.ogg # Vanilla-LobbyMusic
+    - /Audio/Vanilla/Lobby/Human.ogg # Vanilla-LobbyMusic
+    - /Audio/Vanilla/Lobby/Nightforce.ogg # Vanilla-LobbyMusic
     - /Audio/Lobby/space_asshole.ogg
     - /Audio/Lobby/3D_is_just_a_measurement.ogg
-    - /Audio/Lobby/Spectral_Synth.ogg
     - /Audio/Lobby/The_first_day_on_orbit.ogg
     - /Audio/Lobby/TO.ogg
     - /Audio/Lobby/thunderdome.ogg
@@ -19,9 +21,8 @@
     - /Audio/Lobby/title3.ogg
     - /Audio/Lobby/mod.flip-flap.ogg
     - /Audio/Lobby/Spac_Stac.ogg
-#    - /Audio/Lobby/pwmur.ogg
+    - /Audio/Lobby/pwmur.ogg
     - /Audio/Lobby/lasers_rip_apart_the_bulkhead.ogg
     - /Audio/Lobby/every_light_is_blinking_at_once.ogg
-    - /Audio/Corvax/Lobby/title2.ogg # Corvax-LobbyMusic
     - /Audio/Lobby/atomicamnesiammx.ogg
     - /Audio/Corvax/Lobby/service.ogg # Corvax-LobbyMusic
