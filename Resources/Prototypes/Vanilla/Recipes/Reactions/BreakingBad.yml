@@ -12,17 +12,17 @@
     redphosphorus: 6
 
 - type: reaction
-  id: BlueSkyReaction
+  id: EphedronexReaction
   minTemp: 380.5
   reactants:
     redphosphorus:
       amount: 2
-    Ephedrine:
+    Desoxyephedrine:
       amount: 3
     PotassiumChlorate:
       amount: 2
   products:
-    BlueSky: 6
+    Ephedronex: 6
 
 - type: reaction
   id: HCIOReaction

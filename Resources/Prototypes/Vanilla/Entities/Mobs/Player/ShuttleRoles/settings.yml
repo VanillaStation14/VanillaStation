@@ -20,6 +20,12 @@
       prototypes:
         - VisitorWalter
       roleLoadout: [ RoleSurvivalExtended ]
+    - type: Skill
+      PilotingLevel: 3
+      ChemistryLevel: 3
+      MedicineLevel: 2
+      RangeWeaponLevel: 1
+      MeleeWeaponLevel: 1
 
 - type: randomHumanoidSettings
   id: VisitorJuniorCooker
@@ -43,3 +49,9 @@
       prototypes:
         - VisitorJessy
       roleLoadout: [ RoleSurvivalExtended ]
+    - type: Skill
+      PilotingLevel: 1
+      ChemistryLevel: 2
+      MedicineLevel: 2
+      RangeWeaponLevel: 2
+      MeleeWeaponLevel: 2

@@ -26,7 +26,7 @@
       - sprite: Markers/jobs.rsi
         state: ertleader
   - type: SpawnOnTrigger
-    proto: RandomHumanoidSpawnerERTLeader
+    proto: MobHumanERTSecurity
 
 - type: entity
   id: ERTSpawnerJanitor
@@ -39,7 +39,7 @@
       - sprite: Markers/jobs.rsi
         state: ertjanitor
   - type: SpawnOnTrigger
-    proto: RandomHumanoidSpawnerERTJanitor
+    proto: MobHumanERTSecurity
 
 - type: entity
   id: ERTSpawnerEngineering
@@ -52,7 +52,7 @@
       - sprite: Markers/jobs.rsi
         state: ertengineer
   - type: SpawnOnTrigger
-    proto: RandomHumanoidSpawnerERTEngineer
+    proto: MobHumanERTSecurity
 
 - type: entity
   id: ERTSpawnerSrcurity
@@ -65,7 +65,7 @@
       - sprite: Markers/jobs.rsi
         state: ertsecurity
   - type: SpawnOnTrigger
-    proto: RandomHumanoidSpawnerERTSecurity
+    proto: MobHumanERTSecurity
 
 - type: entity
   id: ERTSpawnerMedical
@@ -78,7 +78,7 @@
       - sprite: Markers/jobs.rsi
         state: ertmedical
   - type: SpawnOnTrigger
-    proto: RandomHumanoidSpawnerERTMedical
+    proto: MobHumanERTSecurity
 
 #CBURN
 
@@ -93,4 +93,4 @@
       - sprite: Markers/jobs.rsi
         state: cburn
   - type: SpawnOnTrigger
-    proto: RandomHumanoidSpawnerCBURNUnit
+    proto: MobHumanERTLeader
