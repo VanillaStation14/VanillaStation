@@ -1,3 +1,71 @@
+- type: loadoutEffectGroup
+  id: MasterCap
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobCaptain
+      time: 72000 #20 hrs
+
+- type: loadoutEffectGroup
+  id: SuperMasterCap
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobCaptain
+      time: 360000 #100 hrs
+
+# Jumpsuit
+
+- type: loadout
+  id: UniformJumpsuitWhiteCaptain
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitWhiteCaptain
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SuperMasterCap
+
+- type: loadout
+  id: UniformJumpskirtWhiteCaptain
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtWhiteCaptain
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SuperMasterCap
+
+#head
+- type: loadout
+  id: CaptainCapcapWhite
+  equipment:
+    head: ClothingHeadHatCapcapWhite
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SuperMasterCap
+
+#outer clothing
+- type: loadout
+  id: ClothingOuterCoat
+  equipment:
+    outerClothing: ClothingOuterCoatCaptain
+  effects: 
+  - !type:GroupLoadoutEffect
+    proto: MasterCap
+
+# Gloves
+- type: loadout
+  id: CaptainGlovesDefault
+  equipment:
+    gloves: ClothingHandsGlovesCaptain
+
+- type: loadout
+  id: CaptainGlovesWhite
+  equipment:
+    gloves: ClothingHandsGlovesCaptainWhite
+  effects: 
+  - !type:GroupLoadoutEffect
+    proto: MasterCap
+
 #sabres
 - type: loadout
   id: PowerSabreLoadout
@@ -8,3 +76,25 @@
   id: CaptainSabreLoadout
   equipment:
     belt: ClothingBeltSheathFilled
+
+- type: loadout
+  id: CaptainWhiteSabreLoadout
+  equipment:
+    belt: ClothingBeltWhiteSheathFilled
+
+#Neck
+- type: loadout
+  id: CaptainWhiteMantle
+  equipment:
+    neck: ClothingNeckWhiteMantleCaptain
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SuperMasterCap
+
+- type: loadout
+  id: CaptainCloakRoyal
+  equipment:
+    neck: ClothingNeckCloakRoyalCaptain
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SuperMasterCap

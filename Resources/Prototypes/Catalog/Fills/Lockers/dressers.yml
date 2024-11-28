@@ -7,11 +7,13 @@
     contents:
       - id: ClothingHeadHatCaptain
       - id: ClothingHeadHatCapcap
-      - id: ClothingUniformJumpsuitCapFormal
-      - id: ClothingUniformJumpskirtCapFormalDress
+      - id: ClothingUniformJumpsuitCapTurtleneck
+      - id: ClothingUniformJumpskirtCapTurtleneck
       - id: ClothingHandsGlovesCaptain
       - id: ClothingOuterWinterCap
       - id: ClothingNeckCloakCap
+      - id: ClothingHeadCaptainHat
+      - id: FlippoEngravedLighter
 
 - type: entity
   id: DresserChiefEngineerFilled
