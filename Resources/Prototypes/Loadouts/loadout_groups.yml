@@ -109,6 +109,9 @@
   loadouts:
   - CaptainHead
   - CaptainCap
+  # Vanilla-Loadouts-Start
+  - CaptainCapcapWhite
+  # Vanilla-Loadouts-end
 
 - type: loadoutGroup
   id: CaptainJumpsuit
@@ -116,12 +119,16 @@
   loadouts:
   - CaptainJumpsuit
   - CaptainJumpskirt
-  - CaptainFormalSuit
-  - CaptainFormalSkirt
   # Corvax-Loadouts-Start
   - CaptainJumpsuitTurtleneck
   - CaptainJumpskirtTurtleneck
   # Corvax-Loadouts-End
+  - CaptainFormalSuit
+  - CaptainFormalSkirt
+  # Vanilla-Loadouts-Start
+  - UniformJumpsuitWhiteCaptain
+  - UniformJumpskirtWhiteCaptain
+  # Vanilla-Loadouts-end
 
 - type: loadoutGroup
   id: CaptainNeck
@@ -131,6 +138,11 @@
   - CaptainCloak
   - CaptainCloakFormal
   - CaptainMantle
+  # Vanilla-Loadouts-Start
+  - CaptainWhiteMantle
+  - CaptainCloakRoyal
+  - ClothingNeckCaptainWideLoadout
+  # Vanilla-Loadouts-end
 
 - type: loadoutGroup
   id: CaptainBackpack
@@ -146,7 +158,8 @@
   loadouts:
   - CaptainOuterClothing
   - CaptainWintercoat
-
+  - ClothingOuterCoat
+  
 - type: loadoutGroup
   id: HoPHead
   name: loadout-group-hop-head

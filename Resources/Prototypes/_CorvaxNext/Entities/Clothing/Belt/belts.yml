@@ -21,3 +21,13 @@
     state: sheath
   - type: Clothing
     sprite: _CorvaxNext/Clothing/Belt/sheriff_sheath.rsi
+
+- type: entity
+  id: ClothingBeltWhiteSheathFilled
+  parent: ClothingBeltWhiteSheath
+  suffix: Filled
+  components:
+  - type: ContainerFill
+    containers:
+      item:
+      - CaptainSabre

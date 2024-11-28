@@ -1,7 +1,6 @@
 - type: loadoutGroup
   id: VanillaLegends
   name: loadout-group-inventory-vanilla
-  minLimit: 0
   maxLimit: 1
   loadouts:
   - PlushieLizardGrandTanakaLoadout
@@ -16,3 +15,12 @@
   loadouts:
   - CaptainSabreLoadout
   - PowerSabreLoadout
+  - CaptainWhiteSabreLoadout
+
+- type: loadoutGroup
+  id: CaptainGloves
+  name: loadout-group-Captain-gloves
+  maxLimit: 1
+  loadouts:
+  - CaptainGlovesDefault
+  - CaptainGlovesWhite

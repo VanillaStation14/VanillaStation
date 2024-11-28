@@ -1,13 +1,3 @@
-# For mantles
-- type: loadoutEffectGroup
-  id: MasterCap
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: JobCaptain
-      time: 72000 #20 hrs
-
 # Jumpsuit
 - type: loadout
   id: CaptainJumpsuit
@@ -23,12 +13,18 @@
   id: CaptainFormalSuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitCapFormal
+  effects: # Vanilla-captain-drip
+  - !type:GroupLoadoutEffect
+    proto: MasterCap
 
 - type: loadout
   id: CaptainFormalSkirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtCapFormalDress
-
+  effects: # Vanilla-captain-drip
+  - !type:GroupLoadoutEffect
+    proto: MasterCap
+    
 # Head
 - type: loadout
   id: CaptainHead
@@ -50,6 +46,9 @@
   id: CaptainCloakFormal
   equipment:
     neck: ClothingNeckCloakCapFormal
+  effects: # Vanilla-captain-drip
+  - !type:GroupLoadoutEffect
+    proto: MasterCap
 
 - type: loadout
   id: CaptainMantle
