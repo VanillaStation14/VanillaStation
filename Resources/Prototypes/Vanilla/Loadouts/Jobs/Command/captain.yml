@@ -83,13 +83,6 @@
     belt: ClothingBeltWhiteSheathFilled
 
 #Neck
-- type: loadout
-  id: CaptainCloakRoyal
-  equipment:
-    neck: ClothingNeckCloakRoyalCaptain
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SuperMasterCap
 
 - type: loadout
   id: ClothingNeckCaptainWideLoadout
@@ -99,6 +92,14 @@
   - !type:GroupLoadoutEffect
     proto: MasterCap
 
+- type: loadout
+  id: CaptainWhiteMantle
+  equipment:
+    neck: ClothingNeckWhiteMantleCaptain
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SuperMasterCap
+    
 - type: loadout
   id: CaptainCloakRoyal
   equipment:
