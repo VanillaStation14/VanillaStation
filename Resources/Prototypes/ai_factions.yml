@@ -83,3 +83,15 @@
   - Zombie
   - SimpleHostile
   - Dragon
+  
+# vanilla-station-start
+- type: npcFaction
+  id: CentComm
+  hostile:
+    - Dragon
+    - NanoTrasen
+    - SimpleHostile
+    - Syndicate
+    - Xeno
+    - Zombie
+    - Revolutionary
