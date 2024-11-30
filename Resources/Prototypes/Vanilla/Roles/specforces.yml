@@ -13,7 +13,7 @@
 - type: specForceTeam
   id: ERT
   specForceName: spec-forces-system-ert-security
-  shuttlePath: Maps/Shuttles/dart.yml
+  shuttlePath: Maps/Vanilla/M0-R.yml
   spawnMarker: MarkerSpecforce
   announcementText: spec-forces-system-ertcall-annonce
   announcementTitle: spec-forces-system-ertcall-title

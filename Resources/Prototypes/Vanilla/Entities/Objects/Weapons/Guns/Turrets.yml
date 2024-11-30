@@ -1,0 +1,8 @@
+- type: entity
+  parent: BaseWeaponTurret
+  id: WeaponTurretCentComm
+  suffix: CentComm
+  components:
+  - type: NpcFactionMember
+    factions:
+    - CentComm
