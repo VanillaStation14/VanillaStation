@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: GunTrainer
-    ExpPerShot: 15
+    ExpPerShot: 3
   - type: Sprite
   - type: Item
     size: Huge

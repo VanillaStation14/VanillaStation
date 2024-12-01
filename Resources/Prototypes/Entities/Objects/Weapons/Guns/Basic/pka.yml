@@ -5,7 +5,7 @@
   description: Fires low-damage kinetic bolts at a short range.
   components:
   - type: GunTrainer
-    ExpPerShot: 12
+    ExpPerShot: 3
   - type: Sprite
     sprite: Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
     layers:

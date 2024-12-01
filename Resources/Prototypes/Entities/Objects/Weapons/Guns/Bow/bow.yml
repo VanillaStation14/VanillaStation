@@ -51,7 +51,7 @@
   parent: BaseBow
   components:
   - type: GunTrainer
-    ExpPerShot: 12
+    ExpPerShot: 9
   - type: Sprite
     layers:
     - state: unwielded
