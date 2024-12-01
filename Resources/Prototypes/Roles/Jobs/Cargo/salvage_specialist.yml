@@ -22,14 +22,14 @@
     components:
       - type: Skill
         PilotingLevel: 3
-        RangeWeaponLevel: 1
+        RangeWeaponLevel: 2
         MeleeWeaponLevel: 3
         MedicineLevel: 1
         ChemistryLevel: 0
         EngineeringLevel: 1
         BuildingLevel: 1
         ResearchLevel: 0
-        InstrumentationLevel: 1
+        InstrumentationLevel: 0
 
 - type: startingGear
   id: SalvageSpecialistGear
