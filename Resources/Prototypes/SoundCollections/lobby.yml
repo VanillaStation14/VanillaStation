@@ -1,15 +1,18 @@
 - type: soundCollection
   id: LobbyMusic
   files:
-    - /Audio/Vanilla/Lobby/Unwelcome_School.ogg # Vanilla-LobbyMusic
-    - /Audio/Vanilla/Lobby/peace_in_the_lags.ogg # Vanilla-LobbyMusic
-    - /Audio/Vanilla/Lobby/desire to eat.ogg # Vanilla-LobbyMusic
-    - /Audio/Vanilla/Lobby/Corporate-Rats.ogg # Vanilla-LobbyMusic
-    - /Audio/Vanilla/Lobby/Future-Club.ogg # Vanilla-LobbyMusic
-    - /Audio/Vanilla/Lobby/Human.ogg # Vanilla-LobbyMusic
-    - /Audio/Vanilla/Lobby/Nightforce.ogg # Vanilla-LobbyMusic
+     # Vanilla-LobbyMusic
+    - /Audio/Vanilla/Lobby/Unwelcome_School.ogg
+    - /Audio/Vanilla/Lobby/peace_in_the_lags.ogg
+    - /Audio/Vanilla/Lobby/desire to eat.ogg
+    - /Audio/Vanilla/Lobby/Corporate-Rats.ogg
+    - /Audio/Vanilla/Lobby/Future-Club.ogg
+    - /Audio/Vanilla/Lobby/Human.ogg
+    - /Audio/Vanilla/Lobby/Nightforce.ogg 
+    - /Audio/Vanilla/Lobby/DANCE-WITH-THE-DEAD.ogg
+    - /Audio/Vanilla/Lobby/3D_is_just_a_measurement.ogg
+    # Vanilla-LobbyMusic
     - /Audio/Lobby/space_asshole.ogg
-    - /Audio/Lobby/3D_is_just_a_measurement.ogg
     # - /Audio/Lobby/The_first_day_on_orbit.ogg
     # - /Audio/Lobby/TO.ogg
     # - /Audio/Lobby/thunderdome.ogg
