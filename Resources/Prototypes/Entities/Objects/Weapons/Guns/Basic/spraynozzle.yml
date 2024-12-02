@@ -4,6 +4,7 @@
   name: spray nozzle
   description: A high-powered spray nozzle used in conjunction with a backpack-mounted water tank.
   components:
+  - type: GunIgnoreSkill
   - type: Sprite
     sprite: Objects/Weapons/Guns/Basic/spraynozzle.rsi
     state: icon

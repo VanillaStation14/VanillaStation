@@ -72,7 +72,7 @@
   description: A rather traditionally made LMG with a pleasantly lacquered wooden pistol grip. Uses .30 rifle ammo.
   components:
   - type: GunTrainer
-    ExpPerShot: 12
+    ExpPerShot: 6
   - type: Sprite
     sprite: Objects/Weapons/Guns/LMGs/l6.rsi
     layers:

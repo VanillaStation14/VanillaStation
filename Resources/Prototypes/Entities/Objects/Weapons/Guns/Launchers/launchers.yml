@@ -169,6 +169,8 @@
   id: WeaponTetherGun
   description: Manipulates gravity around objects to fling them at high velocities.
   components:
+    - type: GunTrainer
+      ExpPerShot: 6
     - type: Item
       storedRotation: -90
     - type: TetherGun
@@ -256,8 +258,7 @@
   parent: BaseItem
   id: WeaponGrapplingGun
   components:
-    - type: GunTrainer
-      ExpPerShot: 3
+    - type: GunIgnoreSkill
     - type: AmmoCounter
     - type: GrapplingGun
     - type: Gun
