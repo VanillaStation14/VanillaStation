@@ -9,7 +9,7 @@ namespace Content.Shared.Vanilla.Skill
         public int ExpPerShot { get; set; } = 1;
 
         [DataField("MaxLevel"), AutoNetworkedField]
-        public int MaxLevel { get; set; } = 2;
+        public int MaxLevel { get; set; } = 3;
 
         [DataField("SkillType"), AutoNetworkedField]
         public string SkillType { get; set; } = "RangeWeapon";

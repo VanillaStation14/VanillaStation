@@ -5,6 +5,9 @@
   description: A rooty tooty point and shooty.
   abstract: true
   components:
+  - type: GunCanBeFall
+    RequiresRangeWeaponLevel: 2
+    ChanceToFallPerLevel: 0.5
   - type: GunTrainer
     ExpPerShot: 9
   - type: Sprite
