@@ -111,8 +111,10 @@
     - state: icon_corner
       color: red
   - type: GuideHelp
-    guides:
-    - Controls
+    openOnActivation: false
+  - type: SkillTrainer
+    skillType: Building
+    MaxLevel: 2
 
 - type: entity
   id: BookBartendersManual
@@ -189,8 +191,13 @@
     - state: icon_corner
       color: gold
   - type: GuideHelp
+    openOnActivation: false
     guides:
     - Engineering
+  - type: SkillTrainer
+    skillType: Engineering
+    MaxLevel: 2
+
 
 - type: entity
   id: BookScientistsGuidebook
