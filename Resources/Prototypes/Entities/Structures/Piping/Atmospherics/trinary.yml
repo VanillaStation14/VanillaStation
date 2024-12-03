@@ -35,6 +35,8 @@
   placement:
     mode: SnapgridCenter
   components:
+    - type: RequiresSkill
+      RequiresMedicineLevel: 1
     - type: Sprite
       sprite: Structures/Piping/Atmospherics/gasfilter.rsi
       layers:
@@ -123,6 +125,8 @@
   placement:
     mode: SnapgridCenter
   components:
+    - type: RequiresSkill
+      RequiresMedicineLevel: 1
     - type: Sprite
       sprite: Structures/Piping/Atmospherics/gasmixer.rsi
       layers:

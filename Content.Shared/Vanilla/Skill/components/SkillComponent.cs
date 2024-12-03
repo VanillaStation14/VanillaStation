@@ -38,7 +38,7 @@ namespace Content.Shared.Vanilla.Skill
         //Инженерия
         [DataField("EngineeringLevel"), AutoNetworkedField]
         public int EngineeringLevel { get; set; } = 0;
-        [DataField("engineeringExp"), AutoNetworkedField]
+        [DataField("EngineeringExp"), AutoNetworkedField]
         public int EngineeringExp { get; set; } = 0;
 
         //Строительство
