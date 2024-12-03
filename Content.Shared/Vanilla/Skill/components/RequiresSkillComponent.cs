@@ -31,11 +31,15 @@ namespace Content.Shared.Vanilla.Skill
         public int RequiresResearchLevel { get; set; } = 0;
         [DataField("SkillDiffResearchLevel"), AutoNetworkedField]
         public int SkillDiffResearchLevel { get; set; } = 0;
-        
+
         //Приборостроение
         [DataField("RequiresInstrumentationLevel"), AutoNetworkedField]
         public int RequiresInstrumentationLevel { get; set; } = 0;
-        
+
+        //Инженерия
+        [DataField("RequiresEngineeringLevel"), AutoNetworkedField]
+        public int RequiresEngineeringLevel { get; set; } = 0;
+
         //Строительство
         [DataField("RequiresBuildingLevel"), AutoNetworkedField]
         public int RequiresBuildingLevel { get; set; } = 0;
