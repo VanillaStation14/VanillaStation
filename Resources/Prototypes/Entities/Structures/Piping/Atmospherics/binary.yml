@@ -31,6 +31,8 @@
   placement:
     mode: SnapgridCenter
   components:
+  - type: RequiresSkill
+    RequiresMedicineLevel: 1
   - type: ExtensionCableReceiver
   - type: LightningTarget
     priority: 1
@@ -79,6 +81,8 @@
   placement:
     mode: SnapgridCenter
   components:
+    - type: RequiresSkill
+      RequiresMedicineLevel: 1
     - type: ExtensionCableReceiver
     - type: LightningTarget
       priority: 1

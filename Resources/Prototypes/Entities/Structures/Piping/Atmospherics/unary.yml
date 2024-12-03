@@ -233,6 +233,8 @@
   placement:
     mode: SnapgridCenter
   components:
+    - type: RequiresSkill
+      RequiresMedicineLevel: 2
     - type: StationAiWhitelist
     - type: Sprite
       granularLayersRendering: true
@@ -278,6 +280,8 @@
   placement:
     mode: SnapgridCenter
   components:
+    - type: RequiresSkill
+      RequiresMedicineLevel: 2
     - type: StationAiWhitelist
     - type: Sprite
       granularLayersRendering : true
