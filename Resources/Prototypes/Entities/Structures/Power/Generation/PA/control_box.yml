@@ -4,6 +4,8 @@
   name: PA control computer
   description: This controls the density of the particles.
   components:
+  - type: RequiresSkill
+    RequiresEngineeringLevel: 3
   - type: Sprite
     sprite: Structures/Power/Generation/PA/control_box.rsi
   - type: ParticleAcceleratorControlBox

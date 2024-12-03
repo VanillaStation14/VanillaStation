@@ -8,6 +8,7 @@
   components:
   - type: RequiresSkill
     RequiresInstrumentationLevel: 2
+    RequiresEngineeringLevel: 1
   - type: StationAiWhitelist
   - type: AmbientOnPowered
   - type: AmbientSound

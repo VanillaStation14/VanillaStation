@@ -4,6 +4,8 @@
   name: containment field generator
   description: A machine that generates a containment field when powered by an emitter. Keeps the Singularity docile.
   components:
+  - type: RequiresSkill
+    RequiresEngineeringLevel: 3
   - type: Fixtures
     fixtures:
       fix1:

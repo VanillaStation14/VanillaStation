@@ -9,6 +9,7 @@
   components:
   - type: RequiresSkill
     RequiresInstrumentationLevel: 2
+    RequiresEngineeringLevel: 3
   - type: StationAiWhitelist
   - type: WallMount
   - type: ApcPowerReceiver
