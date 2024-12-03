@@ -6,6 +6,8 @@
   placement:
     mode: SnapgridCenter
   components:
+  - type: RequiresSkill
+    RequiresEngineeringLevel: 3
   - type: Clickable
   - type: InteractionOutline
   - type: Physics
