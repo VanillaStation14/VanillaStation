@@ -233,6 +233,7 @@
   placement:
     mode: SnapgridCenter
   components:
+    - type: RequiresSkillToActivateInWorld  
     - type: RequiresSkill
       RequiresEngineeringLevel: 2
     - type: StationAiWhitelist
@@ -280,6 +281,7 @@
   placement:
     mode: SnapgridCenter
   components:
+    - type: RequiresSkillToActivateInWorld  
     - type: RequiresSkill
       RequiresEngineeringLevel: 2
     - type: StationAiWhitelist
