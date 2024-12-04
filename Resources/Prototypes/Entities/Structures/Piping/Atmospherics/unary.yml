@@ -234,7 +234,7 @@
     mode: SnapgridCenter
   components:
     - type: RequiresSkill
-      RequiresMedicineLevel: 2
+      RequiresEngineeringLevel: 2
     - type: StationAiWhitelist
     - type: Sprite
       granularLayersRendering: true
@@ -281,7 +281,7 @@
     mode: SnapgridCenter
   components:
     - type: RequiresSkill
-      RequiresMedicineLevel: 2
+      RequiresEngineeringLevel: 2
     - type: StationAiWhitelist
     - type: Sprite
       granularLayersRendering : true
