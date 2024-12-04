@@ -14,7 +14,15 @@
     components:
     - type: BibleUser #Lets them heal with bibles
     - type: Skill
+      PilotingLevel: 0
       RangeWeaponLevel: 1
+      MeleeWeaponLevel: 0
+      MedicineLevel: 0
+      ChemistryLevel: 0
+      EngineeringLevel: 0
+      BuildingLevel: 0
+      ResearchLevel: 0
+      InstrumentationLevel: 0
 
 - type: startingGear
   id: ChaplainGear

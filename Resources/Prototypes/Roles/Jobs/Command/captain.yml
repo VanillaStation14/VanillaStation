@@ -23,7 +23,7 @@
     components:
       - type: Skill
         PilotingLevel: 3
-        RangeWeaponLevel: 2
+        RangeWeaponLevel: 3
         MeleeWeaponLevel: 3
         MedicineLevel: 1
         ChemistryLevel: 0

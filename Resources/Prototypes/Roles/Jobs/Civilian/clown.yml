@@ -16,7 +16,15 @@
   - !type:AddComponentSpecial
     components:
       - type: Skill
+        PilotingLevel: 0
         RangeWeaponLevel: 3
+        MeleeWeaponLevel: 0
+        MedicineLevel: 0
+        ChemistryLevel: 0
+        EngineeringLevel: 0
+        BuildingLevel: 0
+        ResearchLevel: 0
+        InstrumentationLevel: 0
   - !type:AddComponentSpecial
     components:
     - type: Clumsy
