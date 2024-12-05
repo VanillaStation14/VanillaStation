@@ -22,10 +22,14 @@
       roleLoadout: [ RoleSurvivalExtended ]
     - type: Skill
       PilotingLevel: 3
-      ChemistryLevel: 3
-      MedicineLevel: 2
       RangeWeaponLevel: 1
       MeleeWeaponLevel: 1
+      MedicineLevel: 2
+      ChemistryLevel: 3
+      EngineeringLevel: 0
+      BuildingLevel: 0
+      ResearchLevel: 0
+      InstrumentationLevel: 0
 
 - type: randomHumanoidSettings
   id: VisitorJuniorCooker
@@ -51,7 +55,11 @@
       roleLoadout: [ RoleSurvivalExtended ]
     - type: Skill
       PilotingLevel: 1
-      ChemistryLevel: 2
-      MedicineLevel: 2
       RangeWeaponLevel: 2
       MeleeWeaponLevel: 2
+      MedicineLevel: 2
+      ChemistryLevel: 2
+      EngineeringLevel: 0
+      BuildingLevel: 0
+      ResearchLevel: 0
+      InstrumentationLevel: 0
