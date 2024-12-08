@@ -5,6 +5,10 @@ namespace Content.Shared.Vanilla.Skill
     [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
     public sealed partial class SkillComponent : Component
     {
+        //очки навыков
+        [DataField("SkillPoints"), AutoNetworkedField]
+        public int SkillPoints { get; set; } = 0;
+
         //Пилотирование
         [DataField("PilotingLevel"), AutoNetworkedField]
         public int PilotingLevel { get; set; } = 0;
