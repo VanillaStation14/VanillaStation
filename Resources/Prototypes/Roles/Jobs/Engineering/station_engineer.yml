@@ -31,6 +31,8 @@
         BuildingLevel: 3
         ResearchLevel: 0
         InstrumentationLevel: 2
+      - type: AddSkillPoints
+        Points: 6
 
 - type: startingGear
   id: StationEngineerGear

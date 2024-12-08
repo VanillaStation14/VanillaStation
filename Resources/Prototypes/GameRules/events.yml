@@ -456,16 +456,8 @@
         color: Plum
         sound: "/Audio/Ambience/Antag/zombie_start.ogg"
       components:
-      - type: Skill
-        PilotingLevel: 3
-        RangeWeaponLevel: 3
-        MeleeWeaponLevel: 3
-        MedicineLevel: 3
-        ChemistryLevel: 3
-        EngineeringLevel: 3
-        BuildingLevel: 3
-        ResearchLevel: 3
-        InstrumentationLevel: 3
+      - type: AddSkillPoints
+        Points: 54
       - type: PendingZombie #less time to prepare than normal
         minInitialInfectedGrace: 300
         maxInitialInfectedGrace: 450
@@ -508,12 +500,14 @@
         PilotingLevel: 3
         RangeWeaponLevel: 3
         MeleeWeaponLevel: 3
-        MedicineLevel: 3
-        ChemistryLevel: 3
-        EngineeringLevel: 3
-        BuildingLevel: 3
-        ResearchLevel: 3
-        InstrumentationLevel: 3
+        MedicineLevel: 0
+        ChemistryLevel: 0
+        EngineeringLevel: 0
+        BuildingLevel: 0
+        ResearchLevel: 0
+        InstrumentationLevel: 0
+      - type: AddSkillPoints
+        Points: 36
       - type: NukeOperative
       - type: RandomMetadata
         nameSegments:
@@ -551,16 +545,8 @@
         components:
         - AntagImmune
       components:
-      - type: Skill
-        PilotingLevel: 3
-        RangeWeaponLevel: 3
-        MeleeWeaponLevel: 3
-        MedicineLevel: 3
-        ChemistryLevel: 3
-        EngineeringLevel: 3
-        BuildingLevel: 3
-        ResearchLevel: 3
-        InstrumentationLevel: 3
+      - type: AddSkillPoints
+        Points: 36
       mindRoles:
       - MindRoleTraitorSleeper
 

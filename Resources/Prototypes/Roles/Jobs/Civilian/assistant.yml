@@ -19,6 +19,8 @@
         BuildingLevel: 0
         ResearchLevel: 0
         InstrumentationLevel: 0
+      - type: AddSkillPoints
+        Points: 6
 #  access: # Corvax-MRP
 #  - Maintenance
 

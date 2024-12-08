@@ -39,6 +39,8 @@
         BuildingLevel: 1
         ResearchLevel: 0
         InstrumentationLevel: 1
+      - type: AddSkillPoints
+        Points: 6
         
 - type: startingGear
   id: QuartermasterGear

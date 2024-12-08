@@ -9,7 +9,22 @@
   access:
   - Service
   - Maintenance
-
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: Skill
+        PilotingLevel: 0
+        RangeWeaponLevel: 0
+        MeleeWeaponLevel: 0
+        MedicineLevel: 0
+        ChemistryLevel: 0
+        EngineeringLevel: 0
+        BuildingLevel: 0
+        ResearchLevel: 0
+        InstrumentationLevel: 0
+      - type: AddSkillPoints
+        Points: 6
+        
 - type: startingGear
   id: ZookeeperGear
   equipment:
