@@ -1099,12 +1099,14 @@
       PilotingLevel: 3
       RangeWeaponLevel: 3
       MeleeWeaponLevel: 3
-      MedicineLevel: 3
-      ChemistryLevel: 2
-      EngineeringLevel: 2
-      BuildingLevel: 2
-      ResearchLevel: 2
-      InstrumentationLevel: 2
+      MedicineLevel: 0
+      ChemistryLevel: 0
+      EngineeringLevel: 0
+      BuildingLevel: 0
+      ResearchLevel: 0
+      InstrumentationLevel: 0
+    - type: AddSkillPoints
+      Points: 36
     - type: NpcFactionMember
       factions:
       - Syndicate
@@ -1124,15 +1126,17 @@
   parent: EventHumanoid
   components:
     - type: Skill
-      PilotingLevel: 3
-      RangeWeaponLevel: 3
-      MeleeWeaponLevel: 3
-      MedicineLevel: 3
-      ChemistryLevel: 2
-      EngineeringLevel: 2
-      BuildingLevel: 2
-      ResearchLevel: 2
-      InstrumentationLevel: 2
+      PilotingLevel: 2
+      RangeWeaponLevel: 2
+      MeleeWeaponLevel: 2
+      MedicineLevel: 0
+      ChemistryLevel: 0
+      EngineeringLevel: 0
+      BuildingLevel: 0
+      ResearchLevel: 0
+      InstrumentationLevel: 0
+    - type: AddSkillPoints
+      Points: 36
     - type: NpcFactionMember
       factions:
       - Syndicate
@@ -1153,14 +1157,16 @@
   components:
     - type: Skill
       PilotingLevel: 3
-      RangeWeaponLevel: 3
-      MeleeWeaponLevel: 3
-      MedicineLevel: 3
-      ChemistryLevel: 2
-      EngineeringLevel: 2
-      BuildingLevel: 2
-      ResearchLevel: 2
-      InstrumentationLevel: 2
+      RangeWeaponLevel: 0
+      MeleeWeaponLevel: 0
+      MedicineLevel: 0
+      ChemistryLevel: 0
+      EngineeringLevel: 0
+      BuildingLevel: 0
+      ResearchLevel: 0
+      InstrumentationLevel: 0
+    - type: AddSkillPoints
+      Points: 36
     - type: NpcFactionMember
       factions:
       - Syndicate
