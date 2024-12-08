@@ -291,6 +291,9 @@
     BuildingLevel: 3
     ResearchLevel: 3
     InstrumentationLevel: 3
+  - type: RandomMetadata
+    nameSegments:
+      - names_borg
   - type: NpcFactionMember
     factions:
     - NanoTrasen
