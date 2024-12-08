@@ -110,12 +110,14 @@
         PilotingLevel: 3
         RangeWeaponLevel: 3
         MeleeWeaponLevel: 3
-        MedicineLevel: 3
-        ChemistryLevel: 3
-        EngineeringLevel: 3
-        BuildingLevel: 3
-        ResearchLevel: 3
-        InstrumentationLevel: 3
+        MedicineLevel: 0
+        ChemistryLevel: 0
+        EngineeringLevel: 0
+        BuildingLevel: 0
+        ResearchLevel: 0
+        InstrumentationLevel: 0
+      - type: AddSkillPoints
+        Points: 36
       - type: NukeOperative
       - type: RandomMetadata
         nameSegments:
@@ -134,15 +136,17 @@
       - RoleSurvivalNukie
       components:
       - type: Skill
-        PilotingLevel: 3
-        RangeWeaponLevel: 3
-        MeleeWeaponLevel: 3
+        PilotingLevel: 0
+        RangeWeaponLevel: 2
+        MeleeWeaponLevel: 2
         MedicineLevel: 3
         ChemistryLevel: 3
-        EngineeringLevel: 3
-        BuildingLevel: 3
-        ResearchLevel: 3
-        InstrumentationLevel: 3
+        EngineeringLevel: 0
+        BuildingLevel: 0
+        ResearchLevel: 0
+        InstrumentationLevel: 0
+      - type: AddSkillPoints
+        Points: 36
       - type: NukeOperative
       - type: RandomMetadata
         nameSegments:
@@ -166,12 +170,14 @@
         PilotingLevel: 3
         RangeWeaponLevel: 3
         MeleeWeaponLevel: 3
-        MedicineLevel: 3
-        ChemistryLevel: 3
-        EngineeringLevel: 3
-        BuildingLevel: 3
-        ResearchLevel: 3
-        InstrumentationLevel: 3
+        MedicineLevel: 0
+        ChemistryLevel: 0
+        EngineeringLevel: 0
+        BuildingLevel: 0
+        ResearchLevel: 0
+        InstrumentationLevel: 0
+      - type: AddSkillPoints
+        Points: 36
       - type: NukeOperative
       - type: RandomMetadata
         nameSegments:
@@ -217,16 +223,8 @@
         - AntagImmune
       lateJoinAdditional: true
       components:
-      - type: Skill
-        PilotingLevel: 3
-        RangeWeaponLevel: 3
-        MeleeWeaponLevel: 3
-        MedicineLevel: 3
-        ChemistryLevel: 3
-        EngineeringLevel: 3
-        BuildingLevel: 3
-        ResearchLevel: 3
-        InstrumentationLevel: 3
+      - type: AddSkillPoints
+        Points: 36
       mindRoles:
       - MindRoleTraitor
 
@@ -262,16 +260,8 @@
         sound: "/Audio/Ambience/Antag/headrev_start.ogg"
       startingGear: HeadRevGear
       components:
-      - type: Skill
-        PilotingLevel: 3
-        RangeWeaponLevel: 3
-        MeleeWeaponLevel: 3
-        MedicineLevel: 3
-        ChemistryLevel: 3
-        EngineeringLevel: 3
-        BuildingLevel: 3
-        ResearchLevel: 3
-        InstrumentationLevel: 3
+      - type: AddSkillPoints
+        Points: 54
       - type: Revolutionary
       - type: HeadRevolutionary
       mindRoles:
@@ -313,16 +303,8 @@
         color: Plum
         sound: "/Audio/Ambience/Antag/zombie_start.ogg"
       components:
-      - type: Skill
-        PilotingLevel: 3
-        RangeWeaponLevel: 3
-        MeleeWeaponLevel: 3
-        MedicineLevel: 3
-        ChemistryLevel: 3
-        EngineeringLevel: 3
-        BuildingLevel: 3
-        ResearchLevel: 3
-        InstrumentationLevel: 3
+      - type: AddSkillPoints
+        Points: 54
       - type: PendingZombie
       - type: ZombifyOnDeath
       - type: IncurableZombie
