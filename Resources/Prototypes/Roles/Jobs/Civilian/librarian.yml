@@ -13,9 +13,17 @@
   - !type:AddComponentSpecial
     components:
       - type: Skill
+        PilotingLevel: 0
+        RangeWeaponLevel: 0
+        MeleeWeaponLevel: 0
         MedicineLevel: 1
         ChemistryLevel: 1
-        
+        EngineeringLevel: 1
+        BuildingLevel: 1
+        ResearchLevel: 1
+        InstrumentationLevel: 1
+      - type: AddSkillPoints
+        Points: 6
 - type: startingGear
   id: LibrarianGear
   equipment:

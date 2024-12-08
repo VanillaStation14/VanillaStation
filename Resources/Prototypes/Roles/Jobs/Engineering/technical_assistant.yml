@@ -33,6 +33,8 @@
         BuildingLevel: 2
         ResearchLevel: 0
         InstrumentationLevel: 1
+      - type: AddSkillPoints
+        Points: 6
 
 - type: startingGear
   id: TechnicalAssistantGear

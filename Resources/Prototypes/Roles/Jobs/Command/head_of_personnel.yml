@@ -46,6 +46,8 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+      - type: AddSkillPoints
+        Points: 6
 
 - type: startingGear
   id: HoPGear
