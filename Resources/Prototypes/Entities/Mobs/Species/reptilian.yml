@@ -70,28 +70,30 @@
   - type: Wagging
   - type: Inventory
     speciesId: reptilian
-      # Corvax-Digitigrade-Start
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi # Corvax-Digitigrade
+            state: jumpsuit-female
+    # Corvax-Digitigrade-Start
+      shoes:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
     displacements:
       jumpsuit:
         sizeMaps:
           32:
             sprite: Corvax/Mobs/Species/displacement.rsi
             state: jumpsuit
-      shoes: # DM only for colored shoes!
+      shoes:
         sizeMaps:
           32:
             sprite: Corvax/Mobs/Species/displacement.rsi
             state: shoes
-    # Corvax-Digitigrade-End
-    femaleDisplacements:
-      jumpsuit:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Human/displacement.rsi
-            state: jumpsuit-female
-  - type: FootprintVisualizer # Corvax-Next-Footprints
-    leftBarePrint: "footprint-left-bare-lizard"
-    rightBarePrint: "footprint-right-bare-lizard"
+    # Corvax-Displacements-End
 
 - type: entity
   parent: BaseSpeciesDummy
@@ -111,16 +113,21 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Human/displacement.rsi
+            sprite: Corvax/Mobs/Species/displacement.rsi # Corvax-Digitigrade
             state: jumpsuit-female
     # Corvax-Digitigrade-Start
+      shoes:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
     displacements:
       jumpsuit:
         sizeMaps:
           32:
             sprite: Corvax/Mobs/Species/displacement.rsi
             state: jumpsuit
-      shoes: # DM only for colored shoes!
+      shoes:
         sizeMaps:
           32:
             sprite: Corvax/Mobs/Species/displacement.rsi
