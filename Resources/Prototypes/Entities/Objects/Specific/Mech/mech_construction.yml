@@ -140,6 +140,8 @@
   name: ripley chassis
   description: An in-progress construction of the Ripley APLU mech.
   components:
+  - type: RequiresSkill
+    RequiresInstrumentationLevel: 2
   - type: Appearance
   - type: ContainerContainer
     containers:
@@ -268,6 +270,8 @@
   name: H.O.N.K. chassis
   description: An in-progress construction of a H.O.N.K. mech. Contains chuckle unit, bananium core and honk support systems.
   components:
+  - type: RequiresSkill
+    RequiresInstrumentationLevel: 2
   - type: Appearance
   - type: ContainerContainer
     containers:
@@ -396,6 +400,8 @@
   name: HAMTR chassis
   description: An in-progress construction of the HAMTR mech.
   components:
+  - type: RequiresSkill
+    RequiresInstrumentationLevel: 2
   - type: Appearance
   - type: ContainerContainer
     containers:
@@ -470,6 +476,8 @@
   name: vim chassis
   description: An in-progress construction of the Vim exosuit.
   components:
+  - type: RequiresSkill
+    RequiresInstrumentationLevel: 2
   - type: Appearance
   - type: ContainerContainer
     containers:
