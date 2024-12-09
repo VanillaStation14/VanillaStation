@@ -138,7 +138,7 @@
   graph: DisposalMachine
   startNode: start
   targetNode: disposal_unit
-  RequiresInstrumentationLevel: 1
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -153,7 +153,7 @@
   graph: DisposalMachine
   startNode: start
   targetNode: mailing_unit
-  RequiresInstrumentationLevel: 1
+  RequiresInstrumentationLevel: 2
   category: construction-category-utilities
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -471,6 +471,7 @@
   description: Pumps gas into the room.
   id: GasVentPump
   graph: GasUnary
+  RequiresInstrumentationLevel: 2
   startNode: start
   targetNode: ventpump
   category: construction-category-utilities
@@ -492,6 +493,7 @@
   description: Unpowered vent that equalises gases on both sides.
   id: GasPassiveVent
   graph: GasUnary
+  RequiresInstrumentationLevel: 2
   startNode: start
   targetNode: passivevent
   category: construction-category-utilities
@@ -514,6 +516,7 @@
   id: GasVentScrubber
   graph: GasUnary
   startNode: start
+  RequiresInstrumentationLevel: 2
   targetNode: ventscrubber
   category: construction-category-utilities
   placementMode: SnapgridCenter
@@ -535,6 +538,7 @@
   id: GasOutletInjector
   graph: GasUnary
   startNode: start
+  RequiresInstrumentationLevel: 2
   targetNode: outletinjector
   category: construction-category-utilities
   placementMode: SnapgridCenter
