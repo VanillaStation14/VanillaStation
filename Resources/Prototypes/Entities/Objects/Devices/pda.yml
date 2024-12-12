@@ -76,6 +76,8 @@
       - CrewManifestCartridge
       - NotekeeperCartridge
       - NewsReaderCartridge
+      - SecWatchCartridge # Corvax-Next-SecWatch
+      - NanoChatCartridge # Corvax-Next-PDAChat
     cartridgeSlot:
       priority: -1
       name: device-pda-slot-component-slot-name-cartridge
@@ -125,6 +127,7 @@
     - NotekeeperCartridge
     - NewsReaderCartridge
     - WantedListCartridge
+    - NanoChatCartridge # Corvax-Next-PDAChat
 
 - type: entity
   parent: BasePDA
@@ -138,6 +141,8 @@
       - NotekeeperCartridge
       - NewsReaderCartridge
       - MedTekCartridge
+      - SecWatchCartridge # Corvax-Next-SecWatch
+      - NanoChatCartridge # Corvax-Next-PDAChat
 
 - type: entity
   parent: BasePDA
@@ -408,6 +413,8 @@
       - NotekeeperCartridge
       - NewsReaderCartridge
       - AstroNavCartridge
+      - SecWatchCartridge # Corvax-Next-SecWatch
+      - NanoChatCartridge # Corvax-Next-PDAChat
 
 - type: entity
   parent: BasePDA
@@ -691,6 +698,7 @@
     - NewsReaderCartridge
     - WantedListCartridge
     - LogProbeCartridge
+    - NanoChatCartridge # Corvax-Next-PDAChat
 
 - type: entity
   parent: BaseSecurityPDA
@@ -749,6 +757,7 @@
       - WantedListCartridge
       - LogProbeCartridge
       - AstroNavCartridge
+      - NanoChatCartridge # Corvax-Next-PDAChat
 
 - type: entity
   parent: CentcomPDA
@@ -773,6 +782,8 @@
       - WantedListCartridge
       - MedTekCartridge
       - AstroNavCartridge
+      - SecWatchCartridge # Corvax-Next-SecWatch
+      - NanoChatCartridge # Corvax-Next-PDAChat
 
 - type: entity
   parent: CentcomPDA
@@ -891,6 +902,7 @@
       - WantedListCartridge
       - LogProbeCartridge
       - AstroNavCartridge
+      - NanoChatCartridge # Corvax-Next-PDAChat
 
 - type: entity
   parent: ERTLeaderPDA
@@ -1039,6 +1051,7 @@
     - NewsReaderCartridge
     - WantedListCartridge
     - LogProbeCartridge
+    - NanoChatCartridge # Corvax-Next-PDAChat
 
 - type: entity
   parent: BaseMedicalPDA
@@ -1062,6 +1075,7 @@
     - NewsReaderCartridge
     - WantedListCartridge
     - MedTekCartridge
+    - NanoChatCartridge # Corvax-Next-PDAChat
 
 - type: entity
   parent: ClownPDA
@@ -1178,3 +1192,4 @@
     preinstalled:
       - NotekeeperCartridge
       - MedTekCartridge
+      - NanoChatCartridge # Corvax-Next-PDAChat
