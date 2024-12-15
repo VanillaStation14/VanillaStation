@@ -2,15 +2,15 @@
   id: LobbyMusic
   files:
      # Vanilla-LobbyMusic
-    # - /Audio/Vanilla/Lobby/Unwelcome_School.ogg
-    # - /Audio/Vanilla/Lobby/peace_in_the_lags.ogg
-    # - /Audio/Vanilla/Lobby/desire to eat.ogg
-    # - /Audio/Vanilla/Lobby/Corporate-Rats.ogg
-    # - /Audio/Vanilla/Lobby/Future-Club.ogg
-    # - /Audio/Vanilla/Lobby/Human.ogg
-    # - /Audio/Vanilla/Lobby/Nightforce.ogg 
-    # - /Audio/Vanilla/Lobby/DANCE-WITH-THE-DEAD.ogg
-    # - /Audio/Vanilla/Lobby/3D_is_just_a_measurement.ogg
+    - /Audio/Vanilla/Lobby/Unwelcome_School.ogg
+    - /Audio/Vanilla/Lobby/peace_in_the_lags.ogg
+    - /Audio/Vanilla/Lobby/desire to eat.ogg
+    - /Audio/Vanilla/Lobby/Corporate-Rats.ogg
+    - /Audio/Vanilla/Lobby/Future-Club.ogg
+    - /Audio/Vanilla/Lobby/Human.ogg
+    - /Audio/Vanilla/Lobby/Nightforce.ogg 
+    - /Audio/Vanilla/Lobby/DANCE-WITH-THE-DEAD.ogg
+    - /Audio/Vanilla/Lobby/3D_is_just_a_measurement.ogg
     - /Audio/Vanilla/Lobby/Aleph.ogg
     - /Audio/Vanilla/Lobby/Viol.ogg
     # Vanilla-LobbyMusic
