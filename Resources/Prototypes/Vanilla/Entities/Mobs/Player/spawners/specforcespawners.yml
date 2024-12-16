@@ -48,3 +48,25 @@
   components:
     - type: GhostRoleMobSpawner
       prototype: MobHumanERTSecurity
+
+# DS LEADER
+- type: entity
+  id: SpawnMobHumanDSLeader
+  parent: SpawnSpecforce
+  categories: [ HideSpawnMenu ]
+  name: Лидер экскадрона смерти
+  suffix: спавнер спецсил
+  components:
+    - type: GhostRoleMobSpawner
+      prototype: MobHumanDSLeader
+
+# ds security
+- type: entity
+  id: SpawnMobHumandeadSquadSecurity
+  parent: SpawnSpecforce
+  categories: [ HideSpawnMenu ]
+  name: Оперативник экскадрона смерти
+  suffix: спавнер спецсил
+  components:
+    - type: GhostRoleMobSpawner
+      prototype: MobHumandeadSquadSecurity
