@@ -28,3 +28,43 @@
     - id: SpawnMobHumanERTLeader
   specForceSpawn:
     - id: SpawnMobHumanERTSecurity
+
+# deathsquad
+- type: specForceTeam
+  id: deathsquad
+  specForceName: spec-forces-system-ert-security
+  shuttlePath: Maps/Vanilla/obrDeadSqaudGRID.yml
+  spawnMarker: MarkerSpecforce
+  announcementText: spec-forces-system-ertcall-annonce
+  announcementTitle: spec-forces-system-ertcall-title
+  sound:
+    path: /Audio/Corvax/Adminbuse/yesert.ogg
+    params:
+      volume: -4
+  maxRolesAmount: 8
+  raffleConfig:
+    settings: short
+  guaranteedSpawn:
+    - id: SpawnMobHumanERTLeader
+  specForceSpawn:
+    - id: SpawnMobHumanERTSecurity
+
+# CBURN
+- type: specForceTeam
+  id: CBURN
+  specForceName: spec-forces-system-ert-security
+  shuttlePath: Maps/Vanilla/obrCBURNgRID.yml
+  spawnMarker: MarkerSpecforce
+  announcementText: spec-forces-system-ertcall-annonce
+  announcementTitle: spec-forces-system-ertcall-title
+  sound:
+    path: /Audio/Corvax/Adminbuse/yesert.ogg
+    params:
+      volume: -4
+  maxRolesAmount: 8
+  raffleConfig:
+    settings: short
+  guaranteedSpawn:
+    - id: SpawnMobHumanERTLeader
+  specForceSpawn:
+    - id: SpawnMobHumanERTSecurity

@@ -1,0 +1,118 @@
+# DS Leader "bamgeglo"
+- type: startingGear
+  id: DSLeaderGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitDeathSquad
+    back: ClothingBackpackDeathSquad
+    shoes: ClothingShoesTacticalBoots
+    mask: ClothingMaskGasDeathSquad
+    eyes: ClothingEyesHudSecurity
+    neck: ClothingNeckMantleHOSShoulder
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitDeathsquad
+    id: DeathsquadPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltMilitaryWebbingMedFilled
+    pocket1: EnergySword
+    pocket2: EnergyShield
+    suitstorage: JetpackVoidFilled
+  storage:
+    back:
+    - WeaponPulsePistol
+    - BoxSurvivalEngineering
+    - Hypospray
+    - BoxFlashbang
+    - DeathAcidifierImplanter
+    - FreedomImplanter
+    - WelderExperimental
+    - ToolDebug
+    - WeaponRevolverDeckard
+    - WeaponPulsePistol
+    - SpeedLoaderMagnumAP
+    - SpeedLoaderMagnumAP
+    - DoorRemoteAll
+  inhand:
+  - WeaponPulseRifle
+
+# DS Security Gear
+- type: startingGear
+  id: deadSquadSecurityGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitDeathSquad
+    back: ClothingBackpackDeathSquad
+    shoes: ClothingShoesTacticalBoots
+    mask: ClothingMaskGasDeathSquad
+    eyes: ClothingEyesHudSecurity
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitDeathsquad
+    id: DeathsquadPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltMilitaryWebbingMedFilled
+    pocket1: EnergySword
+    pocket2: EnergyShield
+    suitstorage: JetpackVoidFilled
+  storage:
+    back:
+    - WeaponPulsePistol
+    - BoxSurvivalEngineering
+    - Hypospray
+    - BoxFlashbang
+    - DeathAcidifierImplanter
+    - FreedomImplanter
+    - WelderExperimental
+    - ToolDebug
+    - WeaponRevolverMateba
+    - WeaponPulsePistol
+    - SpeedLoaderMagnumAP
+    - SpeedLoaderMagnumAP
+  inhand:
+  - WeaponPulseRifle
+
+# ds Leader
+- type: entity
+  name: Командир отряда экскадрона смерти
+  parent: MobHumanERTBase
+  id: MobHumanDSLeader
+  components:
+  - type: GhostRole
+    allowMovement: true
+    allowSpeech: true
+    makeSentient: true
+    name: Вы — командир отряда оперативников экскадрона смерти
+    description: Вы — командир элитного отряда оперативников, способных выполнить самые сложные задания. Ваша задача — поддерживать их боевой дух и обеспечивать всем необходимым. Будьте готовы к жестким и бескомпромиссным приказам, но помните о стратегических целях департамента спецопераций.
+    raffle:
+      settings: default
+    requirements:
+      - !type:DepartmentTimeRequirement
+        department: Security
+        time: 18000
+      - !type:OverallPlaytimeRequirement
+        time: 36000
+      - !type:DepartmentTimeRequirement
+        department: Command
+        time: 18000
+  - type: Loadout
+    prototypes: [DSLeaderGear]
+
+# ds security
+- type: entity
+  name: Оперативник экскадрона смерти
+  parent: MobHumanERTBase
+  id: MobHumandeadSquadSecurity
+  components:
+  - type: GhostRole
+    allowMovement: true
+    allowSpeech: true
+    makeSentient: true
+    name: Оперативник экскадрона смерти
+    description: Вы — опытный боец, прошедший через множество сражений. Ваши способности и навыки усилены мощными имплантами и стимуляторами, позволяющими молниеносно реагировать на угрозы и преодолевать любые трудности. Вы готовы выполнить любую задачу, поставленную перед вами руководством.
+    raffle:
+      settings: default
+    requirements:
+      - !type:DepartmentTimeRequirement
+        department: Security
+        time: 9000
+      - !type:OverallPlaytimeRequirement
+        time: 36000
+  - type: Loadout
+    prototypes: [deadSquadSecurityGear]
