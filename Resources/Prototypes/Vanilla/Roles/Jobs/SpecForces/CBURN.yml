@@ -1,0 +1,124 @@
+# CBURN Leader
+- type: startingGear
+  id: CBURNLeaderGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorBrown
+    back: ClothingBackpackDuffelCBURN
+    shoes: ClothingShoesTacticalBoots
+    mask: ClothingMaskGasERT
+    eyes: ClothingEyesGlassesSecurity
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitCBURNLeader
+    id: CBURNPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltMilitaryWebbing
+    pocket1: GlowstickYellow
+    pocket2: RadioHandheldSecurity
+    suitstorage: JetpackVoidFilled
+  storage:
+    belt:
+    - MagazineShotgunIncendiary
+    - MagazineShotgunIncendiary
+    - MagazineShotgunIncendiary
+    - WeaponAdvancedLaser
+    - WeaponDisabler
+    back:
+    - BoxSurvivalEngineering
+    - BoxMagazineShotgunIncendiary
+    - GrenadeIncendiary
+    - GrenadeIncendiary
+    - PillAmbuzolPlus
+    - PillAmbuzol
+    - PillAmbuzol
+    - PillAmbuzol
+    - BoxShotgunIncendiary
+    - CrowbarGreen
+  inhand:
+  - WeaponShotgunBulldog
+
+# CBURN soldier
+- type: startingGear
+  id: CBURNsoldierGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorBrown
+    back: ClothingBackpackDuffelCBURN
+    shoes: ClothingShoesTacticalBoots
+    mask: ClothingMaskGasERT
+    eyes: ClothingEyesGlassesSecurity
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitCBURN
+    id: CBURNPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltMilitaryWebbing
+    pocket1: GlowstickYellow
+    pocket2: RadioHandheldSecurity
+    suitstorage: JetpackVoidFilled
+  storage:
+    belt:
+    - MagazineShotgunIncendiary
+    - MagazineShotgunIncendiary
+    - MagazineShotgunIncendiary
+    - WeaponAdvancedLaser
+    - WeaponDisabler
+    back:
+    - BoxSurvivalEngineering
+    - BoxMagazineShotgunIncendiary
+    - GrenadeIncendiary
+    - GrenadeIncendiary
+    - PillAmbuzolPlus
+    - PillAmbuzol
+    - PillAmbuzol
+    - PillAmbuzol
+    - BoxShotgunIncendiary
+    - CrowbarGreen
+  inhand:
+  - WeaponShotgunBulldog
+
+# CBURN Leader
+- type: entity
+  name: Командир отряда РХБЗЗ
+  parent: MobHumanERTBase
+  id: MobHumanCBURNLeader
+  components:
+  - type: GhostRole
+    allowMovement: true
+    allowSpeech: true
+    makeSentient: true
+    name: Командир отряда РХБЗЗ
+    description: Вы, командир отряда РХБЗЗ, координируете действия оперативников во время миссий, связанных с устранением радиологических, химических, биологических и зомби-угроз. Вы принимаете решения, основанные на анализе ситуации и знаниях своих подчинённых.
+    raffle:
+      settings: default
+    requirements:
+      - !type:DepartmentTimeRequirement
+        department: Security
+        time: 18000
+      - !type:OverallPlaytimeRequirement
+        time: 36000
+      - !type:DepartmentTimeRequirement
+        department: Command
+        time: 18000
+  - type: Loadout
+    prototypes: [CBURNLeaderGear]
+
+# CBURN security
+- type: entity
+  name: Оперативник РХБЗЗ
+  parent: MobHumanERTBase
+  id: MobHumanCBURNsoldier
+  components:
+  - type: GhostRole
+    allowMovement: true
+    allowSpeech: true
+    makeSentient: true
+    name: Оперативник РХБЗЗ
+    description: Вы, оперативник РХБЗЗ, — высококвалифицированный специалист, прошедший специальную подготовку по выживанию и работе в экстремальных условиях. Вы обладаете глубокими знаниями и навыками в области радиологической, химической и биологической защиты, что позволяет вам эффективно противостоять разнообразным угрозам.
+    raffle:
+      settings: default
+    requirements:
+      - !type:DepartmentTimeRequirement
+        department: Security
+        time: 9000
+      - !type:OverallPlaytimeRequirement
+        time: 36000
+  - type: Loadout
+    prototypes: [CBURNsoldierGear]

@@ -65,6 +65,6 @@
   raffleConfig:
     settings: short
   guaranteedSpawn:
-    - id: SpawnMobHumanERTLeader
+    - id: SpawnMobHumanCBURNLeader
   specForceSpawn:
-    - id: SpawnMobHumanERTSecurity
+    - id: SpawnMobHumanCBURNsoldier

@@ -1,4 +1,4 @@
-# DS Leader "bamgeglo"
+# DS Leader
 - type: startingGear
   id: DSLeaderGear
   equipment:
@@ -6,7 +6,7 @@
     back: ClothingBackpackDeathSquad
     shoes: ClothingShoesTacticalBoots
     mask: ClothingMaskGasDeathSquad
-    eyes: ClothingEyesHudSecurity
+    eyes: ClothingEyesHudMedSec
     neck: ClothingNeckMantleHOSShoulder
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitDeathsquad
@@ -22,8 +22,6 @@
     - BoxSurvivalEngineering
     - Hypospray
     - BoxFlashbang
-    - DeathAcidifierImplanter
-    - FreedomImplanter
     - WelderExperimental
     - ToolDebug
     - WeaponRevolverDeckard
@@ -32,7 +30,7 @@
     - SpeedLoaderMagnumAP
     - DoorRemoteAll
   inhand:
-  - WeaponPulseRifle
+  - WeaponPulseCarbine
 
 # DS Security Gear
 - type: startingGear
@@ -42,7 +40,7 @@
     back: ClothingBackpackDeathSquad
     shoes: ClothingShoesTacticalBoots
     mask: ClothingMaskGasDeathSquad
-    eyes: ClothingEyesHudSecurity
+    eyes: ClothingEyesHudMedSec
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitDeathsquad
     id: DeathsquadPDA
@@ -57,8 +55,6 @@
     - BoxSurvivalEngineering
     - Hypospray
     - BoxFlashbang
-    - DeathAcidifierImplanter
-    - FreedomImplanter
     - WelderExperimental
     - ToolDebug
     - WeaponRevolverMateba
@@ -66,7 +62,55 @@
     - SpeedLoaderMagnumAP
     - SpeedLoaderMagnumAP
   inhand:
-  - WeaponPulseRifle
+  - WeaponPulseCarbine
+
+# ERT abstract Baseclass
+- type: entity
+  parent: MobHuman
+  abstract: true
+  id: MobHumanERTBase
+  components:
+  - type: Skill
+    PilotingLevel: 3
+    RangeWeaponLevel: 3
+    MeleeWeaponLevel: 3
+    MedicineLevel: 3
+    ChemistryLevel: 3
+    EngineeringLevel: 3
+    BuildingLevel: 3
+    ResearchLevel: 3
+    InstrumentationLevel: 3
+  - type: Icon
+    sprite: Markers/jobs.rsi
+    state: ertleader
+  - type: Speech
+    speechSounds: Soldier
+    soundCooldownTime: 0.1
+  - type: TriggerOnMobstateChange
+    mobState:
+    - Critical
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: SoldierDeath
+      params:
+        volume: -4
+  - type: GhostTakeoverAvailable
+  - type: AutoImplant
+    implants:
+    - MindShieldImplant
+    - TrackingImplant
+    - FreedomImplant
+  - type: SpecForce
+  - type: NpcFactionMember
+    factions:
+      - CentComm
+  - type: RandomMetadata
+    nameSegments:
+      - NamesFirstMilitaryLeader
+      - NamesLastMilitary
+  - type: RandomHumanoidAppearance
+    randomizeName: false
+  - type: AntagImmune
 
 # ds Leader
 - type: entity
@@ -78,7 +122,7 @@
     allowMovement: true
     allowSpeech: true
     makeSentient: true
-    name: Вы — командир отряда оперативников экскадрона смерти
+    name: Командир отряда экскадрона смерти
     description: Вы — командир элитного отряда оперативников, способных выполнить самые сложные задания. Ваша задача — поддерживать их боевой дух и обеспечивать всем необходимым. Будьте готовы к жестким и бескомпромиссным приказам, но помните о стратегических целях департамента спецопераций.
     raffle:
       settings: default

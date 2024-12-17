@@ -70,3 +70,25 @@
   components:
     - type: GhostRoleMobSpawner
       prototype: MobHumandeadSquadSecurity
+
+# CBURN Leader
+- type: entity
+  id: SpawnMobHumanCBURNLeader
+  parent: SpawnSpecforce
+  categories: [ HideSpawnMenu ]
+  name: РХБЗЗ Лидер
+  suffix: спавнер спецсил
+  components:
+    - type: GhostRoleMobSpawner
+      prototype: MobHumanCBURNLeader
+
+# CBURN soldier
+- type: entity
+  id: SpawnMobHumanCBURNsoldier
+  parent: SpawnSpecforce
+  categories: [ HideSpawnMenu ]
+  name: Оперативник РХБЗЗ
+  suffix: спавнер спецсил
+  components:
+    - type: GhostRoleMobSpawner
+      prototype: MobHumanCBURNsoldier
