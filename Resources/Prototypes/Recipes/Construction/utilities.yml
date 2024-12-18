@@ -380,13 +380,13 @@
   canRotate: true
 
 - type: construction
-  name: gas pipe sensor
+  name: датчик газовой трубы
   id: GasPipeSensor
   graph: GasPipeSensor
   startNode: start
   targetNode: sensor
   category: construction-category-structures
-  description: Reports on the status of the gas within the attached pipe network. 
+  description: Сообщает о состоянии газа в подключенной сети трубопроводов.
   icon:
     sprite: Structures/Piping/Atmospherics/gas_pipe_sensor.rsi
     state: icon

@@ -41,7 +41,7 @@
     state: honkbot
 
 - type: construction
-  name: jonkbot
+  name: кринжбот
   id: jonkbot
   graph: JonkBot
   startNode: start

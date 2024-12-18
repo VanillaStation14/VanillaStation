@@ -85,7 +85,7 @@ namespace Content.Client.Construction.UI
 
         public ConstructionMenu()
         {
-            SetSize = new Vector2(560, 450);
+            SetSize = new Vector2(1060, 900);
             MinSize = new Vector2(560, 320);
 
             IoCManager.InjectDependencies(this);
