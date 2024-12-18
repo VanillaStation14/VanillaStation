@@ -1,0 +1,148 @@
+- type: entity
+  parent: BasePlushie
+  id: PlushieLizardGrandTanaka 
+  name: Grand-Tanaka plushie
+  description: An adorable stuffed toy that resembles a lizardperson. HandMade.
+  components:
+  - type: Sprite
+    state: plushie_lizard_grand_tanaka
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    soundHit:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: JuiceThatMakesYouWeh
+        Quantity: 30
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 10
+        - ReagentId: JuiceThatMakesYouWeh
+          Quantity: 10
+  - type: Clothing
+    quickEquip: false
+    sprite: Objects/Fun/toys.rsi
+    equippedPrefix: lizard_grand_tanaka
+    slots:
+    - HEAD
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieCentcomAliaZimova 
+  name: Alia Zimova plushie
+  description: The OCC is a toy that smells of bureaucracy so strongly that you can already feel how paper reports wrap around you, ready to strangle you with their endless bureaucratic power. Well, shall we make another request for permission to breathe?
+  components:
+  - type: Sprite
+    state: plushie_centcom_alia_zimova
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/rawr.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/Toys/rawr.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/rawr.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Items/Toys/rawr.ogg
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    soundHit:
+      path: /Audio/Items/Toys/rawr.ogg
+
+- type: entity
+  parent: BaseFigurineCheapo
+  id: plushieUnaAkvanova
+  name: Una Akvanova plushe
+  description: Rumor has it that she is a backyard cosplayer...
+  components:
+  - type: Sprite
+    state: plushie_una_Akvanova
+  - type: Tag
+    tags:
+      - Payload
+  - type: UseDelay
+    delay: 35.0
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Vanilla/Items/Toys/yooooo.ogg
+      params:
+        volume: -3
+        maxDistance: 4
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Vanilla/Items/Toys/yooooo.ogg
+      params:
+        volume: -3
+        maxDistance: 4
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Vanilla/Items/Toys/yooooo.ogg
+      params:
+        volume: -3
+        maxDistance: 4
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieZamiraBolshakova 
+  name: Zamira Bolshakova plushie
+  description: if you listen closely you can hear very loud nothing
+  components:
+  - type: Sprite
+    state: plushie_centcom_alia_zimova
+  - type: UseDelay
+    delay: 25.0
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Vanilla/Items/Toys/french-meme-song.ogg
+      params:
+        volume: -3
+        maxDistance: 4
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Vanilla/Items/Toys/french-meme-song.ogg
+      params:
+        volume: -3
+        maxDistance: 4
+  - type: Food
+    useSound:
+      path: /Audio/Vanilla/Items/Toys/french-meme-song.ogg
+      params:
+        volume: -3
+        maxDistance: 4
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Silencer
+        Quantity: 20
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Silencer
+          Quantity: 20
+  - type: MeleeWeapon
+    wideAnimationRotation: 180

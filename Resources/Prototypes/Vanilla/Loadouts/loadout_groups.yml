@@ -1,11 +1,13 @@
 - type: loadoutGroup
   id: VanillaLegends
   name: loadout-group-inventory-vanilla
+  minLimit: 0
   maxLimit: 1
   loadouts:
   - PlushieLizardGrandTanakaLoadout
   - plushieUnaAkvanovaLoadout
   - PlushieCentcomAliaZimovaLoadout
+  # - PlushieZamiraBolshakova
 
 - type: loadoutGroup
   id: CaptainsSabers

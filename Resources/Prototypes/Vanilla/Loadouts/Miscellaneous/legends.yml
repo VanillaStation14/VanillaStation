@@ -35,3 +35,14 @@
       role: JobHeadOfPersonnel
       time: 72000 #20 hrs # Vanilla-RoleTime
 
+- type: loadout
+  id: PlushieZamiraBolshakova
+  storage:
+    back:
+    - PlushieZamiraBolshakova
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobMime
+      time: 72000 #20 hrs # Vanilla-RoleTime

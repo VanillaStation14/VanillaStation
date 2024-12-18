@@ -1,0 +1,10 @@
+ent-PlushieLizardGrandTanaka = Grand-Tanaka plushie
+    .desc = An adorable stuffed toy that resembles a lizardperson. HandMade.
+ent-PlushieLizardGrandTanakaMirrored = { ent-PlushieLizardGrandTanaka }
+    .desc = { ent-PlushieLizardGrandTanaka.desc }
+ent-PlushieCentcomAliaZimova = Alia Zimova plushie
+    .desc = The OCC is a toy that smells of bureaucracy so strongly that you can already feel how paper reports wrap around you, ready to strangle you with their endless bureaucratic power. Well, shall we make another request for permission to breathe?
+ent-plushieUnaAkvanova = { ent-plushieUnaAkvanova }
+    .desc =  { ent-plushieUnaAkvanova.desc }
+ent-PlushieZamiraBolshakova = { ent-plushieUnaAkvanova }
+    .desc =  { ent-plushieUnaAkvanova.desc }

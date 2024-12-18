@@ -2,3 +2,8 @@
   license: "CC0-1.0"
   copyright: "Created by ASKUL, converted to OGG by tfmb"
   source: "https://www.youtube.com/watch?v=0bixhDtv9DE&ab_channel=ASKUL"
+
+- files: ["french-meme-song.ogg"]
+  license: "MIT"
+  copyright: "cropped and converted to OGG by tfmb"
+  source: "https://www.myinstants.com/ru/instant/french-meme-song-55813/"

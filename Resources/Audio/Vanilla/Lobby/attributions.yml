@@ -42,3 +42,13 @@
   license: "CC-BY-3.0"
   copyright: "Riot"
   source: "https://www.youtube.com/watch?v=W_5unoZTpoQ&ab_channel=dancewiththedead"
+
+- files: ["Viol.ogg"]
+  license: "CC-BY-3.0"
+  copyright: "Gesaffelstein"
+  source: "https://www.youtube.com/watch?v=qYG0tKyz0lo&ab_channel=Gesaffelstein-Topic"
+
+- files: ["Aleph.ogg"]
+  license: "CC-BY-3.0"
+  copyright: "Gesaffelstein"
+  source: "https://www.youtube.com/watch?v=co2HfQBeREY&ab_channel=GesaffelsteinChannel"

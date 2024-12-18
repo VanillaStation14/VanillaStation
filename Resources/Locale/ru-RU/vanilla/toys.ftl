@@ -1,0 +1,10 @@
+ent-PlushieLizardGrandTanaka = плюшевый Гранд-Танака
+    .desc = Очаровательная мягкая игрушка, напоминающая унатха. Сделана вручную.
+ent-PlushieLizardGrandTanakaMirrored = { ent-PlushieLizardGrandTanaka }
+    .desc = { ent-PlushieLizardGrandTanaka.desc }  
+ent-PlushieCentcomAliaZimova = плюшевая Алия Зимова
+    .desc = ОЦК — игрушка, от которой веет бюрократией так сильно, что уже чувствуешь, как бумажные отчёты обвивают тебя, готовые задушить своей бесконечной бюрократической мощью. Ну что, оформим ещё один запрос на разрешение вздохнуть?  
+ent-plushieUnaAkvanova = плюшевая Юна Аквянова
+    .desc =  Ходят слухи, что она косплеер на космического нинздю..
+ent-PlushieZamiraBolshakova = плюшевая Замира Большакова
+    .desc =  если прислушаться, можно услышать очень громкое ничего
