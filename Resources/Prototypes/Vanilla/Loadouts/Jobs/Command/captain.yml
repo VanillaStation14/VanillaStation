@@ -52,6 +52,14 @@
   - !type:GroupLoadoutEffect
     proto: MasterCap
 
+- type: loadout
+  id: ClothingOuterCoatCaptainWhite
+  equipment:
+    outerClothing: ClothingOuterCoatCaptainWhite
+  effects: 
+  - !type:GroupLoadoutEffect
+    proto: SuperMasterCap
+
 # Gloves
 - type: loadout
   id: CaptainGlovesDefault
@@ -107,8 +115,3 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: SuperMasterCap
-
-
-
-
-    
