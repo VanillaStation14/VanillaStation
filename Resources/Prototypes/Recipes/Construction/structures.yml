@@ -1,12 +1,12 @@
 - type: construction
-  name: girder
+  name: каркас
   id: Girder
   graph: Girder
   startNode: start
   targetNode: girder
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: A large structural assembly made out of metal.
+  description: Большой металлический каркас; Его необходимо покрыть листами металла, чтобы он считался стеной.
   icon:
     sprite: /Textures/Structures/Walls/solid.rsi
     state: wall_girder
@@ -18,14 +18,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: reinforced girder
+  name: укреплённый каркас
   id: ReinforcedGirder
   graph: Girder
   startNode: start
   targetNode: reinforcedGirder
   RequiresBuildingLevel: 2
   category: construction-category-structures
-  description: A large structural assembly made out of metal and plasteel.
+  description: Большой каркас из металла и пластали; Его необходимо покрыть листами пластали, чтобы он считался укреплённой стеной.
   icon:
     sprite: /Textures/Structures/Walls/solid.rsi
     state: reinforced_wall_girder
@@ -37,14 +37,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: wall gear
+  name: каркас-шестерня
   id: ClockworkGirder
   graph: ClockworkGirder
   startNode: start
   targetNode: clockGirder
   RequiresBuildingLevel: 2
   category: construction-category-structures
-  description: A large gear with mounting brackets for additional plating.
+  description: Огромная шестерня с кронштейнами для дополнительного покрытия; при помощи листов латуни её можно превратить в стену.
   icon:
     sprite: /Textures/Structures/Walls/clock.rsi
     state: wall_gear
@@ -56,14 +56,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: wall
+  name: обычная стена
   id: Wall
   graph: Girder
   startNode: start
   targetNode: wall
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Keeps the air in and the greytide out.
+  description: Удерживает воздух внутри, а ассистентов снаружи.
   icon:
     sprite: Structures/Walls/solid.rsi
     state: full
@@ -75,14 +75,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: reinforced wall
+  name: укреплённая стена
   id: ReinforcedWall
   graph: Girder
   startNode: start
   targetNode: reinforcedWall
   RequiresBuildingLevel: 2
   category: construction-category-structures
-  description: Keeps the air in and the greytide out.
+  description: Удерживает воздух внутри, а ассистентов снаружи.
   icon:
     sprite: Structures/Walls/solid.rsi
     state: rgeneric
@@ -94,14 +94,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: clock wall
+  name: заводная стена
   id: WallClock
   graph: ClockworkGirder
   startNode: start
   targetNode: clockworkWall
   RequiresBuildingLevel: 2
   category: construction-category-structures
-  description: Keeps the air in and the greytide out.
+  description: Удерживает воздух внутри, а ассистентов снаружи.
   icon:
     sprite: Structures/Walls/clock.rsi
     state: full
@@ -113,14 +113,14 @@
     - !type:TileNotBlocked
 # here
 - type: construction
-  name: wood wall
+  name: деревянная стена
   id: WoodWall
   graph: Girder
   startNode: start
   targetNode: woodWall
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Keeps the air in and the greytide out.
+  description: Удерживает воздух внутри, а ассистентов снаружи.
   icon:
     sprite: Structures/Walls/wood.rsi
     state: full
@@ -132,14 +132,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: uranium wall
+  name: урановая стена
   id: UraniumWall
   graph: Girder
   startNode: start
   targetNode: uraniumWall
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Keeps the air in and the greytide out.
+  description: Удерживает воздух внутри, а ассистентов снаружи.
   icon:
     sprite: Structures/Walls/uranium.rsi
     state: full
@@ -151,14 +151,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: silver wall
+  name: серебряная стена
   id: SilverWall
   graph: Girder
   startNode: start
   targetNode: silverWall
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Keeps the air in and the greytide out.
+  description: Удерживает воздух внутри, а ассистентов снаружи.
   icon:
     sprite: Structures/Walls/silver.rsi
     state: full
@@ -170,14 +170,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: plastic wall
+  name: пластиковая стена
   id: PlasticWall
   graph: Girder
   startNode: start
   targetNode: plasticWall
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Keeps the air in and the greytide out.
+  description: Удерживает воздух внутри, а ассистентов снаружи.
   icon:
     sprite: Structures/Walls/plastic.rsi
     state: full
@@ -189,14 +189,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: plasma wall
+  name: плазменная стена
   id: PlasmaWall
   graph: Girder
   startNode: start
   targetNode: plasmaWall
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Keeps the air in and the greytide out.
+  description: Удерживает воздух внутри, а ассистентов снаружи.
   icon:
     sprite: Structures/Walls/plasma.rsi
     state: full
@@ -208,14 +208,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: gold wall
+  name: золотая стена
   id: GoldWall
   graph: Girder
   startNode: start
   targetNode: goldWall
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Keeps the air in and the greytide out.
+  description: Удерживает воздух внутри, а ассистентов снаружи.
   icon:
     sprite: Structures/Walls/gold.rsi
     state: full
@@ -227,14 +227,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: shuttle wall
+  name: стена шаттла
   id: ShuttleWall
   graph: Girder
   startNode: start
   targetNode: shuttleWall
   RequiresBuildingLevel: 3
   category: construction-category-structures
-  description: Keeps the air in and the greytide out.
+  description: Удерживает воздух внутри, а ассистентов снаружи.
   icon:
     sprite: Structures/Walls/shuttle.rsi
     state: full
@@ -246,14 +246,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: interior shuttle wall
+  name: внутренняя стена шаттла
   id: InteriorShuttleWall
   graph: Girder
   startNode: start
   targetNode: shuttleInteriorWall
   RequiresBuildingLevel: 3
   category: construction-category-structures
-  description: Keeps the air in and the greytide out.
+  description: Удерживает воздух внутри, а ассистентов снаружи.
   icon:
     sprite: Structures/Walls/shuttleinterior.rsi
     state: full
@@ -265,14 +265,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: diagonal shuttle wall
+  name: диагональная стена шаттла
   id: DiagonalShuttleWall
   graph: Girder
   startNode: start
   targetNode: diagonalshuttleWall
   RequiresBuildingLevel: 3
   category: construction-category-structures
-  description: Keeps the air in and the greytide out.
+  description: Удерживает воздух внутри, а ассистентов снаружи.
   icon:
     sprite: Structures/Walls/shuttle_diagonal.rsi
     state: state0
@@ -284,14 +284,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: bananium wall
+  name: бананиумовая стена
   id: ClownWall
   graph: Girder
   startNode: start
   targetNode: bananiumWall
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Keeps the air in and the greytide out.
+  description: Удерживает воздух внутри, а ассистентов снаружи.
   icon:
     sprite: Structures/Walls/clown.rsi
     state: full
@@ -303,7 +303,7 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: meat wall
+  name: мясная стена
   id: MeatWall
   graph: Girder
   startNode: start
@@ -322,13 +322,13 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: grille
+  name: решётка
   id: Grille
   graph: Grille
   startNode: start
   targetNode: grille
   category: construction-category-structures
-  description: A flimsy framework of iron rods.
+  description: Хлипкий каркас из металлических прутьев.
   conditions:
     - !type:TileNotBlocked
       failIfSpace: false
@@ -340,13 +340,13 @@
   canRotate: false
 
 - type: construction
-  name: clockwork grille
+  name: заводная решётка
   id: ClockGrille
   graph: ClockGrille
   startNode: start
   targetNode: clockGrille
   category: construction-category-structures
-  description: A flimsy framework of iron rods assembled in traditional ratvarian fashion.
+  description: Хлипкий каркас из металлических прутьев, собранный в традиционном Ратварском стиле.
   conditions:
     - !type:TileNotBlocked
       failIfSpace: false
@@ -358,13 +358,13 @@
   canRotate: false
 
 - type: construction
-  name: diagonal grille
+  name: диагональная решётка
   id: GrilleDiagonal
   graph: GrilleDiagonal
   startNode: start
   targetNode: grilleDiagonal
   category: construction-category-structures
-  description: A flimsy framework of iron rods.
+  description: Хлипкий каркас из металлических прутьев.
   conditions:
     - !type:TileNotBlocked
       failIfSpace: false
@@ -375,13 +375,13 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: diagonal clockwork grille
+  name: диагональная заводная решётка
   id: ClockworkGrilleDiagonal
   graph: GrilleDiagonal
   startNode: start
   targetNode: clockworkGrilleDiagonal
   category: construction-category-structures
-  description: A flimsy framework of iron rods assembled in traditional ratvarian fashion.
+  description: Хлипкий каркас из металлических прутьев, собранный в традиционном Ратварском стиле.
   conditions:
     - !type:TileNotBlocked
       failIfSpace: false
@@ -392,14 +392,14 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: window
+  name: окно
   id: Window
   graph: Window
   startNode: start
   targetNode: window
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Clear.
+  description: Смотри не заляпай.
   canBuildInImpassable: true
   conditions:
     - !type:EmptyOrWindowValidInTile
@@ -412,14 +412,14 @@
   canRotate: false
 
 - type: construction
-  name: diagonal window
+  name: диагональное окно
   id: WindowDiagonal
   graph: WindowDiagonal
   startNode: start
   targetNode: windowDiagonal
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Clear.
+  description: Смотри не заляпай.
   canBuildInImpassable: true
   conditions:
     - !type:EmptyOrWindowValidInTile
@@ -431,14 +431,14 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: reinforced window
+  name: бронированное окно
   id: ReinforcedWindow
   graph: Window
   startNode: start
   targetNode: reinforcedWindow
   RequiresBuildingLevel: 2
   category: construction-category-structures
-  description: Clear but tough.
+  description: Смотри не заляпай.
   canBuildInImpassable: true
   conditions:
     - !type:EmptyOrWindowValidInTile
@@ -451,14 +451,14 @@
   canRotate: false
 
 - type: construction
-  name: diagonal reinforced window
+  name: диагональное бронированное окно
   id: ReinforcedWindowDiagonal
   graph: WindowDiagonal
   startNode: start
   targetNode: reinforcedWindowDiagonal
   RequiresBuildingLevel: 2
   category: construction-category-structures
-  description: Clear but tough.
+  description: Смотри не заляпай.
   canBuildInImpassable: true
   conditions:
     - !type:EmptyOrWindowValidInTile
@@ -470,14 +470,14 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: tinted window
+  name: матовое окно
   id: TintedWindow
   graph: Window
   startNode: start
   targetNode: tintedWindow
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Not clear, but lasers still pass through.
+  description: не прозрачное, но пропускает лазерные лучи
   canBuildInImpassable: true
   conditions:
     - !type:EmptyOrWindowValidInTile
@@ -490,14 +490,14 @@
   canRotate: false
 
 - type: construction
-  name: clockwork window
+  name: заводное окно
   id: ClockworkWindow
   graph: Window
   startNode: start
   targetNode: clockworkWindow
   RequiresBuildingLevel: 2
   category: construction-category-structures
-  description: Clear and tough, with a golden tint.
+  description: Смотри не заляпай латунь.
   canBuildInImpassable: true
   conditions:
     - !type:EmptyOrWindowValidInTile
@@ -510,14 +510,14 @@
   canRotate: false
 
 - type: construction
-  name: diagonal clockwork window
+  name: диагональное заводное окно
   id: ClockworkWindowDiagonal
   graph: WindowDiagonal
   startNode: start
   targetNode: clockworkWindowDiagonal
   RequiresBuildingLevel: 2
   category: construction-category-structures
-  description: Clear and tough, with a golden tint.
+  description: Смотри не заляпай латунь.
   canBuildInImpassable: true
   conditions:
     - !type:EmptyOrWindowValidInTile
@@ -529,7 +529,7 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: plasma window
+  name: плазменное окно
   id: PlasmaWindow
   graph: Window
   startNode: start
@@ -537,7 +537,7 @@
   RequiresBuildingLevel: 1
   category: construction-category-structures
   canBuildInImpassable: true
-  description: Clear, with a purple tint.
+  description: Смотри не заляпай.
   conditions:
     - !type:EmptyOrWindowValidInTile
     - !type:NoWindowsInTile
@@ -549,7 +549,7 @@
   canRotate: false
 
 - type: construction
-  name: reinforced plasma window
+  name: плазменное бронеокно
   id: ReinforcedPlasmaWindow
   graph: Window
   startNode: start
@@ -557,7 +557,7 @@
   RequiresBuildingLevel: 2
   category: construction-category-structures
   canBuildInImpassable: true
-  description: Clear and even tougher, with a purple tint.
+  description: Смотри не заляпай.
   conditions:
     - !type:EmptyOrWindowValidInTile
     - !type:NoWindowsInTile
@@ -569,7 +569,7 @@
   canRotate: false
 
 - type: construction
-  name: shuttle window
+  name: окно шаттла
   id: ShuttleWindow
   graph: Window
   startNode: start
@@ -577,7 +577,7 @@
   RequiresBuildingLevel: 3
   category: construction-category-structures
   canBuildInImpassable: true
-  description: Extra sturdy to resist the pressure of FTL or sustain damage from munitions.
+  description: Смотри не заляпай.
   conditions:
     - !type:EmptyOrWindowValidInTile
     - !type:NoWindowsInTile
@@ -589,7 +589,7 @@
   canRotate: false
 
 - type: construction
-  name: diagonal plasma window
+  name: диагональное плазменное окно
   id: PlasmaWindowDiagonal
   graph: WindowDiagonal
   startNode: start
@@ -597,7 +597,7 @@
   RequiresBuildingLevel: 1
   category: construction-category-structures
   canBuildInImpassable: true
-  description: Clear, with a purple tint.
+  description: Смотри не заляпай.
   conditions:
     - !type:EmptyOrWindowValidInTile
     - !type:NoWindowsInTile
@@ -608,7 +608,7 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: diagonal reinforced plasma window
+  name: диагональное плазменное бронеокно
   id: ReinforcedPlasmaWindowDiagonal
   graph: WindowDiagonal
   startNode: start
@@ -616,7 +616,7 @@
   targetNode: reinforcedPlasmaWindowDiagonal
   category: construction-category-structures
   canBuildInImpassable: true
-  description: Clear and even tougher, with a purple tint.
+  description: Смотри не заляпай.
   conditions:
     - !type:EmptyOrWindowValidInTile
     - !type:NoWindowsInTile
@@ -627,14 +627,14 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: directional window
+  name: направленное окно
   id: WindowDirectional
   graph: WindowDirectional
   startNode: start
   targetNode: windowDirectional
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Clear.
+  description: Смотри не заляпай.
   canBuildInImpassable: true
   conditions:
     - !type:EmptyOrWindowValidInTile
@@ -646,14 +646,14 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: directional reinforced window
+  name: направленное бронеокно
   id: WindowReinforcedDirectional
   graph: WindowDirectional
   startNode: start
   RequiresBuildingLevel: 2
   targetNode: windowReinforcedDirectional
   category: construction-category-structures
-  description: Clear but tough.
+  description: Смотри не заляпай.
   canBuildInImpassable: true
   conditions:
     - !type:EmptyOrWindowValidInTile
@@ -665,14 +665,14 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: directional clockwork window
+  name: направленное заводное окно
   id: WindowClockworkDirectional
   graph: WindowDirectional
   startNode: start
   RequiresBuildingLevel: 2
   targetNode: windowClockworkDirectional
   category: construction-category-structures
-  description: Clear and tough, with a golden tint.
+  description: Смотри не заляпай латунь.
   canBuildInImpassable: true
   conditions:
     - !type:EmptyOrWindowValidInTile
@@ -684,7 +684,7 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: directional plasma window
+  name: направленное плазменное окно
   id: PlasmaWindowDirectional
   graph: WindowDirectional
   startNode: start
@@ -692,7 +692,7 @@
   targetNode: plasmaWindowDirectional
   category: construction-category-structures
   canBuildInImpassable: true
-  description: Clear, with a purple tint.
+  description: Смотри не заляпай.
   conditions:
     - !type:EmptyOrWindowValidInTile
     - !type:NoWindowsInTile
@@ -703,7 +703,7 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: directional reinforced plasma window
+  name: направленное плазменное бронеокно
   id: PlasmaReinforcedWindowDirectional
   graph: WindowDirectional
   startNode: start
@@ -711,7 +711,7 @@
   targetNode: plasmaReinforcedWindowDirectional
   category: construction-category-structures
   canBuildInImpassable: true
-  description: Clear and even tougher, with a purple tint.
+  description: Смотри не заляпай.
   conditions:
     - !type:EmptyOrWindowValidInTile
     - !type:NoWindowsInTile
@@ -722,7 +722,7 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: uranium window
+  name: направленное урановое окно
   id: UraniumWindow
   graph: Window
   startNode: start
@@ -730,7 +730,7 @@
   RequiresBuildingLevel: 1
   category: construction-category-structures
   canBuildInImpassable: true
-  description: Clear, with added RadAbsorb to protect you from deadly radiation.
+  description: Смотри не заляпай.
   conditions:
     - !type:EmptyOrWindowValidInTile
     - !type:NoWindowsInTile
@@ -742,7 +742,7 @@
   canRotate: false
 
 - type: construction
-  name: reinforced uranium window
+  name: урановое бронеокно
   id: ReinforcedUraniumWindow
   graph: Window
   startNode: start
@@ -750,7 +750,7 @@
   targetNode: reinforcedUraniumWindow
   category: construction-category-structures
   canBuildInImpassable: true
-  description: Clear and even tougher, with added RadAbsorb to protect you from deadly radiation.
+  description: Смотри не заляпай.
   conditions:
     - !type:EmptyOrWindowValidInTile
     - !type:NoWindowsInTile
@@ -762,7 +762,7 @@
   canRotate: false
 
 - type: construction
-  name: diagonal uranium window
+  name: диагональное урановое бронеокно
   id: UraniumWindowDiagonal
   graph: WindowDiagonal
   startNode: start
@@ -770,7 +770,7 @@
   RequiresBuildingLevel: 1
   category: construction-category-structures
   canBuildInImpassable: true
-  description: Clear, with added RadAbsorb to protect you from deadly radiation.
+  description: Смотри не заляпай.
   conditions:
     - !type:EmptyOrWindowValidInTile
     - !type:NoWindowsInTile
@@ -781,7 +781,7 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: diagonal reinforced uranium window
+  name: диагональное урановое бронеокно
   id: ReinforcedUraniumWindowDiagonal
   graph: WindowDiagonal
   startNode: start
@@ -789,7 +789,7 @@
   targetNode: reinforcedUraniumWindowDiagonal
   category: construction-category-structures
   canBuildInImpassable: true
-  description: Clear and even tougher, with added RadAbsorb to protect you from deadly radiation.
+  description: Смотри не заляпай.
   conditions:
     - !type:EmptyOrWindowValidInTile
     - !type:NoWindowsInTile
@@ -800,14 +800,14 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: firelock
+  name: пожарный шлюз
   id: Firelock
   graph: Firelock
   startNode: start
   targetNode: Firelock
   RequiresInstrumentationLevel: 2
   category: construction-category-structures
-  description: This is a firelock - it locks an area when a fire alarm in the area is triggered. Don't get squished!
+  description: Примените монтировку.
   icon:
     sprite: Structures/Doors/Airlocks/Standard/firelock.rsi
     state: closed
@@ -819,14 +819,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: glass firelock
+  name: стеклянный пожарный шлюз
   id: FirelockGlass
   graph: Firelock
   startNode: start
   targetNode: FirelockGlass
   RequiresInstrumentationLevel: 2
   category: construction-category-structures
-  description: This is a firelock - it locks an area when a fire alarm in the area is triggered. Don't get squished!
+  description: Примените монтировку.
   icon:
     sprite: Structures/Doors/Airlocks/Glass/firelock.rsi
     state: closed
@@ -838,14 +838,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: thin firelock
+  name: направленный пожарный шлюз
   id: FirelockEdge
   graph: Firelock
   startNode: start
   targetNode: FirelockEdge
   RequiresInstrumentationLevel: 2
   category: construction-category-structures
-  description: This is a firelock - it locks an area when a fire alarm in the area is triggered. Don't get squished!
+  description: Примените монтировку.
   icon:
     sprite: Structures/Doors/edge_door_hazard.rsi
     state: closed
@@ -856,14 +856,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: shutter
+  name: ставни
   id: Shutters
   graph: Shutters
   startNode: start
   targetNode: Shutters
   RequiresInstrumentationLevel: 2
   category: construction-category-structures
-  description: This is a shutter - connect it to a button to open and close it.
+  description: Страшно подумать, что могут скрывать эти ставни.
   icon:
     sprite: Structures/Doors/Shutters/shutters.rsi
     state: closed
@@ -872,14 +872,14 @@
   canBuildInImpassable: true
 
 - type: construction
-  name: glass shutter
+  name: оконные ставни
   id: ShuttersWindow
   graph: Shutters
   startNode: start
   targetNode: ShuttersWindow
   RequiresInstrumentationLevel: 2
   category: construction-category-structures
-  description: This is a shutter - connect it to a button to open and close it.
+  description: Лучшее (TM) место чтобы поглядеть, как взрываются твои друзья!
   icon:
     sprite: Structures/Doors/Shutters/shutters_window.rsi
     state: closed
@@ -888,14 +888,14 @@
   canBuildInImpassable: true
 
 - type: construction
-  name: radiation shutter
+  name: радиационные ставни
   id: ShuttersRadiation
   graph: Shutters
   startNode: start
   targetNode: ShuttersRadiation
   RequiresInstrumentationLevel: 2
   category: construction-category-structures
-  description: This is a shutter - connect it to a button to open and close it.
+  description: Лучшее (TM) место чтобы поглядеть, как взрываются твои друзья!
   icon:
     sprite: Structures/Doors/Shutters/shutters_radiation.rsi
     state: closed
@@ -904,14 +904,14 @@
   canBuildInImpassable: true
 
 - type: construction
-  name: blast door
+  name: гермозатвор
   id: BlastDoor
   graph: BlastDoor
   startNode: start
   targetNode: blastdoor
   RequiresInstrumentationLevel: 2
   category: construction-category-structures
-  description: This one says 'BLAST DONGER'.
+  description: Имеется надпись "ОПАСНОСТЬ ВЗРЫВА".
   icon:
     sprite: Structures/Doors/Shutters/blastdoor.rsi
     state: closed
@@ -920,13 +920,13 @@
   canBuildInImpassable: true
 
 - type: construction
-  name: catwalk
+  name: мостик
   id: Catwalk
   graph: Catwalk
   startNode: start
   targetNode: Catwalk
   category: construction-category-structures
-  description: Just like a lattice. Except it looks better.
+  description: Мостик, облегчающий маневрирование в открытом космосе и прокладку кабеля.
   conditions:
     - !type:TileNotBlocked
       failIfSpace: false
@@ -942,13 +942,13 @@
   canBuildInImpassable: false
 
 - type: construction
-  name: bananium floor
+  name: бананиумовый пол
   id: FloorBananium
   graph: FloorBananium
   startNode: start
   targetNode: BananiumFloor
   category: construction-category-structures
-  description: A slippery floor of bright yellow bananium.
+  description: бананиумовый пол
   conditions:
     - !type:TileNotBlocked
       failIfSpace: false
@@ -963,13 +963,13 @@
   canBuildInImpassable: false
 
 - type: construction
-  name: wooden barricade
+  name: деревянная баррикада
   id: Barricade
   graph: Barricade
   startNode: start
   targetNode: barricadefull
   category: construction-category-structures
-  description: An improvised barricade made out of wooden planks.
+  description: Баррикада из деревянных досок. Выглядит так, будто может выдержать несколько сильных ударов.
   icon:
     sprite: Structures/barricades.rsi
     state: barricade_full
@@ -980,13 +980,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: wooden barricade
+  name: направленная деревянная баррикада
   id: BarricadeDirectional
   graph: BarricadeDirectional
   startNode: start
   targetNode: barricadefull
   category: construction-category-structures
-  description: An improvised barricade made out of wooden planks.
+  description: Баррикада из деревянных досок. Выглядит так, будто может выдержать несколько сильных ударов.
   icon:
     sprite: Structures/barricades.rsi
     state: barricade_directional
@@ -997,13 +997,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: railing
+  name: перила
   id: Railing
   graph: Railing
   startNode: start
   targetNode: railing
   category: construction-category-structures
-  description: Basic railing meant to protect idiots like you from falling.
+  description: Простые перила, предназначенные для защиты таких идиотов как вы от падения.
   icon:
     sprite: Structures/Walls/railing.rsi
     state: side
@@ -1014,13 +1014,13 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: railing corner
+  name: угловые перила
   id: RailingCorner
   graph: Railing
   startNode: start
   targetNode: railingCorner
   category: construction-category-structures
-  description: Basic railing meant to protect idiots like you from falling.
+  description: Простые перила, предназначенные для защиты таких идиотов как вы от падения.
   icon:
     sprite: Structures/Walls/railing.rsi
     state: corner
@@ -1031,13 +1031,13 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: railing corner small
+  name: малые угловые перила
   id: RailingCornerSmall
   graph: Railing
   startNode: start
   targetNode: railingCornerSmall
   category: construction-category-structures
-  description: Basic railing meant to protect idiots like you from falling.
+  description: Простые перила, предназначенные для защиты таких идиотов как вы от падения.
   icon:
     sprite: Structures/Walls/railing.rsi
     state: corner_small
@@ -1048,13 +1048,13 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: railing round
+  name: круглые перила
   id: RailingRound
   graph: Railing
   startNode: start
   targetNode: railingRound
   category: construction-category-structures
-  description: Basic railing meant to protect idiots like you from falling.
+  description: Простые перила, предназначенные для защиты таких идиотов как вы от падения.
   icon:
     sprite: Structures/Walls/railing.rsi
     state: round
@@ -1066,14 +1066,14 @@
 
 # Chain link fencing
 - type: construction
-  name: chain link fence
+  name: сетка-рябица
   id: FenceMetal
   graph: FenceMetal
   startNode: start
   targetNode: straight
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Part of a chain link fence meant to cordon off areas.
+  description: Вы можете использовать дверь вместо того, чтобы перелезать через неё - если вы ТРУС.
   icon:
     sprite: Structures/Walls/fence.rsi
     state: straight
@@ -1084,14 +1084,14 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: chain link fence corner
+  name: сетка-рябица [конец]
   id: FenceMetalCorner
   graph: FenceMetal
   startNode: start
   targetNode: corner
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Part of a chain link fence meant to cordon off areas.
+  description: Вы можете использовать дверь вместо того, чтобы перелезать через неё - если вы ТРУС.
   icon:
     sprite: Structures/Walls/fence.rsi
     state: corner
@@ -1102,14 +1102,14 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: chain link fence end-piece
+  name: сетка-рябица [конец]
   id: FenceMetalEnd
   graph: FenceMetal
   startNode: start
   targetNode: end
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Part of a chain link fence meant to cordon off areas.
+  description: Вы можете использовать дверь вместо того, чтобы перелезать через неё - если вы ТРУС.
   icon:
     sprite: Structures/Walls/fence.rsi
     state: end
@@ -1120,14 +1120,14 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: chain link fence gate
+  name: сетка-рябица [ворота]
   id: FenceMetalGate
   graph: FenceMetal
   startNode: start
   targetNode: gate
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: An easy way to get through a chain link fence.
+  description: Вы можете использовать дверь вместо того, чтобы перелезать через неё - если вы ТРУС.
   icon:
     sprite: Structures/Walls/fence.rsi
     state: door_closed
@@ -1139,14 +1139,14 @@
 
 #Wooden fence high
 - type: construction
-  name: wooden high fence
+  name: деревянный забор
   id: FenceWood
   graph: FenceWood
   startNode: start
   targetNode: straight
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Part of a wooden fence meant to cordon off areas.
+  description: Часть деревянного забора. Надеюсь, за ним находится бабушкин сад.
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: straight
@@ -1157,14 +1157,14 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: wooden high fence end
+  name: деревянный забор [конец]
   id: FenceWoodEnd
   graph: FenceWood
   startNode: start
   targetNode: end
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Part of a wooden fence meant to cordon off areas.
+  description: Часть деревянного забора. Надеюсь, за ним находится бабушкин сад.
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: end
@@ -1175,14 +1175,14 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: wooden high fence corner
+  name: деревянный забор [угол]
   id: FenceWoodCorner
   graph: FenceWood
   startNode: start
   targetNode: corner
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Part of a wooden fence meant to cordon off areas.
+  description: Часть деревянного забора. Надеюсь, за ним находится бабушкин сад.
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: corner
@@ -1193,14 +1193,14 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: wooden high fence t-junction
+  name: деревянный забор [Т-образный]
   id: FenceWoodTJunction
   graph: FenceWood
   startNode: start
   targetNode: tjunction
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Part of a wooden fence meant to cordon off areas.
+  description: Часть деревянного забора. Надеюсь, за ним находится бабушкин сад.
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: tjunction
@@ -1211,14 +1211,14 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: wooden high fence gate
+  name: деревянный забор [Ворота]
   id: FenceWoodGate
   graph: FenceWood
   startNode: start
   targetNode: gate
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Part of a wooden fence meant to cordon off areas.
+  description: Часть деревянного забора. Надеюсь, за ним находится бабушкин сад.
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: door_closed
@@ -1230,14 +1230,14 @@
 
 #Wooden fence small
 - type: construction
-  name: wooden small fence
+  name: небольшой деревянный забор
   id: FenceWoodSmall
   graph: FenceWood
   startNode: start
   targetNode: straight_small
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Part of a wooden fence meant to cordon off areas.
+  description: Часть деревянного забора. Надеюсь, за ним находится бабушкин сад.
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: straight_small
@@ -1248,14 +1248,14 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: wooden small fence end
+  name: небольшой деревянный забор [конец]
   id: FenceWoodEndSmall
   graph: FenceWood
   startNode: start
   targetNode: end_small
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Part of a wooden fence meant to cordon off areas.
+  description: Часть деревянного забора. Надеюсь, за ним находится бабушкин сад.
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: end_small
@@ -1266,14 +1266,14 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: wooden small fence corner
+  name: небольшой деревянный забор [угол]
   id: FenceWoodCornerSmall
   graph: FenceWood
   startNode: start
   targetNode: corner_small
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Part of a wooden fence meant to cordon off areas.
+  description: Часть деревянного забора. Надеюсь, за ним находится бабушкин сад.
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: corner_small
@@ -1284,14 +1284,14 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: wooden small fence t-junction
+  name: небольшой деревянный забор [Т-образный]
   id: FenceWoodTJunctionSmall
   graph: FenceWood
   startNode: start
   targetNode: tjunction_small
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Part of a wooden fence meant to cordon off areas.
+  description: Часть деревянного забора. Надеюсь, за ним находится бабушкин сад.
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: tjunction_small
@@ -1302,14 +1302,14 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: wooden small fence gate
+  name: небольшой деревянный забор [ворота]
   id: FenceWoodGateSmall
   graph: FenceWood
   startNode: start
   targetNode: gate_small
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: Part of a wooden fence meant to cordon off areas.
+  description: Часть деревянного забора. Надеюсь, за ним находится бабушкин сад.
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: door_closed_small
@@ -1321,14 +1321,14 @@
 
 #Airlocks
 - type: construction
-  name: airlock
+  name: шлюз
   id: Airlock
   graph: Airlock
   startNode: start
   targetNode: airlock
   RequiresInstrumentationLevel: 2
   category: construction-category-structures
-  description: It opens, it closes, and maybe crushes you.
+  description: Он открывается, он закрывается, и он может вас раздавить.
   icon:
     sprite: Structures/Doors/Airlocks/Standard/basic.rsi
     state: assembly
@@ -1339,14 +1339,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: glass airlock
+  name: стеклянный шлюз
   id: AirlockGlass
   graph: Airlock
   startNode: start
   targetNode: glassAirlock
   RequiresInstrumentationLevel: 2
   category: construction-category-structures
-  description: It opens, it closes, and maybe crushes you.
+  description: Он открывается, он закрывается, и он может вас раздавить.
   icon:
     sprite: Structures/Doors/Airlocks/Glass/glass.rsi
     state: assembly
@@ -1357,14 +1357,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: pinion airlock
+  name: заводной шлюз
   id: PinionAirlock
   graph: PinionAirlock
   startNode: start
   targetNode: airlock
   RequiresInstrumentationLevel: 2
   category: construction-category-structures
-  description: It opens, it closes, and maybe crushes you.
+  description: Он открывается, он закрывается, и он может вас раздавить.
   icon:
     sprite: Structures/Doors/Airlocks/Standard/clockwork_pinion.rsi
     state: assembly
@@ -1375,14 +1375,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: glass pinion airlock
+  name: стеклянный заводной шлюз
   id: PinionAirlockGlass
   graph: PinionAirlock
   startNode: start
   targetNode: glassAirlock
   RequiresInstrumentationLevel: 2
   category: construction-category-structures
-  description: It opens, it closes, and maybe crushes you.
+  description: Он открывается, он закрывается, и он может вас раздавить.
   icon:
     sprite: Structures/Doors/Airlocks/Glass/clockwork_pinion.rsi
     state: assembly
@@ -1393,14 +1393,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: shuttle airlock
+  name: стыковочный шлюз
   id: AirlockShuttle
   graph: AirlockShuttle
   startNode: start
   targetNode: airlock
   RequiresInstrumentationLevel: 2
   category: construction-category-structures
-  description: It opens, it closes, and maybe crushes you. Necessary for connecting two space craft together.
+  description: Он открывается, он закрывается, и он может вас раздавить. Necessary for connecting two space craft together.
   icon:
     sprite: Structures/Doors/Airlocks/Glass/shuttle.rsi
     state: closed
@@ -1412,14 +1412,14 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: glass shuttle airlock
+  name: стеклянный стыковочный шлюз
   id: AirlockGlassShuttle
   graph: AirlockShuttle
   startNode: start
   targetNode: airlockGlass
   RequiresInstrumentationLevel: 2
   category: construction-category-structures
-  description: It opens, it closes, and maybe crushes you. Necessary for connecting two space craft together. This one has a window.
+  description: Он открывается, он закрывается, и он может вас раздавить. Necessary for connecting two space craft together. This one has a window.
   icon:
     sprite: Structures/Doors/Airlocks/Glass/shuttle.rsi
     state: closed
@@ -1431,14 +1431,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: windoor
+  name: раздвижное окно
   id: Windoor
   graph: Windoor
   startNode: start
   targetNode: windoor
   RequiresInstrumentationLevel: 2
   category: construction-category-structures
-  description: It opens, it closes, and you can see through it! And it can be made of Plasma, Uranium, or normal Glass!
+  description: Это и окно, и раздвижная дверь. Вот это да!
   icon:
     sprite: Structures/Doors/Windoors/windoor.rsi
     state: closed
@@ -1449,14 +1449,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: secure windoor
+  name: раздвижное бронеокно
   id: SecureWindoor
   graph: Windoor
   startNode: start
   targetNode: windoorSecure
   RequiresInstrumentationLevel: 2
   category: construction-category-structures
-  description: It's tough, it's a door, and you can see through it! And it can be made of Plasma, Uranium, or normal Glass!
+  description: Это и прочное окно, и раздвижная дверь. Вот это да!
   icon:
     sprite: Structures/Doors/Windoors/windoor.rsi
     state: closed
@@ -1467,14 +1467,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: clockwork windoor
+  name: раздвижное заводное окно
   id: ClockworkWindoor
   graph: Windoor
   startNode: start
   targetNode: windoorClockwork
   RequiresInstrumentationLevel: 2
   category: construction-category-structures
-  description: It opens, it closes, and you can see through it! This one looks tough.
+  description: Это и прочное окно, и раздвижная дверь. Вот это да!
   icon:
     sprite: Structures/Doors/Windoors/clockwork_windoor.rsi
     state: closed
@@ -1486,13 +1486,13 @@
 
 #lighting
 - type: construction
-  name: wall light
+  name: светильник
   id: LightTubeFixture
   graph: LightFixture
   startNode: start
   targetNode: tubeLight
   category: construction-category-structures
-  description: A wall light fixture. Use light tubes.
+  description: Осветительный прибор. Потребляет энергию и излучает свет, если оснащён лампой-трубкой.
   icon:
     sprite: Structures/Wallmounts/Lighting/light_tube.rsi
     state: base
@@ -1506,13 +1506,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: small wall light
+  name: маленький светильник
   id: LightSmallFixture
   graph: LightFixture
   startNode: start
   targetNode: bulbLight
   category: construction-category-structures
-  description: A wall light fixture. Use light bulbs.
+  description: Осветительный прибор. Потребляет энергию и излучает свет, если оснащён лампой накаливания.
   icon:
     sprite: Structures/Wallmounts/Lighting/light_small.rsi
     state: base
@@ -1525,13 +1525,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: emergency light
+  name: аварийная лампа
   id: EmergencyLightFixture
   graph: LightFixture
   startNode: start
   targetNode: emergencyLight
   category: construction-category-structures
-  description: An emergency light.
+  description: Маленькая лампочка с внутренним аккумулятором, которая включается, как только перестаёт получать питание извне. Технология Nanotrasen позволяет ей адаптировать свой цвет для оповещения экипажа об обстановке на станции.
   icon:
     sprite: Structures/Wallmounts/Lighting/emergency_light.rsi
     state: base
@@ -1543,13 +1543,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: ground light post
+  name: фонарный столб
   id: LightGroundFixture
   graph: LightFixture
   startNode: start
   targetNode: groundLight
   category: construction-category-structures
-  description: A ground light fixture. Use light bulbs.
+  description: Осветительный прибор. Потребляет энергию и излучает свет, если оснащён лампой-трубкой.
   icon:
     sprite: Structures/Lighting/LightPosts/small_light_post.rsi
     state: base
@@ -1561,13 +1561,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: strobe light
+  name: стробоскоп
   id: LightStrobeFixture
   graph: LightFixture
   startNode: start
   targetNode: strobeLight
   category: construction-category-structures
-  description: A wall light fixture. Use light bulbs.
+  description: ЧТО?! Извини, всё, что я слышу, это УИИ-УУУ-УИИ-УУУ!
   icon:
     sprite: Structures/Wallmounts/Lighting/strobe_light.rsi
     state: base
@@ -1580,13 +1580,13 @@
 
 #conveyor
 - type: construction
-  name: conveyor belt
+  name: конвейерная лента
   id: ConveyorBelt
   graph: ConveyorGraph
   startNode: start
   targetNode: entity
   category: construction-category-structures
-  description: A conveyor belt, commonly used to transport large numbers of items elsewhere quite quickly.
+  description: Конвейерная лента, обычно используется для быстрой транспортировки большого количества объектов в другое место.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -1597,14 +1597,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: metal door
+  name: металлическая дверь
   id: MetalDoor
   graph: DoorGraph
   startNode: start
   targetNode: metalDoor
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: A primitive door with manual operation like the cavemen used.
+  description: Дверь, куда она ведёт?
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -1615,14 +1615,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: wooden door
+  name: деревянная дверь
   id: WoodDoor
   graph: DoorGraph
   startNode: start
   targetNode: woodDoor
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: A primitive door with manual operation like the cavemen used.
+  description: Дверь, куда она ведёт?
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -1633,14 +1633,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: plasma door
+  name: плазменная дверь
   id: PlasmaDoor
   graph: DoorGraph
   startNode: start
   targetNode: plasmaDoor
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: A primitive door with manual operation like the cavemen used.
+  description: Дверь, куда она ведёт?
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -1651,14 +1651,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: gold door
+  name: золотая дверь
   id: GoldDoor
   graph: DoorGraph
   startNode: start
   targetNode: goldDoor
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: A primitive door with manual operation like the cavemen used.
+  description: Дверь, куда она ведёт?
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -1669,14 +1669,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: silver door
+  name: серебрянная дверь
   id: SilverDoor
   graph: DoorGraph
   startNode: start
   targetNode: silverDoor
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: A primitive door with manual operation like the cavemen used.
+  description: Дверь, куда она ведёт?
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -1687,14 +1687,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: paper door
+  name: бумажная дверь
   id: PaperDoor
   graph: DoorGraph
   startNode: start
   targetNode: paperDoor
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: A primitive door with manual operation like the cavemen used.
+  description: Дверь, куда она ведёт?
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -1703,7 +1703,7 @@
     state: closed
 
 - type: construction
-  name: plastic flaps
+  name: пластиковые шторки
   id: PlasticFlapsClear
   graph: PlasticFlapsGraph
   startNode: start
@@ -1711,7 +1711,7 @@
   RequiresBuildingLevel: 1
   category: construction-category-structures
   placementMode: SnapgridCenter
-  description: A plastic flap to let items through and keep people out.
+  description: Тяжёлые пластиковые шторки. Сквозь них не пройти. Ни за что.
   objectType: Structure
   canBuildInImpassable: false
   icon:
@@ -1721,7 +1721,7 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: opaque plastic flaps
+  name: непрозрачные пластиковые шторки
   id: PlasticFlapsOpaque
   graph: PlasticFlapsGraph
   startNode: start
@@ -1729,7 +1729,7 @@
   RequiresBuildingLevel: 1
   category: construction-category-structures
   placementMode: SnapgridCenter
-  description: An opaque plastic flap to let items through and keep people out.
+  description: Тяжёлые пластиковые шторки. Сквозь них не пройти. Ни за что
   objectType: Structure
   canBuildInImpassable: false
   icon:
@@ -1739,7 +1739,7 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: carp statue
+  name: статуя карпа
   id: CarpStatue
   graph: CarpStatue
   startNode: start
@@ -1747,7 +1747,7 @@
   RequiresBuildingLevel: 3
   category: construction-category-structures
   placementMode: SnapgridCenter
-  description: A statue of one of the brave carp that got us where we are today. Made with real teeth!
+  description: Статуя одного из храбрых карпов, благодаря которому мы находимся там, где находимся. С настоящими зубами!
   objectType: Structure
   canBuildInImpassable: false
   icon:
@@ -1757,7 +1757,7 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: bananium clown statue
+  name: бананиумовая статуя спасителя
   id: BananiumClownStatue
   graph: BananiumStatueClown
   startNode: start
@@ -1765,7 +1765,7 @@
   RequiresBuildingLevel: 3
   category: construction-category-structures
   placementMode: SnapgridCenter
-  description: A clown statue made from bananium.
+  description: Бананиумовая статуя. Она символизирует пришествие спасителя, который восстанет и поведёт клоунов к великому хонку.
   objectType: Structure
   canBuildInImpassable: false
   icon:
@@ -1775,14 +1775,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: bananium door
+  name: бананиумовая дверь
   id: BananiumDoor
   graph: DoorGraph
   startNode: start
   targetNode: bananiumDoor
   RequiresBuildingLevel: 1
   category: construction-category-structures
-  description: A primitive door made from bananium, it honks.
+  description: Дверь, куда она ведёт?
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -1793,14 +1793,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: bananium altar
+  name: алтарь Хонкоматери
   id: BananiumAltar
   graph: BananiumAltarGraph
   startNode: start
   targetNode: bananiumAltar
   RequiresBuildingLevel: 3
   category: construction-category-structures
-  description: An altar to worship the honkmother with.
+  description: Бананиумовый алтарь, посвящённый Хонкоматери.
   icon:
     sprite: Structures/Furniture/Altars/Cults/bananium.rsi
     state: full
@@ -1812,14 +1812,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: solid secret door
+  name: секретная дверь
   id: SolidSecretDoor
   graph: SecretDoor
   startNode: start
   targetNode: solidSecretDoor
   RequiresInstrumentationLevel: 3
   category: construction-category-structures
-  description: A secret door for the wall.
+  description: Удерживает воздух внутри, а ассистентов снаружи.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false

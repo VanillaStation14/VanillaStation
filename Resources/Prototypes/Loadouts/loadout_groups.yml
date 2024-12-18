@@ -159,6 +159,7 @@
   - CaptainOuterClothing
   - CaptainWintercoat
   - ClothingOuterCoat
+  - ClothingOuterCoatCaptainWhite
   
 - type: loadoutGroup
   id: HoPHead

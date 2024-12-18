@@ -1,12 +1,12 @@
 ﻿- type: construction
-  name: computer
+  name: компьютер
   id: Computer
   graph: Computer
   startNode: start
   targetNode: computer
   RequiresInstrumentationLevel: 2
   category: construction-category-machines
-  description: A frame used to construct anything with a computer circuitboard.
+  description: Строящаяся консоль.
   placementMode: SnapgridCenter
   canBuildInImpassable: false
   icon:
@@ -14,8 +14,8 @@
     state: 4
 
 - type: construction
-  name: machine frame
-  description: A machine under construction. Needs more parts.
+  name: каркас машины
+  description: Строящаяся машина. Требуется больше деталей.
   id: MachineFrame
   graph: Machine
   startNode: start
@@ -30,14 +30,14 @@
 
 # Switching
 - type: construction
-  name: two-way lever
+  name: Двухпозиционный рычаг.
   id: TwoWayLeverRecipe
   graph: LeverGraph
   RequiresInstrumentationLevel: 1
   startNode: start
   targetNode: LeverNode
   category: construction-category-machines
-  description: A lever to control machines. It has 3 modes.
+  description: Двухпозиционный рычаг. Имеет 3 позиции
   objectType: Structure
   canBuildInImpassable: false
   icon:
@@ -47,14 +47,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: light switch
+  name: переключатель сети ЛКП
   id: LightSwitchRecipe
   graph: LightSwitchGraph
   RequiresInstrumentationLevel: 1
   startNode: start
   targetNode: LightSwitchNode
   category: construction-category-machines
-  description: A switch for toggling lights that are connected to the same apc.
+  description: Это переключатель источников света, использующих локальный контроллер питания.
   icon:
     sprite: Structures/Wallmounts/switch.rsi
     state: on
@@ -66,14 +66,14 @@
     - !type:WallmountCondition
 
 - type: construction
-  name: signal switch
+  name: переключатель сигнала
   id: SignalSwitchRecipe
   graph: SignalSwitchGraph
   RequiresInstrumentationLevel: 1
   startNode: start
   targetNode: SignalSwitchNode
   category: construction-category-machines
-  description: It's a switch for toggling power to things.
+  description: Это переключатель питания устройств.
   icon:
     sprite: Structures/Wallmounts/switch.rsi
     state: on
@@ -85,14 +85,14 @@
     - !type:WallmountCondition
 
 - type: construction
-  name: signal button
+  name: кнопка сигнала
   id: SignalButtonRecipe
   RequiresInstrumentationLevel: 1
   graph: SignalButtonGraph
   startNode: start
   targetNode: SignalButtonNode
   category: construction-category-machines
-  description: It's a button for activating something.
+  description: Эта кнопка что-то активирует.
   icon:
     sprite: Structures/Wallmounts/switch.rsi
     state: on
@@ -104,14 +104,14 @@
     - !type:WallmountCondition
 
 - type: construction
-  name: directional light switch
+  name: направленный переключатель сети ЛКП
   id: LightSwitchDirectionalRecipe
   graph: LightSwitchDirectionalGraph
   RequiresInstrumentationLevel: 1
   startNode: start
   targetNode: LightSwitchDirectionalNode
   category: construction-category-machines
-  description: A switch for toggling lights that are connected to the same apc.
+  description: Это переключатель источников света, использующих локальный контроллер питания.
   icon:
     sprite: Structures/Wallmounts/switch.rsi
     state: on
@@ -123,14 +123,14 @@
     - !type:WallmountCondition
 
 - type: construction
-  name: directional signal switch
+  name: направленный переключатель сигнала
   id: SignalSwitchDirectionalRecipe
   graph: SignalSwitchDirectionalGraph
   RequiresInstrumentationLevel: 1
   startNode: start
   targetNode: SignalSwitchDirectionalNode
   category: construction-category-machines
-  description: It's a switch for toggling power to things.
+  description: Это переключатель питания устройств.
   icon:
     sprite: Structures/Wallmounts/switch.rsi
     state: on
@@ -142,14 +142,14 @@
     - !type:WallmountCondition
 
 - type: construction
-  name: directional signal button
+  name: направленная кнопка сигнала
   id: SignalButtonDirectionalRecipe
   graph: SignalButtonDirectionalGraph
   RequiresInstrumentationLevel: 1
   startNode: start
   targetNode: SignalButtonDirectionalNode
   category: construction-category-machines
-  description: It's a button for activating something.
+  description: Эта кнопка что-то активирует.
   icon:
     sprite: Structures/Wallmounts/switch.rsi
     state: on
