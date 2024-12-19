@@ -1,0 +1,29 @@
+- type: entity
+  parent: [ClothingShoesBaseButcherable]
+  id: ClothingShoesTacticalBoots
+  name: тактические ботинки
+  description: модифицированная обувь, используемая силовыми структурами НТ во время различных операций.
+  components:
+  - type: Sprite
+    sprite: Clothing/Shoes/Specific/swat.rsi
+  - type: Clothing
+    sprite: Clothing/Shoes/Specific/swat.rsi
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepTactical
+      params:
+        volume: -8
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1.1
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.95
+        Heat: 0.95
+  - type: NoSlip
+  - type: SlowedOverSlippery
+    slowdownModifier: 0.7
+  - type: Magboots
