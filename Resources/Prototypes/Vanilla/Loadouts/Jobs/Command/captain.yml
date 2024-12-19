@@ -78,7 +78,7 @@
 - type: loadout
   id: PowerSabreLoadout
   equipment:
-    pocket2: PowerSabre
+    belt: ClothingBeltKnightFilled
 
 - type: loadout
   id: CaptainSabreLoadout
