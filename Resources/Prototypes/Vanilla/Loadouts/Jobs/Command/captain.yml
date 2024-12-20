@@ -8,6 +8,15 @@
       time: 72000 #20 hrs
 
 - type: loadoutEffectGroup
+  id: MiddleMasterCap
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobCaptain
+      time: 144000 #40 hrs
+
+- type: loadoutEffectGroup
   id: SuperMasterCap
   effects:
   - !type:JobRequirementLoadoutEffect
@@ -34,6 +43,14 @@
   - !type:GroupLoadoutEffect
     proto: SuperMasterCap
 
+- type: loadout
+  id: UniformJumpsuitNavalCaptain
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNavalCaptain
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MiddleMasterCap
+
 #head
 - type: loadout
   id: CaptainCapcapWhite
@@ -43,12 +60,20 @@
   - !type:GroupLoadoutEffect
     proto: SuperMasterCap
 
+- type: loadout
+  id: CapNavalCap
+  equipment:
+    head: ClothingHeadHatNavalCap
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MiddleMasterCap
+
 #outer clothing
 - type: loadout
   id: ClothingOuterCoat
   equipment:
     outerClothing: ClothingOuterCoatCaptain
-  effects: 
+  effects:
   - !type:GroupLoadoutEffect
     proto: MasterCap
 
@@ -56,9 +81,17 @@
   id: ClothingOuterCoatCaptainWhite
   equipment:
     outerClothing: ClothingOuterCoatCaptainWhite
-  effects: 
+  effects:
   - !type:GroupLoadoutEffect
     proto: SuperMasterCap
+
+- type: loadout
+  id: CoatNavalCaptain
+  equipment:
+    outerClothing: ClothingOuterCoatNavalCaptain
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MiddleMasterCap
 
 # Gloves
 - type: loadout
@@ -70,7 +103,7 @@
   id: CaptainGlovesWhite
   equipment:
     gloves: ClothingHandsGlovesCaptainWhite
-  effects: 
+  effects:
   - !type:GroupLoadoutEffect
     proto: MasterCap
 
@@ -107,7 +140,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: SuperMasterCap
-    
+
 - type: loadout
   id: CaptainCloakRoyal
   equipment:
@@ -115,3 +148,11 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: SuperMasterCap
+
+- type: loadout
+  id: TieDetCap
+  equipment:
+    neck: ClothingNeckTieDet
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MiddleMasterCap
