@@ -24,6 +24,12 @@
   equipment:
     eyes: ClothingEyesGlasses
 
+# Cheap Sunglasses
+- type: loadout
+  id: CheapSunglasses
+  equipment:
+    eyes: ClothingEyesGlassesCheapSunglasses
+
 # Special options
 # Jamjar
 - type: loadout
