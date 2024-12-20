@@ -42,3 +42,12 @@
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.2
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelNavalCaptain
+  name: naval captain's satchel
+  description: It smells like paint..
+  components:
+  - type: Sprite
+    sprite: Vanilla/Objects/Clothing/Naval_Captain/satchel.rsi

@@ -102,7 +102,7 @@
 - type: loadout
   id: PowerSabreLoadout
   equipment:
-    pocket2: PowerSabre
+    belt: ClothingBeltKnightFilled
 
 - type: loadout
   id: CaptainSabreLoadout
@@ -144,6 +144,16 @@
   id: TieDetCap
   equipment:
     neck: ClothingNeckTieDet
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterCap
+
+# Backpacks
+
+- type: loadout
+  id: NavalCaptainSatchel
+  equipment:
+    back: ClothingBackpackSatchelNavalCaptain
   effects:
   - !type:GroupLoadoutEffect
     proto: MasterCap
