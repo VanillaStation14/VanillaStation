@@ -34,6 +34,14 @@
   - !type:GroupLoadoutEffect
     proto: SuperMasterCap
 
+- type: loadout
+  id: UniformJumpsuitNavalCaptain
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNavalCaptain
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterCap
+
 #head
 - type: loadout
   id: CaptainCapcapWhite
@@ -43,12 +51,20 @@
   - !type:GroupLoadoutEffect
     proto: SuperMasterCap
 
+- type: loadout
+  id: CapNavalCap
+  equipment:
+    head: ClothingHeadHatNavalCap
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterCap
+
 #outer clothing
 - type: loadout
   id: ClothingOuterCoat
   equipment:
     outerClothing: ClothingOuterCoatCaptain
-  effects: 
+  effects:
   - !type:GroupLoadoutEffect
     proto: MasterCap
 
@@ -56,9 +72,17 @@
   id: ClothingOuterCoatCaptainWhite
   equipment:
     outerClothing: ClothingOuterCoatCaptainWhite
-  effects: 
+  effects:
   - !type:GroupLoadoutEffect
     proto: SuperMasterCap
+
+- type: loadout
+  id: CoatNavalCaptain
+  equipment:
+    outerClothing: ClothingOuterCoatNavalCaptain
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterCap
 
 # Gloves
 - type: loadout
@@ -70,7 +94,7 @@
   id: CaptainGlovesWhite
   equipment:
     gloves: ClothingHandsGlovesCaptainWhite
-  effects: 
+  effects:
   - !type:GroupLoadoutEffect
     proto: MasterCap
 
@@ -78,7 +102,7 @@
 - type: loadout
   id: PowerSabreLoadout
   equipment:
-    pocket2: PowerSabre
+    belt: ClothingBeltKnightFilled
 
 - type: loadout
   id: CaptainSabreLoadout
@@ -107,7 +131,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: SuperMasterCap
-    
+
 - type: loadout
   id: CaptainCloakRoyal
   equipment:
@@ -115,3 +139,21 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: SuperMasterCap
+
+- type: loadout
+  id: TieDetCap
+  equipment:
+    neck: ClothingNeckTieDet
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterCap
+
+# Backpacks
+
+- type: loadout
+  id: NavalCaptainSatchel
+  equipment:
+    back: ClothingBackpackSatchelNavalCaptain
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterCap

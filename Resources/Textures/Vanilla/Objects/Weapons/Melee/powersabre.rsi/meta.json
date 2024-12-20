@@ -11,9 +11,6 @@
       "name": "powersabre_off"
     },
     {
-      "name": "powersabre_nocell"
-    },
-    {
       "name": "powersabre_on",
       "delays": [
         [

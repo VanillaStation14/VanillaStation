@@ -1,0 +1,58 @@
+- type: entity
+  parent: [ClothingBeltStorageBase, BaseCommandContraband]
+  id: ClothingBeltKnight
+  name: knight's belt
+  description: Only real fencers or 6th-level welders wear it.
+  components:
+  - type: Sprite
+    sprite: Vanilla/Objects/Clothing/Belt/knightBelt.rsi
+    state: belt
+  - type: Clothing
+    sprite: Vanilla/Objects/Clothing/Belt/knightBelt.rsi
+  - type: Item
+  - type: Storage
+    maxItemSize: Small
+    defaultStorageOrientation: Vertical
+    grid:
+    - 0,0,1,1
+    whitelist:
+      tags:
+        - CigPack
+        - Taser
+        - SecBeltEquip
+        - Radio
+        - Sidearm
+        - MagazinePistol
+        - MagazineMagnum
+        - CombatKnife
+        - Truncheon
+        - PowerSabre
+      components:
+        - Stunbaton
+        - FlashOnTrigger
+        - SmokeOnTrigger
+        - Flash
+        - Welder
+        - Handcuff
+        - BallisticAmmoProvider
+        - CartridgeAmmo
+        - DoorRemote
+        - Whistle
+        - BalloonPopper
+  - type: ItemMapper
+    mapLayers:
+      sabre-layer:
+        whitelist:
+          tags:
+          - PowerSabre
+    sprite: Vanilla/Objects/Clothing/Belt/knightBelt.rsi
+  - type: Appearance
+
+- type: entity
+  parent: ClothingBeltKnight
+  id: ClothingBeltKnightFilled
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+      - id: PowerSabre
