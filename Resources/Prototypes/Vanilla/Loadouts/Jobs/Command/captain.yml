@@ -8,15 +8,6 @@
       time: 72000 #20 hrs
 
 - type: loadoutEffectGroup
-  id: MiddleMasterCap
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: JobCaptain
-      time: 144000 #40 hrs
-
-- type: loadoutEffectGroup
   id: SuperMasterCap
   effects:
   - !type:JobRequirementLoadoutEffect
@@ -49,7 +40,7 @@
     jumpsuit: ClothingUniformJumpsuitNavalCaptain
   effects:
   - !type:GroupLoadoutEffect
-    proto: MiddleMasterCap
+    proto: MasterCap
 
 #head
 - type: loadout
@@ -66,7 +57,7 @@
     head: ClothingHeadHatNavalCap
   effects:
   - !type:GroupLoadoutEffect
-    proto: MiddleMasterCap
+    proto: MasterCap
 
 #outer clothing
 - type: loadout
@@ -91,7 +82,7 @@
     outerClothing: ClothingOuterCoatNavalCaptain
   effects:
   - !type:GroupLoadoutEffect
-    proto: MiddleMasterCap
+    proto: MasterCap
 
 # Gloves
 - type: loadout
@@ -155,4 +146,4 @@
     neck: ClothingNeckTieDet
   effects:
   - !type:GroupLoadoutEffect
-    proto: MiddleMasterCap
+    proto: MasterCap
