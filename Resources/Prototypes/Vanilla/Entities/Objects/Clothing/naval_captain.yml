@@ -1,0 +1,53 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitNavalCaptain
+  name: naval captain's uniform
+  description: Stylish and rich.
+  components:
+  - type: Sprite
+    sprite: Vanilla/Objects/Clothing/Naval_Captain/jumpsuit.rsi
+  - type: Clothing
+    sprite: Vanilla/Objects/Clothing/Naval_Captain/jumpsuit.rsi
+
+- type: entity
+  parent: [ClothingHeadBase, BaseCommandContraband]
+  id: ClothingHeadHatNavalCap
+  name: naval captain's cap
+  description: Do you hear us Captain!?
+  components:
+  - type: Sprite
+    sprite: Vanilla/Objects/Clothing/Naval_Captain/cap.rsi
+  - type: Clothing
+    sprite: Vanilla/Objects/Clothing/Naval_Captain/cap.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
+  id: ClothingOuterCoatNavalCaptain
+  name: naval captain's coat
+  description: Raise the sails!
+  components:
+  - type: Sprite
+    sprite: Vanilla/Objects/Clothing/Naval_Captain/coat.rsi
+  - type: Clothing
+    sprite: Vanilla/Objects/Clothing/Naval_Captain/coat.rsi
+  - type: StorageFill
+    contents:
+    - id: SmokingPipeFilledTobacco
+    - id: FlippoEngravedLighter
+  - type: TemperatureProtection
+    heatingCoefficient: 1.1
+    coolingCoefficient: 0.2
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelNavalCaptain
+  name: naval captain's satchel
+  description: It smells like paint..
+  components:
+  - type: Sprite
+    sprite: Vanilla/Objects/Clothing/Naval_Captain/satchel.rsi

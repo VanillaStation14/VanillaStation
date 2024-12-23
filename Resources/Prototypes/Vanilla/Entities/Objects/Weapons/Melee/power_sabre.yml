@@ -1,3 +1,6 @@
+- type: Tag
+  id: PowerSabre
+
 - type: entity
   name: Power Sabre
   parent: [BaseItem, BaseCommandContraband]
@@ -80,7 +83,7 @@
     enabled: false
     radius: 2
     energy: 2
-    color: white
+    color: "#99c9ff"
   - type: Item
     size: Small
   - type: Appearance
@@ -109,3 +112,6 @@
     materialComposition:
       Steel: 100
       Plastic: 100
+  - type: Tag
+    tags:
+    - PowerSabre

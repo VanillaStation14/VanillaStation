@@ -112,6 +112,7 @@
   - CaptainCap
   # Vanilla-Loadouts-Start
   - CaptainCapcapWhite
+  - CapNavalCap
   # Vanilla-Loadouts-end
 
 - type: loadoutGroup
@@ -129,6 +130,7 @@
   # Vanilla-Loadouts-Start
   - UniformJumpsuitWhiteCaptain
   - UniformJumpskirtWhiteCaptain
+  - UniformJumpsuitNavalCaptain
   # Vanilla-Loadouts-end
 
 - type: loadoutGroup
@@ -143,6 +145,7 @@
   - CaptainWhiteMantle
   - CaptainCloakRoyal
   - ClothingNeckCaptainWideLoadout
+  - TieDetCap
   # Vanilla-Loadouts-end
 
 - type: loadoutGroup
@@ -152,6 +155,7 @@
   - CaptainBackpack
   - CaptainSatchel
   - CaptainDuffel
+  - NavalCaptainSatchel
 
 - type: loadoutGroup
   id: CaptainOuterClothing
@@ -161,7 +165,10 @@
   - CaptainWintercoat
   - ClothingOuterCoat
   - ClothingOuterCoatCaptainWhite
-  
+  # Vanilla-Loadouts-Start
+  - CoatNavalCaptain
+  # Vanilla-Loadouts-end
+
 - type: loadoutGroup
   id: HoPHead
   name: loadout-group-hop-head
