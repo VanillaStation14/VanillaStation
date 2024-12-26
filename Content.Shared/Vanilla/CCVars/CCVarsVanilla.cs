@@ -13,10 +13,4 @@ public sealed class CCVarsVanilla : CVars
     /// </summary>
     public static readonly CVarDef<string> DiscordServerBansWebhook =
         CVarDef.Create("discord.server_bans_webhook", string.Empty, CVar.SERVERONLY);
-        
-    /// <summary>
-    /// задержка между вызовами обр
-    /// </summary>
-    public static readonly CVarDef<int> SpecForceDelay =
-        CVarDef.Create("specforce.delay", 2, CVar.SERVERONLY);
 }
