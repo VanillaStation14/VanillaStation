@@ -8,6 +8,7 @@
     - PetsNT
     - Zombie
     - Revolutionary
+    - AllHostile
 
 - type: npcFaction
   id: NanoTrasen
@@ -17,11 +18,14 @@
   - Xeno
   - Zombie
   - Revolutionary
+  - Dragon
+  - AllHostile
 
 - type: npcFaction
   id: Mouse
   hostile:
     - PetsNT
+    - AllHostile
 
 - type: npcFaction
   id: Passive
@@ -33,6 +37,7 @@
   - SimpleHostile
   - Zombie
   - Xeno
+  - AllHostile
 
 - type: npcFaction
   id: SimpleHostile
@@ -44,6 +49,7 @@
   - PetsNT
   - Zombie
   - Revolutionary
+  - AllHostile
 
 - type: npcFaction
   id: SimpleNeutral
@@ -57,6 +63,8 @@
   - Xeno
   - PetsNT
   - Zombie
+  - Dragon
+  - AllHostile
 
 - type: npcFaction
   id: Xeno
@@ -68,6 +76,7 @@
   - PetsNT
   - Zombie
   - Revolutionary
+  - AllHostile
 
 - type: npcFaction
   id: Zombie
@@ -80,6 +89,7 @@
   - Passive
   - PetsNT
   - Revolutionary
+  - AllHostile
 
 - type: npcFaction
   id: Revolutionary
@@ -89,7 +99,8 @@
   - Zombie
   - SimpleHostile
   - Dragon
-  
+  - AllHostile
+
 # vanilla-station-start
 - type: npcFaction
   id: CentComm
@@ -101,3 +112,20 @@
     - Xeno
     - Zombie
     - Revolutionary
+    - AllHostile
+
+- type: npcFaction
+  id: AllHostile
+  hostile:
+  - NanoTrasen
+  - Dragon
+  - Mouse
+  - CentComm
+  - Passive
+  - PetsNT
+  - SimpleHostile
+  - SimpleNeutral
+  - Syndicate
+  - Xeno
+  - Zombie
+  - Revolutionary
