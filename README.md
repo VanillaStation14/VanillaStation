@@ -8,7 +8,7 @@ Space Station 14 — это ремейк SS13, который работает �
 
 ## Ссылки
 
-[Наш Discord](https://discord.gg/vanilla-station) | [Наша Вики](https://vanilla-station.ru/) | [Официальный репозиторий](https://github.com/space-wizards/space-station-14)
+[Наш Discord](https://discord.gg/W3Ep2esrzc) | [Наша Вики](https://vanilla-station.ru/) | [Официальный репозиторий](https://github.com/space-wizards/space-station-14)
 
 ## Документация
 
