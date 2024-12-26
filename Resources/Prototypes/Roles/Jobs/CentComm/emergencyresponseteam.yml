@@ -22,6 +22,39 @@
         RangeWeaponLevel: 3
         PilotingLevel: 3
 
+- type: startingGear
+  id: ERTLeaderGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTLeader
+    back: ClothingBackpackERTLeader
+    shoes: ClothingShoesTacticalBoots
+    mask: ClothingMaskGasERT
+    eyes: ClothingEyesGlassesSecurity
+    neck: ClothingNeckMantleERTLeader # Corvax-Clothing
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitERTLeader
+    id: ERTLeaderPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltSecurityWebbingFilled
+    pocket1: WeaponPistolN1984
+    pocket2: DoorRemoteCommand
+  storage:
+    back:
+    - WeaponDisabler
+    - MedicatedSuture
+    - RegenerativeMesh
+    - BoxZiptie
+    - CrowbarRed
+    - MagazineMagnum
+    - CombatMedipen
+    - CombatMedipen
+    - SmokeGrenade
+    - SmokeGrenade
+    - LogProbeCartridge
+    - PhoneInstrument
+  inhand:
+  - WeaponPulseCarbine
+
 # Chaplain
 - type: job
   id: ERTChaplain
@@ -47,6 +80,37 @@
       RangeWeaponLevel: 3
       PilotingLevel: 3
 
+- type: startingGear
+  id: ERTChaplainGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTChaplain
+    back: ClothingBackpackERTChaplain
+    shoes: ClothingShoesTacticalBoots
+    mask: ClothingMaskGasERT
+    eyes: ClothingEyesGlasses
+    neck: ClothingNeckStoleChaplain
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitERTChaplain
+    id: ERTChaplainPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltStorageWaistbag
+    pocket1: WeaponPulsePistol
+    pocket2: DrinkWaterBottleFull
+  storage:
+    back:
+    - BoxCandle
+    - BoxBodyBag
+    - DrinkWaterMelonJuiceJug
+    - Lantern
+    - Lantern
+    - Bible
+    - CrowbarRed
+    - FoodBakedBunHotX
+    - FoodBakedBunHotX
+    - FoodBakedBunHotX
+    - FoodBakedBunHotX
+    - Lighter
+
 # Engineer
 - type: job
   id: ERTEngineer
@@ -71,6 +135,38 @@
         RangeWeaponLevel: 2
         PilotingLevel: 3
 
+- type: startingGear
+  id: ERTEngineerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTEngineer
+    back: ClothingBackpackERTEngineer
+    shoes: ClothingShoesTacticalBoots
+    mask: ClothingMaskGasERT
+    eyes: ClothingEyesGlassesMeson
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitERTEngineer
+    id: ERTEngineerPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltChiefEngineerFilled
+    pocket1: WeaponPulsePistol
+    pocket2: GlowstickPurple
+  storage:
+    back:
+    - RCDRecharging
+    - CableMVStack
+    - CableHVStack
+    - CableApcStack
+    - SheetPlasteel
+    - SheetPlasteel
+    - AmeJar
+    - AmeJar
+    - SeismicCharge
+    - SeismicCharge
+    - ExGrenade
+    - ExGrenade
+  inhand:
+  - WeaponPulseCarbine
+
 # Security
 - type: job
   id: ERTSecurity
@@ -86,6 +182,42 @@
   - AllAccess
   access:
   - CentralCommand
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: Skill
+        MedicineLevel: 3
+        ChemistryLevel: 3
+        RangeWeaponLevel: 3
+        PilotingLevel: 3
+
+- type: startingGear
+  id: ERTSecurityGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTSecurity
+    back: ClothingBackpackERTSecurity
+    shoes: ClothingShoesTacticalBoots
+    mask: ClothingMaskGasERT
+    eyes: ClothingEyesGlassesSecurity
+    neck: SecurityWhistle
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitERTSecurity
+    id: ERTSecurityPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltSecurityWebbingFilled
+    pocket1: WeaponPulsePistol
+    pocket2: GlowstickPurple
+  storage:
+    back:
+    - WeaponDisabler
+    - MedicatedSuture
+    - RegenerativeMesh
+    - CrowbarRed
+    - SmokeGrenade
+    - PortableRecharger
+    - CombatMedipen
+  inhand:
+  - WeaponPulseCarbine
 
 # Medical
 - type: job
@@ -102,6 +234,50 @@
   - AllAccess
   access:
   - CentralCommand
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: Skill
+        MedicineLevel: 3
+        ChemistryLevel: 3
+        RangeWeaponLevel: 2
+        PilotingLevel: 3
+
+- type: startingGear
+  id: ERTMedicalGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTMedic
+    back: ClothingBackpackERTMedical
+    shoes: ClothingShoesTacticalBoots
+    mask: ClothingMaskGasERT
+    eyes: ClothingEyesHudMedical
+    gloves: ClothingHandsGlovesNitrile
+    outerClothing: ClothingOuterHardsuitERTMedical
+    id: ERTMedicPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltMedicalFilled
+    pocket1: WeaponPulsePistol
+    pocket2: GlowstickPurple
+  storage:
+    back:
+    - Hypospray
+    - MedkitAdvancedFilled
+    - CrowbarRed
+    - OmnizineChemistryBottle
+    - EpinephrineChemistryBottle
+    - EpinephrineChemistryBottle
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - AntiPoisonMedipen
+    - AntiPoisonMedipen
+    - RadAutoInjector
+    - RadAutoInjector
+    - PyraAutoInjector
+    - PyraAutoInjector
+    - PunctAutoInjector
+    - PunctAutoInjector
+  inhand:
+  - WeaponPulseCarbine
 
 # Janitor
 - type: job
@@ -118,3 +294,33 @@
   - AllAccess
   access:
   - CentralCommand
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: Skill
+        MedicineLevel: 3
+        ChemistryLevel: 3
+        RangeWeaponLevel: 2
+        PilotingLevel: 3
+
+- type: startingGear
+  id: ERTJanitorGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTJanitor
+    back: ClothingBackpackERTJanitor
+    shoes: ClothingShoesTacticalBoots
+    mask: ClothingMaskGasERT
+    gloves: ClothingHandsGlovesColorPurple
+    outerClothing: ClothingOuterHardsuitERTJanitor
+    id: ERTJanitorPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltJanitorFilled
+    pocket1: Flare
+    pocket2: WeaponPulsePistol
+  storage:
+    back:
+    - LightReplacer
+    - BoxLightMixed
+    - BoxLightMixed
+    - CrowbarRed
+    - AdvMopItem
