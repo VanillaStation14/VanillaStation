@@ -31,7 +31,6 @@
   placement:
     mode: SnapgridCenter
   components:
-  - type: RequiresSkillToActivateInWorld
   - type: RequiresSkill
     RequiresEngineeringLevel: 1
   - type: ExtensionCableReceiver
