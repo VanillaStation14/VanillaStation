@@ -8,3 +8,7 @@
   copyright: "Created by ASKUL, converted to OGG by tfmb"
   source: "https://www.youtube.com/watch?v=0bixhDtv9DE&ab_channel=ASKUL"
 
+- files: ["meep-merp.ogg"]
+  license: "CC0-1.0"
+  copyright: "Gabe Newell"
+  source: "https://www.myinstants.com/en/instant/meep-merp/?utm_source=copy&utm_medium=share"
