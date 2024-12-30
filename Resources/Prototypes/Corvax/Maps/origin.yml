@@ -25,7 +25,7 @@
             Janitor: [ 3, 3 ]
             Chaplain: [ 2, 2 ]
             Librarian: [ 2, 2 ]
-            IAA: [ 1, 1 ]
+            #IAA: [ 1, 1 ]
             ServiceWorker: [ 3, 4 ]
             #engineering
             ChiefEngineer: [ 1, 1 ]
