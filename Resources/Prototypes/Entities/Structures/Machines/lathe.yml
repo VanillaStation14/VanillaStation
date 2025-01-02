@@ -614,6 +614,7 @@
     - HamtrLLeg
     - HamtrRLeg
     - VimHarness
+    - MemoryShieldImplanter #Vanilla-station
   - type: MaterialStorage
     whitelist:
       tags:
