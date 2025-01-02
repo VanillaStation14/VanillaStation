@@ -34,12 +34,12 @@
 
 - type: construction
   id: GunSafe
-  name: gun safe
+  name: оружейный сейф
   graph: GunSafe
   startNode: start
   targetNode: done
   category: construction-category-storage
-  description: A durable gun safe that can be locked.
+  description: Стандартное хранилище Nanotrasen.
   icon: { sprite: Structures/Storage/closet.rsi, state: shotguncase }
   objectType: Structure
 
