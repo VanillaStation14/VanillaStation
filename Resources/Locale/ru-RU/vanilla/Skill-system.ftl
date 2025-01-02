@@ -18,14 +18,14 @@ Skill-train-overtrain-instrumentation = Ваш навык приборостро
 Skill-train-overtrain-building = Ваш навык строительства больше, чем может дать эта книга.
 Skill-train-overtrain-engineering = Ваш навык инженерии больше, чем может дать эта книга.
 
-ui-vote-type-ezmode = лёгкий режим
-ui-vote-ezmode-title = Голосование за выдачу дополнительных очков навыков экипажу
+ui-vote-type-ezmode = Дополнительные очки навыков
+ui-vote-ezmode-title = Голосование за выдачу дополнительных очков навыков
 ui-vote-ezmode-succeeded = NanoTrasen отправили на данную станцию настоящих мастероов на все руки! Все получили 36 очков навыков. Главы получили все навыки.
 ui-vote-ezmode-failed = Голосование отклонено.
 ui-vote-ezmode-yes = Да
 ui-vote-ezmode-no = Нет
-ui-vote-ezmode-fail-not-enough-players = Голосование о лёгком режиме отклонено: Должно быть не больше { $PlayerRequirement } игроков.
-ui-vote-ezmode-already-conducted = Голосование о лёгком режиме уже было проведено в этом раунде.
+ui-vote-ezmode-fail-not-enough-players = Голосование о дополнительных очках навыков отклонено: Должно быть не больше { $PlayerRequirement } игроков.
+ui-vote-ezmode-already-conducted = Голосование уже было проведено в этом раунде.
 
 examine-skilltrainer-part-1 = Повышает навык [color={$skilltype ->
     [Piloting]#85490c
@@ -50,4 +50,4 @@ examine-skilltrainer-part-1 = Повышает навык [color={$skilltype ->
     [Instrumentation]приборостроения
     *[other]???
 }[/color].
-examine-skilltrainer-part-2 = вам доступно еще {$SkillExpToLearn} опыта.
+examine-skilltrainer-part-2 = доступно {$SkillExpToLearn} опыта.
