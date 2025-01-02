@@ -9,7 +9,7 @@ namespace Content.Shared.SkillTrainer;
 [RegisterComponent]
 public sealed partial class SkillTrainerComponent : Component
 {
-    [DataField("SkillIncreaseAmount")]
+    [DataField("skillIncreaseAmount")]
     public int SkillIncreaseAmount { get; set; } = 30;
 
     [DataField("skillType")]
