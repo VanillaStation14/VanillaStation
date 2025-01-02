@@ -1,0 +1,7 @@
+- type: entity
+  id: MemoryShieldImplanter
+  suffix: memoryshield
+  parent: BaseImplantOnlyImplanter
+  components:
+    - type: Implanter
+      implant: MemoryShieldImplant

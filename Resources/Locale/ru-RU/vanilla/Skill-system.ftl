@@ -26,3 +26,28 @@ ui-vote-ezmode-yes = Да
 ui-vote-ezmode-no = Нет
 ui-vote-ezmode-fail-not-enough-players = Голосование о лёгком режиме отклонено: Должно быть не больше { $PlayerRequirement } игроков.
 ui-vote-ezmode-already-conducted = Голосование о лёгком режиме уже было проведено в этом раунде.
+
+examine-skilltrainer-part-1 = Повышает навык [color={$skilltype ->
+    [Piloting]#85490c
+    [RangeWeapon]#8f2121
+    [MeleeWeapon]#8f2121
+    [Medicine]#005b53
+    [Chemistry]#AD4915
+    [Engineering]#AF8D1A
+    [Building]#FFBF00
+    [Research]#7c0183
+    [Instrumentation]#4e0163
+    *[other]white
+}]{$skilltype ->
+    [Piloting]пилотирования
+    [RangeWeapon]стрельбы
+    [MeleeWeapon]ближнего боя
+    [Medicine]медицины
+    [Chemistry]химии
+    [Engineering]инженерии
+    [Building]строительства
+    [Research]исследований
+    [Instrumentation]приборостроения
+    *[other]???
+}[/color].
+examine-skilltrainer-part-2 = вам доступно еще {$SkillExpToLearn} опыта.
