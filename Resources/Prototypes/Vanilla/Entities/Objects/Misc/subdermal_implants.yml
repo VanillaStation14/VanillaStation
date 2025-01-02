@@ -1,0 +1,12 @@
+- type: entity
+  parent: BaseSubdermalImplant
+  id: MemoryShieldImplant
+  name: memoryshield implant
+  description: This implant protects the user's memory in case of clinical death.
+  categories: [ HideSpawnMenu ]
+  components:
+   - type: SubdermalImplant
+     permanent: true
+   - type: Tag
+     tags:
+       - MemoryShield

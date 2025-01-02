@@ -871,6 +871,9 @@
   id: MindShield
 
 - type: Tag
+  id: MemoryShield
+
+- type: Tag
   id: MindTransferTarget
 
 - type: Tag

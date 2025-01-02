@@ -1,6 +1,6 @@
 using Robust.Shared.GameStates;
 
-namespace Content.Shared.Vanilla.Skill
+namespace Content.Server.Vanilla.Skill
 {
     [RegisterComponent]
     public sealed partial class GunIgnoreSkillComponent : Component

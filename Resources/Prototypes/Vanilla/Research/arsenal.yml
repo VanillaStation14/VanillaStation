@@ -1,0 +1,11 @@
+- type: technology
+  id: MemoryShield
+  name: research-technology-MemoryShield
+  icon:
+    sprite: Mobs/Species/Human/organs.rsi
+    state: brain
+  discipline: Arsenal
+  tier: 3
+  cost: 15000
+  recipeUnlocks:
+  - MemoryShieldImplanter

@@ -90,8 +90,8 @@
   - type: GuideHelp
     openOnActivation: false
   - type: SkillTrainer
-    skillType: Piloting
-    MaxLevel: 2
+    skillType:
+      - Piloting
 
 - type: entity
   id: BookTheBookOfControl
@@ -113,8 +113,8 @@
   - type: GuideHelp
     openOnActivation: false
   - type: SkillTrainer
-    skillType: Building
-    MaxLevel: 2
+    skillType:
+      - Building
 
 - type: entity
   id: BookBartendersManual
@@ -195,8 +195,8 @@
     guides:
     - Engineering
   - type: SkillTrainer
-    skillType: Engineering
-    MaxLevel: 2
+    skillType:
+      - Engineering
 
 
 - type: entity
@@ -218,8 +218,8 @@
     guides:
     - Science
   - type: SkillTrainer
-    skillType: Research
-    MaxLevel: 2
+    skillType:
+      - Research
 
 - type: entity
   id: BookSecurity
@@ -301,8 +301,8 @@
   - type: GuideHelp
     openOnActivation: false
   - type: SkillTrainer
-    skillType: Medicine
-    MaxLevel: 2
+    skillType:
+      - Medicine
 
 
 - type: entity
@@ -325,8 +325,8 @@
   - type: GuideHelp
     openOnActivation: false
   - type: SkillTrainer
-    skillType: Instrumentation
-    MaxLevel: 2
+    skillType:
+      - Instrumentation
 
 - type: entity
   id: BookChemicalCompendium
@@ -345,8 +345,8 @@
   - type: GuideHelp
     openOnActivation: false
   - type: SkillTrainer
-    skillType: Chemistry
-    MaxLevel: 2
+    skillType:
+      - Chemistry
 
 - type: entity
   id: BookSpaceLaw
